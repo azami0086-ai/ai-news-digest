@@ -1,0 +1,29 @@
+# Secrets
+.env
+*.env
+secrets*
+credentials*
+*.key
+*.pem
+*.pfx
+id_rsa*
+*.p12
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Local logs
+*.log
+
+# logs/*.json は GitHub に残す方針のため除外しない
+# output/*.md も Obsidian共有用に残す

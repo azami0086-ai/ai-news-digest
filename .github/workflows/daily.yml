@@ -1,0 +1,101 @@
+name: daily-ai-news
+
+on:
+  schedule:
+    # 毎日 09:10 UTC = 18:10 JST
+    - cron: "10 9 * * *"
+  workflow_dispatch:
+
+# Pagesデプロイ・コミット・OIDCトークンに必要な権限
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Pagesデプロイの同時実行衝突を避ける
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+          ALLOW_EXPENSIVE_MODEL: ${{ secrets.ALLOW_EXPENSIVE_MODEL }}
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          MAIL_SMTP_HOST: ${{ secrets.MAIL_SMTP_HOST }}
+          MAIL_SMTP_PORT: ${{ secrets.MAIL_SMTP_PORT }}
+          MAIL_SMTP_USER: ${{ secrets.MAIL_SMTP_USER }}
+          MAIL_SMTP_PASSWORD: ${{ secrets.MAIL_SMTP_PASSWORD }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          PYTHONPATH: src
+        run: |
+          python src/main.py
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Commit logs and output
+        id: commit_step
+        # Pages公開はartifact経由なので、このコミットが失敗してもデプロイは継続する
+        continue-on-error: true
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output logs docs || true
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: daily ai-news update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Warn on commit failure
+        if: steps.commit_step.outcome == 'failure'
+        run: |
+          {
+            echo "## 【警告】 logs/*.json の永続化に失敗した可能性があります"
+            echo ""
+            echo "次回実行時の過去掲載済みニュース判定が弱くなる可能性があります。"
+            echo ""
+            echo "- 影響: 同じニュースが翌日以降にも再掲載される可能性"
+            echo "- 確認: このActionsの \`Commit logs and output\` ステップのログを参照"
+            echo "- 対処: 競合解消後に再度 workflow_dispatch で手動実行"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
