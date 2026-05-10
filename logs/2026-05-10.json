@@ -1,0 +1,128 @@
+{
+  "started_at": "2026-05-10T21:45:14.188838+09:00",
+  "finished_at": "2026-05-10T21:45:26.574985+09:00",
+  "fetched_per_source": {
+    "official": 29,
+    "hn": 75,
+    "arxiv": 30
+  },
+  "fetched_total": 134,
+  "after_dedupe": 129,
+  "recorded_duplicate_excluded_count": 0,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 10,
+  "count_c": 0,
+  "count_excluded": 0,
+  "errors": [
+    "official fetch failed: Meta AI Blog: RSS parse failed: https://ai.meta.com/blog/rss/",
+    "analyze failed for 'Skip to main content': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Research': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and ': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'May 6, 2026 Announcements Higher usage limits for Claude and a compute deal with SpaceX': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'May 5, 2026 Announcements Agents for financial services': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'May 4, 2026 Announcements Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Apr 28, 2026 Announcements Claude for Creative Work': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Apr 27, 2026 Announcements Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Apr 24, 2026 Announcements An update on our election safeguards': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Apr 20, 2026 Announcements Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Claude Code edits YouTube videos': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Show HN: Make your codebase agent ready': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Snyk and Claude Code: real-time security scanning of AI-generated code': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Show HN: A Codex/Claude Code plugin for persistent product context thru sessions': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Show HN: Remind – schedule Claude Code on your Mac': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Lobotomized Claude Code and it works better': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+    "analyze failed for 'Show HN: Vibe-coding video games with Claude (Day 26: Primetime)': 'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)"
+  ],
+  "html_path": "docs/2026/05/10.html",
+  "markdown_path": "output/2026-05-10_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "",
+  "ai_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "estimated_cost_usd": 0.0,
+  "fallback_used": true,
+  "api_error": true,
+  "api_error_type": "unknown_api_error",
+  "api_error_message_sanitized": "'ascii' codec can't encode characters in position 10-16: ordinal not in range(128)",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "normalized_url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "title": "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "normalized_url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "normalized_url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "title": "Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and ",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "normalized_url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "title": "May 6, 2026 Announcements Higher usage limits for Claude and a compute deal with SpaceX",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "normalized_url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "title": "Apr 28, 2026 Announcements Claude for Creative Work",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://blog.bunnyhoneyclub.com/posts/claude-code-video-editing-youtube",
+      "normalized_url": "https://blog.bunnyhoneyclub.com/posts/claude-code-video-editing-youtube",
+      "title": "Claude Code edits YouTube videos",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://github.com/jaksa76/agentize",
+      "normalized_url": "https://github.com/jaksa76/agentize",
+      "title": "Show HN: Make your codebase agent ready",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://codebrainery.com/articles/snyk-claude-code-real-time-security-scanning-for-ai-code",
+      "normalized_url": "https://codebrainery.com/articles/snyk-claude-code-real-time-security-scanning-for-ai-code",
+      "title": "Snyk and Claude Code: real-time security scanning of AI-generated code",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://github.com/idodekerobo/draft-cli-plugin",
+      "normalized_url": "https://github.com/idodekerobo/draft-cli-plugin",
+      "title": "Show HN: A Codex/Claude Code plugin for persistent product context thru sessions",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://olliewagner.com/remind",
+      "normalized_url": "https://olliewagner.com/remind",
+      "title": "Show HN: Remind – schedule Claude Code on your Mac",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    }
+  ]
+}

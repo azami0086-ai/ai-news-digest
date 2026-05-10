@@ -6,17 +6,86 @@
 <title>AIニュース 一覧</title>
 <style>
 :root { color-scheme: light dark; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", sans-serif; background:#f7f7f9; color:#1f1f1f; margin:0; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background: #f7f7f9;
+  color: #1f1f1f;
+}
+@media (prefers-color-scheme: dark) {
+  body { background: #14161a; color: #e6e6e6; }
+  .card { background: #1d2026 !important; border-color: #2a2e36 !important; }
+  .meta { color: #9aa0a6 !important; }
+  a { color: #6cb4ff !important; }
+  .tag { background: #2a2e36 !important; color: #cfd2d8 !important; }
+  .summary-bar { background: #1d2026 !important; border-color: #2a2e36 !important; }
+}
 .wrap { max-width: 760px; margin: 0 auto; padding: 16px; }
-@media (prefers-color-scheme: dark) { body { background:#14161a; color:#e6e6e6; } a { color:#6cb4ff; } }
-h1 { font-size: 22px; }
+header { padding: 20px 4px 8px; }
+header h1 { font-size: 22px; margin: 0 0 4px; }
+header .date { color: #6b7280; font-size: 14px; }
+.summary-bar {
+  margin: 12px 0 20px; padding: 14px 16px;
+  background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
+  font-size: 15px;
+}
+.credit-warning {
+  margin: 12px 0; padding: 14px 16px;
+  background: #fff1f0; border: 2px solid #d92d20; border-left: 8px solid #d92d20;
+  border-radius: 10px; color: #842029;
+  font-size: 15px; font-weight: 600; line-height: 1.6;
+}
+.credit-warning .label {
+  display: inline-block; background: #d92d20; color: #fff;
+  padding: 2px 10px; border-radius: 6px; font-size: 13px; margin-right: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  .credit-warning { background: #2a1212 !important; color: #ffb8b0 !important; border-color: #d92d20 !important; }
+}
+.card {
+  background: #fff; border: 1px solid #e5e7eb; border-radius: 14px;
+  padding: 14px 16px; margin: 10px 0;
+}
+.card.A { border-left: 6px solid #d92d20; }
+.card.B { border-left: 6px solid #f79009; }
+.card.C { border-left: 6px solid #667085; }
+.title { font-size: 17px; font-weight: 700; margin: 0 0 6px; line-height: 1.4; }
+.title a { color: inherit; text-decoration: none; }
+.title a:hover { text-decoration: underline; }
+.meta { color: #6b7280; font-size: 13px; margin-bottom: 8px; }
+.imp { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; margin-right: 6px; }
+.imp.A { background: #fee4e2; color: #d92d20; }
+.imp.B { background: #fef0c7; color: #b54708; }
+.imp.C { background: #e4e7ec; color: #344054; }
+.section { margin: 6px 0; }
+.section .label { font-size: 12px; color: #6b7280; }
+.tags { margin-top: 8px; }
+.tag {
+  display: inline-block; background: #eef2f7; color: #344054;
+  font-size: 12px; padding: 2px 8px; border-radius: 999px; margin: 2px 4px 2px 0;
+}
+.aux { font-size: 13px; margin-top: 6px; word-break: break-all; }
+.aux a { color: #1d4ed8; }
+.empty { padding: 24px; text-align: center; color: #6b7280; }
+footer { color: #9aa3af; font-size: 12px; text-align: center; padding: 24px 0; }
+
+ul { list-style:none; padding:0; }
+li { padding:10px 14px; background:#fff; border:1px solid #e5e7eb; border-radius:10px; margin:6px 0; }
+li a { color:#1d4ed8; text-decoration:none; }
+@media (prefers-color-scheme: dark) { li { background:#1d2026; border-color:#2a2e36; } li a { color:#6cb4ff; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>AIニュース 一覧</h1>
-  <p>初回実行後、最新ニュースは <a href="latest.html">latest.html</a> に表示される。</p>
-  <p>日別ファイルは <code>YYYY/MM/DD.html</code> として配置される。</p>
+  <header>
+    <h1>AIニュース 一覧</h1>
+    <div class="date">最終更新 2026/05/10</div>
+  </header>
+  <p><a href="latest.html">最新ニュースを見る</a></p>
+  <ul><li><a href="2026/05/10.html">2026/05/10</a></li></ul>
 </div>
 </body>
 </html>
