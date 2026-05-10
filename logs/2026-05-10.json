@@ -1,47 +1,47 @@
 {
-  "started_at": "2026-05-10T21:53:51.009951+09:00",
-  "finished_at": "2026-05-10T21:54:10.243349+09:00",
+  "started_at": "2026-05-10T21:59:14.205304+09:00",
+  "finished_at": "2026-05-10T21:59:30.640173+09:00",
   "fetched_per_source": {
     "official": 29,
-    "hn": 76,
+    "hn": 75,
     "arxiv": 30
   },
-  "fetched_total": 135,
-  "after_dedupe": 131,
+  "fetched_total": 134,
+  "after_dedupe": 130,
   "recorded_duplicate_excluded_count": 10,
   "candidate_count": 20,
   "published": 10,
   "count_a": 0,
-  "count_b": 8,
-  "count_c": 2,
+  "count_b": 10,
+  "count_c": 0,
   "count_excluded": 0,
   "errors": [
     "official fetch failed: Meta AI Blog: RSS parse failed: https://ai.meta.com/blog/rss/",
-    "analyze failed for 'Skip to main content': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS2D1UhpztfQ9zysv5'}",
-    "analyze failed for 'Research': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS33Mzoftut4r1ben7'}",
-    "analyze failed for 'May 5, 2026 Announcements Agents for financial services': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS3hoGXtaYFtirUL4p'}",
-    "analyze failed for 'May 4, 2026 Announcements Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS4DZLukQiYSzCLUD4'}",
-    "analyze failed for 'Apr 27, 2026 Announcements Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS4zC8o8QAZb8zSbvs'}",
-    "analyze failed for 'Apr 24, 2026 Announcements An update on our election safeguards': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS5Rjog1WUWnWErhji'}",
-    "analyze failed for 'Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS5tGXQG9eaRuktqBN'}",
-    "analyze failed for 'Apr 20, 2026 Announcements Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS6MYag9SfFwE3j9Fu'}",
-    "analyze failed for 'Lobotomized Claude Code and it works better': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS6n6dScBxqyDMxmuc'}",
-    "analyze failed for 'Show HN: Vibe-coding video games with Claude (Day 26: Primetime)': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS7EshWbf3WXYuY8Sn'}",
-    "analyze failed for 'SubQ: A New LLM with a 12M Token Context That Rivals Claude and ChatGPT': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS7r6AznXjd8y7WebS'}",
-    "analyze failed for '\"ClaudeBleed\" allows any Chrome extension to control Anthropic\\'s AI assistant': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS8KNAyXkWT1Wo5Eih'}",
-    "analyze failed for 'What 16 Parallel Claude Agents Built Around Themselves': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS8kQk3BFFGYixR8bf'}",
-    "analyze failed for 'Claude Knew It Was Being Tested. Anthropic Built a Tool to Detect It': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS9CSw7X1xU62A4ZZe'}",
-    "analyze failed for 'Teaching Claude Why': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS9mgBfZ2zvvJRzmUd'}",
-    "analyze failed for 'Running Codex safely at OpenAI': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvSAKRBbo43QZvjcYsL'}",
-    "analyze failed for 'Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvSC9JUWXvvmaKvBZHC'}",
-    "analyze failed for 'Parloa builds service agents customers want to talk to': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvSCdpfewtciw7JKD6A'}",
-    "analyze failed for 'Advancing voice intelligence with new models in the API': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvSDURWjf4quZxSZDB9'}",
-    "analyze failed for 'Testing ads in ChatGPT': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvSDuihp6TbpD4toNoG'}"
+    "analyze failed for 'Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqhBgpdXz5dMDd1Xsf'}",
+    "analyze failed for 'Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqhX2bECHjgkimvoNd'}",
+    "analyze failed for 'Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and ': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011Catvqiv828wnkKsQodQmg'}",
+    "analyze failed for 'May 6, 2026 Announcements Higher usage limits for Claude and a compute deal with SpaceX': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqjExppQdYQe4VRZ4j'}",
+    "analyze failed for 'May 5, 2026 Announcements Agents for financial services': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqjhFQLENtuYtWZSS8'}",
+    "analyze failed for 'May 4, 2026 Announcements Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqkB29YDPXV1bWUt1Z'}",
+    "analyze failed for 'Apr 28, 2026 Announcements Claude for Creative Work': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqkaLJuh8TXdD5HG86'}",
+    "analyze failed for 'Apr 27, 2026 Announcements Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqktghVKWmYeuyMJM2'}",
+    "analyze failed for 'Apr 24, 2026 Announcements An update on our election safeguards': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqmEmmAah3j4gnBuUW'}",
+    "analyze failed for 'Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqmacK6Q2M6C29v7HW'}",
+    "analyze failed for 'Apr 20, 2026 Announcements Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqmuT6wcw7B5BA89K7'}",
+    "analyze failed for 'Claude Code edits YouTube videos': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqnDojSrxZL9RMCWha'}",
+    "analyze failed for 'Show HN: Make your codebase agent ready': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqncrxhrwFP3r9Tuey'}",
+    "analyze failed for 'Snyk and Claude Code: real-time security scanning of AI-generated code': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011Catvqo5QDusxwtpyzwieg'}",
+    "analyze failed for 'Show HN: A Codex/Claude Code plugin for persistent product context thru sessions': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqoSUnQyZCRXZ3ok13'}",
+    "analyze failed for 'Show HN: Remind – schedule Claude Code on your Mac': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011Catvqoooasbb6RLVehN9X'}",
+    "analyze failed for 'Running Codex safely at OpenAI': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011Catvqp8A3uaJeM1CgzzPt'}",
+    "analyze failed for 'Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqpSkSYFr9xjNdmmdw'}",
+    "analyze failed for 'Parloa builds service agents customers want to talk to': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011Catvqpq4j8u5cyTjbi5LD'}",
+    "analyze failed for 'Advancing voice intelligence with new models in the API': Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqqAQrcwjTQhwJwPpt'}"
   ],
   "html_path": "docs/2026/05/10.html",
   "markdown_path": "output/2026-05-10_AIニュース.md",
   "mail_result": "ok",
-  "ai_model": "",
+  "ai_model": "claude-3-5-haiku-20241022",
   "ai_calls": 0,
   "input_tokens": 0,
   "output_tokens": 0,
@@ -49,80 +49,80 @@
   "fallback_used": true,
   "api_error": true,
   "api_error_type": "unknown_api_error",
-  "api_error_message_sanitized": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'model: String should have at least 1 character'}, 'request_id': 'req_011CatvS2D1UhpztfQ9zysv5'}",
+  "api_error_message_sanitized": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-haiku-20241022'}, 'request_id': 'req_011CatvqhBgpdXz5dMDd1Xsf'}",
   "suspected_credit_issue": false,
   "billing_check_required": false,
   "abort_reason": "",
   "published_items_meta": [
     {
-      "url": "https://github.com/skrabe/lobotomized-claude-code",
-      "normalized_url": "https://github.com/skrabe/lobotomized-claude-code",
-      "title": "Lobotomized Claude Code and it works better",
-      "published": "2026/05/09",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://gamevibe.us/26-primetime",
-      "normalized_url": "https://gamevibe.us/26-primetime",
-      "title": "Show HN: Vibe-coding video games with Claude (Day 26: Primetime)",
-      "published": "2026/05/09",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://felloai.com/subq-llm-review/",
-      "normalized_url": "https://felloai.com/subq-llm-review",
-      "title": "SubQ: A New LLM with a 12M Token Context That Rivals Claude and ChatGPT",
-      "published": "2026/05/09",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://cyberinsider.com/claudebleed-allows-any-chrome-extension-to-control-anthropics-ai-assistant/",
-      "normalized_url": "https://cyberinsider.com/claudebleed-allows-any-chrome-extension-to-control-anthropics-ai-assistant",
-      "title": "\"ClaudeBleed\" allows any Chrome extension to control Anthropic's AI assistant",
-      "published": "2026/05/09",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://medium.com/@vbcherepanov/what-16-parallel-claude-agents-built-around-themselves-deconstructing-anthropics-c-compiler-f2fa6335b1ca",
-      "normalized_url": "https://medium.com/@vbcherepanov/what-16-parallel-claude-agents-built-around-themselves-deconstructing-anthropics-c-compiler-f2fa6335b1ca",
-      "title": "What 16 Parallel Claude Agents Built Around Themselves",
-      "published": "2026/05/09",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://firethering.com/anthropic-nla-claude-thoughts-interpretability/",
-      "normalized_url": "https://firethering.com/anthropic-nla-claude-thoughts-interpretability",
-      "title": "Claude Knew It Was Being Tested. Anthropic Built a Tool to Detect It",
-      "published": "2026/05/09",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://alignment.anthropic.com/2026/teaching-claude-why/",
-      "normalized_url": "https://alignment.anthropic.com/2026/teaching-claude-why",
-      "title": "Teaching Claude Why",
-      "published": "2026/05/08",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "normalized_url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "title": "Testing ads in ChatGPT",
-      "published": "2026/05/07",
-      "source": "OpenAI Blog"
-    },
-    {
-      "url": "https://www.anthropic.com/news#main-content",
-      "normalized_url": "https://www.anthropic.com/news",
-      "title": "Skip to main content",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "normalized_url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "title": "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the",
       "published": "",
       "source": "Anthropic News"
     },
     {
-      "url": "https://www.anthropic.com/research",
-      "normalized_url": "https://www.anthropic.com/research",
-      "title": "Research",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "normalized_url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work",
       "published": "",
       "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "normalized_url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "title": "Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and ",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "normalized_url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "title": "May 6, 2026 Announcements Higher usage limits for Claude and a compute deal with SpaceX",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "normalized_url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "title": "Apr 28, 2026 Announcements Claude for Creative Work",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://blog.bunnyhoneyclub.com/posts/claude-code-video-editing-youtube",
+      "normalized_url": "https://blog.bunnyhoneyclub.com/posts/claude-code-video-editing-youtube",
+      "title": "Claude Code edits YouTube videos",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://github.com/jaksa76/agentize",
+      "normalized_url": "https://github.com/jaksa76/agentize",
+      "title": "Show HN: Make your codebase agent ready",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://codebrainery.com/articles/snyk-claude-code-real-time-security-scanning-for-ai-code",
+      "normalized_url": "https://codebrainery.com/articles/snyk-claude-code-real-time-security-scanning-for-ai-code",
+      "title": "Snyk and Claude Code: real-time security scanning of AI-generated code",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://github.com/idodekerobo/draft-cli-plugin",
+      "normalized_url": "https://github.com/idodekerobo/draft-cli-plugin",
+      "title": "Show HN: A Codex/Claude Code plugin for persistent product context thru sessions",
+      "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://olliewagner.com/remind",
+      "normalized_url": "https://olliewagner.com/remind",
+      "title": "Show HN: Remind – schedule Claude Code on your Mac",
+      "published": "2026/05/10",
+      "source": "Hacker News"
     }
   ]
 }
