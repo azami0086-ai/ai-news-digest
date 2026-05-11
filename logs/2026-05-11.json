@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-11T21:39:03.780216+09:00",
-  "finished_at": "2026-05-11T21:40:22.146525+09:00",
+  "started_at": "2026-05-11T22:10:07.887908+09:00",
+  "finished_at": "2026-05-11T22:11:28.759071+09:00",
   "fetched_per_source": {
-    "official": 10,
-    "hn": 67,
+    "official": 11,
+    "hn": 68,
     "arxiv": 30
   },
-  "fetched_total": 107,
-  "after_dedupe": 107,
-  "recorded_duplicate_excluded_count": 10,
+  "fetched_total": 109,
+  "after_dedupe": 109,
+  "recorded_duplicate_excluded_count": 13,
   "candidate_count": 20,
-  "published": 10,
-  "count_a": 1,
-  "count_b": 9,
-  "count_c": 0,
+  "published": 7,
+  "count_a": 2,
+  "count_b": 4,
+  "count_c": 1,
   "count_excluded": 1,
   "errors": [],
   "html_path": "docs/2026/05/11.html",
@@ -21,9 +21,9 @@
   "mail_result": "ok",
   "ai_model": "claude-haiku-4-5-20251001",
   "ai_calls": 20,
-  "input_tokens": 10305,
-  "output_tokens": 6000,
-  "estimated_cost_usd": 0.040305,
+  "input_tokens": 10411,
+  "output_tokens": 6025,
+  "estimated_cost_usd": 0.040536,
   "fallback_used": false,
   "api_error": false,
   "api_error_type": "",
@@ -33,74 +33,53 @@
   "abort_reason": "",
   "published_items_meta": [
     {
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "normalized_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "title": "How enterprises are scaling AI",
+      "url": "https://openai.com/index/running-codex-safely",
+      "normalized_url": "https://openai.com/index/running-codex-safely",
+      "title": "Running Codex safely at OpenAI",
+      "published": "2026/05/08",
+      "source": "OpenAI Blog"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/weekly-recap-05-08-2026.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/weekly-recap-05-08-2026.html",
+      "title": "Google Workspace Updates Weekly Recap",
+      "published": "2026/05/08",
+      "source": "Google Workspace Updates"
+    },
+    {
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "normalized_url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
       "published": "2026/05/11",
       "source": "OpenAI Blog"
     },
     {
-      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "normalized_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "title": "OpenAI Campus Network: Student club interest form",
-      "published": "2026/05/11",
-      "source": "OpenAI Blog"
+      "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "normalized_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief",
+      "title": "See what happens when creative legends use AI to make ads for small businesses.",
+      "published": "2026/05/08",
+      "source": "Google The Keyword - AI"
     },
     {
-      "url": "https://www.the-independent.com/tech/ai-doxxing-gemini-hallucination-google-b2973008.html",
-      "normalized_url": "https://www.the-independent.com/tech/ai-doxxing-gemini-hallucination-google-b2973008.html",
-      "title": "'AI gave me your number': AI doxxing turns ChatGPT hallucinations to harassment",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "normalized_url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
       "published": "2026/05/10",
       "source": "Hacker News"
     },
     {
-      "url": "https://fridayaiclub.com/how-to-give-claude-code-social-media-data/",
-      "normalized_url": "https://fridayaiclub.com/how-to-give-claude-code-social-media-data",
-      "title": "I gave Claude Code live social media data",
+      "url": "https://medium.com/@alirezarezvani/claude-skills-bible-lessons-from-235-production-skills-26860bca1f26",
+      "normalized_url": "https://medium.com/@alirezarezvani/claude-skills-bible-lessons-from-235-production-skills-26860bca1f26",
+      "title": "Claude Skills Bible: Lessons from 235 Production Skills",
       "published": "2026/05/11",
       "source": "Hacker News"
     },
     {
-      "url": "https://fosstodon.org/@backintime/116555237447115014",
-      "normalized_url": "https://fosstodon.org/@backintime/116555237447115014",
-      "title": "Using AGENTS.md / Claude.md to discourage AI-generated code contributions",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe",
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
       "published": "2026/05/11",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://www.npmjs.com/package/miii-cli",
-      "normalized_url": "https://www.npmjs.com/package/miii-cli",
-      "title": "Miii – Claude Code-level terminal workflows offline, no API keys",
-      "published": "2026/05/11",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://github.com/adamjgmiller/adamsreview",
-      "normalized_url": "https://github.com/adamjgmiller/adamsreview",
-      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
-      "published": "2026/05/11",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
-      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag",
-      "title": "Gemini API File Search is now multimodal",
-      "published": "2026/05/10",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
-      "normalized_url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
-      "title": "Behind the Claude Frenzy That Ate Up All the Mac Minis",
-      "published": "2026/05/11",
-      "source": "Hacker News"
-    },
-    {
-      "url": "https://github.com/ZeroPathAI/opus-benchmark",
-      "normalized_url": "https://github.com/ZeroPathAI/opus-benchmark",
-      "title": "Benchmarking Claude Opus 4.6 Vulnerability Detection",
-      "published": "2026/05/11",
-      "source": "Hacker News"
+      "source": "Google The Keyword - AI"
     }
   ]
 }
