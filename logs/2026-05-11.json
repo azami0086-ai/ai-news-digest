@@ -1,29 +1,29 @@
 {
-  "started_at": "2026-05-11T22:57:30.160073+09:00",
-  "finished_at": "2026-05-11T22:58:54.254913+09:00",
+  "started_at": "2026-05-11T23:22:02.544027+09:00",
+  "finished_at": "2026-05-11T23:23:12.923620+09:00",
   "fetched_per_source": {
-    "official": 11,
-    "hn": 66,
+    "official": 10,
+    "hn": 68,
     "arxiv": 30
   },
-  "fetched_total": 107,
-  "after_dedupe": 106,
+  "fetched_total": 108,
+  "after_dedupe": 107,
   "recorded_duplicate_excluded_count": 10,
   "candidate_count": 20,
-  "published": 10,
+  "published": 7,
   "count_a": 0,
-  "count_b": 7,
-  "count_c": 3,
-  "count_excluded": 0,
+  "count_b": 6,
+  "count_c": 1,
+  "count_excluded": 4,
   "errors": [],
   "html_path": "docs/2026/05/11.html",
   "markdown_path": "output/2026-05-11_AIニュース.md",
   "mail_result": "ok",
   "ai_model": "claude-haiku-4-5-20251001",
   "ai_calls": 20,
-  "input_tokens": 20888,
-  "output_tokens": 4889,
-  "estimated_cost_usd": 0.045333,
+  "input_tokens": 33941,
+  "output_tokens": 4729,
+  "estimated_cost_usd": 0.057586,
   "fallback_used": false,
   "api_error": false,
   "api_error_type": "",
@@ -33,186 +33,135 @@
   "abort_reason": "",
   "published_items_meta": [
     {
-      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "normalized_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "title": "How enterprises are scaling AI",
-      "title_ja": "企業のAI導入スケール化、信頼とガバナンスで進める",
+      "url": "https://openai.com/index/running-codex-safely",
+      "normalized_url": "https://openai.com/index/running-codex-safely",
+      "title": "Running Codex safely at OpenAI",
+      "title_ja": "OpenAIがCodexを安全に運用する方法",
+      "published": "2026/05/08",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "セキュリティ",
+        "導入ルール",
+        "承認フロー",
+        "ガバナンス"
+      ],
+      "summary": "OpenAIがCodexを企業で安全に使うため、実行環境の隔離と利用承認などの対策を説明した。",
+      "impact": "Codexを業務で導入する際、どんなセキュリティ対策が必要かの参考になる。自社ルール設計の判断材料として確認するとよい。",
+      "notes": "公式資料として読める。自社でCodexやAIエージェントを使う場合は、実行範囲・承認フロー・監視体制を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "normalized_url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "title_ja": "OpenAI、企業向けAI導入支援企業DeployCo立ち上げ",
       "published": "2026/05/11",
       "source": "OpenAI Blog",
       "importance": "B",
       "tags": [
         "ChatGPT",
         "企業導入",
-        "ガバナンス",
-        "AI運用"
+        "OpenAI",
+        "AI運用",
+        "導入支援"
       ],
-      "summary": "OpenAIが企業向けにAI導入を大規模化する際の方法論を公開。信頼・統治体制・業務設計・品質管理が軸。",
-      "impact": "会社でAI導入を進める際、信頼構築とルール作りが重要とあらためて確認。自社の導入フェーズと照合して見直す材料になる。",
-      "notes": "実際の取り組み内容はガイド資料を確認が必要。OpenAI公式提供なので信頼度は高い。"
+      "summary": "OpenAIが企業のAI導入を支援する専門企業DeployCo を立ち上げ、本番環境での運用と事業効果の測定に対応する。",
+      "impact": "企業がChatGPTなどのAIを実装する際、外部支援を選択肢として持つようになり、社内だけでなく導入企業の活用も検討対象に入る。",
+      "notes": "DeployCoの具体的なサービス内容・料金・支援範囲は不明確。導入前に公式資料で対応範囲と自社の要件を確認する。"
     },
     {
-      "url": "https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/",
-      "normalized_url": "https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot",
-      "title": "AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure Boot",
-      "title_ja": "セキュアブート回避技術をClaudeに学ばせる手法が提案",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe",
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "title_ja": "AI搭載のGoogle Financeがヨーロッパに拡大",
       "published": "2026/05/11",
-      "source": "Hacker News",
-      "importance": "B",
-      "tags": [
-        "Claude",
-        "セキュリティ",
-        "悪用リスク",
-        "ファインチューニング"
-      ],
-      "summary": "セキュアブートを突破するコード生成をClaudeに学習させる研究が公開されました。",
-      "impact": "Claudeを含むAIツール導入時に、セキュリティ悪用リスクの評価を確認する必要があります。",
-      "notes": "詳細な根拠情報が限定的なため、実際の悪用可能性は専門部門に確認が必要です。会社で使用するAIツール導入時に参考として記録してください。"
-    },
-    {
-      "url": "https://github.com/adamjgmiller/adamsreview",
-      "normalized_url": "https://github.com/adamjgmiller/adamsreview",
-      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
-      "title_ja": "Claude Codeで複数エージェント対応のPRレビューツール「adamsreview」公開",
-      "published": "2026/05/11",
-      "source": "Hacker News",
-      "importance": "B",
-      "tags": [
-        "Claude",
-        "開発支援",
-        "プルリクエスト",
-        "コード審査",
-        "マルチエージェント"
-      ],
-      "summary": "Claude Codeを使用して、複数のAIエージェントでプルリクエストをレビューするツールがGitHubで公開されました。",
-      "impact": "コード審査業務でClaudeを複数エージェント構成で運用する場合、参考になるツールが利用可能になります。",
-      "notes": "まだ開発初期段階（HN掲載時点）。社内導入前に動作確認と使用許可の確認が必要です。"
-    },
-    {
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
-      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag",
-      "title": "Gemini API File Search is now multimodal",
-      "title_ja": "Gemini API のファイル検索が複数形式対応に",
-      "published": "2026/05/10",
-      "source": "Hacker News",
+      "source": "Google The Keyword - AI",
       "importance": "B",
       "tags": [
         "Gemini",
-        "API",
-        "ファイル検索",
-        "マルチモーダル",
-        "開発者向け"
+        "Google Finance",
+        "ヨーロッパ展開",
+        "金融情報",
+        "AI検索"
       ],
-      "summary": "Google が Gemini API のファイル検索機能を拡張し、テキストだけでなく画像や音声などの複数形式に対応させた。",
-      "impact": "会社のドキュメント検索や情報抽出の仕組みで Gemini を使う場合、画像や音声を含めた処理が可能になるため、利用方法の見直しが必要になる可能性がある。",
-      "notes": "詳細は公式ブログで確認してください。社内での利用検討時に仕様と制限を改めて確認することをお勧めします。"
+      "summary": "GoogleがAI搭載のFinanceサービスをヨーロッパで利用可能にした。市場情報や投資分析の検索が容易になる。",
+      "impact": "ヨーロッパの従業員が金融情報検索でAIサポートを受けられるようになる。投資判断時の調査工数を確認する。",
+      "notes": "金融情報はGoogleが提供するデータの正確性と更新頻度を、利用前に確認する。"
     },
     {
-      "url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
-      "normalized_url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
-      "title": "Behind the Claude Frenzy That Ate Up All the Mac Minis",
-      "title_ja": "Claude用途でMac Mini需要が急増、その理由",
-      "published": "2026/05/11",
-      "source": "Hacker News",
+      "url": "http://workspaceupdates.googleblog.com/2026/05/weekly-recap-05-08-2026.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/weekly-recap-05-08-2026.html",
+      "title": "Google Workspace Updates Weekly Recap",
+      "title_ja": "Google Workspace、暗号化ファイルの一括移行と AI アクセス管理が一般提供へ",
+      "published": "2026/05/08",
+      "source": "Google Workspace Updates",
       "importance": "B",
       "tags": [
-        "Claude",
-        "AI利用環境",
-        "ハードウェア"
-      ],
-      "summary": "Claude AI活用でMac Mini の需要が急増している背景について報じた記事。",
-      "impact": "Claude導入時のハードウェア構成検討時に参考になる可能性があります。",
-      "notes": "記事の具体的な内容が抜粋に含まれていないため、詳細は原文URL確認が必要です。"
-    },
-    {
-      "url": "https://github.com/ZeroPathAI/opus-benchmark",
-      "normalized_url": "https://github.com/ZeroPathAI/opus-benchmark",
-      "title": "Benchmarking Claude Opus 4.6 Vulnerability Detection",
-      "title_ja": "Claude Opus 4.6のセキュリティ脆弱性検出ベンチマーク",
-      "published": "2026/05/11",
-      "source": "Hacker News",
-      "importance": "B",
-      "tags": [
-        "Claude",
+        "Google Workspace",
         "セキュリティ",
-        "コード品質",
-        "ベンチマーク"
+        "データ移行",
+        "AI制御",
+        "暗号化"
       ],
-      "summary": "GitHubで公開されたベンチマークがClaudeのコード脆弱性検出能力を測定しています。",
-      "impact": "会社でClaudeをコードレビューやセキュリティチェックに使う場合、その性能限界を事前に確認する参考になります。",
-      "notes": "ベンチマーク結果の詳細は未確認のため、実装前に内容を確認してください。HN上の反応が限定的（コメント0）であり、信頼性の程度も併せて確認する必要があります。"
+      "summary": "Google Workspace が暗号化ファイルの一括移行機能と AI アクセス制御機能を一般提供開始。",
+      "impact": "社内のクラウドおよびオンプレミスデータの移行時に暗号化を維持できるほか、AI の Workspace データアクセスを制限・監視する必要が生じる。",
+      "notes": "AI アクセス制御の詳細が記事に記載されていないため、実装前に公式資料で権限・対象範囲・審査プロセスを確認する。"
     },
     {
-      "url": "https://chromewebstore.google.com/detail/chatgpt-exporter-save-cha/ploaaddkflkapjfbfapmkmkefigedefp",
-      "normalized_url": "https://chromewebstore.google.com/detail/chatgpt-exporter-save-cha/ploaaddkflkapjfbfapmkmkefigedefp",
-      "title": "Show HN: ChatGPT Exporter – Local DOM to Word/PDF Parser",
-      "title_ja": "ChatGPT Exporter – ブラウザから会話をWord/PDFで保存できる拡張機能",
+      "url": "https://github.com/jher7/tokenyst",
+      "normalized_url": "https://github.com/jher7/tokenyst",
+      "title": "Show HN: I built Tokenyst to stop getting shocked by Claude Code API bills",
+      "title_ja": "Claude Code APIの利用料金を事前に把握するツール",
       "published": "2026/05/11",
       "source": "Hacker News",
       "importance": "B",
       "tags": [
-        "ChatGPT",
-        "ツール",
-        "データ保存",
-        "Chrome拡張機能"
-      ],
-      "summary": "ChatGPTの画面から会話内容をWord・PDF形式で自動抽出・保存できるChrome拡張機能が公開された。",
-      "impact": "ChatGPTの利用記録を社内の文書管理システムに保存する際の手間が減る可能性がある。導入前に個人情報・機密情報の取り扱いルールを確認する必要がある。",
-      "notes": "拡張機能の信頼性や更新状況は未確認。会社でChatGPT利用時、この拡張機能の使用を許可するかどうか事前に方針を決める。"
-    },
-    {
-      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "normalized_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "title": "OpenAI Campus Network: Student club interest form",
-      "title_ja": "OpenAI、学生クラブ向けのキャンパスネットワークを開始",
-      "published": "2026/05/11",
-      "source": "OpenAI Blog",
-      "importance": "C",
-      "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "学生向け",
-        "採用・育成"
-      ],
-      "summary": "OpenAIが世界の学生クラブを結ぶキャンパスネットワークを立ち上げ、AI技術の学習や交流の場を提供する。",
-      "impact": "社内にOpenAIツールを使う学生インターンがいる場合、研修・教育ツールとして学生向けプログラムを把握しておく価値がある。",
-      "notes": "詳細未確認。社員採用候補の大学生がこのネットワークに参加している可能性があり、入社前の学習背景として参考になる。"
-    },
-    {
-      "url": "https://fridayaiclub.com/how-to-give-claude-code-social-media-data/",
-      "normalized_url": "https://fridayaiclub.com/how-to-give-claude-code-social-media-data",
-      "title": "I gave Claude Code live social media data",
-      "title_ja": "Claude Codeに実時間のSNSデータを連携する方法",
-      "published": "2026/05/11",
-      "source": "Hacker News",
-      "importance": "C",
-      "tags": [
-        "Claude Code",
-        "データ連携",
+        "Claude",
         "API",
-        "SNS",
-        "実装方法"
+        "コスト管理",
+        "Code API",
+        "トークン計算"
       ],
-      "summary": "Claude Codeがソーシャルメディアの生データにアクセスできる仕組みについて説明した記事。",
-      "impact": "Claude使用時にSNSデータを直接読み込ませる場合、API連携やデータ渡し方法の確認が必要になる可能性がある。",
-      "notes": "記事はHackerNewsで関心が低い状態（HN点数2）。実装方法の詳細は根拠URLのみが情報源のため、会社での利用前に内容確認が必須。"
+      "summary": "開発者がClaudeのCode APIを使う際、トークン数を事前に計算して想定外の高額請求を防ぐツール「Tokenyst」が公開された。",
+      "impact": "Claudeを社内導入する場合、APIの利用料金を事前に見積もる手段が増える。実装前に費用規模を確認する際に参考になる。",
+      "notes": "Hacker Newsの小規模投稿で、公式情報ではない。実運用での正確性は自社で検証してから利用する。"
     },
     {
-      "url": "https://fosstodon.org/@backintime/116555237447115014",
-      "normalized_url": "https://fosstodon.org/@backintime/116555237447115014",
-      "title": "Using AGENTS.md / Claude.md to discourage AI-generated code contributions",
-      "title_ja": "オープンソースプロジェクトがAI生成コードの貢献を制限する動き",
+      "url": "https://www.localcan.com/blog/claude-code-workflow-for-large-projects",
+      "normalized_url": "https://www.localcan.com/blog/claude-code-workflow-for-large-projects",
+      "title": "I use Claude Code on large projects",
+      "title_ja": "大型プロジェクトでClaudeの新機能を使った開発フロー",
       "published": "2026/05/11",
       "source": "Hacker News",
-      "importance": "C",
+      "importance": "B",
       "tags": [
         "Claude",
-        "オープンソース",
-        "コード貢献ルール",
-        "AI利用ガイドライン"
+        "開発ツール",
+        "コーディング支援"
       ],
-      "summary": "オープンソースプロジェクトがAGENTS.mdやClaude.mdというファイルを使い、AIツール（Claude含む）で生成されたコードの貢献を制限する取り組みが始まっている。",
-      "impact": "会社のAI利用ルール策定時に、外部プロジェクトへの貢献ルール確認が必要になる可能性がある。またオープンソース利用時に貢献制限の有無を確認する習慣が必要。",
-      "notes": "HackerNewsでのポイント・コメント数が少なく、まだ広がっていない初期段階。詳細な制限内容や業界標準化の動きは未確認。"
+      "summary": "Claudeの開発支援機能を使って大規模プロジェクトに対応する方法について、実務者が書いた記事。",
+      "impact": "自社でClaudeを使う場合、大型案件での具体的な使い方の参考になる可能性がある。",
+      "notes": "Hacker Newsでの反応が少ない（3ポイント、コメント0）ため、実務的な有用性は記事を読んで確認する必要がある。"
+    },
+    {
+      "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "normalized_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief",
+      "title": "See what happens when creative legends use AI to make ads for small businesses.",
+      "title_ja": "有名クリエイターがGeminiで小規模ビジネスの広告制作、Google公開",
+      "published": "2026/05/08",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "広告制作",
+        "クリエイティブ",
+        "Google公式",
+        "事例"
+      ],
+      "summary": "Googleが、著名なクリエイターたちがGeminiを使って小規模ビジネスの広告を制作するプロジェクトを公開した。",
+      "impact": "広告制作にAIを活用する事例を示すもので、社内のマーケティング判断や広告制作業務でのAI活用検討の参考になる可能性がある。",
+      "notes": "公開されているのはプロジェクトの概要のみで、具体的な制作手法や結果については公式ブログで確認する必要がある。"
     }
   ]
 }
