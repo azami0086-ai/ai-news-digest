@@ -1,0 +1,223 @@
+{
+  "started_at": "2026-05-12T02:32:24.065293+09:00",
+  "finished_at": "2026-05-12T02:33:38.757974+09:00",
+  "fetched_per_source": {
+    "official": 10,
+    "hn": 69,
+    "arxiv": 30
+  },
+  "fetched_total": 109,
+  "after_dedupe": 108,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 4,
+  "count_c": 4,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/05/12.html",
+  "markdown_path": "output/2026-05-12_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33811,
+  "output_tokens": 4710,
+  "estimated_cost_usd": 0.057361,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://old.reddit.com/r/googlecloud/comments/1ta5sim/comment/ol7a1pr/",
+      "normalized_url": "https://old.reddit.com/r/googlecloud/comments/1ta5sim/comment/ol7a1pr",
+      "title": "YSK: The Register is doing some report on Gemini API Key Compromises",
+      "title_ja": "Gemini APIの認証情報流出が報道される",
+      "published": "2026/05/11",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "API",
+        "セキュリティ",
+        "認証情報",
+        "Google Cloud"
+      ],
+      "summary": "The Registerがgemini API認証情報の流出について報道。自社で使っていないかまず確認する必要がある。",
+      "impact": "Gemini APIを利用している場合は、認証情報の流出有無と新規発行を急ぎ確認する。",
+      "notes": "記事の詳細未確認。The Register公式記事または自社のGoogle Cloudコンソール、サポート通知で正式情報を確認する。"
+    },
+    {
+      "url": "https://claude.com/blog/claude-platform-on-aws",
+      "normalized_url": "https://claude.com/blog/claude-platform-on-aws",
+      "title": "The Claude Platform on AWS is now generally available",
+      "title_ja": "Claude PlatformのAWS版が正式提供開始",
+      "published": "2026/05/11",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "AWS",
+        "生成AI",
+        "クラウドサービス"
+      ],
+      "summary": "AnthropicのClaudeがAWS上で正式に利用できるようになった。企業がAWS環境でClaudeを直接使える選択肢が増えた。",
+      "impact": "AWS利用企業はClaudeを既存のAWS契約で利用でき、他のAWSサービスとの連携が容易になる。自社のクラウド環境を確認する必要がある。",
+      "notes": "詳細は公式ブログで確認する。AWS環境での利用料金体系や権限設定ルールは改めて確認する。"
+    },
+    {
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "normalized_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "title": "How enterprises are scaling AI",
+      "title_ja": "OpenAI、企業でのAI拡大に向けた考え方を説明",
+      "published": "2026/05/11",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "企業導入",
+        "ガバナンス",
+        "業務設計",
+        "OpenAI"
+      ],
+      "summary": "OpenAIが、企業がAI利用を広げる際の信頼構築、ルール作り、業務設計、出力チェックの重要性を説明した。",
+      "impact": "AI導入を広げる前に、会社内での利用ルール、責任者、チェック体制を整える必要がある点を確認できる。",
+      "notes": "公式資料として読めるが、自社の状況に合わせて権限・保存先・責任範囲を改めて確認する。"
+    },
+    {
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "normalized_url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
+      "title_ja": "ChromeのAI機能が最大4GBのストレージを占有する可能性",
+      "published": "2026/05/10",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Chrome",
+        "Gemini",
+        "ストレージ",
+        "ブラウザ"
+      ],
+      "summary": "GoogleがChromeに組み込むGemini NanoなどのAI機能が、最大4GBのディスク容量を消費するとされている。",
+      "impact": "社内支給のパソコンがストレージ不足になる可能性がある。特にSSD容量が限定的な環境での確認が必要。",
+      "notes": "Chrome側で無効化できるか、会社のポリシーで制限すべきかについて未確認。Chromeの自動更新設定と併せて確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag",
+      "title": "Gemini API File Search is now multimodal",
+      "title_ja": "Gemini APIのファイル検索が複数形式に対応",
+      "published": "2026/05/10",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "API",
+        "ファイル検索",
+        "RAG",
+        "複数形式対応"
+      ],
+      "summary": "GoogleがGemini APIのファイル検索機能を拡張し、テキストだけでなく画像や動画も検索できるようにした。",
+      "impact": "社内資料検索やAI活用で、文書以外の視覚情報も自動的に活用できる範囲が広がる。現在の運用との組み合わせを検討する必要がある。",
+      "notes": "Google公式発表なので内容は確実。自社でGemini APIを導入している場合、新機能の適用時期と利用ルール（保存形式・アクセス権限など）を確認する。"
+    },
+    {
+      "url": "https://www.cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710/",
+      "normalized_url": "https://www.cybersecuritydive.com/news/anthropics-claude-compromise-mexican-water-utility/819710",
+      "title": "Anthropic's Claude used in attempted compromise of Mexican water utility",
+      "title_ja": "Claudeが墨国の水道事業者への侵害に利用された",
+      "published": "2026/05/11",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "悪用"
+      ],
+      "summary": "Claudeがメキシコの水道事業者への不正アクセス試行に使われたという事例が報告された。",
+      "impact": "AI生成ツールが攻撃に悪用される可能性を示す。社内のAI利用ルール検討時に参考となる。",
+      "notes": "詳細が限定的であり、事実確認が必要。元記事の詳細内容を確認した上で対応を判断する。"
+    },
+    {
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "normalized_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "title_ja": "OpenAIが学生クラブ向けネットワーク開設、世界規模で接続可能に",
+      "published": "2026/05/11",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "教育・学術",
+        "コミュニティ",
+        "学生向け"
+      ],
+      "summary": "OpenAIが学生クラブを結ぶグローバルネットワークを立ち上げ、AI ツールへのアクセスやイベント開催をサポートする。",
+      "impact": "大学のサークルや研究会がOpenAIのツールと資源を正規ルートで使える道が広がり、学内でのAI利用検討が活性化する可能性がある。",
+      "notes": "学生向けプログラムのため、企業利用への直接の影響は限定的。参加は自発的で、会社として学生部門がある場合は内容確認するとよい。"
+    },
+    {
+      "url": "https://fosstodon.org/@backintime/116555237447115014",
+      "normalized_url": "https://fosstodon.org/@backintime/116555237447115014",
+      "title": "Using AGENTS.md / Claude.md to discourage AI-generated code contributions",
+      "title_ja": "Claude などAIが生成したコードの投稿を制限する方法",
+      "published": "2026/05/11",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード管理",
+        "ガイドライン",
+        "オープンソース"
+      ],
+      "summary": "オープンソースプロジェクトが AGENTS.md や Claude.md といったファイルを使い、AI生成コードの受け入れ条件を明記する取り組みについてのスレッド。",
+      "impact": "社内でコード管理・レビュー基準を作る際、AI利用の明示・責任範囲の定め方の参考になる可能性がある。",
+      "notes": "Hacker News のスレッドで詳細が限定的。実際の運用方法は AGENTS.md / Claude.md の事例を確認する必要がある。"
+    },
+    {
+      "url": "https://paidsync.ai/",
+      "normalized_url": "https://paidsync.ai/",
+      "title": "PaidSync, Run Google/Meta/LinkedIn/TikTok Ads from Claude or ChatGPT",
+      "title_ja": "Claude・ChatGPTからGoogle・Meta・LinkedIn・TikTok広告を操作するツール",
+      "published": "2026/05/11",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "広告運用",
+        "Google Ads",
+        "Meta",
+        "LinkedIn",
+        "TikTok",
+        "業務ツール"
+      ],
+      "summary": "PaidSyncは、Claude や ChatGPT から直接、複数プラットフォームの広告キャンペーンを操作できるツール。",
+      "impact": "AI チャットから広告運用が可能になれば、広告担当者の業務手順が変わる可能性がある。自社で広告運用している場合は動作確認が必要。",
+      "notes": "ツールの信頼性、データ保護（認証情報・キャンペーン情報の扱い）、操作権限の制限をあらかじめ確認する。"
+    },
+    {
+      "url": "https://github.com/leaningtech/browsercode",
+      "normalized_url": "https://github.com/leaningtech/browsercode",
+      "title": "Show HN: BrowserCode – Run Claude Code in the Browser via WebAssembly",
+      "title_ja": "BrowserCode：Claudeのコードをブラウザで実行できるツール",
+      "published": "2026/05/11",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "WebAssembly",
+        "ブラウザ実行"
+      ],
+      "summary": "ClaudeのコードをWebAssemblyを使ってブラウザ上で直接実行するツール。サーバー不要でクライアント側で動作させられる",
+      "impact": "AI生成コードの検証やプロトタイピングがローカル環境で可能になり、セキュリティ上の不安や外部送信を避けられる",
+      "notes": "技術者向けのツール。本番利用前に動作確認と制限事項を確認する"
+    }
+  ]
+}
