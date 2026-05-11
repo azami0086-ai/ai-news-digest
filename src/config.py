@@ -81,6 +81,21 @@ EXPENSIVE_MODEL_KEYWORDS = ("sonnet", "opus")
 # Actions ログで *** に自動マスクされ、何のモデルを使ったか分からなくなるため）。
 DEFAULT_AI_MODEL = "claude-haiku-4-5-20251001"
 
+# 当面許可するモデルID。latest 系 alias は使わない（将来挙動が変わる可能性のため）。
+# 新しいモデルを追加する際は MODEL_PRICING にも単価を追加すること。
+ALLOWED_AI_MODELS = (
+    "claude-haiku-4-5-20251001",
+    "claude-3-5-haiku-20241022",
+)
+
+# AI_MODEL に含まれていたら不正とみなす文字。
+# ダブルクォート / シングルクォート / 全角スペース / 改行 / タブ / バッククォート
+_FORBIDDEN_MODEL_CHARS = ('"', "'", "　", "\n", "\r", "\t", "`")
+
+
+class InvalidAIModelError(ValueError):
+    """AI_MODEL の値が不正な場合に投げる。起動を停止する。"""
+
 
 def is_expensive_model(model: str) -> bool:
     """SonnetやOpusなどコストの高いモデルかを判定。"""
@@ -94,13 +109,29 @@ def expensive_allowed() -> bool:
 
 
 def _resolve_ai_model() -> str:
-    """AI_MODEL 環境変数があれば strip して採用。空または未設定なら DEFAULT_AI_MODEL。"""
+    """AI_MODEL 環境変数を解決する。
+
+    - 未設定 → DEFAULT_AI_MODEL
+    - 空文字（strip後） → DEFAULT_AI_MODEL
+    - 不正文字（クォート・全角空白・改行等）を含む → InvalidAIModelError
+    - ALLOWED_AI_MODELS に無い値 → InvalidAIModelError
+    """
     raw = os.environ.get("AI_MODEL")
     if raw is None:
         return DEFAULT_AI_MODEL
+    if any(ch in raw for ch in _FORBIDDEN_MODEL_CHARS):
+        raise InvalidAIModelError(
+            f"Invalid AI_MODEL (contains forbidden characters such as quotes, "
+            f"full-width space, or newline). Use {DEFAULT_AI_MODEL} or unset AI_MODEL."
+        )
     val = raw.strip()
     if not val:
         return DEFAULT_AI_MODEL
+    if val not in ALLOWED_AI_MODELS:
+        raise InvalidAIModelError(
+            f"Invalid AI_MODEL. Use {DEFAULT_AI_MODEL} or unset AI_MODEL. "
+            f"Allowed: {', '.join(ALLOWED_AI_MODELS)}"
+        )
     return val
 
 

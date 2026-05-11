@@ -1,7 +1,7 @@
 """AI要約・影響分析。Claude APIを呼ぶ。失敗時はフォールバック。
 
 コスト制御方針:
-- 初期実装は Haiku 3.5 のみ。Sonnetは使わない。
+- 初期実装は Haiku のみ。Sonnetは使わない。
 - 解析対象は priority_score 上位 settings.candidate_max 件まで。
 - 各APIコールの usage を集計し、概算コスト(USD)を算出。
 - 将来、重要度A候補だけSonnetに回す余地は残してよい（その際はrun_with_modelを差し替え）。
@@ -11,10 +11,21 @@ from __future__ import annotations
 import json
 import logging
 import re
+from datetime import datetime
 from typing import Dict, List, Tuple
 
 from config import MODEL_PRICING, PRIORITY_KEYWORDS, Settings
 from models import NewsItem
+
+
+# 30日超でも例外的に残す優先ソース（OpenAI / Anthropic / Google公式）
+PRIVILEGED_SOURCES = frozenset([
+    "OpenAI Blog",
+    "Anthropic News",
+    "Google Workspace Updates",
+    "Google DeepMind Blog",
+    "Google The Keyword - AI",
+])
 
 log = logging.getLogger(__name__)
 
@@ -47,6 +58,42 @@ PROMPT_SYSTEM = """あなたはAIニュースの編集アシスタント。
 """
 
 
+def _age_days(item: NewsItem) -> int:
+    """記事の経過日数。published が無い場合は 9999（古い扱いだが除外しない判断に使う）。"""
+    if not item.published:
+        return 9999
+    try:
+        d = datetime.strptime(item.published, "%Y/%m/%d")
+        return max(0, (datetime.now() - d).days)
+    except Exception:
+        return 9999
+
+
+def _freshness_boost(item: NewsItem) -> int:
+    """新しいほどボーナス。30日超は減点（特権ソースは緩和）。
+
+    - 7日以内: +30 〜 +50
+    - 8〜30日: +5 〜 +25
+    - 30日超: 特権ソースは -10、それ以外は -200（実質除外）
+    - published 不明: 0
+    """
+    if not item.published:
+        return 0
+    age = _age_days(item)
+    if age <= 7:
+        return 50 - age * 3        # 0日=+50, 7日=+29
+    if age <= 30:
+        return 25 - (age - 7)      # 8日=+24, 30日=+2
+    if item.source in PRIVILEGED_SOURCES:
+        return -10
+    return -200
+
+
+def is_too_old(item: NewsItem) -> bool:
+    """30日超で特権ソースでもないものは除外対象。"""
+    return _age_days(item) > 30 and item.source not in PRIVILEGED_SOURCES
+
+
 def _priority_score(item: NewsItem) -> int:
     text = f"{item.title} {item.snippet} {item.category}".lower()
     score = 0
@@ -57,6 +104,7 @@ def _priority_score(item: NewsItem) -> int:
         score += 5
     if item.source_type == "arxiv":
         score = max(score, 10)
+    score += _freshness_boost(item)
     return score
 
 

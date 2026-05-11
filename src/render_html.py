@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import List
 
 from models import NewsItem
+from overview import build_overview
 
 
 CSS = """
@@ -120,16 +121,7 @@ def _render_card(item: NewsItem) -> str:
 
 
 def _build_overview(items: List[NewsItem]) -> str:
-    if not items:
-        return "本日の掲載対象ニュースはありません。"
-    a_items = [it for it in items if it.importance == "A"]
-    pool = a_items if a_items else items[:6]
-    parts = []
-    for it in pool[:6]:
-        # タイトルからカテゴリ寄りの短文に
-        head = it.title.split("|")[0].split(":")[0].strip()
-        parts.append(head[:30])
-    return "本日の主要ニュースは、" + "、".join(parts) + "です。"
+    return build_overview(items)
 
 
 CREDIT_WARNING_HTML = """

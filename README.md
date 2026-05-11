@@ -92,7 +92,23 @@ AI利用者向けの最新ニュースを毎日自動で収集・要約・公開
 
 `X_BEARER_TOKEN` は **使わない**。設定しないこと。
 
-**`AI_MODEL` は Secrets に登録しない**。Secrets に登録すると Actions ログで `***` に自動マスクされ、何のモデルを使ったか判別できなくなる。原則設定不要で、既定値は `src/config.py` の `DEFAULT_AI_MODEL`。変更したい場合のみ `.github/workflows/daily.yml` の `env` に通常の値として記述する。
+### `AI_MODEL` の取り扱い
+
+- **原則設定不要**。既定値は `src/config.py` の `DEFAULT_AI_MODEL = "claude-haiku-4-5-20251001"`
+- **GitHub Secrets には登録しない**。Secrets に登録すると Actions ログで `***` に自動マスクされ、何のモデルを使ったか判別できなくなる
+- 変更したい場合のみ `.github/workflows/daily.yml` の `env` に **通常の環境変数** として記述する
+- 値はモデルID **そのもの** だけを書く。ダブルクォート / シングルクォート / 全角スペース / 改行 / タブ / バッククォートを含む場合は起動時に `InvalidAIModelError` で停止する
+- `claude-3-5-haiku-latest` のような **latest 系 alias は使わない**（将来挙動が変わる可能性のため）
+- 当面の許可モデルID:
+  - `claude-haiku-4-5-20251001`（既定）
+  - `claude-3-5-haiku-20241022`
+- 許可リストに無い値を指定した場合は次のような明確なエラーを出して停止する:
+
+  ```
+  ERROR: Invalid AI_MODEL. Use claude-haiku-4-5-20251001 or unset AI_MODEL.
+  ```
+
+- `anthropic.NotFoundError: 404 not_found_error` がランタイムで出た場合は **モデルID不正（モデル廃止・タイポ・存在しないID）の可能性が高い**。許可リストのIDに戻すか `AI_MODEL` を未設定にする
 
 ## 7. 手動実行方法
 

@@ -22,8 +22,13 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from analyze import analyze_items, filter_excluded
-from config import expensive_allowed, is_expensive_model, load_settings
+from analyze import analyze_items, filter_excluded, is_too_old
+from config import (
+    InvalidAIModelError,
+    expensive_allowed,
+    is_expensive_model,
+    load_settings,
+)
 from dedupe import dedupe
 from fetch_arxiv import fetch_arxiv
 from fetch_hn import fetch_hn
@@ -53,6 +58,32 @@ def _jst_now() -> datetime:
     return datetime.now(timezone(timedelta(hours=9)))
 
 
+def _diversify_by_source(items, publish_max: int, per_source_max: int = 4):
+    """重要度順を尊重しつつ、同一ソース上限で偏りを抑える。
+
+    1段目: ソースごとに per_source_max まで採用
+    2段目: 上限に満たない場合 leftovers から補充（元順序のまま）
+    """
+    selected = []
+    leftovers = []
+    counts = {}
+    for it in items:
+        if len(selected) >= publish_max:
+            leftovers.append(it)
+            continue
+        src = it.source or "?"
+        if counts.get(src, 0) >= per_source_max:
+            leftovers.append(it)
+            continue
+        selected.append(it)
+        counts[src] = counts.get(src, 0) + 1
+    for it in leftovers:
+        if len(selected) >= publish_max:
+            break
+        selected.append(it)
+    return selected
+
+
 def _write_log(stats: RunStats, date_iso: str, settings=None) -> Path:
     """JSONログを書き出す。
 
@@ -75,7 +106,14 @@ def _write_log(stats: RunStats, date_iso: str, settings=None) -> Path:
 
 
 def main() -> int:
-    settings = load_settings()
+    try:
+        settings = load_settings()
+    except InvalidAIModelError as e:
+        # Secrets値は含まれない（モデル名のみ）。stderrへ明確なメッセージを出す。
+        log.error("AI_MODEL validation failed: %s", e)
+        sys.stderr.write(f"ERROR: {e}\n")
+        return 3
+
     stats = RunStats()
     errors: list = []
 
@@ -126,6 +164,12 @@ def main() -> int:
     deduped = dedupe(all_items)
     stats.after_dedupe = len(deduped)
 
+    # 6.5. 30日超の古い記事を除外（特権ソースは温存）
+    before_age = len(deduped)
+    deduped = [it for it in deduped if not is_too_old(it)]
+    log.info("age filter: %d -> %d (>30d excluded except privileged sources)",
+             before_age, len(deduped))
+
     # 7. 過去掲載済みニュースを除外
     fresh, dup_count = filter_already_published(
         deduped,
@@ -166,9 +210,9 @@ def main() -> int:
         reverse=True,
     )
 
-    # 最終掲載は publish_max 件まで
-    published_items = filtered[: settings.publish_max]
-    log.info("publish: %d / %d (cap=%d)",
+    # 最終掲載は publish_max 件まで。同一ソースの偏りを per_source_max=4 で抑制。
+    published_items = _diversify_by_source(filtered, settings.publish_max, per_source_max=4)
+    log.info("publish: %d / %d (cap=%d, per_source_max=4)",
              len(published_items), len(filtered), settings.publish_max)
 
     stats.published = len(published_items)

@@ -10,6 +10,7 @@ from typing import List
 
 from config import Settings
 from models import NewsItem
+from overview import build_overview
 
 log = logging.getLogger(__name__)
 
@@ -41,11 +42,7 @@ def _build_body(items: List[NewsItem], page_url: str, date_str: str,
                 errors: List[str],
                 credit_warning: bool = False, api_warning: bool = False) -> str:
     a_count = sum(1 for it in items if it.importance == "A")
-    a_items = [it for it in items if it.importance == "A"]
-    overview_pool = a_items if a_items else items[:6]
-    overview = "本日の主要ニュースは、" + "、".join(
-        it.title.split("|")[0].split(":")[0].strip()[:30] for it in overview_pool[:6]
-    ) + "。" if items else "本日の掲載対象ニュースはない。"
+    overview = build_overview(items)
 
     lines = []
     if credit_warning:
