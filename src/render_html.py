@@ -144,6 +144,7 @@ API_WARNING_HTML = """
 
 
 def render_html(items: List[NewsItem], date_str: str,
+                generated_at: datetime,
                 credit_warning: bool = False, api_warning: bool = False) -> str:
     overview = _build_overview(items)
     if not items:
@@ -175,7 +176,7 @@ def render_html(items: List[NewsItem], date_str: str,
   </header>
   <div class="summary-bar">{_escape(overview)}</div>
   {body}
-  <footer>generated at {_escape(datetime.now().strftime('%Y/%m/%d %H:%M'))} JST</footer>
+  <footer>generated at {_escape(generated_at.strftime('%Y/%m/%d %H:%M'))} JST</footer>
 </div>
 </body>
 </html>
@@ -190,6 +191,7 @@ def write_html(items: List[NewsItem], date: datetime, docs_dir: Path,
     daily_dir.mkdir(parents=True, exist_ok=True)
     daily_path = daily_dir / f"{date.day:02d}.html"
     html_text = render_html(items, date_str,
+                            generated_at=date,
                             credit_warning=credit_warning,
                             api_warning=api_warning)
     daily_path.write_text(html_text, encoding="utf-8")

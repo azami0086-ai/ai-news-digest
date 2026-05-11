@@ -153,13 +153,16 @@ def send_mail(items: List[NewsItem], page_url: str, date_str: str,
     mime["To"] = settings.mail_to
     mime.attach(MIMEText(body, "plain", "utf-8"))
 
-    # HTML版本文（リンクをクリック可能に）
-    html_body = (
-        "<html><body>"
-        f"<p>{_escape(body).replace(chr(10), '<br>')}</p>"
-        + (f'<p><a href="{_escape(page_url)}">{_escape(page_url)}</a></p>' if page_url else "")
-        + "</body></html>"
-    )
+    # HTML版本文（URLは本文中の「HTML:」直下に一度だけクリック可能に表示する）
+    escaped_body = _escape(body).replace(chr(10), "<br>")
+    if page_url:
+        escaped_url = _escape(page_url)
+        escaped_body = escaped_body.replace(
+            escaped_url,
+            f'<a href="{escaped_url}">{escaped_url}</a>',
+            1,
+        )
+    html_body = f"<html><body><p>{escaped_body}</p></body></html>"
     mime.attach(MIMEText(html_body, "html", "utf-8"))
 
     try:

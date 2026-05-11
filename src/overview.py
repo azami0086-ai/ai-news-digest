@@ -73,8 +73,10 @@ def build_overview(items: List[NewsItem]) -> str:
         n = bucket_count.get(label, 0)
         if n > 0:
             parts.append(f"{label} {n} 件")
-    if parts:
+    if len(parts) >= 2:
         s1 = f"本日は {' / '.join(parts)} のあわせて {total} 件を掲載した。"
+    elif len(parts) == 1:
+        s1 = f"本日は {parts[0]}を掲載した。"
     else:
         s1 = f"本日は {total} 件のAIニュースを掲載した。"
 
@@ -94,9 +96,10 @@ def build_overview(items: List[NewsItem]) -> str:
     impacts = _impact_directions(items)
     a_count = sum(1 for it in items if it.importance == "A")
     if impacts:
-        s3 = f"実務面では {'、'.join(impacts)} への影響が中心。"
         if a_count > 0:
-            s3 += f"重要度Aは {a_count} 件。"
+            s3 = f"実務面では {'、'.join(impacts)} への影響が中心で、重要度Aは {a_count} 件。"
+        else:
+            s3 = f"実務面では {'、'.join(impacts)} への影響が中心。"
     elif a_count > 0:
         s3 = f"重要度Aは {a_count} 件で、AI利用への直接的な影響が想定される。"
     else:
