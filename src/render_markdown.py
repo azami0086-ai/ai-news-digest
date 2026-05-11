@@ -6,15 +6,15 @@ from pathlib import Path
 from typing import List
 
 from models import NewsItem
-from overview import build_overview
+from overview import build_overview_bullets
 
 
 def _normalize_tag(tag: str) -> str:
     return "#" + "".join(ch for ch in tag if ch.isalnum() or ch in "_-一-鿿ぁ-んァ-ヶ")
 
 
-def _build_overview(items: List[NewsItem]) -> str:
-    return build_overview(items)
+def _overview_lines(items: List[NewsItem]) -> List[str]:
+    return build_overview_bullets(items)
 
 
 CREDIT_WARNING_MD_LINES = [
@@ -37,7 +37,7 @@ API_WARNING_MD_LINES = [
 def render_markdown(items: List[NewsItem], date_str: str,
                     credit_warning: bool = False, api_warning: bool = False) -> str:
     a_list = [it for it in items if it.importance == "A"]
-    overview = _build_overview(items)
+    overview_lines = _overview_lines(items)
 
     lines = []
     lines.append(f"# AIニュース {date_str}")
@@ -46,16 +46,18 @@ def render_markdown(items: List[NewsItem], date_str: str,
         lines.extend(CREDIT_WARNING_MD_LINES)
     elif api_warning:
         lines.extend(API_WARNING_MD_LINES)
-    lines.append(f"> {overview}")
-    lines.append("")
-    lines.append(f"- 掲載件数: {len(items)} 件")
-    lines.append(f"- 重要度A: {len(a_list)} 件")
+    # 概要は箇条書きそのままを引用ブロック化
+    for ov in overview_lines:
+        lines.append(f"> {ov}")
     lines.append("")
 
     if a_list:
         lines.append("## 重要度A 一覧")
         for it in a_list:
-            lines.append(f"- [{it.title}]({it.url}) ({it.published or '日付不明'} / {it.source})")
+            display_title = it.title_ja or it.title
+            lines.append(f"- [{display_title}]({it.url}) ({it.published or '日付不明'} / {it.source})")
+            if it.title_ja and it.title and it.title_ja.strip() != it.title.strip():
+                lines.append(f"  - Original: {it.title}")
         lines.append("")
 
     lines.append("## 各ニュース詳細")
@@ -66,8 +68,12 @@ def render_markdown(items: List[NewsItem], date_str: str,
         return "\n".join(lines)
 
     for it in items:
-        lines.append(f"### [{it.importance or 'C'}] {it.title}")
+        display_title = it.title_ja or it.title
+        lines.append(f"### [{it.importance or 'C'}] {display_title}")
         lines.append("")
+        if it.title_ja and it.title and it.title_ja.strip() != it.title.strip():
+            lines.append(f"_Original: {it.title}_")
+            lines.append("")
         lines.append(f"- 公開日: {it.published or '日付不明'}")
         lines.append(f"- 出所: {it.source}")
         lines.append(f"- 根拠URL: {it.url}")
@@ -76,12 +82,12 @@ def render_markdown(items: List[NewsItem], date_str: str,
             for u in it.aux_urls:
                 lines.append(f"  - {u}")
         lines.append("")
-        lines.append(f"**要約**: {it.summary or it.snippet[:200] or '(なし)'}")
+        lines.append(f"**何の話？**: {it.summary or it.snippet[:200] or '(なし)'}")
         lines.append("")
-        lines.append(f"**AI利用への影響**: {it.impact or '未分析'}")
+        lines.append(f"**何が変わる？**: {it.impact or '未分析'}")
         if it.notes:
             lines.append("")
-            lines.append(f"**実務上の注意点**: {it.notes}")
+            lines.append(f"**注意すること**: {it.notes}")
         if it.dedupe_note:
             lines.append("")
             lines.append(f"**重複確認結果**: {it.dedupe_note}")

@@ -8,7 +8,7 @@ from typing import List, Optional, Dict, Any
 @dataclass
 class NewsItem:
     """1件のニュース。"""
-    title: str
+    title: str             # 原題（英語等）。表示時の Original 表記にも使う
     url: str
     source: str            # 取得元名（例: "OpenAI Blog", "Hacker News", "arXiv"）
     source_type: str       # "official" / "hn" / "arxiv" / "x"
@@ -17,11 +17,12 @@ class NewsItem:
     category: str = ""     # 主要分類タグ（Claude, ChatGPT, ...）
 
     # 解析後に埋まるフィールド
-    summary: str = ""              # 短い要約
-    impact: str = ""               # AI利用への影響
+    title_ja: str = ""             # 表示用の日本語見出し（公式訳ではない）
+    summary: str = ""              # 何の話？
+    impact: str = ""               # 何が変わる？
     importance: str = ""           # "A" / "B" / "C" / "除外"
     tags: List[str] = field(default_factory=list)
-    notes: str = ""                # 実務上の注意点
+    notes: str = ""                # 注意すること
     dedupe_note: str = ""          # 重複確認結果
     aux_urls: List[str] = field(default_factory=list)  # 補助URL
 
@@ -71,8 +72,9 @@ class RunStats:
     abort_reason: str = ""
 
     # 最終掲載アイテムのメタ（次回以降の再掲載防止に使う）
-    # 各要素: {"url", "normalized_url", "title", "published", "source"}
-    published_items_meta: List[Dict[str, str]] = field(default_factory=list)
+    # 各要素: 再掲載判定用フィールド (url, normalized_url, title, published, source) +
+    # 表示再現用フィールド (title_ja, importance, tags, summary, impact, notes)
+    published_items_meta: List[Dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)

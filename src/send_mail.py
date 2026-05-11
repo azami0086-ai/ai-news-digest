@@ -17,7 +17,10 @@ from typing import List
 
 from config import Settings
 from models import NewsItem
-from overview import build_overview_facts
+from overview import (
+    build_overview_bullets,
+    build_overview_html_block,
+)
 
 log = logging.getLogger(__name__)
 
@@ -88,96 +91,12 @@ def _build_subject(date_str: str, credit_warning: bool = False, api_warning: boo
     return f"【AIニュース】{date_str} まとめ"
 
 
-# メール本文の「主なトピック」用 表示名マップ（キーは lowercase）。
-# 既存タグ表記がばらついても読みやすい表記に揃える。未登録のタグは元の文字列をそのまま使う。
-TOPIC_DISPLAY_NAMES = {
-    "chatgpt": "ChatGPT",
-    "claude": "Claude",
-    "claude code": "Claude Code",
-    "claudecode": "Claude Code",
-    "gemini": "Gemini",
-    "google": "Google",
-    "google workspace": "Google Workspace",
-    "googleworkspace": "Google Workspace",
-    "notebooklm": "NotebookLM",
-    "deepmind": "DeepMind",
-    "microsoft": "Microsoft",
-    "copilot": "Copilot",
-    "openai": "OpenAI",
-    "anthropic": "Anthropic",
-    "codex": "Codex",
-    "huggingface": "Hugging Face",
-    "meta": "Meta",
-    "enterprise": "エンタープライズ",
-    "security": "セキュリティ",
-    "privacy": "プライバシー",
-    "compliance": "コンプライアンス",
-    "automation": "業務自動化",
-    "ai agent": "AIエージェント",
-    "agents": "AIエージェント",
-    "agent": "AIエージェント",
-    "llm": "LLM",
-    "rag": "RAG",
-    "arxiv": "arXiv",
-    "hacker news": "Hacker News",
-    "hackernews": "Hacker News",
-}
-
-
-def _display_topic(tag: str) -> str:
-    if not tag:
-        return tag
-    return TOPIC_DISPLAY_NAMES.get(tag.strip().lower(), tag)
-
-
-def _display_topics(tags: List[str]) -> List[str]:
-    """表示名へ変換した上で、順序を保ったまま重複除去。"""
-    return list(dict.fromkeys(_display_topic(t) for t in tags if t))
-
-
-def _format_overview_publish_line(facts: dict) -> str:
-    """掲載件数行の文字列を生成。バケットの個別件数 + 合計を併記。"""
-    bucket_part = " / ".join(f"{label} {n} 件" for label, n in facts["buckets"])
-    if bucket_part:
-        return f"掲載件数: {bucket_part} / 合計 {facts['total']} 件"
-    return f"掲載件数: 合計 {facts['total']} 件"
-
-
-def _build_overview_bullets(facts: dict) -> List[str]:
-    """plain text 用の箇条書き行群（'- xxx' 形式、先頭に「概要:」ヘッダ）。"""
-    topics = _display_topics(facts["topics"])
-    topics_str = "、".join(topics) if topics else "なし"
-    impacts_str = "、".join(facts["impacts"]) if facts["impacts"] else "なし"
-    return [
-        "概要:",
-        f"- {_format_overview_publish_line(facts)}",
-        f"- 主なトピック: {topics_str}",
-        f"- 実務影響: {impacts_str}",
-        f"- 重要度A: {facts['a_count']} 件",
-    ]
-
-
-def _build_overview_html(facts: dict) -> str:
-    """HTML 用の概要セクション（<p>概要:</p><ul><li>...</li></ul>）。"""
-    topics = _display_topics(facts["topics"])
-    topics_str = "、".join(topics) if topics else "なし"
-    impacts_str = "、".join(facts["impacts"]) if facts["impacts"] else "なし"
-    items_html = "".join([
-        f"<li>{_escape(_format_overview_publish_line(facts))}</li>",
-        f"<li>主なトピック: {_escape(topics_str)}</li>",
-        f"<li>実務影響: {_escape(impacts_str)}</li>",
-        f"<li>重要度A: {facts['a_count']} 件</li>",
-    ])
-    return f"<p>概要:</p><ul>{items_html}</ul>"
-
-
 def _build_body(items: List[NewsItem], page_url: str, date_str: str,
                 errors: List[str],
                 credit_warning: bool = False, api_warning: bool = False) -> tuple[str, str]:
     """plain text と HTML のメール本文を構築して返す。"""
-    facts = build_overview_facts(items)
-    bullets = _build_overview_bullets(facts)
-    overview_html = _build_overview_html(facts)
+    bullets = build_overview_bullets(items)
+    overview_html = build_overview_html_block(items)
     err_summary = _summarize_errors_for_email(errors)
 
     # --- plain text ---

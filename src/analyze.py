@@ -38,22 +38,49 @@ log = logging.getLogger(__name__)
 
 
 PROMPT_SYSTEM = """あなたはAIニュースの編集アシスタント。
-渡された1件のニュースについて、AIを業務利用する読者目線で要約と影響分析を行う。
+読み手は社内の労務・経理・総務担当。短時間で実務判断できる文面が必要。
+AI技術者向けの詳細レポートではない。
+
 重要：
 - 事実と推測を分ける
 - 根拠URLにないことを断定しない
 - 未確認情報は「未確認」と書く
 - 長文引用しない
-- 日本語で簡潔に書く
+- 日本語で書く
 
 出力は必ず以下のJSONのみ（前後に文章を書かない）：
 {
-  "summary": "短い要約（150字以内）",
-  "impact": "AI利用への影響（200字以内）",
+  "title_ja": "日本語の見出し（自然なニュース見出し、内容を盛らない、固有名詞はそのまま）",
+  "summary": "何の話？を1文で（おおむね60字以内、難しい技術用語を避ける）",
+  "impact": "何が変わる？を1文で（おおむね60字以内、会社で何を見るべきかを書く）",
+  "notes": "注意することを1〜2文（各60字以内、機密・許可・確認・制限など実務軸）",
   "importance": "A" または "B" または "C" または "除外",
-  "tags": ["関連タグ", ...],
-  "notes": "実務上の注意点（任意、なければ空文字）"
+  "tags": ["関連タグ", ...]
 }
+
+文章ルール:
+- 各項目は1文を基本、長くても2文
+- 1文はおおむね60字以内
+- 難しい技術用語を避ける
+- 固有名詞は残す（OpenAI、Codex、Claude、ChatGPT、Gemini、Google Workspace など）
+- 抽象語を減らし「会社で何を見るべきか」を書く
+- 大げさにしない
+- 不明なことを断定しない
+- 実務判断に不要な詳細は削る
+
+避ける表現:
+- 実現 / 準拠 / テレメトリ / ネットワークポリシー / セキュリティ対策を公開
+- エージェント運用 / 企業導入を加速 / 業務効率化に寄与 / 活用が期待される
+
+推奨する表現:
+- 説明した / 使えるようにした / 注意が必要 / 制限する / 確認する
+- 読ませない / 許可制にする / 会社で使う前に確認する
+
+title_ja のルール:
+- 直訳しすぎず、日本語ニュース見出しとして自然に
+- 内容を盛らない
+- 固有名詞は原則そのまま残す（Codex、OpenAI、Gemini、Claude、ChatGPT、Google Workspace など）
+- 公式訳ではなく「表示用の和訳見出し」
 
 重要度判定:
 - A: 今日または近日中にAIの使い方・導入判断・業務利用ルールに影響
@@ -129,8 +156,9 @@ def _priority_score(item: NewsItem) -> int:
 
 def _fallback_analyze(item: NewsItem) -> NewsItem:
     """AI APIが使えない場合のフォールバック。"""
+    item.title_ja = item.title_ja or item.title
     item.summary = (item.snippet[:150] or item.title)[:150]
-    item.impact = "未分析。AI利用への影響は手動確認が必要。"
+    item.impact = "未分析。会社での使い方は手動で確認する。"
     # 単純なヒューリスティック
     text = f"{item.title} {item.snippet}".lower()
     if any(k in text for k in ["claude", "chatgpt", "gemini", "notebooklm", "workspace"]):
@@ -179,6 +207,7 @@ def analyze_one(client, model: str, item: NewsItem) -> Tuple[NewsItem, int, int]
         if getattr(block, "type", None) == "text":
             text += block.text
     data = _extract_json(text)
+    item.title_ja = (data.get("title_ja") or "").strip()
     item.summary = (data.get("summary") or "").strip()
     item.impact = (data.get("impact") or "").strip()
     importance = (data.get("importance") or "").strip()

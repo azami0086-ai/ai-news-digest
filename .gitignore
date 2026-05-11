@@ -27,3 +27,6 @@ venv/
 
 # logs/*.json は GitHub に残す方針のため除外しない
 # output/*.md も Obsidian共有用に残す
+
+# ローカル検証用サンプル出力（生成物）
+scripts/_sample_out/

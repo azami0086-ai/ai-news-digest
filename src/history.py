@@ -15,7 +15,7 @@ import logging
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Any, Dict, List, Tuple
 
 from dedupe import normalize_url
 from models import NewsItem
@@ -121,12 +121,22 @@ def filter_already_published(
     return kept, excluded
 
 
-def build_meta(item: NewsItem) -> Dict[str, str]:
-    """掲載アイテムから次回照合用メタを生成。"""
+def build_meta(item: NewsItem) -> Dict[str, Any]:
+    """掲載アイテムから次回照合用メタ + 表示用フィールドを生成。
+
+    再掲載防止に使われるのは url / normalized_url / title のみ。
+    title_ja / summary / impact / notes / importance / tags は表示再現用に保存する。
+    """
     return {
         "url": item.url or "",
         "normalized_url": normalize_url(item.url or ""),
         "title": item.title or "",
+        "title_ja": item.title_ja or "",
         "published": item.published or "",
         "source": item.source or "",
+        "importance": item.importance or "",
+        "tags": list(item.tags or []),
+        "summary": item.summary or "",
+        "impact": item.impact or "",
+        "notes": item.notes or "",
     }

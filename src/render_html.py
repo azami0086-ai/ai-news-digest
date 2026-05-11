@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import List
 
 from models import NewsItem
-from overview import build_overview
+from overview import build_overview_html_block
 
 
 CSS = """
@@ -39,6 +39,9 @@ header .date { color: #6b7280; font-size: 14px; }
   background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
   font-size: 15px;
 }
+.summary-bar .overview-head { margin: 0 0 6px; font-weight: 700; }
+.summary-bar .overview-list { margin: 0; padding-left: 20px; }
+.summary-bar .overview-list li { margin: 2px 0; }
 .credit-warning {
   margin: 12px 0; padding: 14px 16px;
   background: #fff1f0; border: 2px solid #d92d20; border-left: 8px solid #d92d20;
@@ -59,9 +62,11 @@ header .date { color: #6b7280; font-size: 14px; }
 .card.A { border-left: 6px solid #d92d20; }
 .card.B { border-left: 6px solid #f79009; }
 .card.C { border-left: 6px solid #667085; }
-.title { font-size: 17px; font-weight: 700; margin: 0 0 6px; line-height: 1.4; }
+.title { font-size: 17px; font-weight: 700; margin: 0 0 4px; line-height: 1.4; }
 .title a { color: inherit; text-decoration: none; }
 .title a:hover { text-decoration: underline; }
+.original-title { font-size: 12px; color: #6b7280; margin: 0 0 6px; word-break: break-word; }
+.original-title .label { margin-right: 4px; }
 .meta { color: #6b7280; font-size: 13px; margin-bottom: 8px; }
 .imp { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; margin-right: 6px; }
 .imp.A { background: #fee4e2; color: #d92d20; }
@@ -95,20 +100,30 @@ def _render_card(item: NewsItem) -> str:
         ) + "</div>"
     notes_html = ""
     if item.notes:
-        notes_html = f'<div class="section"><span class="label">実務上の注意点</span><br>{_escape(item.notes)}</div>'
+        notes_html = f'<div class="section"><span class="label">注意すること</span><br>{_escape(item.notes)}</div>'
     dedupe_html = ""
     if item.dedupe_note:
         dedupe_html = f'<div class="section"><span class="label">重複確認</span><br>{_escape(item.dedupe_note)}</div>'
 
+    # title_ja があればメイン表示。無ければ原題のみ。
+    display_title = item.title_ja or item.title
+    original_html = ""
+    if item.title_ja and item.title and item.title_ja.strip() != item.title.strip():
+        original_html = (
+            f'<div class="original-title"><span class="label">Original:</span> '
+            f'{_escape(item.title)}</div>'
+        )
+
     return f"""
     <article class="card {imp}">
-      <h2 class="title"><a href="{_escape(item.url)}" target="_blank" rel="noopener">{_escape(item.title)}</a></h2>
+      <h2 class="title"><a href="{_escape(item.url)}" target="_blank" rel="noopener">{_escape(display_title)}</a></h2>
+      {original_html}
       <div class="meta">
         <span class="imp {imp}">{imp}</span>
         <span>{_escape(item.published or '日付不明')} / {_escape(item.source)}</span>
       </div>
-      <div class="section"><span class="label">要約</span><br>{_escape(item.summary or item.snippet[:200])}</div>
-      <div class="section"><span class="label">AI利用への影響</span><br>{_escape(item.impact or '未分析')}</div>
+      <div class="section"><span class="label">何の話？</span><br>{_escape(item.summary or item.snippet[:200])}</div>
+      <div class="section"><span class="label">何が変わる？</span><br>{_escape(item.impact or '未分析')}</div>
       {notes_html}
       {dedupe_html}
       <div class="section"><span class="label">根拠URL</span><br>
@@ -120,8 +135,8 @@ def _render_card(item: NewsItem) -> str:
     """
 
 
-def _build_overview(items: List[NewsItem]) -> str:
-    return build_overview(items)
+def _build_overview_html(items: List[NewsItem]) -> str:
+    return build_overview_html_block(items)
 
 
 CREDIT_WARNING_HTML = """
@@ -146,7 +161,7 @@ API_WARNING_HTML = """
 def render_html(items: List[NewsItem], date_str: str,
                 generated_at: datetime,
                 credit_warning: bool = False, api_warning: bool = False) -> str:
-    overview = _build_overview(items)
+    overview_html = _build_overview_html(items)
     if not items:
         body = '<div class="empty">本日の掲載対象ニュースはありません。</div>'
     else:
@@ -174,7 +189,7 @@ def render_html(items: List[NewsItem], date_str: str,
     <h1>AIニュース まとめ</h1>
     <div class="date">{_escape(date_str)}</div>
   </header>
-  <div class="summary-bar">{_escape(overview)}</div>
+  <div class="summary-bar">{overview_html}</div>
   {body}
   <footer>generated at {_escape(generated_at.strftime('%Y/%m/%d %H:%M'))} JST</footer>
 </div>
