@@ -1,31 +1,29 @@
 {
-  "started_at": "2026-05-11T21:20:22.841302+09:00",
-  "finished_at": "2026-05-11T21:21:43.362404+09:00",
+  "started_at": "2026-05-11T21:39:03.780216+09:00",
+  "finished_at": "2026-05-11T21:40:22.146525+09:00",
   "fetched_per_source": {
     "official": 10,
-    "hn": 66,
-    "arxiv": 0
+    "hn": 67,
+    "arxiv": 30
   },
-  "fetched_total": 76,
-  "after_dedupe": 76,
-  "recorded_duplicate_excluded_count": 13,
+  "fetched_total": 107,
+  "after_dedupe": 107,
+  "recorded_duplicate_excluded_count": 10,
   "candidate_count": 20,
-  "published": 7,
-  "count_a": 2,
-  "count_b": 4,
-  "count_c": 1,
-  "count_excluded": 0,
-  "errors": [
-    "arxiv fetch failed: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
-  ],
+  "published": 10,
+  "count_a": 1,
+  "count_b": 9,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [],
   "html_path": "docs/2026/05/11.html",
   "markdown_path": "output/2026-05-11_AIニュース.md",
   "mail_result": "ok",
   "ai_model": "claude-haiku-4-5-20251001",
   "ai_calls": 20,
-  "input_tokens": 10375,
-  "output_tokens": 6087,
-  "estimated_cost_usd": 0.04081,
+  "input_tokens": 10305,
+  "output_tokens": 6000,
+  "estimated_cost_usd": 0.040305,
   "fallback_used": false,
   "api_error": false,
   "api_error_type": "",
@@ -35,52 +33,73 @@
   "abort_reason": "",
   "published_items_meta": [
     {
-      "url": "http://workspaceupdates.googleblog.com/2026/05/weekly-recap-05-08-2026.html",
-      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/weekly-recap-05-08-2026.html",
-      "title": "Google Workspace Updates Weekly Recap",
-      "published": "2026/05/08",
-      "source": "Google Workspace Updates"
-    },
-    {
-      "url": "https://openai.com/index/running-codex-safely",
-      "normalized_url": "https://openai.com/index/running-codex-safely",
-      "title": "Running Codex safely at OpenAI",
-      "published": "2026/05/08",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "normalized_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "title": "How enterprises are scaling AI",
+      "published": "2026/05/11",
       "source": "OpenAI Blog"
     },
     {
-      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
-      "normalized_url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe",
-      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "normalized_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "title": "OpenAI Campus Network: Student club interest form",
       "published": "2026/05/11",
-      "source": "Google The Keyword - AI"
+      "source": "OpenAI Blog"
     },
     {
-      "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
-      "normalized_url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
-      "title": "Responsible Scaling Policy",
-      "published": "",
-      "source": "Anthropic News"
-    },
-    {
-      "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
-      "normalized_url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief",
-      "title": "See what happens when creative legends use AI to make ads for small businesses.",
-      "published": "2026/05/08",
-      "source": "Google The Keyword - AI"
-    },
-    {
-      "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
-      "normalized_url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts",
-      "title": "Anthropic says 'evil' portrayals were responsible for Claudes blackmail attempts",
+      "url": "https://www.the-independent.com/tech/ai-doxxing-gemini-hallucination-google-b2973008.html",
+      "normalized_url": "https://www.the-independent.com/tech/ai-doxxing-gemini-hallucination-google-b2973008.html",
+      "title": "'AI gave me your number': AI doxxing turns ChatGPT hallucinations to harassment",
       "published": "2026/05/10",
       "source": "Hacker News"
     },
     {
-      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
-      "normalized_url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
-      "title": "Chrome's AI features may be hogging 4GB of your computer storage",
+      "url": "https://fridayaiclub.com/how-to-give-claude-code-social-media-data/",
+      "normalized_url": "https://fridayaiclub.com/how-to-give-claude-code-social-media-data",
+      "title": "I gave Claude Code live social media data",
+      "published": "2026/05/11",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://fosstodon.org/@backintime/116555237447115014",
+      "normalized_url": "https://fosstodon.org/@backintime/116555237447115014",
+      "title": "Using AGENTS.md / Claude.md to discourage AI-generated code contributions",
+      "published": "2026/05/11",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://www.npmjs.com/package/miii-cli",
+      "normalized_url": "https://www.npmjs.com/package/miii-cli",
+      "title": "Miii – Claude Code-level terminal workflows offline, no API keys",
+      "published": "2026/05/11",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://github.com/adamjgmiller/adamsreview",
+      "normalized_url": "https://github.com/adamjgmiller/adamsreview",
+      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+      "published": "2026/05/11",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag",
+      "title": "Gemini API File Search is now multimodal",
       "published": "2026/05/10",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
+      "normalized_url": "https://www.bloomberg.com/news/articles/2026-05-11/why-claude-ai-agents-are-driving-record-mac-mini-demand",
+      "title": "Behind the Claude Frenzy That Ate Up All the Mac Minis",
+      "published": "2026/05/11",
+      "source": "Hacker News"
+    },
+    {
+      "url": "https://github.com/ZeroPathAI/opus-benchmark",
+      "normalized_url": "https://github.com/ZeroPathAI/opus-benchmark",
+      "title": "Benchmarking Claude Opus 4.6 Vulnerability Detection",
+      "published": "2026/05/11",
       "source": "Hacker News"
     }
   ]
