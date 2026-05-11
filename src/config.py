@@ -93,6 +93,14 @@ PER_SOURCE_TYPE_LIMITS = {
     # その他（X/未分類など）。"official" はキーとして使わない（後段で別扱い）
 }
 
+# PER_SOURCE_TYPE_LIMITS に登録の無い source_type に対する既定上限
+DEFAULT_OTHER_TYPE_LIMIT = 2
+
+# 例外補充の発火閾値。公式記事（primary + other_official）の合計がこれ未満なら、
+# HN/arXiv の上限を超えて補充して掲載件数を確保することを許可する。
+# 公式が十分（>= 3）あるときは絶対に上限超過させない。
+EMERGENCY_FILL_THRESHOLD = 3
+
 
 # Claude API 単価表（USD per 1M tokens）。コスト概算用。
 # 必要に応じて更新する。新モデルを使う場合はここに追記。
