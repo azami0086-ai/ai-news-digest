@@ -1,7 +1,14 @@
-"""SMTPメール送信。シークレットはログ・例外メッセージに出さない。"""
+"""SMTPメール送信。シークレットはログ・例外メッセージに出さない。
+
+メール本文は読者向けに簡潔化:
+- arXiv API URL等の長いURLは本文に出さない（logs/*.jsonには残す）
+- エラー詳細はメール本文に出さず、失敗ソース名だけの短文サマリーに置き換える
+- HTML URLは SITE_BASE_URL（既定値あり）に基づき、当日HTMLまたはlatestへ
+"""
 from __future__ import annotations
 
 import logging
+import re
 import smtplib
 import ssl
 from email.mime.multipart import MIMEMultipart
@@ -21,6 +28,49 @@ CREDIT_WARNING_LINES = [
     "Anthropic ConsoleのBillingを確認してください。",
     "このメールのニュース本文は簡易版です。",
 ]
+
+
+def _summarize_errors_for_email(errors: List[str]) -> str:
+    """エラーをメール本文向けに短文サマリーに整形。
+
+    - 長いURLは含めない
+    - 失敗ソース名だけを抽出
+    - 抽出できない場合は汎用文面
+    """
+    if not errors:
+        return ""
+
+    sources: List[str] = []
+    seen = set()
+    for e in errors:
+        lower = e.lower()
+        name = None
+        # 「official fetch failed: <name>:」を最優先で拾う
+        if "official fetch failed:" in lower:
+            m = re.search(r"official fetch failed:\s*([^:]+):", e, re.IGNORECASE)
+            if m:
+                name = m.group(1).strip()
+        elif "arxiv" in lower:
+            name = "arXiv"
+        elif "hn fetch" in lower or "hacker news" in lower:
+            name = "Hacker News"
+        elif "send_mail" in lower or "smtp" in lower:
+            name = "メール送信"
+        elif "html generation" in lower:
+            name = "HTML生成"
+        elif "markdown generation" in lower:
+            name = "Markdown生成"
+        elif "anthropic" in lower or "analyze" in lower:
+            name = "AI解析"
+        if name and name not in seen:
+            seen.add(name)
+            sources.append(name)
+
+    if not sources:
+        return "一部処理でエラーが発生しました。詳細はログを確認してください。"
+    if len(sources) == 1:
+        return f"{sources[0]} の取得に一時失敗しました。詳細はログを確認してください。"
+    return f"{'、'.join(sources[:3])} の取得に一時失敗しました。詳細はログを確認してください。"
 
 API_WARNING_LINES = [
     "注意：",
@@ -55,25 +105,25 @@ def _build_body(items: List[NewsItem], page_url: str, date_str: str,
         lines.append("")
         lines.append("-" * 40)
         lines.append("")
+
     lines.append(f"AIニュース {date_str} まとめ")
     lines.append("")
-    lines.append(f"HTML: {page_url or '(SITE_BASE_URL未設定)'}")
-    lines.append("")
+    # page_url は常に有効（SITE_BASE_URL に既定値があるため）
+    if page_url:
+        lines.append("HTML:")
+        lines.append(page_url)
+        lines.append("")
     lines.append(overview)
     lines.append("")
     lines.append(f"掲載件数: {len(items)}")
     lines.append(f"重要度A: {a_count}")
-    if errors:
+
+    # エラー詳細はメール本文に出さない。失敗ソース名だけの短文サマリーに。
+    err_summary = _summarize_errors_for_email(errors)
+    if err_summary:
         lines.append("")
-        lines.append("エラー概要:")
-        for e in errors[:10]:
-            # APIキー・パスワードが入る可能性のある文字列はマスク
-            safe = _mask_secrets(e)
-            lines.append(f"- {safe}")
-        if len(errors) > 10:
-            lines.append(f"...他 {len(errors) - 10} 件")
-    lines.append("")
-    lines.append("生成日時: 自動送信")
+        lines.append(f"※{err_summary}")
+
     return "\n".join(lines)
 
 

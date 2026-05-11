@@ -87,7 +87,7 @@ AI利用者向けの最新ニュースを毎日自動で収集・要約・公開
 | `MAIL_SMTP_PASSWORD` | 必須 | SMTP パスワード（Gmail はアプリパスワード） |
 | `MAIL_FROM` | 必須 | 送信元メールアドレス |
 | `MAIL_TO` | 必須 | 通知先メールアドレス |
-| `SITE_BASE_URL` | 任意 | GitHub Pages のベースURL。メール本文のリンクに使う |
+| `SITE_BASE_URL` | 任意 | GitHub Pages のベースURL。未設定なら `src/config.py` の `DEFAULT_SITE_BASE_URL`（`https://azami0086-ai.github.io/ai-news-digest`）。Secretsに登録すると `***` にマスクされメール本文のリンクが壊れるため、登録しない |
 | `ALLOW_EXPENSIVE_MODEL` | 任意 | `true` のときのみ Sonnet/Opus を使用可能。それ以外は実行停止 |
 
 `X_BEARER_TOKEN` は **使わない**。設定しないこと。
@@ -145,8 +145,13 @@ pip install -r requirements.txt
 
 - SMTP STARTTLS（587）/ SMTPS（465）の両対応
 - 件名: `【AIニュース】yyyy/mm/dd まとめ`
-- 本文: HTML URL、冒頭1文まとめ、掲載件数、重要度A件数、エラー概要
-- パスワード等の Secrets はログ・本文に出さない（`send_mail._mask_secrets` で念のためマスク）
+- 本文:
+  - HTML URL（`SITE_BASE_URL` 既定値 + `/YYYY/MM/DD.html`）
+  - 3 文のオーバービュー（公式/コミュニティ/研究の比率、主なトピック、実務影響方向）
+  - 掲載件数 / 重要度A件数
+  - エラーがあった場合は **失敗ソース名だけの短文サマリー**（例: 「※arXiv の取得に一時失敗しました。詳細はログを確認してください。」）。長いAPI URLや詳細スタックトレースは出さない
+- パスワード等の Secrets はログ・本文に出さない（`send_mail._mask_secrets` で念のためマスク、`sanitize.py` で logs にも適用）
+- 詳細エラーは `logs/YYYY-MM-DD.json` を参照
 
 ## 10. X API を使わない方針
 

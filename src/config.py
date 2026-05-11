@@ -151,6 +151,20 @@ def expensive_allowed() -> bool:
     return (os.environ.get("ALLOW_EXPENSIVE_MODEL", "") or "").strip().lower() == "true"
 
 
+# GitHub Pages の公開ベースURL。SITE_BASE_URL 環境変数で上書きできるが、
+# 通常はコード既定値で運用する（Secretsには登録しない）。
+DEFAULT_SITE_BASE_URL = "https://azami0086-ai.github.io/ai-news-digest"
+
+
+def _resolve_site_base_url() -> str:
+    """SITE_BASE_URL 環境変数があれば strip して採用。空または未設定なら既定値。"""
+    raw = os.environ.get("SITE_BASE_URL")
+    if raw is None:
+        return DEFAULT_SITE_BASE_URL
+    val = raw.strip()
+    return val or DEFAULT_SITE_BASE_URL
+
+
 def _resolve_ai_model() -> str:
     """AI_MODEL 環境変数を解決する。
 
@@ -191,7 +205,7 @@ class Settings:
     ai_model: str = field(default_factory=_resolve_ai_model)
 
     # サイト
-    site_base_url: str = field(default_factory=lambda: os.environ.get("SITE_BASE_URL", ""))
+    site_base_url: str = field(default_factory=_resolve_site_base_url)
 
     # メール
     smtp_host: str = field(default_factory=lambda: os.environ.get("MAIL_SMTP_HOST", ""))
