@@ -1,19 +1,19 @@
 {
-  "started_at": "2026-05-11T19:41:12.893733+09:00",
-  "finished_at": "2026-05-11T19:42:33.308657+09:00",
+  "started_at": "2026-05-11T20:05:29.577825+09:00",
+  "finished_at": "2026-05-11T20:06:45.146624+09:00",
   "fetched_per_source": {
-    "official": 23,
-    "hn": 65,
+    "official": 10,
+    "hn": 66,
     "arxiv": 30
   },
-  "fetched_total": 118,
-  "after_dedupe": 116,
-  "recorded_duplicate_excluded_count": 4,
+  "fetched_total": 106,
+  "after_dedupe": 106,
+  "recorded_duplicate_excluded_count": 3,
   "candidate_count": 20,
   "published": 10,
-  "count_a": 2,
-  "count_b": 8,
-  "count_c": 0,
+  "count_a": 1,
+  "count_b": 7,
+  "count_c": 2,
   "count_excluded": 0,
   "errors": [
     "official fetch failed: Meta AI Blog: RSS parse failed: https://ai.meta.com/blog/rss/"
@@ -23,9 +23,9 @@
   "mail_result": "ok",
   "ai_model": "claude-haiku-4-5-20251001",
   "ai_calls": 20,
-  "input_tokens": 10153,
-  "output_tokens": 5815,
-  "estimated_cost_usd": 0.039228,
+  "input_tokens": 10257,
+  "output_tokens": 5699,
+  "estimated_cost_usd": 0.038752,
   "fallback_used": false,
   "api_error": false,
   "api_error_type": "",
@@ -35,74 +35,74 @@
   "abort_reason": "",
   "published_items_meta": [
     {
-      "url": "https://www.anthropic.com/news/claude-opus-4-7",
-      "normalized_url": "https://www.anthropic.com/news/claude-opus-4-7",
-      "title": "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://www.the-independent.com/tech/ai-doxxing-gemini-hallucination-google-b2973008.html",
+      "normalized_url": "https://www.the-independent.com/tech/ai-doxxing-gemini-hallucination-google-b2973008.html",
+      "title": "'AI gave me your number': AI doxxing turns ChatGPT hallucinations to harassment",
+      "published": "2026/05/10",
+      "source": "Hacker News"
     },
     {
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "normalized_url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "title": "May 6, 2026 Announcements Higher usage limits for Claude and a compute deal with SpaceX",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://medium.com/vibecodingpub/spec-driven-development-with-spec-kit-and-claude-code-7e2957fd2c9b",
+      "normalized_url": "https://medium.com/vibecodingpub/spec-driven-development-with-spec-kit-and-claude-code-7e2957fd2c9b",
+      "title": "Spec-Driven Development with Spec Kit and Claude Code",
+      "published": "2026/05/11",
+      "source": "Hacker News"
     },
     {
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "normalized_url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-      "title": "Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://github.com/adamjgmiller/adamsreview",
+      "normalized_url": "https://github.com/adamjgmiller/adamsreview",
+      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
+      "published": "2026/05/11",
+      "source": "Hacker News"
     },
     {
-      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-      "normalized_url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-      "title": "Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and ",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://github.com/vibe-log/vibe-log-cli",
+      "normalized_url": "https://github.com/vibe-log/vibe-log-cli",
+      "title": "Claude Code auto daily /weekly recap notes",
+      "published": "2026/05/10",
+      "source": "Hacker News"
     },
     {
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "normalized_url": "https://www.anthropic.com/news/finance-agents",
-      "title": "May 5, 2026 Announcements Agents for financial services",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "normalized_url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "published": "2026/05/11",
+      "source": "OpenAI Blog"
     },
     {
-      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "normalized_url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "title": "May 4, 2026 Announcements Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "normalized_url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "title": "How enterprises are scaling AI",
+      "published": "2026/05/11",
+      "source": "OpenAI Blog"
     },
     {
-      "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "normalized_url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "title": "Apr 28, 2026 Announcements Claude for Creative Work",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "normalized_url": "https://github.com/Imbad0202/academic-research-skills",
+      "title": "Academic Research Skills for Claude Code",
+      "published": "2026/05/10",
+      "source": "Hacker News"
     },
     {
-      "url": "https://www.anthropic.com/news/election-safeguards-update",
-      "normalized_url": "https://www.anthropic.com/news/election-safeguards-update",
-      "title": "Apr 24, 2026 Announcements An update on our election safeguards",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://github.com/DenisSergeevitch/chatgpt-portal",
+      "normalized_url": "https://github.com/DenisSergeevitch/chatgpt-portal",
+      "title": "I built a local portal so ChatGPT (Pro models) can browse my accounts safely",
+      "published": "2026/05/10",
+      "source": "Hacker News"
     },
     {
-      "url": "https://www.anthropic.com/news/anthropic-nec",
-      "normalized_url": "https://www.anthropic.com/news/anthropic-nec",
-      "title": "Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://fosstodon.org/@backintime/116555237447115014",
+      "normalized_url": "https://fosstodon.org/@backintime/116555237447115014",
+      "title": "Using AGENTS.md / Claude.md to discourage AI-generated code contributions",
+      "published": "2026/05/11",
+      "source": "Hacker News"
     },
     {
-      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-      "normalized_url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-      "title": "Apr 20, 2026 Announcements Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
-      "published": "",
-      "source": "Anthropic News"
+      "url": "https://github.com/harajlim/vibe-sing",
+      "normalized_url": "https://github.com/harajlim/vibe-sing",
+      "title": "Make Claude Code Sing",
+      "published": "2026/05/11",
+      "source": "Hacker News"
     }
   ]
 }
