@@ -17,7 +17,7 @@ from typing import List
 
 from config import Settings
 from models import NewsItem
-from overview import build_overview
+from overview import build_overview_facts
 
 log = logging.getLogger(__name__)
 
@@ -88,13 +88,51 @@ def _build_subject(date_str: str, credit_warning: bool = False, api_warning: boo
     return f"【AIニュース】{date_str} まとめ"
 
 
+def _format_overview_publish_line(facts: dict) -> str:
+    """掲載件数行の文字列を生成。バケットの個別件数 + 合計を併記。"""
+    bucket_part = " / ".join(f"{label} {n} 件" for label, n in facts["buckets"])
+    if bucket_part:
+        return f"掲載件数: {bucket_part} / 合計 {facts['total']} 件"
+    return f"掲載件数: 合計 {facts['total']} 件"
+
+
+def _build_overview_bullets(facts: dict) -> List[str]:
+    """plain text 用の箇条書き行群（'- xxx' 形式、先頭に「概要:」ヘッダ）。"""
+    topics_str = "、".join(facts["topics"]) if facts["topics"] else "なし"
+    impacts_str = "、".join(facts["impacts"]) if facts["impacts"] else "なし"
+    return [
+        "概要:",
+        f"- {_format_overview_publish_line(facts)}",
+        f"- 主なトピック: {topics_str}",
+        f"- 実務影響: {impacts_str}",
+        f"- 重要度A: {facts['a_count']} 件",
+    ]
+
+
+def _build_overview_html(facts: dict) -> str:
+    """HTML 用の概要セクション（<p>概要:</p><ul><li>...</li></ul>）。"""
+    topics_str = "、".join(facts["topics"]) if facts["topics"] else "なし"
+    impacts_str = "、".join(facts["impacts"]) if facts["impacts"] else "なし"
+    items_html = "".join([
+        f"<li>{_escape(_format_overview_publish_line(facts))}</li>",
+        f"<li>主なトピック: {_escape(topics_str)}</li>",
+        f"<li>実務影響: {_escape(impacts_str)}</li>",
+        f"<li>重要度A: {facts['a_count']} 件</li>",
+    ])
+    return f"<p>概要:</p><ul>{items_html}</ul>"
+
+
 def _build_body(items: List[NewsItem], page_url: str, date_str: str,
                 errors: List[str],
-                credit_warning: bool = False, api_warning: bool = False) -> str:
-    a_count = sum(1 for it in items if it.importance == "A")
-    overview = build_overview(items)
+                credit_warning: bool = False, api_warning: bool = False) -> tuple[str, str]:
+    """plain text と HTML のメール本文を構築して返す。"""
+    facts = build_overview_facts(items)
+    bullets = _build_overview_bullets(facts)
+    overview_html = _build_overview_html(facts)
+    err_summary = _summarize_errors_for_email(errors)
 
-    lines = []
+    # --- plain text ---
+    lines: List[str] = []
     if credit_warning:
         lines.extend(CREDIT_WARNING_LINES)
         lines.append("")
@@ -113,18 +151,41 @@ def _build_body(items: List[NewsItem], page_url: str, date_str: str,
         lines.append("HTML:")
         lines.append(page_url)
         lines.append("")
-    lines.append(overview)
-    lines.append("")
-    lines.append(f"掲載件数: {len(items)}")
-    lines.append(f"重要度A: {a_count}")
+    lines.extend(bullets)
 
     # エラー詳細はメール本文に出さない。失敗ソース名だけの短文サマリーに。
-    err_summary = _summarize_errors_for_email(errors)
     if err_summary:
         lines.append("")
         lines.append(f"※{err_summary}")
 
-    return "\n".join(lines)
+    plain_body = "\n".join(lines)
+
+    # --- HTML body ---
+    parts: List[str] = ["<html><body>"]
+    if credit_warning:
+        parts.append(
+            '<p style="color:#d92d20;font-weight:600;">'
+            + "<br>".join(_escape(l) for l in CREDIT_WARNING_LINES)
+            + "</p><hr>"
+        )
+    elif api_warning:
+        parts.append(
+            '<p style="color:#d92d20;font-weight:600;">'
+            + "<br>".join(_escape(l) for l in API_WARNING_LINES)
+            + "</p><hr>"
+        )
+
+    parts.append(f"<p>{_escape(f'AIニュース {date_str} まとめ')}</p>")
+    if page_url:
+        esc_url = _escape(page_url)
+        parts.append(f'<p>HTML:<br><a href="{esc_url}">{esc_url}</a></p>')
+    parts.append(overview_html)
+    if err_summary:
+        parts.append(f"<p>※{_escape(err_summary)}</p>")
+    parts.append("</body></html>")
+    html_body = "".join(parts)
+
+    return plain_body, html_body
 
 
 def _mask_secrets(text: str) -> str:
@@ -144,25 +205,16 @@ def send_mail(items: List[NewsItem], page_url: str, date_str: str,
         return msg
 
     subject = _build_subject(date_str, credit_warning=credit_warning, api_warning=api_warning)
-    body = _build_body(items, page_url, date_str, errors,
-                       credit_warning=credit_warning, api_warning=api_warning)
+    plain_body, html_body = _build_body(
+        items, page_url, date_str, errors,
+        credit_warning=credit_warning, api_warning=api_warning,
+    )
 
     mime = MIMEMultipart("alternative")
     mime["Subject"] = subject
     mime["From"] = settings.mail_from
     mime["To"] = settings.mail_to
-    mime.attach(MIMEText(body, "plain", "utf-8"))
-
-    # HTML版本文（URLは本文中の「HTML:」直下に一度だけクリック可能に表示する）
-    escaped_body = _escape(body).replace(chr(10), "<br>")
-    if page_url:
-        escaped_url = _escape(page_url)
-        escaped_body = escaped_body.replace(
-            escaped_url,
-            f'<a href="{escaped_url}">{escaped_url}</a>',
-            1,
-        )
-    html_body = f"<html><body><p>{escaped_body}</p></body></html>"
+    mime.attach(MIMEText(plain_body, "plain", "utf-8"))
     mime.attach(MIMEText(html_body, "html", "utf-8"))
 
     try:

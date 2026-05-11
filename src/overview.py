@@ -59,6 +59,39 @@ def _impact_directions(items: List[NewsItem]) -> List[str]:
     return found
 
 
+def build_overview_facts(items: List[NewsItem]) -> dict:
+    """箇条書き表示用の構造化サマリー。
+
+    キー:
+      - total: int
+      - buckets: List[Tuple[str, int]]（公式/コミュニティ/研究/その他のうち件数>0）
+      - topics: List[str]（タグ上位 最大4）
+      - impacts: List[str]（実務影響方向 最大3）
+      - a_count: int（重要度A件数）
+    """
+    bucket_count = Counter(_bucket(it) for it in items)
+    buckets = [
+        (label, bucket_count[label])
+        for label in ("公式", "コミュニティ", "研究", "その他")
+        if bucket_count.get(label, 0) > 0
+    ]
+    tag_count: Counter = Counter()
+    for it in items:
+        for t in it.tags:
+            if t:
+                tag_count[t] += 1
+    topics = [t for t, _ in tag_count.most_common(4)]
+    impacts = _impact_directions(items)
+    a_count = sum(1 for it in items if it.importance == "A")
+    return {
+        "total": len(items),
+        "buckets": buckets,
+        "topics": topics,
+        "impacts": impacts,
+        "a_count": a_count,
+    }
+
+
 def build_overview(items: List[NewsItem]) -> str:
     """2〜3 文の冒頭サマリーを返す。タイトル途中切れは使わない。"""
     if not items:
