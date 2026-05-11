@@ -1,0 +1,108 @@
+{
+  "started_at": "2026-05-11T19:41:12.893733+09:00",
+  "finished_at": "2026-05-11T19:42:33.308657+09:00",
+  "fetched_per_source": {
+    "official": 23,
+    "hn": 65,
+    "arxiv": 30
+  },
+  "fetched_total": 118,
+  "after_dedupe": 116,
+  "recorded_duplicate_excluded_count": 4,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 0,
+  "errors": [
+    "official fetch failed: Meta AI Blog: RSS parse failed: https://ai.meta.com/blog/rss/"
+  ],
+  "html_path": "docs/2026/05/11.html",
+  "markdown_path": "output/2026-05-11_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 10153,
+  "output_tokens": 5815,
+  "estimated_cost_usd": 0.039228,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "normalized_url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "title": "Introducing Claude Opus 4.7 Product Apr 16, 2026 Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "normalized_url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "title": "May 6, 2026 Announcements Higher usage limits for Claude and a compute deal with SpaceX",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "normalized_url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "normalized_url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "title": "Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and ",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "normalized_url": "https://www.anthropic.com/news/finance-agents",
+      "title": "May 5, 2026 Announcements Agents for financial services",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "normalized_url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "title": "May 4, 2026 Announcements Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "normalized_url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "title": "Apr 28, 2026 Announcements Claude for Creative Work",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/election-safeguards-update",
+      "normalized_url": "https://www.anthropic.com/news/election-safeguards-update",
+      "title": "Apr 24, 2026 Announcements An update on our election safeguards",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-nec",
+      "normalized_url": "https://www.anthropic.com/news/anthropic-nec",
+      "title": "Apr 24, 2026 Announcements Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "published": "",
+      "source": "Anthropic News"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "normalized_url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "title": "Apr 20, 2026 Announcements Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+      "published": "",
+      "source": "Anthropic News"
+    }
+  ]
+}
