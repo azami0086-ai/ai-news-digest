@@ -179,15 +179,21 @@ def main() -> int:
     # 9. 重要度=除外を取り除く
     filtered = filter_excluded(analyzed)
 
-    # 重要度ソート（A → B → C → priority_score）
+    # 重要度ソート（A → B → C → priority_score）。欠損/不明はC相当。
     rank = {"A": 3, "B": 2, "C": 1}
+    def _importance_rank(it):
+        return rank.get(it.importance, rank["C"])
+
     filtered.sort(
-        key=lambda x: (rank.get(x.importance, 0), x.priority_score),
+        key=lambda x: (_importance_rank(x), x.priority_score),
         reverse=True,
     )
 
     # 最終掲載は publish_max 件まで。source_type ベースで配分（primary公式優先、HN<=2、arXiv<=1）。
     published_items = diversify_by_source(filtered, settings.publish_max)
+    # diversify_by_source はソース種別でバケット化するため、結果順では公式Bが他バケットAより上に来うる。
+    # 表示順は重要度を最優先にする。Python の sort は stable なので、同重要度内では選定順が保持される。
+    published_items.sort(key=_importance_rank, reverse=True)
     log.info("publish: %d / %d (cap=%d, hn<=%d arxiv<=%d)",
              len(published_items), len(filtered), settings.publish_max,
              PER_SOURCE_TYPE_LIMITS.get("hn", 0),
