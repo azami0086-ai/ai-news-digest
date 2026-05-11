@@ -86,6 +86,9 @@ def main() -> int:
     date_str_iso = jst.strftime("%Y-%m-%d")
 
     log.info("=== ai-news-digest start %s ===", date_str_jp)
+    # モデル名は GitHub Secrets 経由ではない通常のenv（または DEFAULT_AI_MODEL）。
+    # マスクされず素のログに出るので、Actions上で何のモデルを使ったか確認できる。
+    log.info("ai_model=%s", settings.ai_model)
 
     # 1. 高コストモデル誤指定ガード
     if is_expensive_model(settings.ai_model) and not expensive_allowed():

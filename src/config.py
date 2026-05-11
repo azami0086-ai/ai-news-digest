@@ -76,6 +76,11 @@ MODEL_PRICING = {
 # 高コストモデル誤指定防止用キーワード
 EXPENSIVE_MODEL_KEYWORDS = ("sonnet", "opus")
 
+# 既定モデル。AI_MODEL 環境変数があれば上書きするが、原則は設定不要。
+# GitHub Secrets の AI_MODEL は使わない方針（Secretsに登録された値は
+# Actions ログで *** に自動マスクされ、何のモデルを使ったか分からなくなるため）。
+DEFAULT_AI_MODEL = "claude-haiku-4-5-20251001"
+
 
 def is_expensive_model(model: str) -> bool:
     """SonnetやOpusなどコストの高いモデルかを判定。"""
@@ -88,17 +93,28 @@ def expensive_allowed() -> bool:
     return (os.environ.get("ALLOW_EXPENSIVE_MODEL", "") or "").strip().lower() == "true"
 
 
+def _resolve_ai_model() -> str:
+    """AI_MODEL 環境変数があれば strip して採用。空または未設定なら DEFAULT_AI_MODEL。"""
+    raw = os.environ.get("AI_MODEL")
+    if raw is None:
+        return DEFAULT_AI_MODEL
+    val = raw.strip()
+    if not val:
+        return DEFAULT_AI_MODEL
+    return val
+
+
 @dataclass
 class Settings:
     # 動作モード
     enable_x: bool = False  # X APIは使わない方針。常にFalse。
 
     # AI
-    # 初期実装ではコスト抑制のため Haiku 3.5 を使う。
-    # latest系は将来中身が変わる可能性があるため、本番運用では固定モデルIDを指定。
-    # AI_MODEL 環境変数で上書き可能だが、Sonnet/Opusは ALLOW_EXPENSIVE_MODEL=true が必要。
+    # モデルは config.DEFAULT_AI_MODEL を既定とし、AI_MODEL 環境変数があれば上書き。
+    # AI_MODEL は通常のenv変数として扱う（GitHub Secretsには登録しない）。
+    # Sonnet/Opus を使う場合は ALLOW_EXPENSIVE_MODEL=true が必要。
     anthropic_api_key: str = field(default_factory=lambda: os.environ.get("ANTHROPIC_API_KEY", ""))
-    ai_model: str = field(default_factory=lambda: os.environ.get("AI_MODEL", "claude-3-5-haiku-20241022"))
+    ai_model: str = field(default_factory=_resolve_ai_model)
 
     # サイト
     site_base_url: str = field(default_factory=lambda: os.environ.get("SITE_BASE_URL", ""))

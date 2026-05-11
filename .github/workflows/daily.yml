@@ -39,7 +39,9 @@ jobs:
       - name: Run digest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          AI_MODEL: ${{ secrets.AI_MODEL }}
+          # AI_MODEL は Secrets ではなく通常のenv変数として扱う。
+          # 既定値は src/config.py の DEFAULT_AI_MODEL を使うため、原則設定不要。
+          # 変更したい場合のみ、ここで AI_MODEL: "<model-id>" を指定する。
           ALLOW_EXPENSIVE_MODEL: ${{ secrets.ALLOW_EXPENSIVE_MODEL }}
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
           MAIL_SMTP_HOST: ${{ secrets.MAIL_SMTP_HOST }}
