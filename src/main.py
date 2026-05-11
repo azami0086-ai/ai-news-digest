@@ -25,10 +25,12 @@ from pathlib import Path
 from analyze import analyze_items, filter_excluded, is_too_old
 from config import (
     InvalidAIModelError,
+    PER_SOURCE_TYPE_LIMITS,
     expensive_allowed,
     is_expensive_model,
     load_settings,
 )
+from publish_select import diversify_by_source
 from dedupe import dedupe
 from fetch_arxiv import fetch_arxiv
 from fetch_hn import fetch_hn
@@ -56,32 +58,6 @@ LOGS_DIR = ROOT / "logs"
 
 def _jst_now() -> datetime:
     return datetime.now(timezone(timedelta(hours=9)))
-
-
-def _diversify_by_source(items, publish_max: int, per_source_max: int = 4):
-    """重要度順を尊重しつつ、同一ソース上限で偏りを抑える。
-
-    1段目: ソースごとに per_source_max まで採用
-    2段目: 上限に満たない場合 leftovers から補充（元順序のまま）
-    """
-    selected = []
-    leftovers = []
-    counts = {}
-    for it in items:
-        if len(selected) >= publish_max:
-            leftovers.append(it)
-            continue
-        src = it.source or "?"
-        if counts.get(src, 0) >= per_source_max:
-            leftovers.append(it)
-            continue
-        selected.append(it)
-        counts[src] = counts.get(src, 0) + 1
-    for it in leftovers:
-        if len(selected) >= publish_max:
-            break
-        selected.append(it)
-    return selected
 
 
 def _write_log(stats: RunStats, date_iso: str, settings=None) -> Path:
@@ -210,10 +186,12 @@ def main() -> int:
         reverse=True,
     )
 
-    # 最終掲載は publish_max 件まで。同一ソースの偏りを per_source_max=4 で抑制。
-    published_items = _diversify_by_source(filtered, settings.publish_max, per_source_max=4)
-    log.info("publish: %d / %d (cap=%d, per_source_max=4)",
-             len(published_items), len(filtered), settings.publish_max)
+    # 最終掲載は publish_max 件まで。source_type ベースで配分（primary公式優先、HN<=2、arXiv<=1）。
+    published_items = diversify_by_source(filtered, settings.publish_max)
+    log.info("publish: %d / %d (cap=%d, hn<=%d arxiv<=%d)",
+             len(published_items), len(filtered), settings.publish_max,
+             PER_SOURCE_TYPE_LIMITS.get("hn", 0),
+             PER_SOURCE_TYPE_LIMITS.get("arxiv", 0))
 
     stats.published = len(published_items)
     stats.count_a = sum(1 for it in published_items if it.importance == "A")

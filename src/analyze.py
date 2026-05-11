@@ -14,7 +14,14 @@ import re
 from datetime import datetime
 from typing import Dict, List, Tuple
 
-from config import MODEL_PRICING, PRIORITY_KEYWORDS, Settings
+from config import (
+    GOOGLE_FAVORED_KEYWORDS,
+    MODEL_PRICING,
+    OFFICIAL_PRIMARY_SOURCES,
+    PRACTICAL_IMPACT_KEYWORDS,
+    PRIORITY_KEYWORDS,
+    Settings,
+)
 from models import NewsItem
 
 
@@ -102,8 +109,20 @@ def _priority_score(item: NewsItem) -> int:
             score = max(score, val)
     if item.source_type == "official":
         score += 5
+    # 公式 primary はさらに加点（公式の中でも最重要ベンダー）
+    if item.source in OFFICIAL_PRIMARY_SOURCES:
+        score += 20
     if item.source_type == "arxiv":
         score = max(score, 10)
+
+    # Google / Gemini / Workspace 系の語を含む記事に +15 ずつ加点
+    favored_hits = sum(1 for kw in GOOGLE_FAVORED_KEYWORDS if kw in text)
+    score += favored_hits * 15
+
+    # 実務影響ワードに +10 ずつ加点
+    impact_hits = sum(1 for kw in PRACTICAL_IMPACT_KEYWORDS if kw in text)
+    score += impact_hits * 10
+
     score += _freshness_boost(item)
     return score
 

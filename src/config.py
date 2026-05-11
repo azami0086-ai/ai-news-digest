@@ -59,6 +59,41 @@ PRIORITY_KEYWORDS = [
 ]
 
 
+# 公式 primary ソース（publish 候補で最優先する）。
+# OFFICIAL_SOURCES の `name` と一致させる。
+OFFICIAL_PRIMARY_SOURCES = frozenset([
+    "OpenAI Blog",
+    "Anthropic News",
+    "Google Workspace Updates",
+    "Google The Keyword - AI",
+    "Google DeepMind Blog",
+    "Microsoft AI Blog",
+])
+
+
+# Google / Gemini / Workspace 系を少し優遇するキーワード（重複可、各 +15 点）。
+GOOGLE_FAVORED_KEYWORDS = (
+    "gemini", "google workspace", "workspace", "gmail",
+    "docs", "sheets", "meet", "notebooklm", "google deepmind",
+)
+
+
+# 実務影響が高いキーワード（重複可、各 +10 点）。
+PRACTICAL_IMPACT_KEYWORDS = (
+    "ai agent", "agents", "automation", "enterprise",
+    "security", "privacy", "compliance",
+    "coding", "claude code", "codex", "chatgpt", "gemini",
+)
+
+
+# publish 時の source_type ごとの上限。official 系はここに含めず別管理。
+PER_SOURCE_TYPE_LIMITS = {
+    "hn": 2,
+    "arxiv": 1,
+    # その他（X/未分類など）。"official" はキーとして使わない（後段で別扱い）
+}
+
+
 # Claude API 単価表（USD per 1M tokens）。コスト概算用。
 # 必要に応じて更新する。新モデルを使う場合はここに追記。
 # 価格改定時はこのテーブルを手動更新する。

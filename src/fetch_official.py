@@ -263,6 +263,13 @@ def fetch_html(src, settings: Settings) -> List[NewsItem]:
     return items
 
 
+# 既知の継続的失敗ソース。WARNING ではなく INFO 扱いにし、errors にも残さない。
+# 完全に外すと将来復活を見逃すため、取得は試みるがログを抑制する。
+KNOWN_FLAKY_SOURCES = frozenset([
+    "Meta AI Blog",
+])
+
+
 def fetch_official(settings: Settings, errors: list) -> List[NewsItem]:
     """全公式情報を取得。失敗してもerrorsに残して継続。"""
     all_items: List[NewsItem] = []
@@ -278,6 +285,10 @@ def fetch_official(settings: Settings, errors: list) -> List[NewsItem]:
             log.info("official fetched: %s -> %d", src.name, len(items))
         except Exception as e:
             msg = f"official fetch failed: {src.name}: {e}"
-            log.warning(msg)
-            errors.append(msg)
+            if src.name in KNOWN_FLAKY_SOURCES:
+                # 継続的に失敗するソースは INFO に下げ、errors にも積まない
+                log.info("known-flaky source skipped: %s", src.name)
+            else:
+                log.warning(msg)
+                errors.append(msg)
     return all_items
