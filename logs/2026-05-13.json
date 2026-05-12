@@ -1,0 +1,131 @@
+{
+  "started_at": "2026-05-13T02:22:37.422541+09:00",
+  "finished_at": "2026-05-13T02:23:56.893542+09:00",
+  "fetched_per_source": {
+    "official": 10,
+    "hn": 68,
+    "arxiv": 30
+  },
+  "fetched_total": 108,
+  "after_dedupe": 108,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 5,
+  "count_a": 1,
+  "count_b": 2,
+  "count_c": 2,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/05/13.html",
+  "markdown_path": "output/2026-05-13_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33992,
+  "output_tokens": 4827,
+  "estimated_cost_usd": 0.058127,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.kylereddoch.me/blog/chromes-silent-gemini-nano-download-has-a-consent-problem/",
+      "normalized_url": "https://www.kylereddoch.me/blog/chromes-silent-gemini-nano-download-has-a-consent-problem",
+      "title": "Chrome's Silent Gemini Nano Download Has a Consent Problem",
+      "title_ja": "ChromeのGemini Nano自動ダウンロード、同意なしで進む問題",
+      "published": "2026/05/11",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Chrome",
+        "Gemini",
+        "セキュリティ",
+        "ユーザー同意",
+        "ポリシー"
+      ],
+      "summary": "Chromeがユーザーへの明確な同意なくGemini Nanoモデルを自動ダウンロード・インストールしている事例が報告された。",
+      "impact": "社内PCのChromeセキュリティ・ポリシーやAI機能の許可範囲を見直す必要が生じる可能性がある。",
+      "notes": "記事の詳細内容と技術的背景はURL先で確認が必要。実際の社内環境での発生状況を調査するとよい。"
+    },
+    {
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "normalized_url": "https://openai.com/signals/research/2026q1-update",
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "title_ja": "ChatGPT、2026年初頭で利用層が拡大",
+      "published": "2026/05/11",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "利用動向",
+        "ユーザー層",
+        "導入検討"
+      ],
+      "summary": "ChatGPTの利用が2026年第1四半期に急伸し、35歳以上や女性ユーザーの増加が顕著。主流層への広がりを示している。",
+      "impact": "社内でAI導入を検討する際、利用者の年齢・性別による使い方の違いを想定する必要がある。",
+      "notes": "OpenAI公式データなので根拠として扱える。導入前に自社の職層構成と利用シーンを確認する。"
+    },
+    {
+      "url": "https://github.com/statewright/statewright",
+      "normalized_url": "https://github.com/statewright/statewright",
+      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+      "title_ja": "Statewright – AIエージェントを確実に動かす状態管理ツール",
+      "published": "2026/05/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "AI信頼性",
+        "エージェント管理",
+        "状態管理",
+        "Claude",
+        "開発ツール"
+      ],
+      "summary": "AIエージェントが不安定になるのを防ぐため、状態遷移図で動作フローを設計・可視化するツール。",
+      "impact": "AIを社内業務で使う時、動作の抜け漏れやエラーパターンをあらかじめ確認でき、トラブル対応の負担が減る。",
+      "notes": "クローズドベータ段階の可能性がある。自社でAIエージェントを使う場合は、導入前に動作確認の方法として評価する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/workspace-assignments-lti-and-gemini-lti-for-moodle.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/workspace-assignments-lti-and-gemini-lti-for-moodle.html",
+      "title": "Google Workspace Assignments LTI™ and Gemini LTI™ are now available for Moodle",
+      "title_ja": "Google WorkspaceのAssignments LTIとGemini LTIがMoodleで利用可能に",
+      "published": "2026/05/12",
+      "source": "Google Workspace Updates",
+      "importance": "C",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "NotebookLM",
+        "学習管理システム",
+        "Moodle",
+        "LTI統合"
+      ],
+      "summary": "GoogleがMoodleでAssignments LTIとGemini LTIを使えるようにした。学習管理システムにGeminiとNotebookLMが統合される。",
+      "impact": "教育機関がMoodleでGoogleのAI機能を利用できるようになる。提出課題の管理と学生への学習支援が同じシステム内で可能になる。",
+      "notes": "Moodleを使用している場合、LTI連携の設定と利用ルール（生成AIの使用基準など）を確認する必要がある。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/add-avatars-when-you-convert-presentations-to-Vids.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/add-avatars-when-you-convert-presentations-to-Vids.html",
+      "title": "Add avatars when you convert presentations to Vids",
+      "title_ja": "Google SlidesからVidsへ変換する際にAIアバターを追加可能に",
+      "published": "2026/05/11",
+      "source": "Google Workspace Updates",
+      "importance": "C",
+      "tags": [
+        "Google Workspace",
+        "Google Vids",
+        "Gemini",
+        "動画生成",
+        "プレゼン資料"
+      ],
+      "summary": "Google Vidsで、スライドから動画に変換する際にAIアバターを登場させ、より視覚的で親しみやすい動画を作成できるようになった。",
+      "impact": "プレゼン資料を動画化する際に、アバターが自動挿入されるため、テンプレ化した説明資料や研修動画の制作効率が高まる可能性がある。",
+      "notes": "管理者による制御機能はないため、エンドユーザーが自由に利用できる。事前に動画品質や著作権、社外共有のルールを確認しておくとよい。"
+    }
+  ]
+}
