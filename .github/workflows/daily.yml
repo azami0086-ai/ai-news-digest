@@ -2,8 +2,8 @@ name: daily-ai-news
 
 on:
   schedule:
-    # 毎日 09:10 UTC = 18:10 JST
-    - cron: "10 9 * * *"
+    # 毎日 23:10 UTC = 08:10 JST
+    - cron: "10 23 * * *"
   workflow_dispatch:
 
 # Pagesデプロイ・コミット・OIDCトークンに必要な権限
