@@ -1,0 +1,225 @@
+{
+  "started_at": "2026-05-14T18:19:28.251927+09:00",
+  "finished_at": "2026-05-14T18:20:59.172215+09:00",
+  "fetched_per_source": {
+    "official": 20,
+    "hn": 77,
+    "arxiv": 0
+  },
+  "fetched_total": 97,
+  "after_dedupe": 93,
+  "recorded_duplicate_excluded_count": 9,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/05/14.html",
+  "markdown_path": "output/2026-05-14_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34157,
+  "output_tokens": 4953,
+  "estimated_cost_usd": 0.058922,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "normalized_url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "title_ja": "OpenAI、npmサプライチェーン攻撃への対応を公表",
+      "published": "2026/05/13",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "セキュリティ",
+        "サプライチェーン",
+        "macOS",
+        "緊急更新",
+        "システム管理"
+      ],
+      "summary": "TanStackの供給チェーン攻撃を受けて、OpenAIが講じた対策と6月12日までのmacOS更新要件を説明した。",
+      "impact": "macOS版OpenAIアプリは6月12日までに更新が必須。対応状況の確認と更新期限の社内周知が必要。",
+      "notes": "詳細な被害範囲や影響対象の確認にはOpenAI公式発表を読む必要がある。社内で使用するアプリの更新状況を確認する。"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/goal",
+      "normalized_url": "https://code.claude.com/docs/en/goal",
+      "title": "New in Claude Code: ‎`/goal` for autonomous dev loops",
+      "title_ja": "Claude Codeに「/goal」コマンド、自動開発ループに対応",
+      "published": "2026/05/14",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "AI開発支援",
+        "自動化"
+      ],
+      "summary": "ClaudeのCode機能に「/goal」コマンドが追加され、開発者が指示した目標に対しAIが自動で複数ステップの実装を進める。",
+      "impact": "コード生成の依頼方法が変わり、目標を一度指示するだけでAIが試行錯誤しながら完結させるため、指示の回数が減る可能性がある。",
+      "notes": "公式ドキュメントとして読めるが、実際の動作・制限・出力品質は自社の環境で検証する必要がある。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/notebooklm-in-workspace-studio.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/notebooklm-in-workspace-studio.html",
+      "title": "Use NotebookLM in your Google Workspace Studio flows",
+      "title_ja": "NotebookLMをGoogle Workspace Studioで利用可能に",
+      "published": "2026/05/12",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "NotebookLM",
+        "Workspace Studio",
+        "自動化",
+        "Gemini"
+      ],
+      "summary": "GoogleがWorkspace Studioの自動化機能にNotebookLMを統合。ノートブックの内容をAI知識源として活用できるようになった。",
+      "impact": "Workspace内で自動化フロー作成時、独自資料を基にした回答生成が可能に。ノートブック活用企業は業務自動化の精度が向上する可能性がある。",
+      "notes": "Gemini for Google Workspaceの許可設定で利用可能。Workspace Studio管理者は段階的にアクセス制御する際、このステップ追加を方針に盛り込む。"
+    },
+    {
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "normalized_url": "https://openai.com/index/building-codex-windows-sandbox",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "title_ja": "OpenAI、Windows上のCodexを安全に動かすための仕組みを説明",
+      "published": "2026/05/13",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "セキュリティ",
+        "Windows",
+        "導入方針"
+      ],
+      "summary": "OpenAIがWindows環境でCodexを安全に実行するため、ファイルアクセスとネットワーク通信を制限するサンドボックス機能を開発した。",
+      "impact": "Codexを使った自動プログラミング機能をWindows環境で本格利用する場合、この仕組みの内容を確認する必要がある。",
+      "notes": "自社でCodexやコーディングAIを導入する際は、ファイルアクセス範囲、ネットワーク接続ルール、出力内容の確認ルールを事前に決める。"
+    },
+    {
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "normalized_url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "title_ja": "Parameter Golfが示したAI支援の研究開発の課題",
+      "published": "2026/05/12",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI開発",
+        "機械学習",
+        "研究開発"
+      ],
+      "summary": "OpenAIが主催した大規模競技イベントで、制約条件下でAIモデルを改善する手法を検証。参加者の事例から企業研究での活用ポイントが見える。",
+      "impact": "企業でAI研究や開発を進める際、リソース制限下での実装方法の参考になる。ChatGPTを利用した開発の実例を確認できる。",
+      "notes": "詳細な参加者の事例やベストプラクティスはブログ記事で確認する必要がある。自社の開発体制と比べて導入可否を判断すること。"
+    },
+    {
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "normalized_url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "title": "How finance teams use Codex",
+      "title_ja": "OpenAI、財務チームがCodexを使う方法を紹介",
+      "published": "2026/05/12",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "ChatGPT",
+        "財務・経理",
+        "業務自動化",
+        "導入事例"
+      ],
+      "summary": "財務チームがCodexを使い、予算レポートや分析資料を自動生成できる例を紹介した。",
+      "impact": "経理・財務業務でAIコード生成ツールの活用範囲が明確になり、導入検討の参考になる。",
+      "notes": "自社の財務システムやデータ形式に対応するかは別途確認が必要。"
+    },
+    {
+      "url": "https://openai.com/index/autoscout24",
+      "normalized_url": "https://openai.com/index/autoscout24",
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "title_ja": "AutoScout24がAIで開発効率を向上、Codexとチャットで導入を拡大",
+      "published": "2026/05/12",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "開発効率",
+        "導入事例",
+        "コード品質"
+      ],
+      "summary": "AutoScout24がCodexとChatGPTを使い、コード作成の時間短縮と品質向上を実現。開発チーム全体へのAI導入を進めた事例を説明している。",
+      "impact": "開発現場でAIツールの活用方法と導入の進め方が参考になる。自社のコード作成や品質確認の業務をAIで効率化できないか検討する材料になる。",
+      "notes": "チーム全体での利用ルール、責任者の役割分担、情報セキュリティの対応を確認した上で導入する。"
+    },
+    {
+      "url": "https://openai.com/index/nvidia",
+      "normalized_url": "https://openai.com/index/nvidia",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "title_ja": "NVIDIAのエンジニアがCodexとGPT-5.5で開発を効率化",
+      "published": "2026/05/12",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "GPT-5.5",
+        "開発効率",
+        "ツール導入"
+      ],
+      "summary": "NVIDIAのチームがCodexとGPT-5.5を使い、本番システムの構築と研究プロトタイプの作成を進めている。",
+      "impact": "自社開発チームがCodexやGPT-5.5を使う場合、NVIDIAの運用方法を参考にしてツール選定やワークフロー設計を検討できる。",
+      "notes": "詳細は公式ブログで確認できるが、自社で導入する場合は利用契約・データ保存先・コード監査のルールを先に決める。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "normalized_url": "https://www.anthropic.com/news/claude-for-small-business",
+      "title": "May 13, 2026 Announcements Introducing Claude for Small Business",
+      "title_ja": "Anthropic、中小企業向けClaudeを発表",
+      "published": "2026/05/13",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "料金プラン",
+        "中小企業向けサービス"
+      ],
+      "summary": "AnthropicがClaudeの中小企業向けプランを発表した。価格や機能の詳細は公式ページで確認できる。",
+      "impact": "中小企業での導入検討時の選択肢が増える。自社規模に合わせたプラン選択が必要になる可能性がある。",
+      "notes": "実際の料金・機能・利用制限は公式ページで確認する。既存契約との違いを事前に把握する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/small-businesses-can-now-seamlessly-import-users-from-Microsoft-to-Google-Workspace.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/small-businesses-can-now-seamlessly-import-users-from-Microsoft-to-Google-Workspace.html",
+      "title": "Small businesses can now seamlessly import users from Microsoft to Google Workspace",
+      "title_ja": "Google Workspace、Microsoftからのユーザー取り込み機能をベータ公開",
+      "published": "2026/05/13",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "GoogleWorkspace",
+        "ユーザー管理",
+        "Microsoft統合",
+        "小規模企業向け",
+        "初期設定"
+      ],
+      "summary": "Google Workspaceが小規模企業向けに、Microsoft アカウントのユーザーを自動で移行できる機能をベータ版で提供開始した。",
+      "impact": "Microsoft から Google Workspace への切り替え時、ユーザー登録の手作業が減り、初期設定にかかる期間が短縮される可能性がある。",
+      "notes": "ベータ版のため仕様変更や制限がある可能性がある。導入前に対応範囲やデータ移行内容を Google の公式ドキュメントで確認する。"
+    }
+  ]
+}
