@@ -1,0 +1,221 @@
+{
+  "started_at": "2026-05-17T17:00:30.215738+09:00",
+  "finished_at": "2026-05-17T17:01:43.992652+09:00",
+  "fetched_per_source": {
+    "official": 24,
+    "hn": 80,
+    "arxiv": 0
+  },
+  "fetched_total": 104,
+  "after_dedupe": 100,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 4,
+  "count_c": 6,
+  "count_excluded": 2,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/05/17.html",
+  "markdown_path": "output/2026-05-17_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33772,
+  "output_tokens": 4601,
+  "estimated_cost_usd": 0.056777,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "normalized_url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "title_ja": "OpenAI、マルタと提携しChatGPT Plusを全国民に提供",
+      "published": "2026/05/16",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "政策・法規制",
+        "AI教育・スキル",
+        "利用拡大"
+      ],
+      "summary": "OpenAIがマルタ政府と提携し、ChatGPT Plusと実践的なAI利用研修を全国民に提供する。",
+      "impact": "ChatGPT Plusの有料機能が国民向けに無償または補助される可能性があり、自社でのChatGPT活用状況や競争地盤の変化を確認する必要がある。",
+      "notes": "日本での類似提携予定は未確認。自社の利用契約や研修体制がこの動きで変わるかは別途確認する。"
+    },
+    {
+      "url": "https://thenewstack.io/github-copilot-desktop-app/",
+      "normalized_url": "https://thenewstack.io/github-copilot-desktop-app",
+      "title": "GitHub takes aim at Claude Code and Codex with its new Copilot app",
+      "title_ja": "GitHubがCopilot新アプリでClaudeやCodexに対抗",
+      "published": "2026/05/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "GitHub Copilot",
+        "Claude",
+        "Codex",
+        "開発ツール"
+      ],
+      "summary": "GitHubがCopilotのデスクトップアプリを公開し、Anthropic ClaudeやOpenAI Codexと競争する状況となった。",
+      "impact": "開発者が使うコード補完ツールの選択肢が増え、社内でのCopilot導入判断時の比較検討が必要になる。",
+      "notes": "公開情報の確認は、提供元のHacker Newsと記事元TheNewStackから確認する。自社の開発環境での採用検討前に動作確認と利用規約を確認する。"
+    },
+    {
+      "url": "https://www.techbuzz.ai/articles/microsoft-starts-canceling-claude-code-licenses",
+      "normalized_url": "https://www.techbuzz.ai/articles/microsoft-starts-canceling-claude-code-licenses",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "title_ja": "Microsoft、Claude Code ライセンス取り消しを開始",
+      "published": "2026/05/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Microsoft",
+        "ライセンス",
+        "コード補完"
+      ],
+      "summary": "MicrosoftがClaudeコード補完機能のライセンス取り消しを始めた。詳細は未確認。",
+      "impact": "Claude Codeを契約していた場合、利用継続の可否を確認する必要がある。",
+      "notes": "HackerNewsでの報道で詳細が限定的。公式アナウンスで対象者・対象製品・対応期限を確認する。"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/59743",
+      "normalized_url": "https://github.com/anthropics/claude-code/issues/59743",
+      "title": "CC: Anthropic API Error: 500 Internal Server Error",
+      "title_ja": "Claude Code APIでサーバーエラー報告",
+      "published": "2026/05/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "API",
+        "障害",
+        "Anthropic"
+      ],
+      "summary": "Claude CodeのAPIで500エラーが発生している。原因や影響範囲は記事では明確でない。",
+      "impact": "Anthropic APIを使うサービスやツールで障害が起きている可能性がある。自社での利用状況を確認する。",
+      "notes": "GitHub Issuesの報告のため、個別事例か広範な障害かは不明確。Anthropicの公式サポートで状況確認するとよい。"
+    },
+    {
+      "url": "https://github.com/offbyone1/tokenbbq",
+      "normalized_url": "https://github.com/offbyone1/tokenbbq",
+      "title": "TokenBBQ – track AI coding token usage across Claude, Codex, Gemini",
+      "title_ja": "複数のAIモデルの利用トークン数を一括管理するツール「TokenBBQ」",
+      "published": "2026/05/16",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "コスト管理",
+        "Claude",
+        "Gemini",
+        "開発者向け"
+      ],
+      "summary": "Claude、Codex、Geminiなど複数のAIモデルにおけるコーディング利用時のトークン消費量を追跡・管理できるツール。",
+      "impact": "AIモデルごとの利用コスト把握が容易になり、社内のAI利用予算管理やモデル選択の判断材料が得られる。",
+      "notes": "GitHubの個人プロジェクトで、サポート体制や安定性は未確認。社内利用前に動作確認と情報セキュリティ審査を行う。"
+    },
+    {
+      "url": "https://github.com/microsoft/AI-Engineering-Coach",
+      "normalized_url": "https://github.com/microsoft/AI-Engineering-Coach",
+      "title": "Show HN: Strava for AI coding – analytics on your Copilot/Claude/Codex usage",
+      "title_ja": "AI開発用の利用分析ツール、GitHubで公開",
+      "published": "2026/05/16",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Copilot",
+        "利用管理",
+        "GitHub"
+      ],
+      "summary": "Copilot・Claude・Codexの使用状況を可視化する分析ツールがMicrosoft提供で利用可能。開発者の利用パターンを把握できる。",
+      "impact": "自社でAIコーディングツールの導入状況や利用頻度を把握する手段が増える。現状分析と改善方針の参考になる可能性がある。",
+      "notes": "ツールの詳細機能・対応環境・導入難度は未確認。自社で使う場合は事前に動作検証と利用ポリシーの確認が必要。"
+    },
+    {
+      "url": "https://github.com/sabahattink/antigravity-fullstack-hq",
+      "normalized_url": "https://github.com/sabahattink/antigravity-fullstack-hq",
+      "title": "Show HN: Full Stack HQ – Claude.md and Agent Stack for Claude Code",
+      "title_ja": "Claude用の開発スタックツール「Full Stack HQ」がGitHubで公開",
+      "published": "2026/05/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "エージェント",
+        "GitHub"
+      ],
+      "summary": "Claudeを使うための開発環境やエージェント機能をまとめたツールがGitHubで公開された。",
+      "impact": "Claudeで開発業務を自動化する場合、このツール導入の検討が必要になる可能性がある。",
+      "notes": "未確認情報が多いため、実際の導入を判断する前にドキュメントと自社の業務要件を確認する。"
+    },
+    {
+      "url": "https://aithinkerlab.com/grok-vs-chatgpt-vs-gemini-comparison-2026/",
+      "normalized_url": "https://aithinkerlab.com/grok-vs-chatgpt-vs-gemini-comparison-2026",
+      "title": "Grok vs. ChatGPT vs. Gemini Comparison 2026: Complete Guide (Tested)",
+      "title_ja": "Grok、ChatGPT、Geminiの性能比較ガイド",
+      "published": "2026/05/17",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "Gemini",
+        "Grok",
+        "比較",
+        "モデル選定"
+      ],
+      "summary": "複数のAIチャットボットを検証し、性能や特徴を比較したレポート。どのモデルが何に向いているかをまとめた。",
+      "impact": "社内でAIツール選定や使い分けを検討する際の参考になる。ただし掲載内容の確認が必要。",
+      "notes": "Hacker Newsでの反応が限定的（ポイント1、コメント1）。記事の客観性や正確性は別途確認する。"
+    },
+    {
+      "url": "https://github.com/himkt/cafleet",
+      "normalized_url": "https://github.com/himkt/cafleet",
+      "title": "CAFleet – open-source Agent Teams reinvented, both for Claude Code and Codex",
+      "title_ja": "CAFleet：Claude CodeとCodexに対応したオープンソースのエージェントチーム",
+      "published": "2026/05/17",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "エージェント",
+        "開発ツール"
+      ],
+      "summary": "複数のAIエージェントを協働させる仕組みをオープンソースで公開。Claude CodeとCodexの両方に対応している。",
+      "impact": "社内でAIを使った複数タスク並行処理を検討する際、参考になるコード実装がある。",
+      "notes": "GitHubのリポジトリなので、利用前に自社のセキュリティ・ライセンス確認が必要。"
+    },
+    {
+      "url": "https://gamevibe.us/33-tower-defense",
+      "normalized_url": "https://gamevibe.us/33-tower-defense",
+      "title": "Show HN: Daily vibe-coding video games, day 33: Tower Defense (single prompt)",
+      "title_ja": "Claude Codeで毎日ゲーム開発、33日目はタワーディフェンス",
+      "published": "2026/05/16",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude Code",
+        "ゲーム開発",
+        "プロンプトエンジニアリング",
+        "コード生成"
+      ],
+      "summary": "Claude Codeを使い、プロンプト1つでタワーディフェンスゲームを開発した事例が紹介されている。",
+      "impact": "AIコード生成で複雑なゲームロジックが実装できる現状を示す参考資料。開発効率の目安として確認するとよい。",
+      "notes": "個人プロジェクトの事例であり、本番業務への応用には仕様・テスト・責任範囲を自社で定める必要がある。"
+    }
+  ]
+}
