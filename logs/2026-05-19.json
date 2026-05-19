@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-05-19T19:50:53.126440+09:00",
+  "finished_at": "2026-05-19T19:52:23.250226+09:00",
+  "fetched_per_source": {
+    "official": 9,
+    "hn": 83,
+    "arxiv": 0
+  },
+  "fetched_total": 92,
+  "after_dedupe": 90,
+  "recorded_duplicate_excluded_count": 9,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 8,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/05/19.html",
+  "markdown_path": "output/2026-05-19_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34140,
+  "output_tokens": 4385,
+  "estimated_cost_usd": 0.056065,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://apps.apple.com/us/app/sieve-secret-scanner/id6767409365?mt=12",
+      "normalized_url": "https://apps.apple.com/us/app/sieve-secret-scanner/id6767409365?mt=12",
+      "title": "Sieve – scans Cursor/Claude chat history for leaked API keys",
+      "title_ja": "Cursor・Claude のチャット履歴から漏洩したAPIキーを検出するツール",
+      "published": "2026/05/19",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "APIキー管理",
+        "セキュリティ",
+        "Cursor",
+        "秘密情報漏洩"
+      ],
+      "summary": "MacアプリSieveが、CursorやClaudeのチャット履歴に含まれるAPIキーを自動検出して警告する。",
+      "impact": "社員がClaudeやCursorを業務で使う場合、誤ってAPIキーをチャットに含めないよう注意が必要になる。",
+      "notes": "チャット履歴の自動スキャンツールの存在を周知すると、APIキーの安全管理ルールの整備と、社員への注意喚起が重要になる。"
+    },
+    {
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "normalized_url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "title_ja": "OpenAIとDell、Codexをオンプレミス環境に展開へ",
+      "published": "2026/05/18",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "オンプレミス",
+        "エンタープライズ",
+        "セキュリティ",
+        "Dell"
+      ],
+      "summary": "OpenAIとDellが提携し、企業システム内でコード生成AI「Codex」を安全に使える環境を整備する。",
+      "impact": "自社データをクラウドに送らずAIでコード生成できるようになるため、セキュリティ要件が厳しい部門での導入検討が進む可能性がある。",
+      "notes": "オンプレミス版Codexの具体的な機能・価格・提供開始時期は公式資料で確認する。自社システムとの互換性をDell側に照会する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "normalized_url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "title": "May 18, 2026 Announcements Anthropic acquires Stainless",
+      "title_ja": "AnthropicがStainlessを買収",
+      "published": "2026/05/18",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "M&A",
+        "API開発",
+        "開発ツール"
+      ],
+      "summary": "AnthropicがAPI開発ツール企業Stainlessを買収。Claudeの開発力を強化する狙い。",
+      "impact": "Claude利用時のAPI連携や開発環境が今後変わる可能性がある。自社での利用方針を確認する材料になる。",
+      "notes": "買収の詳細条件や統合時期は公式資料で確認する。"
+    },
+    {
+      "url": "https://github.com/cluster-software/agent-crm",
+      "normalized_url": "https://github.com/cluster-software/agent-crm",
+      "title": "AgentCRM – Headless CRM for Claude Code",
+      "title_ja": "ClaudeのコードでCRM機能を使えるAgentCRM",
+      "published": "2026/05/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "CRM連携",
+        "コード実行",
+        "自動化"
+      ],
+      "summary": "ClaudeのコードインタープリタをCRM業務に対応させるツール。顧客データや取引情報をClaudeから直接操作できる。",
+      "impact": "Claudeを使った自動化業務でCRM連携が可能になる。営業事務や顧客管理の処理をClaudeのコード実行に組み込める検討が必要。",
+      "notes": "GitHubの初期版のため、本番利用前にデータ保護と権限制御を確認する必要がある。"
+    },
+    {
+      "url": "https://www.curatedmcp.com/tokenshield",
+      "normalized_url": "https://www.curatedmcp.com/tokenshield",
+      "title": "Show HN: TokenShield – cut your Claude Code bill 40-70%",
+      "title_ja": "TokenShield - Claude利用料を40～70%削減するツール",
+      "published": "2026/05/18",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト削減",
+        "利用料金"
+      ],
+      "summary": "Claudeの利用料金を削減できるというツールがHacker Newsで話題。詳細な仕組みは未確認。",
+      "impact": "Claude導入企業は効果測定の価値がある。ただし信頼性確認が先。",
+      "notes": "公開直後で評価が定まっていない。自社で検証して、Anthropic利用規約や出力品質への影響を確認する。"
+    },
+    {
+      "url": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
+      "normalized_url": "https://www.theverge.com/tech/931752/google-io-2026-gemini-icon-docs-workspace",
+      "title": "Gemini is in danger of going full Copilot",
+      "title_ja": "GeminiはCopilotと同じ道へ進む危険性",
+      "published": "2026/05/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Copilot",
+        "Google Workspace",
+        "AI統合"
+      ],
+      "summary": "GeminiがCopilotのように、Google Workspaceなどの製品に統合されていく動きについて論じた記事。",
+      "impact": "Google製品でGeminiの組み込みが進む場合、企業のAI利用選択肢や追加コスト、利用規制に影響する可能性がある。",
+      "notes": "記事の詳細が確認できないため、自社のGoogle Workspace契約と料金体系、AI利用ポリシーを確認する。"
+    },
+    {
+      "url": "https://claude.com/blog/the-founders-playbook",
+      "normalized_url": "https://claude.com/blog/the-founders-playbook",
+      "title": "The founder's playbook: Building an AI-native startup",
+      "title_ja": "Claudeが「AI企業の立ち上げ手引き」を公開",
+      "published": "2026/05/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI企業",
+        "スタートアップ",
+        "事業開発"
+      ],
+      "summary": "Claudeの開発元Anthropicが、AI技術を中核とした起業の考え方と進め方をまとめた資料を公開した。",
+      "impact": "自社がAI事業や新規プロダクト開発を検討する場合、企業視点での課題や優先順位の参考になる可能性がある。",
+      "notes": "資料の詳細内容がHackerNewsの記事では未掲載。確認前に、自社の事業フェーズや目的と合致するか判断する。"
+    },
+    {
+      "url": "https://bito.ai/benchmarks/swe-bench-pro-evaluation/",
+      "normalized_url": "https://bito.ai/benchmarks/swe-bench-pro-evaluation",
+      "title": "Bito's AI Architect Boosts Claude Opus's task success rate by 35%",
+      "title_ja": "BitoのAIツールがClaude Opusのタスク成功率を35%向上",
+      "published": "2026/05/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発効率",
+        "ツール・プラットフォーム"
+      ],
+      "summary": "BitoのAI Architectツールを使うとClaude Opusのタスク完了率が35%上がったと報告。ソフトウェア開発タスクでの検証結果。",
+      "impact": "Claude導入を検討する場合、ツール組み合わせで実効性が変わる点を認識する必要がある。自社での導入前に同様の効果が期待できるか確認する。",
+      "notes": "HackerNewsの投稿閲覧数が少ないため、公開情報の信頼性を確認してから判断する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.15654",
+      "normalized_url": "https://arxiv.org/abs/2501.15654",
+      "title": "People who use ChatGPT for writing are accurate detectors of AI text (2025)",
+      "title_ja": "ChatGPTで文章を書く人はAI生成文を正しく見分けられる",
+      "published": "2026/05/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI検出",
+        "文章確認",
+        "ガイダンス"
+      ],
+      "summary": "ChatGPTを日常的に使う人の方がAI生成文を正確に識別できるという調査結果が報告された。",
+      "impact": "AI文章判定ツールに依存するより、利用者自身の経験が重要とわかり、社内での目視確認基準の見直しが進む可能性がある。",
+      "notes": "学術報告段階で、実務への適用には検証が必要。社内でAI利用が増える場合、出力チェック役の育成をあわせて検討する。"
+    },
+    {
+      "url": "https://github.com/quazardous/aiball",
+      "normalized_url": "https://github.com/quazardous/aiball",
+      "title": "Claude Code in a Loop",
+      "title_ja": "Claude Code in a Loop",
+      "published": "2026/05/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "自動化",
+        "GitHub",
+        "実験的"
+      ],
+      "summary": "GitHubで公開されたプロジェクト。Claudeを使ってコード生成を繰り返す仕組みのようだが、詳細は未確認。",
+      "impact": "技術者がClaudeでコード開発を自動化する方法を試行する可能性がある。自社での利用は実験段階として判断する必要あり。",
+      "notes": "Hacker Newsでの言及が少なく（2ポイント、コメントなし）、公式な推奨方法ではない。試すなら小規模な範囲で確認する。"
+    }
+  ]
+}
