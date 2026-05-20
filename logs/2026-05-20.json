@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-05-20T19:37:09.969670+09:00",
+  "finished_at": "2026-05-20T19:38:27.968478+09:00",
+  "fetched_per_source": {
+    "official": 28,
+    "hn": 69,
+    "arxiv": 30
+  },
+  "fetched_total": 127,
+  "after_dedupe": 123,
+  "recorded_duplicate_excluded_count": 5,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 9,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/05/20.html",
+  "markdown_path": "output/2026-05-20_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33864,
+  "output_tokens": 4709,
+  "estimated_cost_usd": 0.057409,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "normalized_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "title_ja": "Google I/O 2026：エージェント型Geminiの時代へ",
+      "published": "2026/05/19",
+      "source": "Google The Keyword - AI",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "エージェント",
+        "Google I/O 2026",
+        "AI機能",
+        "自動化"
+      ],
+      "summary": "GoogleがI/O 2026でエージェント機能を持つGeminiの新展開を発表した。自動で複数の作業を処理できるAIへの進化を示す。",
+      "impact": "Geminiの利用方法が大きく変わる可能性がある。自社でGemini導入を検討している場合は、新機能の仕様と制限を確認する必要がある。",
+      "notes": "詳細な機能・利用範囲・制限事項は公式資料で確認する。社内での利用ルール改定が必要な場合は早めに準備する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates",
+      "title": "New ways to create and get things done in Google Workspace",
+      "title_ja": "Google WorkspaceでGeminiを使った新機能が追加",
+      "published": "2026/05/19",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Workspace",
+        "業務効率化",
+        "AI機能追加"
+      ],
+      "summary": "GoogleがWorkspaceでAIを活用した新機能を発表した。文書作成やメール対応、スプレッドシート操作などが効率化される。",
+      "impact": "日常業務でAIアシスタントが使えるようになる。ただし実装時期と権限管理の確認が必要。",
+      "notes": "Google公式発表だが、具体的な機能内容と日本での利用開始時期の確認が必要。社内利用ルールと権限設定を検討する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
+      "title": "I/O 2026",
+      "title_ja": "Google I/O 2026でAI最新発表、内容をまとめて公開",
+      "published": "2026/05/19",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Google",
+        "Gemini",
+        "Google I/O 2026",
+        "AI発表",
+        "開発者向け"
+      ],
+      "summary": "GoogleがI/O 2026でAI関連の新機能や更新を発表。開発者向けツールからユーザー向けサービスまで、複数の内容を紹介している。",
+      "impact": "Geminiや関連サービスの更新内容を確認し、社内のAI活用方針と連携する必要がある可能性がある。",
+      "notes": "詳細は公式サイトで確認する。実装予定やベータ版の有無を社内展開前に整理する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights",
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "title_ja": "米国でAI Mode検索の使われ方が変わる",
+      "published": "2026/05/19",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google検索",
+        "生成AI",
+        "米国",
+        "利用実態"
+      ],
+      "summary": "GoogleがAI Mode検索を米国で提供して以来、検索行動がどう変わったかを報告した。",
+      "impact": "社内のGoogle検索やGemini利用の実態を把握でき、今後の生成AI導入判断の参考になる。",
+      "notes": "Googleの公式発表なので数字や傾向は公式資料として扱える。自社で同様の利用ルール策定時に事例として確認するとよい。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "title_ja": "Google、Gemini 3.5を発表",
+      "published": "2026/05/19",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "新モデル"
+      ],
+      "summary": "GoogleがGemini 3.5を公開した。テキスト処理と実行機能を備えた新モデル。",
+      "impact": "Gemini 3.5の性能・料金・利用可能な機能を確認し、社内で使うかどうか判断する必要がある。",
+      "notes": "詳細は公式ブログを確認する。利用開始前に、会社での利用許可・データ保存先・責任者を決める。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/search-io-2026",
+      "title": "A new era for AI Search",
+      "title_ja": "検索とAIを融合した新しい検索体験、Googleが提供開始",
+      "published": "2026/05/19",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google検索",
+        "AI検索",
+        "Google Workspace"
+      ],
+      "summary": "GoogleがAI検索機能を強化し、従来の検索エンジンとAI機能を統合した新しい検索体験を発表した。",
+      "impact": "社内でGoogle検索やGeminiを業務利用する際、検索結果の形式や精度が変わる可能性があり、使い方の再確認が必要になる。",
+      "notes": "詳細な機能や提供時期は公式ブログで確認する。自社のGoogleアカウント・Workspace利用環境で段階的に展開される見込み。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions",
+      "title": "Everything new in our Google AI subscriptions, fresh from I/O 2026",
+      "title_ja": "Google、AI機能を拡充したサブスクプランを発表",
+      "published": "2026/05/19",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google One",
+        "サブスクリプション",
+        "生成AI",
+        "企業向けサービス"
+      ],
+      "summary": "GoogleがI/O 2026で、Geminiを中心にAI機能を追加したサブスクリプションプランの詳細を説明した。",
+      "impact": "Google Oneなどのサブスク利用者向けにAI機能が増える。会社でGoogleサービスを使う場合、契約内容や利用可能機能を確認する必要がある。",
+      "notes": "詳細な機能内容と価格改定の有無は、公式資料で確認する。"
+    },
+    {
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "normalized_url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "title_ja": "OpenAI、学校向けAI教育プログラムを拡大",
+      "published": "2026/05/20",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "教育",
+        "AI導入",
+        "パートナーシップ",
+        "ルール設定"
+      ],
+      "summary": "OpenAIが学校でのAI導入を進めるプログラムを広げ、教員研修と新しいツール提供を含むパートナーシップを始める。",
+      "impact": "学校でChatGPT活用が増えるため、生徒や教職員の利用ルール・アカウント管理・コンテンツ監視の検討が必要になる可能性がある。",
+      "notes": "学校法人や教育委員会では、利用許可・年齢制限・個人情報の扱いを事前に確認する。"
+    },
+    {
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "normalized_url": "https://openai.com/index/advancing-content-provenance",
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "title_ja": "OpenAI、AI生成コンテンツの真正性を確認する仕組みを導入",
+      "published": "2026/05/19",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "コンテンツ管理",
+        "信頼性",
+        "生成AI"
+      ],
+      "summary": "OpenAIがAI生成コンテンツに識別情報を付与し、人間が真正性を確認できる仕組みを広げた。",
+      "impact": "社内でAI生成画像やテキストを使う際、出所・生成経緯の確認ルールを作る材料になる。",
+      "notes": "検証ツールの具体的な使い方と自社システムへの組み込み可否は公式資料で確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "normalized_url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "title": "May 19, 2026 Announcements Widening the conversation on frontier AI",
+      "title_ja": "Anthropic、フロンティアAIについての対話を拡大",
+      "published": "2026/05/19",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "AI戦略",
+        "企業利用"
+      ],
+      "summary": "Anthropicが、最先端AI技術に関する議論の場を広げると発表した。",
+      "impact": "Claude利用時の方向性や、今後の企業向け機能・ルール変更の可能性を注視する必要がある。",
+      "notes": "公式発表だが、具体的な内容や変更予定は提供URL上では未確認。詳細は公式資料で確認する。"
+    }
+  ]
+}
