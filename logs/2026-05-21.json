@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-05-21T19:55:51.185447+09:00",
+  "finished_at": "2026-05-21T19:57:05.640943+09:00",
+  "fetched_per_source": {
+    "official": 28,
+    "hn": 79,
+    "arxiv": 30
+  },
+  "fetched_total": 137,
+  "after_dedupe": 136,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 6,
+  "count_c": 2,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/05/21.html",
+  "markdown_path": "output/2026-05-21_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33884,
+  "output_tokens": 4563,
+  "estimated_cost_usd": 0.056699,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "normalized_url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "title": "May 19, 2026 Announcements KPMG integrates Claude across its core business and workforce of more than 276,000 in…",
+      "title_ja": "KPMGがClaudeを全社導入、27万人超の従業員が利用へ",
+      "published": "2026/05/19",
+      "source": "Anthropic News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "企業導入",
+        "全社展開",
+        "KPMG"
+      ],
+      "summary": "監査大手KPMGが、Claudeを社内の主要業務システムに統合し、全従業員が利用できる環境を整備した。",
+      "impact": "大規模企業でのClaude導入事例が示されたため、自社AI導入時の体制構築やリスク対応の参考になる。",
+      "notes": "KPMG側での具体的な運用ルール、利用制限、出力チェック方法などは確認する必要がある。"
+    },
+    {
+      "url": "https://oddguan.com/blog/second-time-same-sandbox-anthropic-claude-code-network-allowlist-bypass-data-exfiltration/",
+      "normalized_url": "https://oddguan.com/blog/second-time-same-sandbox-anthropic-claude-code-network-allowlist-bypass-data-exfiltration",
+      "title": "Anthropic Claude Code sandbox bypass allows second data exfiltration exploit",
+      "title_ja": "Claude Codeのサンドボックス回避、データ流出の脆弱性が報告",
+      "published": "2026/05/20",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "コード実行",
+        "データ流出",
+        "脆弱性"
+      ],
+      "summary": "Anthropic Claudeのコード実行機能に、セキュリティ制限を回避してデータを外部に流出させる脆弱性が見つかった。",
+      "impact": "Claudeのコード機能を業務利用する場合、機密情報や個人情報を含むファイルは事前に確認し、不要なコード実行は許可しないルールが必要になる。",
+      "notes": "報告内容は未確認。Anthropicの対応状況・パッチ有無・影響範囲を確認してから業務利用ルールを判断する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+      "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings",
+      "title": "A new experiment brings better group meetings to Google Beam",
+      "title_ja": "Googleが会議体験を改善するBeamの実験を開始",
+      "published": "2026/05/20",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "会議",
+        "実験段階",
+        "ビデオ会議"
+      ],
+      "summary": "GoogleがBeamという会議ツールで、参加者の視認性と発言機会を高める実験を進めている。",
+      "impact": "会議参加者の目線や発言タイミングが改善されると、遠隔参加者の体験が変わる可能性がある。",
+      "notes": "まだ実験段階なので、正式提供時期や実装範囲は未確認。"
+    },
+    {
+      "url": "https://openai.com/index/ramp",
+      "normalized_url": "https://openai.com/index/ramp",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "title_ja": "Rampエンジニアが、Codexを使ったコード審査で開発を加速",
+      "published": "2026/05/20",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "GPT-5.5",
+        "コード審査",
+        "開発効率",
+        "事例紹介"
+      ],
+      "summary": "RampがCodexとGPT-5.5を使い、コード審査の時間を数時間から数分に短縮している事例を紹介。",
+      "impact": "社内でコード審査にAIを使う場合、導入効果と運用方法の参考になる。",
+      "notes": "公開事例だが、自社で導入する際は審査品質・責任範囲・使用アカウントを確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements",
+      "title": "100 things we announced at I/O 2026",
+      "title_ja": "Google I/O 2026で発表した主要100件",
+      "published": "2026/05/20",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "I/O 2026",
+        "新機能",
+        "製品発表"
+      ],
+      "summary": "GoogleがI/O 2026で発表した100件の新機能やアップデートをまとめた。Geminiを含む複数の製品の新展開が含まれている。",
+      "impact": "Geminiや関連製品の新機能を把握し、業務での利用可能性や導入予定の見直しが必要になる可能性がある。",
+      "notes": "詳細は公式ブログ記事で確認する必要がある。自社で利用している製品や予定されている導入に該当する機能がないか確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "normalized_url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "title_ja": "Geminiが生物学者の細胞若返り研究を支援、新しい因子を発見",
+      "published": "2026/05/18",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "研究支援",
+        "生物学",
+        "Co-Scientist"
+      ],
+      "summary": "生物学者がGeminiの分析機能を使い、ヒト細胞の若返りに成功する新しい因子を見つけた。",
+      "impact": "AI導入検討時に、基礎研究支援の事例として参考になる。社内研究部門がある場合は活用の可能性を検討する。",
+      "notes": "生物学・医学分野での利用事例。自社での適用範囲と権限を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "normalized_url": "https://openai.com/index/introducing-openai-for-singapore",
+      "title": "Introducing OpenAI for Singapore",
+      "title_ja": "OpenAI、シンガポールでAI推進に向けた複数年パートナーシップを開始",
+      "published": "2026/05/19",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "海外展開",
+        "AI推進",
+        "シンガポール"
+      ],
+      "summary": "OpenAIがシンガポール政府と複数年のAI推進協力を始め、現地での展開強化と人材育成を進める。",
+      "impact": "シンガポール拠点でのChatGPT利用環境が整備される可能性がある。海外子会社や現地採用者の業務利用に影響する可能性。",
+      "notes": "日本での利用に直接影響するかは未確認。シンガポール拠点がある場合は現地チームに情報を共有するとよい。"
+    },
+    {
+      "url": "https://github.com/atomchung/ccstory",
+      "normalized_url": "https://github.com/atomchung/ccstory",
+      "title": "Ccstory – CLI tool to track time spent on Claude Code",
+      "title_ja": "Claude Codeの利用時間を記録するCLIツール公開",
+      "published": "2026/05/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "利用時間管理"
+      ],
+      "summary": "GitHubでClaudeの有料機能「Code」の使用時間を追跡するコマンドラインツールが公開された。",
+      "impact": "Claude Codeの利用実績を記録できるようになるが、社内での採用検討は関連者確認が必要。",
+      "notes": "ツールの信頼性・セキュリティ・利用規約準拠の確認が必要。社内利用する場合は情報セキュリティ部門に確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "normalized_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs",
+      "title": "We’re announcing new community investments in Missouri.",
+      "title_ja": "Googleがミズーリ州の人材育成とエネルギー事業に投資",
+      "published": "2026/05/20",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Google",
+        "インフラ・拠点",
+        "人材育成",
+        "地域投資"
+      ],
+      "summary": "Googleがミズーリ州で次世代の人材育成とエネルギー関連の事業投資を始める。",
+      "impact": "同州でのAIやクラウド人材採用・育成が進む可能性があり、同地域の事業所採用計画に影響する可能性がある。",
+      "notes": "投資内容や規模、日本の事業所との関連は未確認のため、公式資料で詳細を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "normalized_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "title_ja": "OpenAIのモデルが幾何学の予想を否定、80年の未解決問題を解く",
+      "published": "2026/05/20",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "AI活用事例",
+        "数学",
+        "参考情報"
+      ],
+      "summary": "OpenAIのモデルが80年来の数学問題を解き、離散幾何学の主要な予想を否定した。",
+      "impact": "AI導入時に数学や科学分野での利用可能性を評価する参考になる。ただし自社業務への直接的な影響は限定的。",
+      "notes": "学術的な成果であり、社内AI利用ルールの見直しは不要。参考知識として把握する程度で足りる。"
+    }
+  ]
+}
