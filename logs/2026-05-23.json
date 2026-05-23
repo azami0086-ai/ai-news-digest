@@ -1,0 +1,167 @@
+{
+  "started_at": "2026-05-23T16:57:04.458481+09:00",
+  "finished_at": "2026-05-23T16:58:19.978816+09:00",
+  "fetched_per_source": {
+    "official": 17,
+    "hn": 77,
+    "arxiv": 30
+  },
+  "fetched_total": 124,
+  "after_dedupe": 122,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/05/23.html",
+  "markdown_path": "output/2026-05-23_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34123,
+  "output_tokens": 4646,
+  "estimated_cost_usd": 0.057353,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "normalized_url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "title_ja": "OpenAI、企業向けコード生成AIでGartnerのリーダー企業に選定",
+      "published": "2026/05/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "ChatGPT",
+        "コード生成",
+        "Gartner",
+        "企業導入",
+        "評価"
+      ],
+      "summary": "OpenAIが企業向けコード生成AI分野でGartnerのリーダーに評価された。Codexは革新性と大規模導入の実績が認められた。",
+      "impact": "社内でコード生成AIの導入を検討する際の判断材料になる。OpenAIの製品が第三者評価で一定の基準を満たしていることが確認できる。",
+      "notes": "導入前に自社の要件・セキュリティ方針・コスト体系を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/virgin-atlantic",
+      "normalized_url": "https://openai.com/index/virgin-atlantic",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "title_ja": "Virgin Atlanticが開発効率化、Codexで新アプリを期限内リリース",
+      "published": "2026/05/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "開発効率",
+        "ケーススタディ",
+        "自動テスト"
+      ],
+      "summary": "Virgin Atlanticが、AIコード生成ツールCodexを使い、モバイルアプリの大幅改修を期限までに完成させた。テストカバレッジと品質が向上した。",
+      "impact": "社内開発チームがコード生成AI導入を検討する際の具体事例として参考になる。開発期限短縮と品質向上の両立が可能な点に注目。",
+      "notes": "ケーススタディのため、自社の開発環境・チーム規模・案件内容との違いを確認した上で参考とする。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap",
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "title_ja": "Google I/O 2026のDialogue企画、Sundar Pichai CEOが登壇",
+      "published": "2026/05/22",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google I/O",
+        "経営方針"
+      ],
+      "summary": "Google I/O 2026でSundar Pichai CEOが、Dialogues企画に参加して登壇した。",
+      "impact": "Google最高経営責任者の発言内容や方針が示されているため、Geminiを含むGoogle AIの今後の方向性を確認する際の参考になる。",
+      "notes": "公式ブログでの発表内容なので公式資料として扱える。詳細は記事で確認する必要がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "normalized_url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "title": "May 22, 2026 Announcements Project Glasswing: An initial update",
+      "title_ja": "Anthropic、プロジェクト「Glasswing」の初期成果を公表",
+      "published": "2026/05/22",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "プロダクト更新"
+      ],
+      "summary": "AnthropicがGlasswingプロジェクトの最初の成果を発表した。詳細は公式ページを確認する必要がある。",
+      "impact": "Claudeの機能や使い方に関する新しい情報が出ている可能性があり、自社での利用方法を見直す機会になる。",
+      "notes": "公式資料として読めるが、自社で使う場合は権限・保存先・責任範囲を確認する。"
+    },
+    {
+      "url": "https://www.macstories.net/stories/introducing-shortcuts-playground/",
+      "normalized_url": "https://www.macstories.net/stories/introducing-shortcuts-playground",
+      "title": "Shortcuts Playground: Create Apple Shortcuts with Claude Code/Codex",
+      "title_ja": "Claude、AppleのShortcutsアプリをコード生成で作成できる機能",
+      "published": "2026/05/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Apple Shortcuts",
+        "自動化",
+        "コード生成"
+      ],
+      "summary": "ClaudeがApple Shortcutsの自動生成に対応。ユーザーが説明すればコード作成をサポートする仕組み。",
+      "impact": "社内でApple端末やShortcutsを使う場合、手作業を減らせる可能性。自動化ツール活用方針の見直し検討材料になる。",
+      "notes": "実装内容・制限・社内利用可否は公式情報で確認する。"
+    },
+    {
+      "url": "https://github.com/superset-sh/superset",
+      "normalized_url": "https://github.com/superset-sh/superset",
+      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+      "title_ja": "Superset、エージェント時代向けIDE公開",
+      "published": "2026/05/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "開発ツール",
+        "IDE"
+      ],
+      "summary": "Y Combinatorの支援を受けたSupersetが、エージェント向け統合開発環境を発表。Claude Codeの関心が高い。",
+      "impact": "社内でAIエージェントを使う業務フローやツール選定の参考になる。Claude活用の選択肢が増える可能性がある。",
+      "notes": "詳細な機能や自社適用範囲は公開情報だけでは不明。試用前にセキュリティ・データ保持方針を確認する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22785v1",
+      "normalized_url": "https://arxiv.org/abs/2605.22785v1",
+      "title": "Evaluating Commercial AI Chatbots as News Intermediaries",
+      "title_ja": "ニュース配信におけるAIチャットボットの精度を検証",
+      "published": "2026/05/21",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Claude",
+        "ChatGPT",
+        "Grok",
+        "情報検索",
+        "精度評価",
+        "ニュース",
+        "論文"
+      ],
+      "summary": "Gemini・Claude・GPT等6種類のAIチャットボットが、BBC報道の事実について言語別・地域別に答える精度を調査した。",
+      "impact": "AIチャットボットを社内外のニュース検索や情報取得に使う際、どのモデルの精度が信頼できるかの判断材料になる。",
+      "notes": "評価対象は海外メディアとAIベンダーの組み合わせ。日本語ニュースでの精度は未評価のため、自社の情報取得用途で使う場合は別途確認する。"
+    }
+  ]
+}
