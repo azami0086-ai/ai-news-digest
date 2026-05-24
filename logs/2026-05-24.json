@@ -1,0 +1,218 @@
+{
+  "started_at": "2026-05-24T17:09:56.250392+09:00",
+  "finished_at": "2026-05-24T17:11:11.799320+09:00",
+  "fetched_per_source": {
+    "official": 11,
+    "hn": 80,
+    "arxiv": 30
+  },
+  "fetched_total": 121,
+  "after_dedupe": 120,
+  "recorded_duplicate_excluded_count": 9,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 6,
+  "count_c": 3,
+  "count_excluded": 6,
+  "errors": [],
+  "html_path": "docs/2026/05/24.html",
+  "markdown_path": "output/2026-05-24_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33870,
+  "output_tokens": 4616,
+  "estimated_cost_usd": 0.05695,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://vechron.com/2026/05/i-reproduced-a-claude-code-rce-the-bug-pattern-is-everywhere/",
+      "normalized_url": "https://vechron.com/2026/05/i-reproduced-a-claude-code-rce-the-bug-pattern-is-everywhere",
+      "title": "I reproduced a Claude Code RCE. The bug pattern is everywhere",
+      "title_ja": "Claude Codeのセキュリティ脆弱性が報告、RCEの再現に成功",
+      "published": "2026/05/23",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude Code",
+        "セキュリティ脆弱性",
+        "RCE（遠隔コード実行）",
+        "利用制限"
+      ],
+      "summary": "Claude Codeで遠隔コード実行が可能になる脆弱性が報告された。似たような脆弱性パターンが他の製品にも存在する可能性がある。",
+      "impact": "Claude Codeを業務で使用している場合、実行するコードの妥当性チェックが必須となり、導入判断の見直しが必要になる可能性がある。",
+      "notes": "具体的な脆弱性の詳細や修正状況は未確認。Anthropicからの公式発表や対応状況を確認してから導入・継続利用を判断する。"
+    },
+    {
+      "url": "https://github.com/tejpalv/cc-wiki",
+      "normalized_url": "https://github.com/tejpalv/cc-wiki",
+      "title": "CC-Wiki: Turn Claude Code sessions into a shareable knowledge base wiki",
+      "title_ja": "Claude CodeセッションをWiki化するオープンツール登場",
+      "published": "2026/05/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード作業",
+        "Wiki",
+        "知識管理",
+        "オープンソース"
+      ],
+      "summary": "Claudeとのコード作業の会話をWikiフォーマットで保存・共有できるオープンソースツール。チームで知識を蓄積する使い方が想定される。",
+      "impact": "社内でClaudeを使ったコード作業が増えれば、やり取りの記録をWiki化して知識として残せる選択肢が広がる。導入前に自社の情報管理ルール確認が必要。",
+      "notes": "オープンソースツールのため、会社で使う前に情報セキュリティ担当者と、保存先・外部共有の可否・Claudeへの入力制限を確認する。"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/claude_code_docs_map",
+      "normalized_url": "https://code.claude.com/docs/en/claude_code_docs_map",
+      "title": "Claude Code Documentation Map",
+      "title_ja": "Claude Code ドキュメント整理",
+      "published": "2026/05/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "公式ドキュメント",
+        "コード機能"
+      ],
+      "summary": "AnthropicがClaudeのコード機能に関する公式ドキュメントマップを公開した。",
+      "impact": "Claude利用時のコード操作方法や仕様を公式資料で確認できるようになり、導入前の検討材料が増える。",
+      "notes": "具体的なドキュメント内容はHN投稿からは不明。自社での活用検討時に公式ドキュメントを読む必要がある。"
+    },
+    {
+      "url": "https://www.engadget.com/2180028/anthropic-claude-mythos-preview-project-glasswing-update/",
+      "normalized_url": "https://www.engadget.com/2180028/anthropic-claude-mythos-preview-project-glasswing-update",
+      "title": "Anthropic Says Mythos Has Found More Than 10k Vulnerabilities",
+      "title_ja": "AnthropicのMythosが1万件超の脆弱性を検出",
+      "published": "2026/05/24",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "脆弱性検査",
+        "Mythos"
+      ],
+      "summary": "AnthropicがセキュリティツールMythosで1万件以上の脆弱性を発見したと発表。Claudeを使った脆弱性検査の成果。",
+      "impact": "Claudeの実務応用例として、コード検査やセキュリティ診断の精度実績が追加される。自社システム診断への導入検討時の参考になる。",
+      "notes": "詳細な検査対象や検出方法、検査精度などは原記事で確認する。実際の採用判断には検査範囲と自社環境との適合性を見る。"
+    },
+    {
+      "url": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
+      "normalized_url": "https://www.theregister.com/cyber-crime/2026/05/22/jailbroken-gemini-helped-russian-speaking-fraudster-target-maga-crypto-users/5245390",
+      "title": "Jailbroken Gemini helped Russian-speaking fraudster target MAGA crypto users",
+      "title_ja": "Geminiが悪用され、仮想通貨詐欺に使われていた",
+      "published": "2026/05/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "セキュリティ",
+        "悪用事例",
+        "安全機能"
+      ],
+      "summary": "Geminiの安全機能を回避したバージョンが、ロシア語話者による詐欺キャンペーンに利用されていた。",
+      "impact": "社内でAIモデルの利用時に、安全機能の無効化や悪用の可能性を認識する必要がある。",
+      "notes": "記事は詐欺事例の報道であり、自社の使用方法に直接の制限を課すものではない。ただし詐欺やマネーロンダリング関連の利用禁止を改めて確認するとよい。"
+    },
+    {
+      "url": "https://fossforce.com/2026/05/gemini-clis-short-life-and-googles-antigravity-bait-and-switch/",
+      "normalized_url": "https://fossforce.com/2026/05/gemini-clis-short-life-and-googles-antigravity-bait-and-switch",
+      "title": "Gemini CLI's Short Life and Google's Antigravity Bait‑and‑Switch",
+      "title_ja": "Gemini CLIの短命とGoogleのサービス縮小",
+      "published": "2026/05/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "CLI",
+        "開発者向け",
+        "サービス廃止"
+      ],
+      "summary": "GoogleがGemini CLIツールを廃止する予定。開発者向けのコマンドラインツールが利用できなくなる。",
+      "impact": "Gemini CLIを業務で使用している場合は、代替手段の確保が必要。導入前の検討時には同様の廃止リスクを見込む。",
+      "notes": "記事の詳細が不明確。Googleの公式発表を確認し、影響範囲と代替ツールを整理する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+      "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni",
+      "title": "Gemini Omni",
+      "title_ja": "Geminiの新モデル「Omni」が登場",
+      "published": "2026/05/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "AI新モデル",
+        "マルチモーダル",
+        "API"
+      ],
+      "summary": "GoogleがGeminiの新版「Omni」を発表した。マルチモーダル対応で音声・画像・テキストを処理できる。",
+      "impact": "社内でGemini利用時に新モデルの選択肢が増える。性能や料金、API仕様を確認して導入判断する必要がある。",
+      "notes": "公式ブログ記事だが、HackerNewsの反応が限定的（ポイント2、コメント0）のため、詳細仕様や日本語対応、価格は公式資料で確認する。"
+    },
+    {
+      "url": "https://coremem.app",
+      "normalized_url": "https://coremem.app/",
+      "title": "Show HN: CoreMem – Portable context for AI agents",
+      "title_ja": "CoreMem - AIエージェント向けのポータブルコンテキスト機能",
+      "published": "2026/05/22",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "AI_Agents",
+        "コンテキスト管理",
+        "ツール",
+        "未確認"
+      ],
+      "summary": "AIエージェントが利用できるポータブルなコンテキスト管理ツール。複数のAIモデル間で情報を持ち運べる仕組みとみられる。",
+      "impact": "ChatGPT等を使う際、エージェント間で文脈や過去情報を共有できるようになると、業務自動化の精度が上がる可能性がある。",
+      "notes": "Hacker Newsでの初期投稿で詳細情報が限定的。実際の機能・対応モデル・セキュリティ要件を公式資料で確認する必要がある。"
+    },
+    {
+      "url": "https://babel.ua/en/news/126979-diia-launched-its-own-ai-agent-in-the-application-what-services-does-it-support",
+      "normalized_url": "https://babel.ua/en/news/126979-diia-launched-its-own-ai-agent-in-the-application-what-services-does-it-support",
+      "title": "Diia - Ukraine gov app launched AI agent based on Google Gemini",
+      "title_ja": "ウクライナ政府アプリDiiaがGeminiベースのAIエージェント導入",
+      "published": "2026/05/22",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "AI導入事例",
+        "政府サービス"
+      ],
+      "summary": "ウクライナの公的サービスアプリDiiaがGoogle Geminiを使ったAIエージェント機能を追加。政府向けAI導入の事例として参考になる。",
+      "impact": "政府・公的機関がAIを導入する際の考え方や運用方法が参考事例として増える。社内でAI導入を検討する時の事例集が豊かになる。",
+      "notes": "未確認。詳細はURLから公開情報を確認する。"
+    },
+    {
+      "url": "https://github.com/shirozuki/claude-cli",
+      "normalized_url": "https://github.com/shirozuki/claude-cli",
+      "title": "Claude Code isolated inside Docker with dmenu and fzf (POSIX sh)",
+      "title_ja": "ClaudeをDockerで隔離実行するCLIツール",
+      "published": "2026/05/23",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Docker",
+        "ツール",
+        "セキュリティ"
+      ],
+      "summary": "ClaudeをDocker環境で安全に実行するコマンドラインツール。dmenuとfzfで操作できる。",
+      "impact": "社内でClaudeを使う場合、環境隔離と操作の簡素化を検討する参考になる。",
+      "notes": "GitHubのコード提供なので、導入前に自社のセキュリティ基準で検証する。"
+    }
+  ]
+}
