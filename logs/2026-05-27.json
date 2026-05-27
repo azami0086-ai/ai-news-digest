@@ -1,0 +1,182 @@
+{
+  "started_at": "2026-05-27T09:17:23.920378+09:00",
+  "finished_at": "2026-05-27T09:18:55.685956+09:00",
+  "fetched_per_source": {
+    "official": 12,
+    "hn": 81,
+    "arxiv": 0
+  },
+  "fetched_total": 93,
+  "after_dedupe": 91,
+  "recorded_duplicate_excluded_count": 4,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 3,
+  "count_excluded": 3,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)",
+    "analyze failed for 'May 25, 2026 Announcements Anthropic co-founder Chris Olah\\'s remarks on Pope Leo XIV\\'s encyclical \"Magnifica humanitas\"': no JSON found in response"
+  ],
+  "html_path": "docs/2026/05/27.html",
+  "markdown_path": "output/2026-05-27_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 19,
+  "input_tokens": 32527,
+  "output_tokens": 4393,
+  "estimated_cost_usd": 0.054492,
+  "fallback_used": true,
+  "api_error": true,
+  "api_error_type": "unknown_api_error",
+  "api_error_message_sanitized": "no JSON found in response",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.theregister.com/saas/2026/05/14/bedrock-and-a-hard-place-claude-adventure-leaves-aws-user-staring-down-30k-invoice/5238153",
+      "normalized_url": "https://www.theregister.com/saas/2026/05/14/bedrock-and-a-hard-place-claude-adventure-leaves-aws-user-staring-down-30k-invoice/5238153",
+      "title": "Bedrock and a hard place: Claude adventure leaves AWS user with $30K invoice",
+      "title_ja": "AWS BedrockのClaudeで30万円超の予想外請求が発生",
+      "published": "2026/05/26",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "AWS Bedrock",
+        "利用料金",
+        "コスト管理",
+        "API"
+      ],
+      "summary": "AWS上でClaudeを使用したユーザーが、予想を大きく上回る利用料を請求されたという事例が報告された。",
+      "impact": "AWS Bedrockを使う場合、API利用料の監視と予算上限設定の事前確認が必要。",
+      "notes": "実際の事例内容を確認した上で、自社のAI利用ルール（承認フロー・支出上限・モニタリング）を定める。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/gemini-lti-update-include-your-lms-sources-when-using-NotebookLM-in-Powerschool-Schoology.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/gemini-lti-update-include-your-lms-sources-when-using-NotebookLM-in-Powerschool-Schoology.html",
+      "title": "Gemini LTI Update: Include your LMS sources when using NotebookLM in Powerschool Schoology",
+      "title_ja": "Gemini LTI更新：PowerSchool SchoogyでNotebookLMを使う際にLMSコンテンツを追加可能に",
+      "published": "2026/05/26",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "NotebookLM",
+        "Google Workspace",
+        "教育機関",
+        "Schoology",
+        "LTI",
+        "コンテンツ連携"
+      ],
+      "summary": "PowerSchool Schoologyで、NotebookLMノート作成時に授業教材を直接ソースとして追加できるようになった。",
+      "impact": "教職員と学生が、授業資料をAI分析に活用して音声・動画・スライド資料などを自動生成できるようになる。Schoology利用中の教育機関では業務効率への影響がある。",
+      "notes": "Schoology環境での設定確認と、学生データ利用に関する権限・保存先のルール決定が必要。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/keep-your-sources-up-to-date-with-automatic-Drive-syncing-in-NotebookLM.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/keep-your-sources-up-to-date-with-automatic-Drive-syncing-in-NotebookLM.html",
+      "title": "Keep your sources up to date with automatic Drive syncing in NotebookLM",
+      "title_ja": "NotebookLMがGoogle Driveと自動同期対応、ファイル更新を自動反映",
+      "published": "2026/05/26",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "NotebookLM",
+        "Google Drive",
+        "Google Workspace",
+        "自動同期"
+      ],
+      "summary": "NotebookLMでGoogle Driveのファイル更新が自動反映されるようになった。従来は手動で更新する必要があった。",
+      "impact": "Docs・Sheets・Slides経由で資料を管理している場合、NotebookLM内の内容が自動最新化され、手動更新の手間が削減される。",
+      "notes": "自動同期の範囲（Docs・Sheets・Slides以外のファイル形式や共有ドライブの対応）は未確認。運用前に仕様を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "normalized_url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "title": "May 26, 2026 Announcements Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office…",
+      "title_ja": "Anthropicが韓国オフィス開設、KiYoung Choiを代表取締役に任命",
+      "published": "2026/05/26",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "組織体制",
+        "地域展開"
+      ],
+      "summary": "AnthropicがソウルにオフィスをPIPEN、KiYoung Choiを韓国法人の代表取締役として任命した。",
+      "impact": "アジア太平洋地域でのClaude提供体制が整備される。自社でClaudeを法人契約する場合、現地対応が可能になる可能性がある。",
+      "notes": "実装時期や契約条件は公開資料で確認が必要。"
+    },
+    {
+      "url": "https://www.axios.com/2026/04/04/ai-agents-burnout-addiction-claude-code-openclaw",
+      "normalized_url": "https://www.axios.com/2026/04/04/ai-agents-burnout-addiction-claude-code-openclaw",
+      "title": "AI agents are scrambling power users' brains",
+      "title_ja": "AI エージェント利用者の認知負荷が問題化",
+      "published": "2026/05/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "AI エージェント",
+        "利用負荷",
+        "運用ルール",
+        "Claude"
+      ],
+      "summary": "AI エージェント（自動実行ツール）の急速な普及により、利用者が過度な認知負荷やストレスを感じる事例が増えている。",
+      "impact": "社内でAI エージェント導入時は、利用者の負担増加を見据えた運用ルール（使用時間制限・チェック体制など）の検討が必要になる可能性がある。",
+      "notes": "記事の詳細な根拠が不明確なため、導入判断の前に公式資料や信頼できる追加情報で実態を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/introducing-fresh-visual-identity-for-Google-Workspace-app-icons.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/introducing-fresh-visual-identity-for-Google-Workspace-app-icons.html",
+      "title": "Introducing a fresh visual identity for Google Workspace app icons",
+      "title_ja": "Google Workspaceのアプリアイコンがデザイン更新へ",
+      "published": "2026/05/26",
+      "source": "Google Workspace Updates",
+      "importance": "C",
+      "tags": [
+        "Google Workspace",
+        "UI・UX変更",
+        "定期更新"
+      ],
+      "summary": "GoogleがWorkspace全体のアイコンデザインを刷新する。Gmail、Drive、Docsなど13個のアプリが数週間かけて新しいアイコンに変わる。",
+      "impact": "ユーザーの画面表示が変わるが、機能に変化はない。業務運用への影響はほぼない。",
+      "notes": "デザイン変更のみで機能や操作方法は変わらない。ユーザーへの事前案内は不要。"
+    },
+    {
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "normalized_url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "title_ja": "OpenAI、ブラジルの大手メディア2社と提携しChatGPTに記事配信",
+      "published": "2026/05/25",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "コンテンツ提携",
+        "ブラジル"
+      ],
+      "summary": "OpenAIがブラジルの新聞・ニュース企業と契約し、ChatGPTに信頼できるニュース記事を配信する提携を開始した。",
+      "impact": "ChatGPTの回答に出典明記されたニュース記事が増える。社内でChatGPT利用時に参照できる情報の幅が広がる可能性がある。",
+      "notes": "自社の業務でChatGPTを使う場合、出典がどう表示されるか確認するとよい。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "normalized_url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "title": "May 25, 2026 Announcements Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+      "title_ja": "May 25, 2026 Announcements Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+      "published": "2026/05/25",
+      "source": "Anthropic News",
+      "importance": "C",
+      "tags": [
+        "Claude"
+      ],
+      "summary": "May 25, 2026 Announcements Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+      "impact": "未分析。会社での使い方は手動で確認する。",
+      "notes": "AI解析未実施"
+    }
+  ]
+}
