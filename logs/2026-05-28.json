@@ -1,0 +1,174 @@
+{
+  "started_at": "2026-05-28T09:13:19.433732+09:00",
+  "finished_at": "2026-05-28T09:14:57.741726+09:00",
+  "fetched_per_source": {
+    "official": 22,
+    "hn": 81,
+    "arxiv": 0
+  },
+  "fetched_total": 103,
+  "after_dedupe": 101,
+  "recorded_duplicate_excluded_count": 9,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 0,
+  "count_b": 7,
+  "count_c": 0,
+  "count_excluded": 4,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/05/28.html",
+  "markdown_path": "output/2026-05-28_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34022,
+  "output_tokens": 4775,
+  "estimated_cost_usd": 0.057897,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/ask-gemini-in-google-meet-is-becoming-more-easily-accessible-on-web.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/ask-gemini-in-google-meet-is-becoming-more-easily-accessible-on-web.html",
+      "title": "Ask Gemini in Google Meet is becoming more easily accessible on web",
+      "title_ja": "Google MeetのGemini機能、Web版でアクセスしやすく",
+      "published": "2026/05/27",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Google Meet",
+        "Gemini",
+        "UI更新"
+      ],
+      "summary": "Google MeetでGeminiを使う機能が、画面左下に移動して使いやすくなった。従来は右上のアイコンにマウスを置く必要があった。",
+      "impact": "Google Meet利用時にGeminiを活用する従業員の操作性が向上する。会議中の質問や情報検索の利便性が高まる可能性がある。",
+      "notes": "自社でGoogle Meetを導入している場合、従業員への案内や利用ルールの確認が必要。"
+    },
+    {
+      "url": "https://openai.com/index/cisco",
+      "normalized_url": "https://openai.com/index/cisco",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "title_ja": "CiscoとOpenAI、Codexで企業向けエンジニアリング基盤を構築",
+      "published": "2026/05/27",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "開発自動化",
+        "企業導入事例"
+      ],
+      "summary": "CiscoがOpenAIのCodexを導入し、開発の自動化と欠陥修復を効率化する取り組みを開始した。",
+      "impact": "AI開発ツールの企業導入事例として、自社でのコード自動生成やテスト業務の省力化を検討する際の参考になる。",
+      "notes": "詳細な活用方法・ツール構成・導入コストは抜粋では不明確なため、公式資料で確認する。"
+    },
+    {
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "normalized_url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "title": "Building self-improving tax agents with Codex",
+      "title_ja": "OpenAIがCodexで自己改善する税務エージェントを構築",
+      "published": "2026/05/27",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "自動化",
+        "税務",
+        "経理",
+        "エージェント",
+        "業務効率化"
+      ],
+      "summary": "OpenAIとThrive、Creteが、税務申告の自動化と精度向上を目指すAIエージェントをCodexで開発した。",
+      "impact": "税務申告業務の自動化事例として、社内の経理業務でAI活用の可能性を検討する際の参考になる。",
+      "notes": "実装方法やセキュリティ対応、データ保護の詳細は公式資料で確認する必要がある。税務申告は法的要件が厳しいため、導入前に法務・税務担当と相談する。"
+    },
+    {
+      "url": "https://openai.com/index/warp",
+      "normalized_url": "https://openai.com/index/warp",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "title_ja": "Warp、GPT-5.5を使ったオープンソース開発ツールに注力",
+      "published": "2026/05/27",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.5",
+        "コード生成",
+        "開発ツール",
+        "オープンソース",
+        "データセキュリティ"
+      ],
+      "summary": "WarpがGPT-5.5とOpenAIモデルを使い、コード作成AIを複数の開発環境で連携させるツールを構築している。",
+      "impact": "社内のコード生成・管理業務でGPT-5.5ベースのツール導入が選択肢になる可能性がある。使う場合はデータ送信先と権限を確認する。",
+      "notes": "Warpはサードパーティツール。本番導入前にセキュリティ、データ保管場所、利用許可を確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/election-safeguards-2026",
+      "normalized_url": "https://openai.com/index/election-safeguards-2026",
+      "title": "Election information and safeguards in 2026",
+      "title_ja": "2026年の選挙向けにChatGPTが情報提供と透明性強化",
+      "published": "2026/05/27",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "選挙",
+        "情報セキュリティ",
+        "透明性",
+        "利用ポリシー"
+      ],
+      "summary": "OpenAIが2026年の世界的な選挙に向けて、ChatGPTを通じた情報提供と不正防止、AI透明性の取り組みを説明した。",
+      "impact": "社内でChatGPTを選挙関連の情報検索・利用する際の信頼度や制限事項が明確になる。利用ポリシーの確認が必要な場合がある。",
+      "notes": "詳細は公式ページで確認する。自社で選挙情報をChatGPTで扱う場合は、利用ルールと責任者を決める。"
+    },
+    {
+      "url": "https://www.bigpharmasharma.com/p/chatgpt-claude-or-gemini-big-pharma",
+      "normalized_url": "https://www.bigpharmasharma.com/p/chatgpt-claude-or-gemini-big-pharma",
+      "title": "ChatGPT, Claude, or Gemini? Big Pharma Is Choosing Sides",
+      "title_ja": "ChatGPT、Claude、Gemini—製薬企業はどれを選ぶのか",
+      "published": "2026/05/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "製薬業界",
+        "企業導入",
+        "AI選択"
+      ],
+      "summary": "大手製薬企業がChatGPT、Claude、Geminiのいずれかの導入を進めており、企業ごとに選択が異なっている状況を報道した。",
+      "impact": "製薬業界でAI活用が広がる中、自社での導入検討時に競合や同業他社の選択事例を参考にできる可能性がある。",
+      "notes": "記事本文の詳細は未確認。同業他社のAI選択基準（規制対応、セキュリティ、コスト等）を確認する際の参考になるか検討する。"
+    },
+    {
+      "url": "https://apnews.com/press-release/ein-presswire-newsmatics/claude-gpt-gemini-agents-fail-72-of-u-s-healthcare-workflows-new-benchmark-finds-61b74f3c6e797b1d682002a00c88ffbc",
+      "normalized_url": "https://apnews.com/press-release/ein-presswire-newsmatics/claude-gpt-gemini-agents-fail-72-of-u-s-healthcare-workflows-new-benchmark-finds-61b74f3c6e797b1d682002a00c88ffbc",
+      "title": "Claude, GPT, Gemini Agents Fail 72% of U.S. Healthcare Workflows",
+      "title_ja": "Claude・GPT・Geminiのエージェント、米医療業務の72%で失敗――新調査",
+      "published": "2026/05/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "AI導入",
+        "医療",
+        "ベンチマーク"
+      ],
+      "summary": "Claude、GPT、Geminiなどのエージェント機能が米国の医療業務の72%で期待通りに動作しない実態が新たなベンチマーク調査で判明した。",
+      "impact": "医療現場への導入前に、AIエージェントが実際の業務フローにどの程度対応できるか検証が必須になる。",
+      "notes": "詳細は公式資料で確認が必要。医療以外の業務への適用可否については未確認。"
+    }
+  ]
+}
