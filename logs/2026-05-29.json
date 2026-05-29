@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-05-29T09:20:03.689580+09:00",
+  "finished_at": "2026-05-29T09:21:34.313735+09:00",
+  "fetched_per_source": {
+    "official": 28,
+    "hn": 82,
+    "arxiv": 0
+  },
+  "fetched_total": 110,
+  "after_dedupe": 105,
+  "recorded_duplicate_excluded_count": 11,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 9,
+  "count_c": 0,
+  "count_excluded": 0,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/05/29.html",
+  "markdown_path": "output/2026-05-29_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34025,
+  "output_tokens": 4628,
+  "estimated_cost_usd": 0.057165,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8",
+      "normalized_url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8",
+      "title": "What's new in Claude Opus 4.8",
+      "title_ja": "Claude Opus 4.8の新機能",
+      "published": "2026/05/28",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "モデル更新",
+        "API",
+        "新機能"
+      ],
+      "summary": "AnthropicがClaude Opus 4.8の更新内容を公式ドキュメントで説明した。",
+      "impact": "自社でClaudeを使っている場合、新機能を利用できるか、利用上の制限が変わるかを確認する必要がある。",
+      "notes": "具体的な新機能の内容は公式ドキュメントで確認する。API利用契約や社内ルールへの影響を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/04/share-chats-canvases-and-generated-media-from-the-Gemini-app-securely-via-Google-Drive.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/04/share-chats-canvases-and-generated-media-from-the-Gemini-app-securely-via-Google-Drive.html",
+      "title": "Share chats, canvases, and generated media from the Gemini app securely via Google Drive",
+      "title_ja": "Gemini アプリのチャットと生成メディアを Google Drive で共有可能に",
+      "published": "2026/05/28",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Drive",
+        "Google Workspace",
+        "データ共有",
+        "セキュリティ",
+        "コラボレーション"
+      ],
+      "summary": "Google Workspace ユーザーが Gemini アプリのチャットやキャンバス、生成メディアを Google Drive 経由で共有できるようになった。",
+      "impact": "Gemini での作業成果を Google Drive の既存ルールで共有・管理できるため、現在の情報保護ルールを Gemini にも適用する必要がある。",
+      "notes": "組織で Gemini の共有範囲（全員公開・限定・リンク共有など）をあらかじめ決めておくとよい。生成メディアの取り扱いルールも確認する。"
+    },
+    {
+      "url": "https://openai.com/index/endava",
+      "normalized_url": "https://openai.com/index/endava",
+      "title": "How Endava builds an agentic organization with Codex",
+      "title_ja": "EndavaがCodexで組織全体をAI化、要件分析を数週間から数時間に短縮",
+      "published": "2026/05/28",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "業務効率化",
+        "ソフトウェア開発",
+        "要件分析",
+        "事例"
+      ],
+      "summary": "EndavaがCodexを使い、ソフトウェア開発の要件分析を週単位から時間単位に短縮した事例を公開。",
+      "impact": "自社でAI導入を進める際、業務時間の削減がどの程度見込めるか参考にできる。",
+      "notes": "公式事例なので参考になるが、Endavaの業種・規模・既存システムは自社と異なる可能性がある。"
+    },
+    {
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "normalized_url": "https://openai.com/index/openai-frontier-governance-framework",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "title_ja": "OpenAIが企業向けAI利用ルールの考え方を説明",
+      "published": "2026/05/28",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "ガバナンス",
+        "セキュリティ",
+        "利用ルール",
+        "リスク管理"
+      ],
+      "summary": "OpenAIが、AI安全性・セキュリティ・リスク管理の考え方を公式説明。EU・カリフォルニア州の規制への対応も含む。",
+      "impact": "自社でChatGPT利用時の安全性確認やルール作りの参考になる。権限・保存先・責任者の整理に使える。",
+      "notes": "公式資料として読める。ただし日本での法的義務ではないため、自社の状況と比べて対応を判断する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/05/prevent-account-takeovers-with-DBSC-now-generally-available-in-the-Chrome-browser-for-Windows.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/05/prevent-account-takeovers-with-DBSC-now-generally-available-in-the-Chrome-browser-for-Windows.html",
+      "title": "Prevent account takeovers with Device Bound Session Credentials (DBSC), now generally available in the Chrome browser…",
+      "title_ja": "Chrome のデバイス結合セッション認証が一般提供開始、Windows で Google Workspace ユーザー向けに既定有効化",
+      "published": "2026/05/28",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "GoogleWorkspace",
+        "セキュリティ",
+        "Chrome",
+        "ログイン",
+        "アカウント保護"
+      ],
+      "summary": "Google が Chrome ブラウザのセッション認証機能を強化し、Windows 上で Google Workspace ユーザーに自動適用する。デバイスとセッションを結合してログイン状態の盗難を防ぐ。",
+      "impact": "Google Workspace ユーザーのセッション盗難リスクが低下し、マルウェア存在下でのアカウント乗っ取り耐性が向上する。ユーザーやシステム管理者の追加設定は原則不要。",
+      "notes": "既定有効化のため、利用環境や監査ルールに影響がないか確認する。非 Windows 環境や他ブラウザの対応状況を別途確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "normalized_url": "https://www.anthropic.com/news/milan-office-opening",
+      "title": "May 27, 2026 Announcements Anthropic opens Milan office to support Italian enterprise, research, and developers",
+      "title_ja": "Anthropic、ミラノにオフィスを開設",
+      "published": "2026/05/27",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "欧州展開",
+        "企業利用"
+      ],
+      "summary": "Anthropicがイタリア・ミラノに新しいオフィスを開設し、企業・研究機関・開発者向けの支援を強化する。",
+      "impact": "Claudeの欧州展開が進み、イタリア企業での利用やサポート体制が整備される可能性がある。",
+      "notes": "詳細な支援内容や日本への影響は未確認。公式資料として読める。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos",
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "title_ja": "Google I/O 2026の主要発表12項目をまとめて確認",
+      "published": "2026/05/28",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Google I/O 2026",
+        "Gemini",
+        "AI発表",
+        "新機能"
+      ],
+      "summary": "Google I/O 2026で発表された複数のAI・技術トピックをビデオで12項目に整理し、視聴できるようにした。",
+      "impact": "Google製のAIツール（Geminiなど）の最新機能や方針が確認でき、自社のAI活用計画の見直し材料になる。",
+      "notes": "内容の詳細は個別の発表動画を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "normalized_url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "title": "Introducing Claude Opus 4.8",
+      "title_ja": "Claudeの新モデル「Opus 4.8」発表",
+      "published": "2026/05/28",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "モデル更新",
+        "Anthropic"
+      ],
+      "summary": "AnthropicがClaudeの最新版Opus 4.8を発表した。機能や性能の詳細は公式ニュースで確認できる。",
+      "impact": "自社でClaudeを使う場合、新版への切り替えや性能比較が必要になる可能性がある。",
+      "notes": "詳細な機能・性能・利用制限・価格は公式ページで確認する。既存の利用契約への影響があるか確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/series-h",
+      "normalized_url": "https://www.anthropic.com/news/series-h",
+      "title": "May 28, 2026 Announcements Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "title_ja": "Anthropicが650億ドルの資金調達、企業評価額9650億ドル",
+      "published": "2026/05/28",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "企業資金動向",
+        "Anthropic"
+      ],
+      "summary": "Anthropicが過去最大規模のシリーズH資金調達で650億ドルを獲得し、企業評価額は9650億ドルに達した。",
+      "impact": "Claude開発への大型投資により、新機能追加や性能向上が加速される見通し。自社のAI予算計画や契約更新タイミングの確認が必要。",
+      "notes": "資金使途や新機能の公開時期は未確認。公式ニュースをもとに経営判断する場合は、詳細を問い合わせることを推奨。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-diffusion/",
+      "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-diffusion",
+      "title": "Gemini Diffusion: Google DeepMind's experimental research model",
+      "title_ja": "Google DeepMind、Gemini Diffusionを公開",
+      "published": "2026/05/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "画像生成",
+        "AI研究"
+      ],
+      "summary": "Google DeepMindが画像生成の実験的研究モデル「Gemini Diffusion」を発表した。",
+      "impact": "社内でGemini関連ツール活用を検討する場合、新モデルの仕様や制限を確認する必要がある。",
+      "notes": "実験段階のモデルのため、本番業務での利用前に提供条件・利用可能性・出力品質を確認する。"
+    }
+  ]
+}
