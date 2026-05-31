@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-05-31T09:13:10.196888+09:00",
+  "finished_at": "2026-05-31T09:14:35.070162+09:00",
+  "fetched_per_source": {
+    "official": 23,
+    "hn": 82,
+    "arxiv": 0
+  },
+  "fetched_total": 105,
+  "after_dedupe": 104,
+  "recorded_duplicate_excluded_count": 18,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 7,
+  "count_c": 2,
+  "count_excluded": 2,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/05/31.html",
+  "markdown_path": "output/2026-05-31_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33940,
+  "output_tokens": 4524,
+  "estimated_cost_usd": 0.05656,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees",
+      "normalized_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mystery-company-accidentally-blew-usd500-million-on-claude-in-a-single-month-failed-to-put-usage-limit-on-licenses-for-employees",
+      "title": "Mystery company accidentally blew $500M on Claude AI in a single month",
+      "title_ja": "ある企業が利用制限なしでClaudeを使わせ、1ヶ月で5億ドル超の費用を計上",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "コスト管理",
+        "利用制限",
+        "AI導入リスク",
+        "権限管理"
+      ],
+      "summary": "企業がClaudeの利用制限を設定しないまま従業員に利用させたため、1ヶ月で5億ドルを超える予想外の費用が発生した。",
+      "impact": "Claude導入時は利用額の上限設定が必須。予算管理を怠ると高額請求につながる可能性がある。",
+      "notes": "記事の詳細情報が限定的なため、自社でClaudeを使う場合は月額使用量の上限設定と利用状況の定期確認を優先する。"
+    },
+    {
+      "url": "https://dechained.ai",
+      "normalized_url": "https://dechained.ai/",
+      "title": "Using Claude Code with GPT 5.5, Gemini 3.5, Grok 4.3, and other models",
+      "title_ja": "Claude Code、GPT 5.5など複数モデルでの利用が可能に",
+      "published": "2026/05/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "コード生成",
+        "モデル互換性"
+      ],
+      "summary": "Claude Codeが他社のAIモデルと互換性を持つようになった。GPT、Gemini、Grokなど複数のモデルで使える状況が進む。",
+      "impact": "コード生成ツールの選択肢が広がり、自社で使うモデルの組み合わせを検討し直す必要がある。",
+      "notes": "情報源の信頼性と詳細が不確認。導入前に公式発表を確認する。"
+    },
+    {
+      "url": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+      "normalized_url": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+      "title": "DeepSWE blows up AI coding leaderboard, crowns GPT-5.5, + ClaudeOpus loophole",
+      "title_ja": "コード生成AI性能ベンチマーク更新、GPT-5.5が上位、Claude Opusに課題",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "コード生成",
+        "ベンチマーク"
+      ],
+      "summary": "コード生成性能の評価ベンチマークが更新され、複数のAIモデルの順位が変わった。",
+      "impact": "AIコード生成ツルの選定時、最新ベンチマーク結果を社内で確認する必要がある。",
+      "notes": "ベンチマーク方法や測定条件を公式資料で確認し、自社の用途に適しているか判断する。"
+    },
+    {
+      "url": "https://github.com/jsingh6/arch-decision",
+      "normalized_url": "https://github.com/jsingh6/arch-decision",
+      "title": "Arch-Decision – A multi-agent architecture tool for Claude Code",
+      "title_ja": "Claude向けマルチエージェント設計ツール「Arch-Decision」が公開",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "マルチエージェント",
+        "開発ツール",
+        "オープンソース"
+      ],
+      "summary": "Claudeを使った複数のAIエージェント構成の設計・管理を支援するツール。Claudeの出力を構造化し、エージェント間の連携を実装する際の手間を減らす。",
+      "impact": "Claudeで複数のAIを連携させるシステムを作る場合、実装時間が短くなる可能性がある。自社で開発を検討する場合は試す価値がある。",
+      "notes": "GitHubの公開プロジェクトで、サポート体制は不明。本番利用する場合は動作確認と保守計画を立てる。"
+    },
+    {
+      "url": "https://tech.yahoo.com/ai/claude/articles/researchers-let-ai-models-run-070300865.html",
+      "normalized_url": "https://tech.yahoo.com/ai/claude/articles/researchers-let-ai-models-run-070300865.html",
+      "title": "Researchers let AI models run a simulated society; Claude safest, Grok extinct",
+      "title_ja": "AIモデルが模擬社会を運営する実験、Claudeが最も安全と判定",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "安全性",
+        "AI研究",
+        "モデル比較"
+      ],
+      "summary": "複数のAIモデルに模擬社会の運営を任せた実験で、Claudeが最も安全な行動を示した。",
+      "impact": "AIの実務利用時に、モデル選択の参考になる安全性データが得られた可能性がある。",
+      "notes": "実験内容の詳細が不明なため、自社利用判断時は論文か公式資料で詳細を確認する。"
+    },
+    {
+      "url": "https://cashandcache.substack.com/p/the-prototype-tax-how-a-weekend-in",
+      "normalized_url": "https://cashandcache.substack.com/p/the-prototype-tax-how-a-weekend-in",
+      "title": "A Weekend in Claude Design Saves 3 Weeks of Claude Code",
+      "title_ja": "Claude Codeでの設計作業が開発期間を大幅短縮",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発効率",
+        "設計",
+        "プロトタイピング"
+      ],
+      "summary": "Claude Codeを使った週末の設計検討が3週間分の手作業を削減した事例について報告されている。",
+      "impact": "AIツールの設計段階での活用が開発効率に影響する可能性があり、自社の開発プロセスで同様の短縮効果を見込めるか検討する材料になる。",
+      "notes": "詳細な事例内容は未確認。自社で導入を検討する場合は、プロトタイプ作成の段階と費用対効果を確認する。"
+    },
+    {
+      "url": "https://www.theverge.com/column/935021/google-io-gemini-for-science-alphafold-alphagenome-ai-health",
+      "normalized_url": "https://www.theverge.com/column/935021/google-io-gemini-for-science-alphafold-alphagenome-ai-health",
+      "title": "'Solve all diseases,' you say?",
+      "title_ja": "Googleが科学向けAIを発表、医療応用に期待と課題",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "医療",
+        "科学",
+        "Google I/O"
+      ],
+      "summary": "GoogleがGoogle I/Oで医療・科学分野向けのAIツール群を公開。Geminiなど既存モデルを応用した内容。",
+      "impact": "社内で医療データ分析やAI導入を検討する際、Google製品の新機能を把握する参考になる。",
+      "notes": "医療利用には規制確認が必要。詳細は公式発表資料で確認する。"
+    },
+    {
+      "url": "https://github.com/inerrata/brief",
+      "normalized_url": "https://github.com/inerrata/brief",
+      "title": "Marketing skill for Claude with 26 evals – +20pp over baseline",
+      "title_ja": "Claudeのマーケティング性能、ベースラインより20ポイント向上",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "評価・ベンチマーク",
+        "マーケティング"
+      ],
+      "summary": "Claudeにマーケティング関連の26項目評価を実施し、基準値から20ポイント以上の性能向上を確認した。",
+      "impact": "Claudeをマーケティング業務に活用する際の性能基準が明確になり、導入判断の参考になる。",
+      "notes": "GitHubのリポジトリ内容と評価手法の詳細を確認してから社内での利用判断を進める。"
+    },
+    {
+      "url": "https://github.com/LiteLLM-Labs/lite-harness",
+      "normalized_url": "https://github.com/LiteLLM-Labs/lite-harness",
+      "title": "Show HN: Lite-Harness – Self-Hosted Cursor Agents (Use Claude Code/OpenCode)",
+      "title_ja": "Lite-Harness – Claude/OpenCodeで動作する自社運用型エージェント",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "自社運用",
+        "コード生成",
+        "セキュリティ"
+      ],
+      "summary": "GitHubで公開されたLite-Harness は、Claudeなどを使うコーディングエージェントを自社サーバで運用できるオープンソースツール。",
+      "impact": "現在のコード生成AIをプライベートな環境で使いたい場合、自社サーバ運用の選択肢が増える。",
+      "notes": "HNでの反応が極めて少ないため（ポイント3、コメント0）、実用性や安定性を自社で検証してから導入の判断をする。"
+    },
+    {
+      "url": "https://gist.github.com/joelonsql/c49129b151d7e77fb83250f675ffea07",
+      "normalized_url": "https://gist.github.com/joelonsql/c49129b151d7e77fb83250f675ffea07",
+      "title": "Claude Code vs. Codex: FRA challenge 75746d-2025",
+      "title_ja": "Claude CodeとCodexのコード生成比較テスト",
+      "published": "2026/05/30",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "コード生成",
+        "ベンチマーク",
+        "技術比較"
+      ],
+      "summary": "Claudeのコード生成能力とCodexを比較するテストが公開された。具体的なベンチマーク結果や評価基準は未確認。",
+      "impact": "社内でClaudeを業務利用する際、生成コードの品質参考になる可能性がある。ただし小規模テストのため自社での検証が必要。",
+      "notes": "Gistページの詳細内容を確認してから、実務判断する。テスト規模や条件により結果の信頼性が変わる。"
+    }
+  ]
+}
