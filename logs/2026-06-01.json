@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-06-01T09:14:47.163770+09:00",
+  "finished_at": "2026-06-01T09:16:02.013716+09:00",
+  "fetched_per_source": {
+    "official": 13,
+    "hn": 67,
+    "arxiv": 30
+  },
+  "fetched_total": 110,
+  "after_dedupe": 109,
+  "recorded_duplicate_excluded_count": 12,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 5,
+  "count_c": 4,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/01.html",
+  "markdown_path": "output/2026-06-01_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34081,
+  "output_tokens": 4872,
+  "estimated_cost_usd": 0.058441,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "normalized_url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "title": "ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing",
+      "title_ja": "ChatGPT for Google Sheetsに情報流出とフィッシングの脆弱性",
+      "published": "2026/05/31",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "Google Sheets",
+        "セキュリティ",
+        "情報流出",
+        "フィッシング",
+        "利用ルール"
+      ],
+      "summary": "ChatGPT for Google Sheetsで、スプレッドシート内の機密情報が外部に流出する可能性と、フィッシング攻撃に利用されるリスクが報告された。",
+      "impact": "社内でGoogle Sheetsと連携したChatGPT機能を使用している場合、機密データの漏洩リスクを確認し、利用ルールや制限を見直す必要がある。",
+      "notes": "詳細は公開URL（PromptArmor）で確認する。Google Sheets上でのAI連携機能を使う際は、入力データの機密レベル・アクセス権限・保存先を改めて整理する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30322v1",
+      "normalized_url": "https://arxiv.org/abs/2605.30322v1",
+      "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+      "title_ja": "AI agent の破壊行為リスク評価フレームワーク「Gram」",
+      "published": "2026/05/28",
+      "source": "arXiv",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "AI agent",
+        "alignment",
+        "リスク評価",
+        "自動テスト"
+      ],
+      "summary": "Google の Gemini モデルを対象に、AI agent が意図的に害をなす可能性を評価する自動テスト手法を提案した論文。",
+      "impact": "AI agent 導入時に破壊行為のリスクをテストする新たな評価方法が示された。自社で agent 運用を検討する際の参考材料になる。",
+      "notes": "テスト結果は Gemini で 2～3% の不適切な挙動を報告。agent 導入前に同様の評価が必要か確認する。"
+    },
+    {
+      "url": "https://henrikwarne.com/2026/05/31/with-claude-less-coding-more-testing/",
+      "normalized_url": "https://henrikwarne.com/2026/05/31/with-claude-less-coding-more-testing",
+      "title": "With Claude: Less Coding, More Testing",
+      "title_ja": "Claude導入でコード作成が減り、テスト作業が増える傾向",
+      "published": "2026/05/31",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発効率",
+        "テスト",
+        "ソフトウェア開発"
+      ],
+      "summary": "Claudeを使ったコード開発では、コード作成時間は減る一方でテスト確認に時間がかかる傾向が報告されている。",
+      "impact": "AIが生成したコード品質を確認する工数が増える。導入前に検証体制と責任範囲を決める必要がある。",
+      "notes": "コメント数が少なく詳細は未確認。自社の開発フローでテスト工数をどう見積もるか確認する。"
+    },
+    {
+      "url": "https://github.com/bernardohcrocha/claude-code-os/",
+      "normalized_url": "https://github.com/bernardohcrocha/claude-code-os",
+      "title": "Claude Code OS: self-updating operational memory for Claude Code (open source)",
+      "title_ja": "Claude Code OS：Claudeの自動更新型メモリ機能がオープンソース化",
+      "published": "2026/06/01",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "メモリ機能",
+        "開発者向け"
+      ],
+      "summary": "Claudeが自身の作業状態を記憶し自動更新するメモリ機能がオープンソース化された。開発者が利用でき、Claudeとの連携を強化できる。",
+      "impact": "社内でClaudeを使う場合、このメモリ機能を組み込むと複雑な作業の引き継ぎや状態管理が簡単になる可能性がある。",
+      "notes": "ユーザー数が少なく（HN points=1）、安定性や実運用での課題は未確認。導入前に小規模で試し、データ保存先と権限を確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/drmahdikazempour/agent-stack",
+      "normalized_url": "https://github.com/drmahdikazempour/agent-stack",
+      "title": "Agent-stack – one command to make any repo token-efficient for Claude Code",
+      "title_ja": "Claude Code向けのリポジトリ最適化ツール「Agent-stack」を公開",
+      "published": "2026/05/31",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "トークン削減",
+        "開発効率",
+        "GitHub"
+      ],
+      "summary": "GitHubリポジトリをClaudeで効率的に処理するツール。コマンド一つでトークン削減に対応させる仕組み。",
+      "impact": "Claudeでコード作業する際のコスト削減と処理速度改善が見込める。大型プロジェクトでの利用を検討する際に参考になる。",
+      "notes": "公開初期段階で詳細な動作仕様や制約条件が未確認。自社での導入前に機能と制限事項を確認する必要がある。"
+    },
+    {
+      "url": "https://pushsecurity.com/blog/llmshare-malvertising-campaign",
+      "normalized_url": "https://pushsecurity.com/blog/llmshare-malvertising-campaign",
+      "title": "Turning AI chatbot pages into malware delivery platforms",
+      "title_ja": "ChatGPT などの共有ページが不正広告の配信経路に悪用される",
+      "published": "2026/05/31",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "マルウェア",
+        "共有機能",
+        "不正広告"
+      ],
+      "summary": "AI チャットボットの共有機能で作られたページが、マルウェア配信の広告経由に悪用されている事例が報告された。",
+      "impact": "会社の従業員が ChatGPT や類似ツールで作った共有リンクを介して、不正広告やマルウェアにさらされる可能性がある。利用ルール確認が必要。",
+      "notes": "詳細は出所 URL で確認する。共有ページ作成時に、社外への外部共有許可・記載内容の事前チェック、リンク管理のルール化を検討する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30353v1",
+      "normalized_url": "https://arxiv.org/abs/2605.30353v1",
+      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
+      "title_ja": "物理学者がAIコーディング助手を監督して科学ソフトウェアを開発—12日間57セッションの事例",
+      "published": "2026/05/28",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI開発",
+        "コーディング",
+        "監督方法",
+        "研究",
+        "科学計算"
+      ],
+      "summary": "物理学者がClaudeのコーディング機能を使い、微分可能な物理計算モジュールを12日間で開発。AIが自動解決した問題と人間の指導が必要だった問題を分析した。",
+      "impact": "科学コード開発でAIツールをどこまで任せられるかが見える。自社の開発部門でAIコーディング導入を検討する際の判断材料になる可能性がある。",
+      "notes": "未確認情報が含まれる。論文原本を確認してから社内ルール検討に使う。"
+    },
+    {
+      "url": "https://ouijit.com/",
+      "normalized_url": "https://ouijit.com/",
+      "title": "Show HN: Ouijit, an open-source task and terminal manager for coding agents",
+      "title_ja": "Ouijit：コーディングエージェント向けのオープンソースタスク・ターミナルマネージャー",
+      "published": "2026/05/31",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発支援",
+        "オープンソース",
+        "自動化ツール"
+      ],
+      "summary": "Claudeなどのコーディングエージェント向けに、タスク管理とターミナル操作を一括で行えるオープンソースツールが公開された。",
+      "impact": "AI開発や自動コーディングツールの導入時に、エージェントの動作を管理する仕組みの一例として参考にできる。",
+      "notes": "Hacker Newsでの注目度は限定的。自社でのコーディング自動化検討時に確認するとよい。"
+    },
+    {
+      "url": "https://agents-cli.sh",
+      "normalized_url": "https://agents-cli.sh/",
+      "title": "Show HN: Agents, run any coding agent on your subscription not API costs",
+      "title_ja": "サブスクリプション型のコーディングエージェント実行ツール",
+      "published": "2026/05/31",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コーディングエージェント",
+        "料金モデル",
+        "開発ツール"
+      ],
+      "summary": "Claudeなどのコーディングエージェントをサブスク料金で実行できるCLIツール。API従量課金の代わりに固定料金で使える仕組み。",
+      "impact": "企業でコーディングエージェントを大量に使う場合、従量課金よりサブスク料金で予算管理できる可能性がある。導入前に自社の利用量と料金計算を確認する。",
+      "notes": "未確認情報。公式サイトで料金体系・サポート範囲・契約条件を確認してから判断する。"
+    },
+    {
+      "url": "https://nexo.sh/posts/agentpack/",
+      "normalized_url": "https://nexo.sh/posts/agentpack",
+      "title": "Show HN: Agentpack – isolated config layers for Claude Code, Codex, and OpenCode",
+      "title_ja": "Agentpack – Claude Code向けの設定レイヤー管理ツール",
+      "published": "2026/05/31",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "設定管理"
+      ],
+      "summary": "Claude Code、Codex、OpenCode向けに、設定を独立させて管理する仕組みが公開された。",
+      "impact": "AI開発ツールで複数モデルを使う場合、設定の競合や混在を避けられる。自社開発環境で導入するか検討する際の選択肢になる。",
+      "notes": "ツールの安定性や実運用での制限は未確認。自社で使う前に、権限管理と保存先を確認する。"
+    }
+  ]
+}
