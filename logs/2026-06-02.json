@@ -1,0 +1,188 @@
+{
+  "started_at": "2026-06-02T10:35:45.790718+09:00",
+  "finished_at": "2026-06-02T10:37:04.428791+09:00",
+  "fetched_per_source": {
+    "official": 12,
+    "hn": 84,
+    "arxiv": 0
+  },
+  "fetched_total": 96,
+  "after_dedupe": 93,
+  "recorded_duplicate_excluded_count": 5,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 0,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/06/02.html",
+  "markdown_path": "output/2026-06-02_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33931,
+  "output_tokens": 4716,
+  "estimated_cost_usd": 0.057511,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/organize-my-files-in-drive-now-generally-available.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/organize-my-files-in-drive-now-generally-available.html",
+      "title": "Organize My Files in Drive now generally available",
+      "title_ja": "Google DriveのGemini自動整理機能が一般提供開始",
+      "published": "2026/06/01",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Drive",
+        "自動化機能",
+        "ファイル管理"
+      ],
+      "summary": "Google DriveにGeminiが散らばったファイルを自動で分類・整理する機能が追加された。フォルダ構成に合わせて移動を提案する。",
+      "impact": "Google Workspace利用者は、Driveの整理作業が簡素化される。ただし提案の正確性やアクセス制限の確認が必要。",
+      "notes": "提案内容が適切か確認してから実行する。対象プランの確認と導入スケジュール、ファイルアクセス権限との関係を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "normalized_url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "title_ja": "OpenAIのモデルとCodexがAWSで利用可能に",
+      "published": "2026/06/01",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "AWS",
+        "導入"
+      ],
+      "summary": "OpenAIの最新モデルとCodexがAWSを通じて提供され、企業は既存のAWS環境で利用できるようになった。",
+      "impact": "AWS経由でOpenAIを使う場合、現在のAWS契約・請求・権限管理で対応でき、新たな環境構築が不要になる。",
+      "notes": "AWS経由での利用料金・サポート範囲・データ保持ポリシーをAWS側で確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "title_ja": "GoogleがGeminiを使ってGoogle I/O 2026を構築",
+      "published": "2026/06/01",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "事例",
+        "イベント企画"
+      ],
+      "summary": "GoogleがGeminiをGoogle I/O 2026のイベント企画・制作に活用した事例を公開した。",
+      "impact": "大規模イベント企画でAIを実際にどう使ったかの事例として、社内のAI活用検討の参考になる。",
+      "notes": "抜粋のみで詳細が不明なため、実務への適用判断は公式記事を確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "normalized_url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "title": "Our views on AI policy and political advocacy",
+      "title_ja": "OpenAIのAI政策と政治活動への見方",
+      "published": "2026/06/01",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "AI政策",
+        "ガバナンス",
+        "透明性",
+        "規制対応"
+      ],
+      "summary": "OpenAIがAI政策や政治活動への対応方針を示した。透明性の確保、慎重な規制の支持、安全性重視が基本方針。",
+      "impact": "社内でAIの対外発言や政治的立場に関する問い合わせが増えた場合、公式方針として参照できる。",
+      "notes": "外部の政治団体がOpenAIを代表して発言することはないと明記。自社でOpenAI製品を利用する際、政治的中立性の確認が必要になる可能性がある。"
+    },
+    {
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "normalized_url": "https://openai.com/index/stargate-michigan-data-center",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "title_ja": "OpenAI、ミシガン州に大型データセンター建設へ",
+      "published": "2026/06/01",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "インフラ整備",
+        "データセンター",
+        "Stargate",
+        "米国動向"
+      ],
+      "summary": "OpenAIがミシガン州でAI用データセンター建設を開始。電力1GW規模で、Stargateプロジェクトの一環。",
+      "impact": "今後、ChatGPT等の大規模サービスの処理能力が段階的に拡張される。日本での利用速度や応答性能に影響する可能性がある。",
+      "notes": "具体的な稼働時期・投資額・日本への波及時期は根拠URLから未確認。公式発表として参考に。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "normalized_url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "title": "Jun 1, 2026 Announcements Anthropic confidentially submits draft S-1 to the SEC",
+      "title_ja": "Anthropicが米証取委に上場申請書を機密提出",
+      "published": "2026/06/01",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "企業戦略",
+        "上場準備"
+      ],
+      "summary": "Claude開発のAnthropicが、上場に向けて米国証券取引委員会に申請書の下書きを機密提出した。",
+      "impact": "Anthropicの経営方針や資金調達計画が今後明かされる可能性がある。企業向けClaude導入契約の条件や価格体系が変わる可能性がある。",
+      "notes": "機密提出のため詳細は未公開。上場申請が承認されるまで、正式な経営情報や新サービスは発表されない見込み。"
+    },
+    {
+      "url": "https://github.com/0xJaksun/lithium-core",
+      "normalized_url": "https://github.com/0xJaksun/lithium-core",
+      "title": "Show HN: 2-command CLI to give AI agents structured data retrieval on PostgreSQL",
+      "title_ja": "PostgreSQLでAIエージェントに構造化データ取得を可能にするCLIツール",
+      "published": "2026/06/01",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "PostgreSQL",
+        "AI agents",
+        "データ連携",
+        "セキュリティ管理"
+      ],
+      "summary": "PostgreSQLデータベースをAIエージェントが直接操作できるようにするコマンドラインツールをGitHubで公開。2つのコマンドで利用可能。",
+      "impact": "Claude CodeなどのAIエージェントが社内DBのデータを自動取得・分析できるようになる可能性がある。導入前に権限管理とセキュリティ確認が必要。",
+      "notes": "GitHubのオープンソース公開で、まだコミュニティでの検証段階。本番利用前に、データベースアクセス権限、機密情報の保護、出力内容のチェック体制をルール化する。"
+    },
+    {
+      "url": "https://devarch.ai",
+      "normalized_url": "https://devarch.ai/",
+      "title": "Without Intelligent Guardrails, Claude Code Is Pure Chaos",
+      "title_ja": "Claudeのコード生成、ガードレール不足で危険な状態",
+      "published": "2026/06/01",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "安全性",
+        "ガードレール",
+        "利用ルール"
+      ],
+      "summary": "Claudeがコード生成時に安全策を欠くと、問題のあるコードを出力する可能性があることが指摘されている。",
+      "impact": "Claudeでコード生成を利用する場合、出力内容の検証ルールと責任者を決める必要がある。",
+      "notes": "コメント数が少なく議論内容が未確認。詳細はURL先で確認し、自社のコード利用ルールと見直す。"
+    }
+  ]
+}
