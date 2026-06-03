@@ -1,0 +1,188 @@
+{
+  "started_at": "2026-06-03T10:46:02.053182+09:00",
+  "finished_at": "2026-06-03T10:47:25.232350+09:00",
+  "fetched_per_source": {
+    "official": 19,
+    "hn": 72,
+    "arxiv": 0
+  },
+  "fetched_total": 91,
+  "after_dedupe": 88,
+  "recorded_duplicate_excluded_count": 9,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 0,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 0,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/06/03.html",
+  "markdown_path": "output/2026-06-03_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33971,
+  "output_tokens": 4677,
+  "estimated_cost_usd": 0.057356,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/introducing-ability-to-loop-over-list-of-items-in-Workspace-Studio.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/introducing-ability-to-loop-over-list-of-items-in-Workspace-Studio.html",
+      "title": "Introducing the ability to loop over a list of items in Workspace Studio",
+      "title_ja": "Google Workspace Studioでリスト項目のループ処理が可能に",
+      "published": "2026/06/02",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Workspace Studio",
+        "自動化",
+        "ワークフロー",
+        "Gemini"
+      ],
+      "summary": "Google Workspace Studioで、リスト形式のデータに対してループ処理を実行できる機能が追加された。",
+      "impact": "Geminiステップの出力をリスト形式に設定し、新ステップ「Repeat for each」で複数項目を繰り返し処理できるようになる。",
+      "notes": "Workspace Studioを利用している部署は、ワークフローの自動化範囲が拡大する可能性を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "normalized_url": "https://openai.com/index/codex-for-knowledge-work",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "title_ja": "CodexがAIで知識業務の生産性を変える",
+      "published": "2026/06/02",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "業務自動化",
+        "データ分析",
+        "OpenAI",
+        "生産性向上"
+      ],
+      "summary": "OpenAIが、Codexを使った調査・データ分析・業務自動化・コンテンツ作成の実例を説明した。",
+      "impact": "社内の調査やデータ処理、定型業務をCodexで自動化・効率化できる可能性を検討する機会になる。",
+      "notes": "自社での活用を見るなら、どの業務に使うか、出力チェックの責任者、データ保存先を先に決める。"
+    },
+    {
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "normalized_url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "title": "Codex for every role, tool, and workflow",
+      "title_ja": "OpenAI、Codexの職種別プラグインを拡充",
+      "published": "2026/06/02",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "プラグイン",
+        "AI導入",
+        "業務効率化"
+      ],
+      "summary": "OpenAIがCodexの新しいプラグインとツールを発表。分析、マーケティング、デザイン、投資など各職種の業務に対応した機能を追加。",
+      "impact": "自社の各部門がCodexで業務効率化できる選択肢が増える。利用可能な機能を確認し、部門ごとの導入判断が必要になる。",
+      "notes": "プラグインやツールの詳細は公式ブログで確認する。導入前に自社の許可基準と連携システムの確認が必要。"
+    },
+    {
+      "url": "https://openai.com/index/travelers",
+      "normalized_url": "https://openai.com/index/travelers",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "title_ja": "トラベラーズがOpenAIでAI請求アシスタント全国展開",
+      "published": "2026/06/02",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "生成AI導入事例",
+        "顧客対応",
+        "業務自動化"
+      ],
+      "summary": "保険会社トラベラーズが、OpenAIと共同でAI請求アシスタントを開発し、顧客の請求手続きサポートを全国で開始した。",
+      "impact": "AI導入による24時間対応と業務効率化の事例として、自社の顧客対応業務への適用可能性を検討する材料になる。",
+      "notes": "実装方法や運用ルールは公式資料で確認する。自社で同様に導入する場合は、データ保護と責任範囲を事前に確認する。"
+    },
+    {
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "normalized_url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "title_ja": "OpenAIが若年層のAI安全利用を国際的に推進",
+      "published": "2026/06/02",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "安全対策",
+        "若年層",
+        "国際的取り組み",
+        "ルール"
+      ],
+      "summary": "OpenAIが若年層向けのAI安全対策を強化するため、国際機関の設立を提案している。",
+      "impact": "学生や若年層がChatGPTを使う際の安全基準や利用ルールが国際的に検討される可能性がある。",
+      "notes": "詳細な提案内容は公式記事で確認する必要がある。学校やアルバイト先でのAI利用ルール設定時に参照する価値がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "normalized_url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "title": "Jun 2, 2026 Announcements Expanding Project Glasswing",
+      "title_ja": "Anthropic、Project Glasswing を拡大",
+      "published": "2026/06/02",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "利用ルール"
+      ],
+      "summary": "AnthropicがProject Glasswingの拡大を発表した。詳細は公式ニュースで説明されている。",
+      "impact": "Claude利用時の運用ルールや利用範囲が変わる可能性がある。自社のClaude導入・運用方針を確認する必要がある。",
+      "notes": "公式発表だが、抜粋がないため詳細を公式ページで確認して判断する。"
+    },
+    {
+      "url": "https://www.jolli.ai",
+      "normalized_url": "https://www.jolli.ai/",
+      "title": "Show HN: Jolli AI – Local-First AI Memory for Claude Code, Codex, and Gemini CLI",
+      "title_ja": "Jolli AI – ローカル保存型のAIメモリ機能がClaudeなど対応",
+      "published": "2026/06/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "Gemini",
+        "ローカル保存",
+        "メモリ機能",
+        "開発者向け"
+      ],
+      "summary": "Claude・Codex・Gemini CLIで使えるローカル保存型のメモリ機能を開発者向けに公開した。",
+      "impact": "複数のAIツール間でやり取りの履歴や設定を保存・再利用でき、業務でのAI活用の効率が上がる可能性がある。",
+      "notes": "ローカル保存なので情報漏洩のリスクは低いが、自社でのテストと導入ルールの確認が必要。"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
+      "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
+      "title": "Testing Google's Gemini Spark AI agent: it's incredible, and creepy",
+      "title_ja": "Google Gemini Sparkの自動実行機能を検証、利便性と懸念が両立",
+      "published": "2026/06/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "AI機能",
+        "自動実行",
+        "検証"
+      ],
+      "summary": "GoogleのGemini Sparkという新機能が、自動的にタスク実行やプランニングを行う能力を示した。利便性が高い反面、勝手な動作への懸念もある。",
+      "impact": "Geminiの自動実行機能が実務的に使える段階か、導入前に試験・確認する際の参考になる。",
+      "notes": "記事は検証レポートだが、実装時期や日本での利用可能性は未確認。会社での導入検討時は自社の運用ルール・責任範囲を改めて整理する。"
+    }
+  ]
+}
