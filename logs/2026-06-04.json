@@ -1,0 +1,228 @@
+{
+  "started_at": "2026-06-04T10:47:43.947425+09:00",
+  "finished_at": "2026-06-04T10:49:19.836617+09:00",
+  "fetched_per_source": {
+    "official": 33,
+    "hn": 75,
+    "arxiv": 0
+  },
+  "fetched_total": 108,
+  "after_dedupe": 103,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 8,
+  "count_c": 2,
+  "count_excluded": 0,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/06/04.html",
+  "markdown_path": "output/2026-06-04_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34097,
+  "output_tokens": 4910,
+  "estimated_cost_usd": 0.058647,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/gmail-as-source-in-ask-gemini-in-drive-now-generally-available.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/gmail-as-source-in-ask-gemini-in-drive-now-generally-available.html",
+      "title": "Gmail as a source in Ask Gemini in Drive now generally available",
+      "title_ja": "Gmail をAsk Gemini in Drive で利用可能に",
+      "published": "2026/06/03",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Gmail",
+        "Ask Gemini in Drive",
+        "機能追加"
+      ],
+      "summary": "Google Drive の Ask Gemini で、Gmail のメールスレッドを情報源として利用できるようになった。従来はファイルやフォルダのみだった。",
+      "impact": "社員が Ask Gemini を使う際、メールの内容も含めて検索・分析できるようになる。メールベースのプロジェクト情報や決定履歴の活用方法を整理する必要がある。",
+      "notes": "Google Workspace と Google AI プランが対象。段階的な展開中のため、自社への適用時期と対応ユーザーを確認する。"
+    },
+    {
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "normalized_url": "https://openai.com/index/frontier-safety-blueprint",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "title_ja": "OpenAI、米国のAI規制枠組みを提案",
+      "published": "2026/06/03",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI規制",
+        "ガバナンス",
+        "安全運用",
+        "ポリシー"
+      ],
+      "summary": "OpenAIが、高度なAI技術を安全に運用するための米国の規制考え方を説明した。",
+      "impact": "会社でAI導入時の安全基準やルール作りで、政策動向を参考にする材料になる可能性がある。",
+      "notes": "公式提案であり、実際の法制化はまだ。自社のAI利用ルール検討時に確認するとよい。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "normalized_url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "title_ja": "OpenAI、生命科学向けChatGPTの新機能を公開",
+      "published": "2026/06/03",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-Rosalind",
+        "生命科学",
+        "医薬",
+        "バイオ",
+        "ゲノム解析",
+        "新機能"
+      ],
+      "summary": "OpenAIが生命科学研究向けにGPT-Rosalindの機能を強化。生物学的推論、医薬化学、ゲノム解析、実験プロセスの支援が新たに追加。",
+      "impact": "医薬・バイオ部門がある場合、ChatGPTの利用範囲が研究支援に広がる可能性。導入検討時は出力の精度確認と利用ルールの整備が必要。",
+      "notes": "生命科学分野の出力は科学的根拠を必ず確認してから利用する。医薬規制の対象範囲外での利用であることを確認する。"
+    },
+    {
+      "url": "https://openai.com/index/public-policy-agenda",
+      "normalized_url": "https://openai.com/index/public-policy-agenda",
+      "title": "OpenAI public policy agenda",
+      "title_ja": "OpenAIが公開政策課題を発表―安全性と若年層保護、雇用支援が軸",
+      "published": "2026/06/03",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "AI安全性",
+        "規制・ガイドライン",
+        "雇用・労働"
+      ],
+      "summary": "OpenAIが、AI規制や安全対策、若年層保護、失業対策、国際基準づくりの考え方を公開した。",
+      "impact": "政府や業界の動きが自社のAI利用ルール・社内教育・従業員対応に影響する可能性がある。",
+      "notes": "公式資料なので政策方向を把握する材料になるが、日本での法令整備とは別に進み、時間差がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "normalized_url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "title": "Jun 3, 2026 Announcements Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "title_ja": "Claude Partner Network にサービス提供事業者向けプログラムを新設",
+      "published": "2026/06/03",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "パートナープログラム",
+        "ベンダー向け"
+      ],
+      "summary": "Anthropicが、Claude を利用するシステムやサービスを提供する事業者向けの新しいパートナープログラムと情報サイトを立ち上げた。",
+      "impact": "Claude を業務システムに組み込む場合、Anthropic公式の事業者向けサポートと技術情報が利用できるようになる可能性がある。",
+      "notes": "詳細な対象条件、契約内容、費用は公式ページで確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "normalized_url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "title": "Jun 3, 2026 Policy What we learned mapping a year’s worth of AI-enabled cyber threats",
+      "title_ja": "AIを悪用したサイバー脅威、1年の実態を調査",
+      "published": "2026/06/03",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "AI悪用",
+        "MITRE",
+        "サイバー脅威",
+        "リスク管理"
+      ],
+      "summary": "AnthropicがMITREと協力し、AI技術を使った攻撃の実例を1年間追跡した結果をまとめた。",
+      "impact": "社内システムやデータ保護の対象脅威が広がっているため、セキュリティ監視の範囲を確認する必要がある。",
+      "notes": "公式資料として読めるが、自社での対策実装時は情報セキュリティ部門と確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/enhanced-data-protection-for-managed-third-party-apps.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/enhanced-data-protection-for-managed-third-party-apps.html",
+      "title": "Enhanced data protection for managed third-party apps",
+      "title_ja": "Google Workspace、管理下の連携アプリへのデータ転送を許可",
+      "published": "2026/06/03",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "データ保護",
+        "サードパーティ連携",
+        "アクセス制御",
+        "セキュリティポリシー"
+      ],
+      "summary": "Google Workspaceから認可された第三者アプリへのデータ移動制限を緩和し、社内ワークフローを維持できるようにした。",
+      "impact": "Google Workspaceと連携アプリ間のデータ移動ルールが変わるため、利用中のアプリ連携がどう変わるか確認する必要がある。",
+      "notes": "転送されたデータの保護範囲が記事の抜粋で不完全なため、公式ドキュメントで詳細なセキュリティ条件と制限範囲を確認する。"
+    },
+    {
+      "url": "https://github.com/pixiebrix/agent-browser-shield",
+      "normalized_url": "https://github.com/pixiebrix/agent-browser-shield",
+      "title": "Show HN: Agent-browser-shield – free extension to protect AI agents on the web",
+      "title_ja": "AI エージェント向けブラウザ保護拡張機能が公開",
+      "published": "2026/06/03",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI安全対策",
+        "ブラウザセキュリティ",
+        "無料ツール"
+      ],
+      "summary": "Claudeなどが使うAIエージェント向けの無料ブラウザ拡張機能が公開された。ウェブ上での動作を保護する。",
+      "impact": "AI利用時にブラウザ経由での不正アクセスや誤操作のリスクを減らせる可能性がある。導入判断時に確認する価値がある。",
+      "notes": "機能や対応環境、インストール手順は公式リポジトリで確認する。社内利用時はセキュリティチーム承認が必要になる可能性がある。"
+    },
+    {
+      "url": "https://openai.com/index/wasmer",
+      "normalized_url": "https://openai.com/index/wasmer",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "title_ja": "WasmerがCodexでNode.js実行環境を開発、開発期間を大幅短縮",
+      "published": "2026/06/03",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "Codex",
+        "GPT-5.5",
+        "開発効率",
+        "Node.js",
+        "エッジコンピューティング",
+        "事例"
+      ],
+      "summary": "WasmerがCodexとGPT-5.5を使い、エッジ向けのNode.js実行環境を数週間で開発。開発期間を10〜20倍短縮した事例。",
+      "impact": "AI支援での大規模開発が数カ月から数週間に短縮できる事例として、自社の開発期間見積もりやAI活用の投資判断の参考になる。",
+      "notes": "実装詳細や技術的な制限条件を確認し、同様の環境や言語での効果見込みを検討する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/thrifting-tips",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "title_ja": "Google検索でリサイクルショップや古着探しを効率化する5つの方法",
+      "published": "2026/06/03",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Google検索",
+        "利用例",
+        "消費者向け"
+      ],
+      "summary": "Google検索でリサイクルショップや古着を探す時の活用法を紹介した。",
+      "impact": "社内でAI検索の実例を参考にする際の事例として扱える。導入判断への直接的な影響は薄い。",
+      "notes": "消費者向けの機能紹介記事。会社でのAI利用ルールや導入計画には直結しない。"
+    }
+  ]
+}
