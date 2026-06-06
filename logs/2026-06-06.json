@@ -1,0 +1,215 @@
+{
+  "started_at": "2026-06-06T09:18:40.312782+09:00",
+  "finished_at": "2026-06-06T09:19:50.835733+09:00",
+  "fetched_per_source": {
+    "official": 21,
+    "hn": 77,
+    "arxiv": 30
+  },
+  "fetched_total": 128,
+  "after_dedupe": 127,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 9,
+  "count_c": 0,
+  "count_excluded": 4,
+  "errors": [
+    "official fetch failed: HuggingFace Blog: RSS parse failed: https://huggingface.co/blog/feed.xml"
+  ],
+  "html_path": "docs/2026/06/06.html",
+  "markdown_path": "output/2026-06-06_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33793,
+  "output_tokens": 4399,
+  "estimated_cost_usd": 0.055788,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://status.claude.com/incidents/fprlnsvdnr2k",
+      "normalized_url": "https://status.claude.com/incidents/fprlnsvdnr2k",
+      "title": "Elevated errors on many Claude models",
+      "title_ja": "Claude複数モデルでエラー頻発",
+      "published": "2026/06/05",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "障害",
+        "エラー"
+      ],
+      "summary": "Claudeの複数モデルで一時的にエラーが多発した状況が報告された。",
+      "impact": "利用中のClaudeが一時的に動作しない可能性がある。自社でClaudeを使う際は復旧状況を確認する必要がある。",
+      "notes": "詳細は公式ステータスページで確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026",
+      "title": "The latest AI news we announced in May 2026",
+      "title_ja": "Googleが5月に発表したAI関連の更新内容",
+      "published": "2026/06/05",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "AI機能アップデート"
+      ],
+      "summary": "GoogleがGeminiなど5月に発表したAI機能や改善について、月次の総括記事を公開した。",
+      "impact": "Geminiの新機能や対応範囲の拡大などが記載されているため、自社でGeminiを導入している場合は新機能の確認が必要。",
+      "notes": "詳細は公式ブログのため公式情報として扱える。利用前に自社の権限や対応範囲を確認する。"
+    },
+    {
+      "url": "https://github.com/ExpressGradient/lazarus",
+      "normalized_url": "https://github.com/ExpressGradient/lazarus",
+      "title": "Show HN: Lazarus, a coding agent for long-horizon tasks",
+      "title_ja": "Lazarus：長期タスク向けのコーディングエージェント",
+      "published": "2026/06/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コーディングエージェント",
+        "自動化",
+        "検証必須"
+      ],
+      "summary": "Claudeを使った、複数ステップのプログラミング作業を自動で進めるツール。単純でなく時間がかかるコード作業に向く。",
+      "impact": "社内でコード生成やテスト自動化に使う場合、Claudeの利用量と出力品質をあらかじめ確認する必要がある。",
+      "notes": "GitHubの新規プロジェクトで注目度がまだ低い。本番利用前に、出力されたコードの検査方法と責任範囲を決める。"
+    },
+    {
+      "url": "https://daringfireball.net/linked/2026/06/04/google-gemini-mac",
+      "normalized_url": "https://daringfireball.net/linked/2026/06/04/google-gemini-mac",
+      "title": "Google's Gemini App Is Native, in a Google Way, but Annoyingly Presumptuous",
+      "title_ja": "GeminiアプリのMac版が登場、操作が定型的との評価",
+      "published": "2026/06/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Mac",
+        "アプリ",
+        "ユーザー体験"
+      ],
+      "summary": "GoogleがMac向けのGeminiネイティブアプリをリリースした。Googleのやり方に沿った設計だが、ユーザーの意図を過度に推測する動作が指摘されている。",
+      "impact": "社内でMacを使用する場合、Geminiアプリの自動提案機能がどの程度有用か、また業務利用時の設定確認が必要になる可能性がある。",
+      "notes": "評価記事であり、具体的な仕様や制限は確認していない。実際に導入する場合は、アプリの動作と会社のポリシーを照らし合わせる。"
+    },
+    {
+      "url": "https://developers.google.com/gemini-code-assist/docs/deprecations/consumer-code-review",
+      "normalized_url": "https://developers.google.com/gemini-code-assist/docs/deprecations/consumer-code-review",
+      "title": "Sunset of the Consumer Version of Gemini Code Assist on GitHub",
+      "title_ja": "Gemini Code Assistのコンシューマー版がGitHubで廃止へ",
+      "published": "2026/06/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "GitHub",
+        "コード補助機能",
+        "サービス廃止"
+      ],
+      "summary": "GoogleがGemini Code Assistのコンシューマー版をGitHubから廃止する。個人開発者向けのコード補助機能が段階的に利用不可になる。",
+      "impact": "GitHub上で無料版Gemini Code Assistを使っている個人開発者は、他のツール移行やGoogleのビジネス版契約を検討する必要がある。",
+      "notes": "廃止時期や詳細移行ルールは公式ドキュメントで確認する。業務利用との振り分けを早めに整理するとよい。"
+    },
+    {
+      "url": "https://medium.com/human-offset/minor-edits-09ad99aad0f4",
+      "normalized_url": "https://medium.com/human-offset/minor-edits-09ad99aad0f4",
+      "title": "Model alleges retailer used AI to generate likeness under 'minor edits' clause",
+      "title_ja": "モデルがAI生成画像の無断利用で小売業者を提訴",
+      "published": "2026/06/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "著作権・肖像権",
+        "AI生成画像",
+        "契約管理",
+        "リスク管理"
+      ],
+      "summary": "モデルが、契約の「軽微な編集」条項を盾にAIで生成した自分の画像を無断販売したと小売業者を告発した。",
+      "impact": "広告・マーケティング部門は、モデルやタレント写真の利用時にAI生成の可能性を想定し、契約書で許可範囲を明確にする必要がある。",
+      "notes": "Medium記事の詳細は未確認。訴訟の進展状況や法的判断は本情報では不明のため、関連業務がある場合は確認する。"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
+      "normalized_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
+      "title": "Anthropic warns Claude AI is building itself faster than expected",
+      "title_ja": "Anthropic、Claudeの開発速度が予想以上に加速と警告",
+      "published": "2026/06/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "AI開発",
+        "コード生成"
+      ],
+      "summary": "Anthropicが、Claudeが自身のコード開発の80%以上を自動生成するようになったと説明した。",
+      "impact": "AI自体が開発を加速させるしくみが動いている状況を把握する必要がある。",
+      "notes": "ニュースソースのポイント数が少なく（1）、業界での反応や詳細は確認が必要。"
+    },
+    {
+      "url": "https://phcode.io/pricing.html",
+      "normalized_url": "https://phcode.io/pricing.html",
+      "title": "Phoenix Code Now with AI (Via Claude)",
+      "title_ja": "PhoenixコードエディタがClaudeを統合",
+      "published": "2026/06/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コードエディタ",
+        "開発ツール"
+      ],
+      "summary": "PhoenixというコードエディタにClaudeのAI機能を組み込んだ。コード作成やレビューに活用できる。",
+      "impact": "社内でコード作成ツールを検討している場合、Claudeを使えるPhoenixが選択肢に入る。利用ルールと契約を確認する必要がある。",
+      "notes": "Claudeの利用条件や価格、情報保護をPhoenixの仕様から確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "normalized_url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "title": "Making Claude a Chemist",
+      "title_ja": "AnthropicがClaudeに化学知識を強化",
+      "published": "2026/06/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "化学",
+        "能力強化"
+      ],
+      "summary": "AnthropicがClaudeの化学分野での能力を高める研究成果を発表した。",
+      "impact": "化学計算や分子設計などの業務でClaudeを活用する場合、精度や信頼性の変化を確認する必要がある。",
+      "notes": "詳細は公式ページで確認する。社内で化学関連業務にClaudeを使う場合は事前テストが必要。"
+    },
+    {
+      "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "normalized_url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
+      "title_ja": "Y CombinatorのCEOが1日3万7千行のAIコードを生成",
+      "published": "2026/06/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "AI開発",
+        "生産性",
+        "エージェント"
+      ],
+      "summary": "Y CombinatorのCEOが、AIエージェント技術を使い1日数万行のコードを自動生成している状況を説明した。",
+      "impact": "AI生成コードの規模が実務的に成立しつつあることを示しており、社内でのコード自動生成ツール導入検討時の参考になる可能性がある。",
+      "notes": "生成されたコード全量が本番利用されるわけではなく、品質・動作チェックの負担がどう変わるかは未確認。自社での導入前に検証工数を確認する。"
+    }
+  ]
+}
