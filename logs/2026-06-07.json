@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-06-07T09:15:57.117088+09:00",
+  "finished_at": "2026-06-07T09:17:07.951201+09:00",
+  "fetched_per_source": {
+    "official": 8,
+    "hn": 75,
+    "arxiv": 30
+  },
+  "fetched_total": 113,
+  "after_dedupe": 113,
+  "recorded_duplicate_excluded_count": 12,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 3,
+  "count_c": 6,
+  "count_excluded": 5,
+  "errors": [
+    "official fetch failed: HuggingFace Blog: RSS parse failed: https://huggingface.co/blog/feed.xml"
+  ],
+  "html_path": "docs/2026/06/07.html",
+  "markdown_path": "output/2026-06-07_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33831,
+  "output_tokens": 4533,
+  "estimated_cost_usd": 0.056496,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "normalized_url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot",
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "title_ja": "Metaが確認、AI チャットボットの悪用でInstagramアカウント数千件が侵害",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "セキュリティ",
+        "Instagram",
+        "チャットボット",
+        "アカウント侵害",
+        "認証"
+      ],
+      "summary": "MetaのAIチャットボットを悪用した攻撃で、Instagram利用者の数千アカウントが侵害された。",
+      "impact": "AIツール経由のアカウント侵害が現実化。会社のSNS運用やAI ツール利用時の認証・権限管理を見直す必要がある。",
+      "notes": "詳細な侵害手口と防止策は記事本文で確認する。自社アカウントと従業員個人アカウントのセキュリティ状況を把握する。"
+    },
+    {
+      "url": "https://www.local-mcp.com/en",
+      "normalized_url": "https://www.local-mcp.com/en",
+      "title": "Show HN: Local MCP – give Claude, Cursor and ChatGPT access to your whole Mac",
+      "title_ja": "Local MCP：Claude・Cursor・ChatGPTをMacの全機能と連携させるツール",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Cursor",
+        "Mac",
+        "ローカル連携",
+        "ツール"
+      ],
+      "summary": "Mac上で動作するLocal MCPは、Claude・Cursor・ChatGPTから自分のパソコンのファイル・アプリにアクセスさせるツール。",
+      "impact": "AIチャットツールが社用Macのファイルやアプリと連携できるようになるため、ローカルファイルの取り扱いルールや許可範囲を決める必要がある。",
+      "notes": "Macの個別ユーザーやグループでの利用が想定されるため、使用前に企業のセキュリティ・個人情報保護方針に沿う設定か確認する。"
+    },
+    {
+      "url": "https://github.com/joseteiadirector/teia-igo-vs-claude-opus-4.8/blob/main/README.en.md",
+      "normalized_url": "https://github.com/joseteiadirector/teia-igo-vs-claude-opus-4.8/blob/main/README.en.md",
+      "title": "You can't detect your way out of catastrophic LLM failure",
+      "title_ja": "LLMの重大な失敗は検出では防げない",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "LLM",
+        "出力品質",
+        "リスク管理"
+      ],
+      "summary": "Claudeを含むLLMの出力が大きく間違う場合、検出機能だけでは対策不十分という指摘。",
+      "impact": "AI出力を使う業務では、検出ツール任せにせず人による確認や制約設計が必要。",
+      "notes": "GitHub上の分析資料だが、言及内容と検証方法の詳細は確認が必要。"
+    },
+    {
+      "url": "https://www.tryquincy.live",
+      "normalized_url": "https://www.tryquincy.live/",
+      "title": "Show HN: A beautiful and local-first PDF reader for studying dense things",
+      "title_ja": "ローカル保存型のPDFリーダー、Claude活用で学習支援",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "PDF",
+        "ローカル処理",
+        "学習支援"
+      ],
+      "summary": "Claude を活用した PDF リーダーツール。ローカル環境で動作し、複雑な資料の学習を補助する機能を備えている。",
+      "impact": "PDF資料を社内で読み込む際、外部クラウドに一切保存せず処理できる可能性。情報管理が厳しい部署での利用を検討できる。",
+      "notes": "試験段階の見込み。自社導入前に、Claude の API 利用条件、ログ保持、データ処理方式を確認する。"
+    },
+    {
+      "url": "https://github.com/sheremetyev/sandfence",
+      "normalized_url": "https://github.com/sheremetyev/sandfence",
+      "title": "Show HN: Minimal native macOS sandbox for Claude and Codex",
+      "title_ja": "macOSでClaudeとCodexを安全に実行するサンドボックスツール",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "セキュリティ",
+        "ローカル実行",
+        "macOS"
+      ],
+      "summary": "開発者がClaudeとCodexをmacOSで隔離環境で動かすためのツールをGitHubで公開した。",
+      "impact": "AI利用時に、ローカル環境での実行を制限・監視する仕組みが必要な場合の選択肢が増える。",
+      "notes": "注目度が低い時点の公開情報。自社でClaudeやCodexをローカル実行する場合、セキュリティ方針に照らして導入可否を判断する。"
+    },
+    {
+      "url": "https://github.com/waldekmastykarz/atifact",
+      "normalized_url": "https://github.com/waldekmastykarz/atifact",
+      "title": "Turn HAR Files, Claude Code, Copilot CLI, and Codex CLI Logs into ATIF",
+      "title_ja": "HAR、Claude Code、Copilot CLI等のログをATIF形式に変換するツール公開",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "ログ管理",
+        "オープンソース"
+      ],
+      "summary": "開発ツールのログファイルを共通形式ATIFに変換するオープンソースツールが公開された。",
+      "impact": "Claude Codeを含む複数の開発ツール利用時のログ管理・分析方法が統一される可能性がある。",
+      "notes": "公式ツールではなくコミュニティ提供。自社で使う場合は動作確認と著作権ライセンスを確認する。"
+    },
+    {
+      "url": "https://github.com/amirfish1/claude-command-center",
+      "normalized_url": "https://github.com/amirfish1/claude-command-center",
+      "title": "Show HN: CCC: One place to manage all your Claude, Codex, Antigravity sessions",
+      "title_ja": "Claude・Codex・Antigravityのセッション管理ツール公開",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発支援ツール",
+        "セッション管理"
+      ],
+      "summary": "複数のAIモデルセッションを一括管理するツール「CCC」がGitHubで公開された。",
+      "impact": "不明。プロジェクトの詳細（実際の機能・安定性・セキュリティ）が未確認のため、採用前の検証が必要。",
+      "notes": "公開直後で反応が少ない（HN points=2、コメント0）。セッション管理・キー管理の方法、データ保存先、APIキー取扱いなどを確認してから導入判断する。"
+    },
+    {
+      "url": "https://github.com/ingram-technologies/claude-git-sessions",
+      "normalized_url": "https://github.com/ingram-technologies/claude-git-sessions",
+      "title": "Show HN: Ccgs – Collaborative Claude Code sessions, stored in Git branches",
+      "title_ja": "Claudeとのコード作成をGitで管理するツール「Ccgs」が登場",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "Git",
+        "コード管理"
+      ],
+      "summary": "Claudeとの対話でコードを作成し、その過程をGitのブランチに保存するオープンソースツール。",
+      "impact": "チームでAIと一緒にコードを書く際、履歴管理と共有がしやすくなる可能性。自社開発ツールの参考になるか確認する。",
+      "notes": "初期段階のツール（HN記事で6ポイント）。本番利用前に動作確認と内部セキュリティレビューが必要。"
+    },
+    {
+      "url": "https://github.com/wastedcode/claudemux",
+      "normalized_url": "https://github.com/wastedcode/claudemux",
+      "title": "Claudemux – Run and coordinate multiple Claude Codes reliably",
+      "title_ja": "Claudemux：複数のClaudeコード実行を統合管理するツール",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "オープンソース"
+      ],
+      "summary": "複数のClaudeコード実行を調整・管理するオープンソースツール。GitHubで公開されている。",
+      "impact": "社内でClaudeを複数プロセスで動かす場合、実行管理の手間を減らせる可能性がある。",
+      "notes": "GitHubの説明資料で機能と使い方を確認してから、自社での活用を判断する。"
+    },
+    {
+      "url": "https://github.com/yazon/oh-my-wrist",
+      "normalized_url": "https://github.com/yazon/oh-my-wrist",
+      "title": "Show HN: Oh my wrist – Garmin alerts for Claude Code and OpenCode",
+      "title_ja": "Garminスマートウォッチ向けClaudeコード実行通知ツール",
+      "published": "2026/06/06",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発者向け",
+        "ウェアラブル",
+        "個人開発"
+      ],
+      "summary": "GitHubで個人開発者がClaudeのコード実行状況をGarminウォッチに通知するツールを公開した。",
+      "impact": "開発者がAI支援ツール使用中に手元で進捗確認できる仕組みだが、会社導入は予定段階。",
+      "notes": "記事の反応が少ない（HN投稿2ポイント、コメント0件）ため、実運用での利点や課題は未確認。"
+    }
+  ]
+}
