@@ -1,0 +1,217 @@
+{
+  "started_at": "2026-06-08T09:21:12.690728+09:00",
+  "finished_at": "2026-06-08T09:22:31.131946+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 76,
+    "arxiv": 30
+  },
+  "fetched_total": 111,
+  "after_dedupe": 111,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 8,
+  "count_c": 2,
+  "count_excluded": 4,
+  "errors": [],
+  "html_path": "docs/2026/06/08.html",
+  "markdown_path": "output/2026-06-08_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33820,
+  "output_tokens": 4671,
+  "estimated_cost_usd": 0.057175,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://claynicholson.com/blog/khlawde-code",
+      "normalized_url": "https://claynicholson.com/blog/khlawde-code",
+      "title": "I made Claude Code 100x better and 40% more efficient",
+      "title_ja": "Claudeのコーディングプロンプトをチューニングで高速化",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "プロンプトチューニング",
+        "開発効率"
+      ],
+      "summary": "開発者がClaudeのコード生成プロンプトを改良し、処理速度を40%向上させ精度を100倍改善したと報告。",
+      "impact": "自社でClaudeを開発業務に使う場合、プロンプト設計の工夫で出力品質と速度が大きく変わることを示唆している。",
+      "notes": "個人の実験報告であり、業務適用前に自社環境で検証する必要がある。"
+    },
+    {
+      "url": "https://lobsteady.com",
+      "normalized_url": "https://lobsteady.com/",
+      "title": "Show HN: Claude Code on Slack/Discord/Telegram for flat $20/mo – no API bills",
+      "title_ja": "SlackやDiscordでClaudeを使える有料サービス、月額20ドル固定",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Slack",
+        "Discord",
+        "価格モデル"
+      ],
+      "summary": "SlackやDiscordなどのチャットアプリ上でClaudeのコード生成機能を使えるサービスが公開された。APIの従量課金ではなく月額固定制。",
+      "impact": "SlackやDiscordでAIに頼る業務がある場合、利用コストの予測が立てやすくなる可能性がある。自社での導入前にセキュリティと個人情報の扱いを確認する必要がある。",
+      "notes": "外部サービスのため、業務データをSlack経由でClaudeに送信することになる。社内ルールで許可を得る必要がある。"
+    },
+    {
+      "url": "https://cost.dev/",
+      "normalized_url": "https://cost.dev/",
+      "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+      "title_ja": "エージェント呼び出しの費用を削減するツール「Cost.dev」",
+      "published": "2026/06/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "エージェント",
+        "Gemini",
+        "費用管理",
+        "AI利用コスト"
+      ],
+      "summary": "AIエージェント利用時の費用を抑えるサービスが公開された。Geminiなど複数モデルの価格を比較し、安いオプションを自動選択できる。",
+      "impact": "社内でAIエージェントを導入する際、費用管理が可能になる。利用モデルと価格設定の見直し検討が必要。",
+      "notes": "Hacker Newsでの初出であり、公式資料は直接サイトで確認する。自社の利用パターンに対応しているか事前に確認する。"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/65697",
+      "normalized_url": "https://github.com/anthropics/claude-code/issues/65697",
+      "title": "Anthropic, please ship an official Claude Desktop for Linux",
+      "title_ja": "Claude DesktopのLinux版提供を求める声、GitHubで高い関心",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Desktop",
+        "Linux",
+        "ユーザー要望"
+      ],
+      "summary": "開発者がClaudeのデスクトップアプリケーションのLinux版リリースをAnthropicに要望している。GitHubの課題として多くの支持を集めている。",
+      "impact": "Linux環境でClaudeを使う開発者の利便性が現在制限されている。公式版リリースの判断が会社のLinux採用方針に影響する可能性がある。",
+      "notes": "未確認の要望段階であり、Anthropicの対応は不明。自社のLinux環境での利用状況を確認し、対応を監視する。"
+    },
+    {
+      "url": "https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02/",
+      "normalized_url": "https://www.reuters.com/technology/chatgpt-app-hits-1-billion-monthly-active-users-record-time-data-shows-2026-06-02",
+      "title": "ChatGPT app hits 1B monthly active users in record time",
+      "title_ja": "ChatGPTが月間利用者数10億人を突破",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "利用者数",
+        "サービス動向"
+      ],
+      "summary": "ChatGPTのアプリが月間利用者数10億人に到達。公開から記録的な短期間での達成とされている。",
+      "impact": "ChatGPTの企業向けAPI利用やCopilot連携が拡大している可能性がある。自社での利用プランに影響する可能性を確認する。",
+      "notes": "アプリ利用者数であり、企業での定額利用（ChatGPT Team/Enterprise）の数字ではない。自社での利用形態と区別して判断する。"
+    },
+    {
+      "url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+      "normalized_url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search",
+      "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+      "title_ja": "企業がRedditを使ってChatGPTとGoogleのAI検索を操作",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Google",
+        "データ操作",
+        "信頼性",
+        "業務利用"
+      ],
+      "summary": "企業がReddit上に投稿を作成してAIの学習データに自社情報を混入させ、AIの出力結果に影響を与えようとしている。",
+      "impact": "ChatGPTやGeminiなど生成AIが社内業務で提案内容の根拠を示す際、意図的な誘導情報が混ざる可能性があり、利用時の出力チェックが重要になる。",
+      "notes": "根拠URLの記事内容は確認していない。社内で生成AIの出力を業務判断に使う場合、複数情報源で検証する確認プロセスが必要。"
+    },
+    {
+      "url": "https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9",
+      "normalized_url": "https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9",
+      "title": "OpenAI plots biggest ChatGPT overhaul since launch",
+      "title_ja": "OpenAI、ChatGPTの大幅刷新を計画",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "プロダクト更新"
+      ],
+      "summary": "OpenAIがChatGPT立ち上げ以来最大の改良を検討中。詳細は未確認だが、機能や使い勝手に大きな変更が予定されている可能性がある。",
+      "impact": "今後のChatGPT利用環境が変わる可能性があるため、会社での導入計画や使い方ルール見直しを視野に入れておく。",
+      "notes": "記事の詳細が確認できないため、公式発表を待つ必要がある。実装時期や具体的な変更内容は不明。"
+    },
+    {
+      "url": "https://twitter.com/penguinweb3/status/2063196355011424582",
+      "normalized_url": "https://twitter.com/penguinweb3/status/2063196355011424582",
+      "title": "ChatGPT hallucinating images when asked to restore non existent photo",
+      "title_ja": "ChatGPT、存在しない写真の復元を求められて画像を生成",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "生成AI",
+        "画像生成",
+        "ハルシネーション",
+        "出力検証"
+      ],
+      "summary": "ChatGPTが実在しない写真の復元を依頼され、存在しない画像を生成する現象が報告された。",
+      "impact": "AIが不正確な結果を出す可能性を認識し、生成画像や復元結果の検証が必要と判明した。",
+      "notes": "詳細な技術情報は根拠URLに少ないため、自社で同様の用途がある場合は出力チェックの仕組みを確認する。"
+    },
+    {
+      "url": "https://github.com/wavever/CCLimitPing",
+      "normalized_url": "https://github.com/wavever/CCLimitPing",
+      "title": "Show HN: LimitPing – Keep Claude Code and Codex rate-limit windows continuous",
+      "title_ja": "Claude・Codexのレート制限を継続させるツール",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "API",
+        "レート制限",
+        "開発者向け"
+      ],
+      "summary": "GitHubで公開されたツールが、ClaudeとCodexのAPIレート制限の時間枠を途切れさせず続ける仕組みを提供している。",
+      "impact": "API利用料金や制限に関わるルール変更がないか確認し、社内でのAPI利用管理体制を見直すきっかけになる可能性がある。",
+      "notes": "開発者向けツールで、Hacker Newsでの注目度は低い。自社でClaudeやCodexのAPI利用を予定している場合のみ確認する。"
+    },
+    {
+      "url": "https://www.npmjs.com/package/vibecoder-discord-presence",
+      "normalized_url": "https://www.npmjs.com/package/vibecoder-discord-presence",
+      "title": "I built a Discord status for Claude Code",
+      "title_ja": "Discord連携でClaudeの作業状態を表示するツール開発",
+      "published": "2026/06/07",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Discord",
+        "開発ツール",
+        "外部連携"
+      ],
+      "summary": "開発者がClaudeを使った作業の状態をDiscordのプロフィールに自動表示するツールを公開した。",
+      "impact": "Claude利用状況をチーム内で可視化できるが、導入は開発チームの裁量。",
+      "notes": "npm パッケージとして公開されているため、導入前に内容と権限設定を確認する。"
+    }
+  ]
+}
