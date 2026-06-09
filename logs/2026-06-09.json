@@ -1,0 +1,150 @@
+{
+  "started_at": "2026-06-09T09:18:18.596887+09:00",
+  "finished_at": "2026-06-09T09:19:33.705995+09:00",
+  "fetched_per_source": {
+    "official": 9,
+    "hn": 76,
+    "arxiv": 30
+  },
+  "fetched_total": 115,
+  "after_dedupe": 113,
+  "recorded_duplicate_excluded_count": 4,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 2,
+  "count_b": 2,
+  "count_c": 2,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/06/09.html",
+  "markdown_path": "output/2026-06-09_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33904,
+  "output_tokens": 4892,
+  "estimated_cost_usd": 0.058364,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://scienspire.com/article/microsoft-breach-ai-code-assistants",
+      "normalized_url": "https://scienspire.com/article/microsoft-breach-ai-code-assistants",
+      "title": "If You Use Claude or Gemini, This Microsoft Breach Means Your Data Is at Risk",
+      "title_ja": "Claudeを使う場合、マイクロソフトの侵害で情報流出リスク",
+      "published": "2026/06/08",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "情報流出",
+        "マイクロソフト",
+        "Gemini"
+      ],
+      "summary": "マイクロソフトの侵害でClaudeやGeminiのユーザー情報が流出する可能性があると報告されている。",
+      "impact": "会社でClaudeを利用している場合、社内情報の流出リスクを確認し、Anthropic側の対応内容を待つ必要がある。",
+      "notes": "記事の詳細内容が確認できない。Anthropic公式の発表を待ち、社内利用データの機密性と範囲を再確認するとよい。"
+    },
+    {
+      "url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users/",
+      "normalized_url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users",
+      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "title_ja": "Microsoftが侵害され、ClaudeとGeminiユーザーへのマルウェア配信に悪用される",
+      "published": "2026/06/08",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "セキュリティ",
+        "マルウェア",
+        "Claude",
+        "Gemini",
+        "Microsoft",
+        "侵害",
+        "リスク管理"
+      ],
+      "summary": "Microsoftのシステムが侵害され、Claude・Gemini利用者を狙ったマルウェア配信に悪用された可能性が報じられた。",
+      "impact": "社内でClaudeやGeminiを使う場合、マルウェア感染のリスクが高まるため、アクセス元の確認と権限・インストール制限の見直しが必要。",
+      "notes": "詳細は不明であり、公開情報が限定的。セキュリティ部門に確認し、企業向けAI利用のセキュリティ要件を改めて検討する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/convert-rubric-files-and-images-into-Google-Classroom-rubrics-with-help-from-Gemini.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/convert-rubric-files-and-images-into-Google-Classroom-rubrics-with-help-from-Gemini.html",
+      "title": "Convert rubric files and images into Google Classroom rubrics with help from Gemini",
+      "title_ja": "Google Classroomでルーブリック画像をGeminiが自動変換",
+      "published": "2026/06/08",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Classroom",
+        "Gemini",
+        "教育",
+        "自動化",
+        "Google Workspace"
+      ],
+      "summary": "Geminiが、ルーブリックの画像やファイルをGoogle Classroomの形式に自動変換できるようになった。課題作成時に直接利用可能。",
+      "impact": "教育機関がルーブリック作成に費やす時間が短縮される。既存の紙や画像形式のルーブリックをデジタル化して再利用できる。",
+      "notes": "変換後の精度確認や編集が必要。生成されたルーブリックが教育方針に合致しているか確認してから使用する。"
+    },
+    {
+      "url": "https://openai.com/index/economic-research-exchange",
+      "normalized_url": "https://openai.com/index/economic-research-exchange",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "title_ja": "OpenAI、経済研究プログラムの募集を開始",
+      "published": "2026/06/08",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI導入",
+        "生産性",
+        "雇用",
+        "経済影響"
+      ],
+      "summary": "OpenAIがAIの雇用・生産性・経済への影響を調べる共同研究プログラムを立ち上げ、参加研究機関の募集を始めた。",
+      "impact": "AI導入時の効果測定や経済影響を扱う研究が進む可能性があり、業界の公式見解や数値根拠が今後出てくる点を注視する。",
+      "notes": "社内でAI導入効果を測る際の参考資料になる可能性があるため、研究成果の公開タイミングを確認する。"
+    },
+    {
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "normalized_url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "title_ja": "OpenAIが機密S-1書類をSECに提出",
+      "published": "2026/06/08",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "上場申請",
+        "企業動向",
+        "参考情報"
+      ],
+      "summary": "OpenAIが米証券取引委員会（SEC）に上場申請書類を機密で提出した。株式上場時期は未決定。",
+      "impact": "公開企業化に向けた手続きが進むが、上場時期は不確定のため、当面のAI製品・サービス利用条件に直接の影響なし。",
+      "notes": "機密提出のため詳細は公表されていない。上場後のサービス利用規約や価格体系の変更可能性は注視する。"
+    },
+    {
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "normalized_url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "title": "Built to benefit everyone: our plan",
+      "title_ja": "OpenAI、AI利益の共有化に向けた方針を公開",
+      "published": "2026/06/08",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "AI倫理",
+        "企業方針"
+      ],
+      "summary": "OpenAIが、AIの利益を社会全体で共有する仕組みを実現するための方針を示した。アクセス・安全性・共有が柱。",
+      "impact": "会社のAI導入方針や、OpenAI製品の長期的な信頼性判断に参考になる情報。どの企業向け機能が重視されるか把握できる。",
+      "notes": "公式ブログなので信頼度は高い。ただし「方針」であり、具体的な実装時期や対象範囲は別途確認が必要。"
+    }
+  ]
+}
