@@ -1,0 +1,223 @@
+{
+  "started_at": "2026-06-10T10:29:52.350370+09:00",
+  "finished_at": "2026-06-10T10:31:17.154561+09:00",
+  "fetched_per_source": {
+    "official": 22,
+    "hn": 83,
+    "arxiv": 30
+  },
+  "fetched_total": 135,
+  "after_dedupe": 132,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 6,
+  "count_c": 2,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/10.html",
+  "markdown_path": "output/2026-06-10_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33817,
+  "output_tokens": 4657,
+  "estimated_cost_usd": 0.057102,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "normalized_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "title_ja": "ClaudeにFable 5とMythos 5が登場",
+      "published": "2026/06/09",
+      "source": "Anthropic News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "新バージョン",
+        "Anthropic",
+        "AI利用ルール"
+      ],
+      "summary": "AnthropicがClaudeの新バージョンFable 5とMythos 5を発表した。詳細は公式ニュースを参照。",
+      "impact": "新バージョン利用時は機能差や費用、利用条件を確認してから切り替える必要がある。",
+      "notes": "公式発表だが、抜粋内容が記載されていない。実務判断には公式ページの詳細確認が必須。"
+    },
+    {
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "normalized_url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "title_ja": "Claude の Fable と Mythos で 30 日間のデータ保持が必須に",
+      "published": "2026/06/09",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "データ保持",
+        "セキュリティ",
+        "利用ルール"
+      ],
+      "summary": "AnthropicがClaudeの新モデルFableとMythosで、ユーザーデータを30日間保持することを決めた。",
+      "impact": "Claude利用時、送信したデータややり取りが30日間Anthropic側に保存される。社内利用ルールと秘密情報の取扱いを確認する必要がある。",
+      "notes": "機密情報やプロジェクト情報をClaudeに入力する場合は、会社のセキュリティルールで許可されているか確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "normalized_url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "title_ja": "Gemini 3.5がGoogle MeetとGoogle Translateで音声翻訳を搭載",
+      "published": "2026/06/09",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "音声翻訳",
+        "Google Meet",
+        "Google Translate",
+        "Google AI Studio"
+      ],
+      "summary": "Gemini 3.5が、話し言葉をリアルタイムで自然に翻訳する機能をGoogle AI Studio、Google Translate、Google Meetに追加した。",
+      "impact": "会社のGoogle Meetでの国際会議や、Google Translateでの資料翻訳が、より自然で流暢な音声対応になる可能性がある。",
+      "notes": "実装の詳細（対応言語・遅延・精度・利用可能時期）は公式資料で確認する。"
+    },
+    {
+      "url": "https://openai.com/index/nextdoor",
+      "normalized_url": "https://openai.com/index/nextdoor",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "title_ja": "Nextdoorのエンジニアが Codex で開発を効率化",
+      "published": "2026/06/09",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "ソフトウェア開発",
+        "効率化",
+        "事例研究"
+      ],
+      "summary": "Nextdoor が Codex を使い、難しい不具合調査や複数プラットフォーム対応を効率化している事例を紹介。",
+      "impact": "エンジニア業務での AI コーディング支援の実例を確認できる。自社の開発チームで導入検討する際の参考になる。",
+      "notes": "公式事例として読めるが、Nextdoor の環境・規模・技術スタックは自社と異なる可能性がある。導入前に自社の開発フローと比べておく。"
+    },
+    {
+      "url": "https://openai.com/index/notion",
+      "normalized_url": "https://openai.com/index/notion",
+      "title": "What Codex unlocks for Notion",
+      "title_ja": "NotionがCodexで実現する開発効率化",
+      "published": "2026/06/09",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "Notion",
+        "開発効率化",
+        "音声入力",
+        "OpenAI"
+      ],
+      "summary": "NotionがOpenAIのCodexを使い、仕様書作成・音声入力機能・小規模チームの開発力を拡張している。",
+      "impact": "社内でNotionを使う場合、AI活用による機能拡張や業務効率化の事例として参考になる。導入検討時に確認する材料。",
+      "notes": "詳細な実装方法は公式資料で確認する。Notion側の仕様変更で利用可能性が変わる可能性がある。"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "normalized_url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "title_ja": "Googleが軽量マルチモーダルモデル「Gemma 4 12B」を公開",
+      "published": "2026/06/09",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "マルチモーダルモデル",
+        "軽量モデル",
+        "Google",
+        "オープンモデル"
+      ],
+      "summary": "GoogleがGemmaシリーズの新版「Gemma 4 12B」を発表。テキストと画像を一度に処理できる統合型モデルで、12Bは軽量な設計。",
+      "impact": "テキスト・画像両用のAIモデルが手軽に利用可能に。自社システムへの組み込みや検証の対象として検討する必要が生じる可能性がある。",
+      "notes": "公開版は商用利用可。自社で採用する場合は、セキュリティ・データ処理・出力チェックのルール確認が必要。"
+    },
+    {
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "normalized_url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "title_ja": "Geminiの学習支援機能、シエラレオネでの実証で効果を確認",
+      "published": "2026/06/08",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "教育",
+        "学習支援",
+        "実証試験",
+        "スキル育成"
+      ],
+      "summary": "Geminiの学習ガイド機能を使った教育プログラムを実証試験し、生徒の学習意欲と成績向上を確認した。",
+      "impact": "AI学習支援ツールの効果が実データで示され、今後の社内研修やスキル育成での導入検討の参考になる。",
+      "notes": "実証試験の詳細（対象者数、期間、成績向上の幅など）は公式資料で確認する。自社での導入を検討する場合は、環境・言語・対象スキルを自社状況と比べる。"
+    },
+    {
+      "url": "https://github.com/varmabudharaju/agent-pd/blob/master/README.md",
+      "normalized_url": "https://github.com/varmabudharaju/agent-pd/blob/master/README.md",
+      "title": "Show HN: Agent-pd – A zero-token audit log to catch rogue Claude Code subagents",
+      "title_ja": "Claude Code のサブエージェント監視ツール、オープンソース公開",
+      "published": "2026/06/09",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "セキュリティ",
+        "監視ツール",
+        "エージェント",
+        "オープンソース"
+      ],
+      "summary": "Claude Code の動作を監視し、予期しない動作を検出するオープンソースツール Agent-pd が公開された。",
+      "impact": "Claude Code を社内で使う場合、出力内容や動作範囲の監視方法の選択肢が増える。導入前に自社の要件と照合する。",
+      "notes": "まだ認知度が低い段階（HN ポイント5、コメント2）。実務利用前に動作確認と権限・ログ保存の責任範囲を決める。"
+    },
+    {
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "normalized_url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
+      "title": "Powering the future of robotics in Europe",
+      "title_ja": "Google DeepMindがヨーロッパのロボット産業を支援",
+      "published": "2026/06/09",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Google DeepMind",
+        "ロボティクス",
+        "ヨーロッパ",
+        "Gemini"
+      ],
+      "summary": "Google DeepMindがヨーロッパのロボット開発に資金や技術を提供する計画を発表した。",
+      "impact": "ロボット関連の業務がある場合は、Google傘下のロボット開発動向を把握する参考になる。",
+      "notes": "抜粋が提供されていないため、ブログ記事の詳細な内容は確認が必要。"
+    },
+    {
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "normalized_url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "title": "Industrial policy for the Intelligence Age",
+      "title_ja": "OpenAI、AI時代の産業政策提案を公開",
+      "published": "2026/06/09",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "産業政策",
+        "AI時代",
+        "雇用・経済"
+      ],
+      "summary": "OpenAIがAI普及時代の産業政策について、雇用や経済の在り方に関する考え方を説明した。",
+      "impact": "政府のAI規制・産業支援の動向に関する参考情報となる。自社のAI導入方針や労務計画を検討する際の背景知識として活用できる。",
+      "notes": "公式資料として読める。詳細は原文で確認する必要がある。"
+    }
+  ]
+}
