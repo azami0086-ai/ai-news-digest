@@ -1,0 +1,225 @@
+{
+  "started_at": "2026-06-12T10:38:31.823829+09:00",
+  "finished_at": "2026-06-12T10:39:50.110114+09:00",
+  "fetched_per_source": {
+    "official": 28,
+    "hn": 78,
+    "arxiv": 30
+  },
+  "fetched_total": 136,
+  "after_dedupe": 135,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 9,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/06/12.html",
+  "markdown_path": "output/2026-06-12_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34012,
+  "output_tokens": 4911,
+  "estimated_cost_usd": 0.058567,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "normalized_url": "https://openai.com/index/openai-to-acquire-ona",
+      "title": "OpenAI to acquire Ona",
+      "title_ja": "OpenAIがOnaを買収、Codexの企業向け機能を強化",
+      "published": "2026/06/11",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "買収",
+        "エンタープライズ",
+        "クラウド環境",
+        "セキュリティ"
+      ],
+      "summary": "OpenAIがOnaを買収し、安全で長時間動作するAIエージェントを企業向けに提供する環境を整える。",
+      "impact": "社内でAIを自動実行させる場合、セキュリティと継続性の選択肢が増える可能性がある。",
+      "notes": "買収完了時期と実装時期は未確認。自社での利用検討前に詳細を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/google-vault-now-supports-retention-rules-and-litigation-holds-for-Gemini-app.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/google-vault-now-supports-retention-rules-and-litigation-holds-for-Gemini-app.html",
+      "title": "Google Vault now supports retention rules and litigation holds for Gemini app",
+      "title_ja": "Google Vault、Geminiアプリのデータ保持ルール機能に対応",
+      "published": "2026/06/11",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "GoogleWorkspace",
+        "GoogleVault",
+        "Gemini",
+        "データ保持",
+        "コンプライアンス",
+        "訴訟対応"
+      ],
+      "summary": "Google Vaultが、Geminiアプリの会話データについて保持期限や訴訟対応の設定ができるようになった。",
+      "impact": "Geminiでの会話記録の保持期間をルール化でき、法務対応や情報管理が容易になる。設定・運用ルールの整備が必要。",
+      "notes": "保持ルール導入前に、どの会話を何日保持するか、誰が権限を持つかを決める。既存のVault機能との連携を確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "normalized_url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research",
+      "title": "Investing in multi-agent AI safety research",
+      "title_ja": "Google DeepMindが複数のAIエージェント協調時の安全性研究に10M$投資",
+      "published": "2026/06/10",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "マルチエージェント",
+        "AI安全性",
+        "リスク管理"
+      ],
+      "summary": "Google DeepMindと協力者が、複数のAIを同時に動かす際のリスク対策研究に1000万ドルの資金を募集する。",
+      "impact": "社内でAIを複数連携させて使う場合、安全性の考慮が今後の標準になる可能性がある。",
+      "notes": "この研究は進行中のため、結果が社内ルール作りに反映されるまでに時間がかかる可能性がある。"
+    },
+    {
+      "url": "https://openai.com/index/bbva",
+      "normalized_url": "https://openai.com/index/bbva",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "title_ja": "BBVAがChatGPT Enterpriseを全従業員に導入、AI銀行への転換を加速",
+      "published": "2026/06/11",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT Enterprise",
+        "OpenAI",
+        "大規模導入",
+        "金融業",
+        "業務効率化"
+      ],
+      "summary": "スペイン大手銀行BBVAが、ChatGPT Enterpriseを10万人の従業員向けに展開し、OpenAIと銀行業務のAI化で提携した。",
+      "impact": "金融機関での大規模AI導入事例として、社内システム連携やAI利用ルール設計の参考になる可能性がある。",
+      "notes": "OpenAI公式記事のため事実と確認でき、自社の金融・機密情報取扱いルールとAI利用の両立について確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "normalized_url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "title_ja": "OpenAI、EU のAI信頼性強化に協力",
+      "published": "2026/06/11",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI透明性",
+        "EU規制",
+        "コンテンツ追跡",
+        "信頼性"
+      ],
+      "summary": "OpenAI が EU の AI 透明性コード・オブ・プラクティスに参加し、AI生成コンテンツの追跡と識別を支援する取り組みを説明した。",
+      "impact": "AI生成コンテンツの識別が進む可能性があり、社内で扱う生成テキストや画像の来歴管理ルールを見直す時期になる可能性がある。",
+      "notes": "EU 向けの施策のため日本での適用は直接的ではないが、グローバル展開企業や EU 進出予定企業は動向を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "normalized_url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "title": "Jun 11, 2026 Announcements DXC will integrate Claude into the systems banks, airlines, and other regulated industries…",
+      "title_ja": "DXCがClaudeを金融・航空などの規制業種システムに統合",
+      "published": "2026/06/11",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エンタープライズ",
+        "金融",
+        "航空",
+        "規制業種",
+        "統合"
+      ],
+      "summary": "DXCテクノロジーズがClaudeを銀行や航空会社などの規制産業向けシステムに組み込む契約を発表。",
+      "impact": "規制業種での業務にClaudeが使われるようになるため、社内でも同様導入の可能性を検討する際の参考になる。",
+      "notes": "規制産業向けのため、金融機関や航空会社との取引がある場合は動向を注視する必要がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "normalized_url": "https://www.anthropic.com/news/claude-corps",
+      "title": "Jun 11, 2026 Announcements Introducing Claude Corps",
+      "title_ja": "Anthropic、Claude Corpsを発表",
+      "published": "2026/06/11",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "企業向けサービス",
+        "契約形式"
+      ],
+      "summary": "AnthropicがClaude Corpsという新しいプログラムを発表した。企業向けの利用形式や機能に関する発表と見られる。",
+      "impact": "企業でClaudeを使う場合、新しい契約形式や機能が選択肢に加わる可能性がある。自社の利用方針を見直す必要がある。",
+      "notes": "詳細が記事抜粋に含まれていないため、公式ページで全容を確認してから判断する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13468v1",
+      "normalized_url": "https://arxiv.org/abs/2606.13468v1",
+      "title": "Understanding the Rejection of Fixes Generated by Agentic Pull Requests -- Insights from the AIDev Dataset",
+      "title_ja": "AIコーディングエージェントが生成した修正の46%が却下される理由",
+      "published": "2026/06/11",
+      "source": "arXiv",
+      "importance": "B",
+      "tags": [
+        "AI開発支援",
+        "Copilot",
+        "Claude",
+        "コード生成",
+        "品質管理"
+      ],
+      "summary": "Copilot、Devin、Cursor、Claudeなど複数のAIコーディングエージェントが提案するコード修正の46%が開発プロジェクトで却下されている。",
+      "impact": "開発チームがAIエージェントの提案を見直す際、どの修正を信頼すべきか判断基準を持つ必要が出てくる。",
+      "notes": "論文は失敗パターンの分析であり、AIコーディングツール採用時に「修正の精度チェックを誰が、どこまで行うか」のルール作りが必要。"
+    },
+    {
+      "url": "https://github.com/outgate-ai/og-local",
+      "normalized_url": "https://github.com/outgate-ai/og-local",
+      "title": "Local Privacy Filter for Claude Code",
+      "title_ja": "Claude Codeのローカル実行でプライバシーを保護するツール",
+      "published": "2026/06/11",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "プライバシー",
+        "コード実行",
+        "ローカル処理"
+      ],
+      "summary": "GitHub上で、Claudeのコード実行機能を使う時に個人情報を外部に送信しないようにするツールが公開された。",
+      "impact": "Claude Codeで業務コードや社内データを扱う場合、情報漏洩のリスクを低減する手段が増えた。導入前に自社の情報セキュリティ方針と合わせて確認する。",
+      "notes": "ツールの詳細機能と動作確認は公式リポジトリで確認する。社内で使う場合は情報セキュリティ担当に相談して承認を得る。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "normalized_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "title_ja": "Googleがバージニア州に地域向け投資、雇用と電力供給を支援",
+      "published": "2026/06/11",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Google",
+        "インフラ投資",
+        "地域対応"
+      ],
+      "summary": "Googleがバージニア州の人材育成と電力プログラムに投資し、地域雇用と電力確保を進める。",
+      "impact": "データセンター立地に伴う地域対応。自社のクラウド・AI基盤を支える投資動向として見守る必要がある。",
+      "notes": "日本の事業や採用に直結しない地域投資。公式ブログから詳細確認。"
+    }
+  ]
+}
