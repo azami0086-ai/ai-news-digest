@@ -1,0 +1,185 @@
+{
+  "started_at": "2026-06-13T10:33:44.699331+09:00",
+  "finished_at": "2026-06-13T10:35:00.437586+09:00",
+  "fetched_per_source": {
+    "official": 25,
+    "hn": 83,
+    "arxiv": 30
+  },
+  "fetched_total": 138,
+  "after_dedupe": 134,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 2,
+  "count_b": 4,
+  "count_c": 2,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/13.html",
+  "markdown_path": "output/2026-06-13_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33886,
+  "output_tokens": 4846,
+  "estimated_cost_usd": 0.058116,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "normalized_url": "https://www.anthropic.com/news/fable-mythos-access",
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "title_ja": "AnthropicがFable 5とMythos 5へのアクセス停止を発表",
+      "published": "2026/06/12",
+      "source": "Anthropic News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "サービス停止",
+        "API利用",
+        "米国政府"
+      ],
+      "summary": "Anthropicが米国政府の指示により、Fable 5とMythos 5へのアクセスを停止することを発表した。",
+      "impact": "Fable 5とMythos 5を利用している場合、近日中にサービスが利用できなくなる。代替手段がないか確認する。",
+      "notes": "政府指示による停止のため、会社でこれらのツールを使っている場合は至急他のツールへの切り替えを検討する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "normalized_url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "title": "Jun 12, 2026 Announcements TCS and Anthropic partner to bring Claude to regulated industries",
+      "title_ja": "TCSとAnthropicが連携、Claudeを規制業界に展開",
+      "published": "2026/06/12",
+      "source": "Anthropic News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "企業提携",
+        "規制業界",
+        "導入サポート"
+      ],
+      "summary": "TCS（Tata Consultancy Services）とAnthropicが提携し、Claudeを金融・医療など規制が厳しい業界向けに提供する体制を整える。",
+      "impact": "規制業界でのClaude導入が進みやすくなる。自社が金融・医療・法務関連の場合、Claude導入時の相談先や支援体制が拡充される可能性がある。",
+      "notes": "詳細な提携内容（対応範囲、契約条件、実装スケジュール）は公式ニュースで確認する。"
+    },
+    {
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "normalized_url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "title_ja": "OpenAI、職場向けのAcademyコース3つを新設",
+      "published": "2026/06/12",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI Academy",
+        "社員教育",
+        "AI導入準備",
+        "実務スキル"
+      ],
+      "summary": "OpenAIが、ChatGPTやエージェント機能を実務で使うための3つの新しい研修コースを公開した。",
+      "impact": "社員がAI機能を正しく使うための公式の学習教材が増え、導入前の準備段階で活用できる。",
+      "notes": "自社で導入する場合は、対象者・受講順序・修了後のルール化を事前に決める。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "normalized_url": "https://www.anthropic.com/news/anthropic-public-record",
+      "title": "Jun 12, 2026 Announcements Results from the first Anthropic Public Record",
+      "title_ja": "Anthropicが初の公開記録を発表",
+      "published": "2026/06/12",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "企業向け情報",
+        "安全性",
+        "ポリシー"
+      ],
+      "summary": "Anthropicが企業向けの公開記録を初めて発表。AIの安全性や開発方針に関する情報を共有した。",
+      "impact": "Claudeの利用企業は、Anthropicの開発方針と安全性への取り組みを公式資料として確認できる。自社のAI利用ルール見直しの参考になる。",
+      "notes": "記事内容の詳細は根拠URLで確認する必要がある。公開記録の具体的な項目や制限事項を確認してから社内共有する。"
+    },
+    {
+      "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "normalized_url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "title": "Show HN: Script to bulk delete Claude chats from the web UI",
+      "title_ja": "Claudeのチャット履歴を一括削除するスクリプト公開",
+      "published": "2026/06/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "チャット履歴管理",
+        "ツール"
+      ],
+      "summary": "GitHubでClaudeのウェブUI上のチャット履歴を一括削除できるスクリプトが公開された。",
+      "impact": "Claudeの利用履歴を効率的に削除でき、個人情報やプロジェクト情報の一括管理が可能になる。",
+      "notes": "スクリプトの動作確認と安全性を自社で検証した上で、社内利用を検討する際はClaudeの利用ポリシーと社内情報管理ルールを確認する。"
+    },
+    {
+      "url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/",
+      "normalized_url": "https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams",
+      "title": "Google sues Chinese cybercrime network that used Gemini to automate scams",
+      "title_ja": "GoogleがGeminiを詐欺自動化に使った中国サイバー犯罪集団を提訴",
+      "published": "2026/06/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "セキュリティ",
+        "利用規約",
+        "法的対応"
+      ],
+      "summary": "GoogleがGeminiを詐欺スパム自動化に悪用した中国のサイバー犯罪ネットワークを訴えた。",
+      "impact": "AIツールの不正利用が法的問題に発展。自社のAI利用ルール・監視体制の確認が必要になる可能性がある。",
+      "notes": "記事の具体的内容は未確認。詳細はリンク先で確認する。"
+    },
+    {
+      "url": "https://openai.com/index/preply",
+      "normalized_url": "https://openai.com/index/preply",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "title_ja": "Preply、AIと人間の講師を組み合わせ個別学習を実現",
+      "published": "2026/06/12",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "教育・学習",
+        "個別対応",
+        "言語学習",
+        "OpenAI",
+        "自動フィードバック"
+      ],
+      "summary": "Preply が OpenAI を使い、AI 生成の授業サマリーと個別フィードバック、言語学習演習を提供する。",
+      "impact": "言語学習プラットフォームでの AI 活用事例。フィードバック自動化やコンテンツ生成の参考になる。",
+      "notes": "公式資料として読める。自社で同様の機能導入を検討する場合は、フィードバック品質と利用者の信頼度を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/weekly-recap-06-12-2026.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/weekly-recap-06-12-2026.html",
+      "title": "Google Workspace Updates Weekly Recap",
+      "title_ja": "Google Drive、承認フローをリセットしない文書調整機能を導入",
+      "published": "2026/06/12",
+      "source": "Google Workspace Updates",
+      "importance": "C",
+      "tags": [
+        "Google Drive",
+        "Google Workspace",
+        "文書管理",
+        "承認フロー",
+        "コラボレーション"
+      ],
+      "summary": "Google Driveが、文書の承認状況を保ったまま編集を続けられる機能を追加。承認者の判断を記録したまま変更作業が可能になる。",
+      "impact": "文書の承認プロセスが簡潔になる。承認待ちの書類を修正する際、ルールや承認フローの見直しが必要か確認する。",
+      "notes": "実装時期や機能詳細は記事全文で確認する。自社の文書承認ルールとの整合性を検討してから展開するとよい。"
+    }
+  ]
+}
