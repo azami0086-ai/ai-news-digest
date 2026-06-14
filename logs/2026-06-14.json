@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-06-14T09:19:54.468226+09:00",
+  "finished_at": "2026-06-14T09:21:15.141775+09:00",
+  "fetched_per_source": {
+    "official": 19,
+    "hn": 80,
+    "arxiv": 30
+  },
+  "fetched_total": 129,
+  "after_dedupe": 127,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 4,
+  "count_c": 6,
+  "count_excluded": 8,
+  "errors": [],
+  "html_path": "docs/2026/06/14.html",
+  "markdown_path": "output/2026-06-14_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33876,
+  "output_tokens": 4741,
+  "estimated_cost_usd": 0.057581,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://byteiota.com/claude-code-v2-1-172-sub-agents-can-now-spawn-sub-agents/",
+      "normalized_url": "https://byteiota.com/claude-code-v2-1-172-sub-agents-can-now-spawn-sub-agents",
+      "title": "Claude Code v2.1.172: Sub-Agents Can Now Spawn Sub-Agents",
+      "title_ja": "Claude Codeが階層的なエージェント運用に対応",
+      "published": "2026/06/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "自動化",
+        "バージョンアップ"
+      ],
+      "summary": "Claude Codeのバージョン2.1.172で、サブエージェント同士が連鎖的に生成できる機能が追加された。",
+      "impact": "複雑なタスク処理が多段階で実行できるようになり、自動化の範囲が広がる可能性がある。",
+      "notes": "実装の詳細や制限条件が記事から不明。企業利用前に公式ドキュメントで動作仕様と保存データの扱いを確認する。"
+    },
+    {
+      "url": "https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin/",
+      "normalized_url": "https://the-decoder.com/google-researchs-gemini-sql2-tops-text-to-sql-benchmarks-by-a-wide-margin",
+      "title": "Google Gemini-SQL2 tops text-to-SQL benchmarks",
+      "title_ja": "GoogleのGemini-SQL2、テキストからSQL生成でベンチマーク最高水準",
+      "published": "2026/06/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "SQL生成",
+        "テキスト連携",
+        "ベンチマーク"
+      ],
+      "summary": "GoogleがGemini-SQL2というモデルを発表。自然言語からSQLコマンドを生成する精度でベンチマークトップを達成した。",
+      "impact": "社内でSQLクエリ生成AIの利用を検討する際、Gemini-SQL2が選択肢として浮上する可能性がある。比較・検証する価値がある。",
+      "notes": "ベンチマーク結果のみで、自社のデータベース環境での実際の精度は未確認。導入前に自社データで試験する必要がある。"
+    },
+    {
+      "url": "https://www.businessinsider.com/google-director-resigned-pentagon-ai-deal-military-artificial-intelligence-gemini-2026-6",
+      "normalized_url": "https://www.businessinsider.com/google-director-resigned-pentagon-ai-deal-military-artificial-intelligence-gemini-2026-6",
+      "title": "Google director resigns, citing military deals: 'Management lost moral compass'",
+      "title_ja": "Google幹部が軍事AI契約に反発して辞任",
+      "published": "2026/06/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Google",
+        "Gemini",
+        "契約・ガバナンス",
+        "軍事利用"
+      ],
+      "summary": "Googleの幹部が、Pentagon向けAI契約に関わる経営判断に異議を唱えて辞任した。",
+      "impact": "Geminiなど企業向けAI製品の利用ルールやガバナンス体制が変わる可能性がある。自社のAI利用契約と規範の関係を確認する必要がある。",
+      "notes": "詳細内容は未確認。公式声明や正式リリースで自社の対応方針を確認する。"
+    },
+    {
+      "url": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
+      "normalized_url": "https://blog.kilo.ai/p/claude-fable-5-vs-gpt-5-5",
+      "title": "Claude Fable 5 vs. GPT-5.5: Better Planning, Similar Execution",
+      "title_ja": "Claude Fable 5とGPT-5.5の比較：計画立案で優位、実行精度は同等",
+      "published": "2026/06/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "GPT",
+        "モデル比較",
+        "性能評価"
+      ],
+      "summary": "Claude Fable 5とGPT-5.5の性能を比較した記事。計画立案ではClaudeが優位だが、実行精度は両者で同程度という。",
+      "impact": "AI導入時のモデル選定で、用途に応じた判断が必要。計画型タスクはClaude、その他はモデル間で大きな差がないと判断できる。",
+      "notes": "ブログ記事での比較結果のため、自社業務への適用時は別途検証を推奨。"
+    },
+    {
+      "url": "https://memoriq.me/",
+      "normalized_url": "https://memoriq.me/",
+      "title": "Show HN: Memoriq – Private AI Memory for ChatGPT, Claude, Gemini and Grok",
+      "title_ja": "Memoriq──ChatGPT、Claude、Geminiなどに個人メモリ機能を追加",
+      "published": "2026/06/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "個人用ツール",
+        "メモリ機能",
+        "未確認"
+      ],
+      "summary": "複数のAIとの会話内容を自動的に記憶・参照できるツール。個人ユースの利便性を高める仕組み。",
+      "impact": "社員が複数AIを使う際、過去の指示や設定を毎回入力する手間が減る可能性。ただし会社でAI利用する場合のデータ保存先・アクセス権の確認が必要。",
+      "notes": "個人データ管理ツールのため、会社で導入する場合は機密情報の取り扱い、保存先、利用者管理のルールを事前に決める。"
+    },
+    {
+      "url": "https://aiverdict.github.io/",
+      "normalized_url": "https://aiverdict.github.io/",
+      "title": "Show HN: AI Verdict – Run ChatGPT, Claude, Gemini and Perplexity Side-by-Side",
+      "title_ja": "複数のAIモデルを並べて比較できるツール「AI Verdict」",
+      "published": "2026/06/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity",
+        "比較ツール",
+        "モデル選択"
+      ],
+      "summary": "ChatGPT、Claude、Gemini、Perplexityの回答を同時に表示して比較するWebツールが公開された。",
+      "impact": "AIモデル選択時に複数の出力を一度に確認できるため、社内での利用モデル検討時に活用の余地がある。",
+      "notes": "ツール自体の信頼性や継続性は未確認。自社での導入検討は実際の使用感を確認してから判断する。"
+    },
+    {
+      "url": "https://bitboard.work/",
+      "normalized_url": "https://bitboard.work/",
+      "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+      "title_ja": "BitBoard—AIエージェント向けの分析ワークスペース",
+      "published": "2026/06/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "AI監視",
+        "エージェント",
+        "ChatGPT",
+        "スタートアップ"
+      ],
+      "summary": "Y Combinatorの起業家がAIエージェントの動作を監視・分析するツールを開発。ChatGPTなどのAIを使った業務の実行状況を可視化できる。",
+      "impact": "AI利用が増えると、エージェントの動作ログや結果をチェックする手間が出る。このツールで監視を簡素化できる可能性がある。",
+      "notes": "未確認の新しいツール。自社のAI運用で監視方法を検討する際の選択肢として、一度確認するとよい。"
+    },
+    {
+      "url": "https://finmindai-moneyverse.vercel.app/",
+      "normalized_url": "https://finmindai-moneyverse.vercel.app/",
+      "title": "Show HN: FinMind AI – Like Bloomberg Terminal Meets ChatGPT",
+      "title_ja": "FinMind AI：金融データとChatGPTを組み合わせたツール",
+      "published": "2026/06/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "金融データ",
+        "データ分析",
+        "AI活用事例"
+      ],
+      "summary": "金融データ分析機能を持つAIツールが公開された。Bloomberg Terminalのような機能をChatGPTで実現する試み。",
+      "impact": "金融情報の取得・分析をAIで簡素化できる可能性がある。社内で金融データ利用を検討中であれば確認する価値はある。",
+      "notes": "現在Hacker Newsで注目度は限定的（ポイント2、コメントなし）。実運用での信頼性・精度・セキュリティを自社で検証する必要がある。"
+    },
+    {
+      "url": "https://github.com/AhmadTheTech/lark",
+      "normalized_url": "https://github.com/AhmadTheTech/lark",
+      "title": "Show HN: Lark – Use Codex from Telegram or iMessage",
+      "title_ja": "Lark──TelegramやiMessageからCodexを使う仕組み",
+      "published": "2026/06/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Codex",
+        "チャットアプリ連携",
+        "開発ツール",
+        "GitHub"
+      ],
+      "summary": "開発者がCodexをTelegramやiMessageから呼び出せるツール「Lark」をGitHubで公開した。",
+      "impact": "チャットアプリ内で直接コード生成ができるようになるが、会社で使う場合はAPIキー管理とアクセス権限の設定を確認する必要がある。",
+      "notes": "未公開の細部があるため、会社での利用前にドキュメントを確認し、権限範囲・キー保存先・責任者を決める。"
+    },
+    {
+      "url": "https://github.com/ibm777p2/Intelligence-Emotions",
+      "normalized_url": "https://github.com/ibm777p2/Intelligence-Emotions",
+      "title": "Show HN: An AI coaching team in Claude Code that's forbidden from judging you",
+      "title_ja": "Claude Codeで作られたAIコーチング、判断しない設計",
+      "published": "2026/06/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude Code",
+        "AI設計",
+        "事例",
+        "未検証"
+      ],
+      "summary": "Claude Codeを使い、判断や批判をしないAIコーチングチームを実装した事例。ユーザー感情に配慮した設計。",
+      "impact": "Claude Codeの実装例として確認できるが、社内利用時は出力品質やプライバシー保護の要件を確認する。",
+      "notes": "GitHubの個人プロジェクトで、Hacker Newsでの反応は限定的。本番導入前に自社要件との整合性を確認する。"
+    }
+  ]
+}
