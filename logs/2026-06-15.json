@@ -1,0 +1,219 @@
+{
+  "started_at": "2026-06-15T10:40:25.681281+09:00",
+  "finished_at": "2026-06-15T10:41:39.927269+09:00",
+  "fetched_per_source": {
+    "official": 11,
+    "hn": 77,
+    "arxiv": 30
+  },
+  "fetched_total": 118,
+  "after_dedupe": 115,
+  "recorded_duplicate_excluded_count": 15,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 8,
+  "count_c": 2,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/06/15.html",
+  "markdown_path": "output/2026-06-15_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33768,
+  "output_tokens": 4572,
+  "estimated_cost_usd": 0.056628,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "normalized_url": "https://openai.com/index/introducing-openai-partner-network",
+      "title": "Introducing the OpenAI Partner Network",
+      "title_ja": "OpenAI、パートナーネットワークを立ち上げ",
+      "published": "2026/06/14",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "企業導入",
+        "パートナー",
+        "AI導入支援",
+        "OpenAI"
+      ],
+      "summary": "OpenAIが、企業のAI導入を支援するパートナーネットワークを立ち上げ、1億5000万ドルを投資する。",
+      "impact": "パートナー企業を通じたChatGPT導入支援の体制が整備される。自社でAI導入支援が必要な場合、認定パートナーの利用を検討する対象が増える可能性がある。",
+      "notes": "詳細な支援内容、パートナー認定基準、対象地域は公式資料で確認する。"
+    },
+    {
+      "url": "https://claude-code-is-dead.vercel.app/#second",
+      "normalized_url": "https://claude-code-is-dead.vercel.app/",
+      "title": "Claude Code is dead, the future is open",
+      "title_ja": "Claude Code終了、オープンな時代へ",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "AIツール",
+        "確認待ち"
+      ],
+      "summary": "Claude Codeのサービス終了が示唆されており、AIコーディング環境がオープンソース化・標準化へ向かう可能性がある。",
+      "impact": "社内でClaudeのコード生成機能を利用している場合、代替手段の検討が必要になる可能性がある。",
+      "notes": "ハッカーニュースの投稿で公式発表ではないため、Anthropic公式から確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/FarzamMohammadi/the-engineer",
+      "normalized_url": "https://github.com/FarzamMohammadi/the-engineer",
+      "title": "Show HN: The Engineer – Drive Claude Code from a GitHub Issue to a Merged PR",
+      "title_ja": "GitHub連携でClaudeがコード開発を自動化するツール登場",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "GitHub",
+        "自動化",
+        "コード生成",
+        "開発支援ツール"
+      ],
+      "summary": "GitHubのIssueからClaudeが自動的にコードを書き、PRにまで進める開発支援ツールが公開された。",
+      "impact": "Claudeを使った自動コード生成が実装に近づく。自社でGitHub運用している場合、導入検討時は動作確認と権限設定が必要。",
+      "notes": "HNでの注目度は限定的（7ポイント）。導入前に自社のGitHub運用フロー・コードレビュー体制・セキュリティ要件を確認する。"
+    },
+    {
+      "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "normalized_url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "title": "Why Is Claude Turning into an a**Hole?",
+      "title_ja": "Claude の出力品質低下について指摘",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "品質",
+        "ユーザー指摘"
+      ],
+      "summary": "Claudeの回答品質が低下しているという指摘がHacker Newsで議論されている。具体例や原因についての対話が進行中。",
+      "impact": "Claude導入判断や運用ルール見直しの材料になる可能性。自社での使用状況を改めて確認する。",
+      "notes": "未確認情報を多く含む。公式見解ではなく利用者の主観的指摘。Anthropic公式の説明を確認する必要がある。"
+    },
+    {
+      "url": "https://substack.com/profile/467902996-juanlu-de-apisdom/note/c-276207917",
+      "normalized_url": "https://substack.com/profile/467902996-juanlu-de-apisdom/note/c-276207917",
+      "title": "Quieren meter pagos dentro de ChatGPT",
+      "title_ja": "ChatGPT内に決済機能の導入を検討か",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "決済",
+        "未確認",
+        "機能拡張"
+      ],
+      "summary": "ChatGPT内に支払い機能を組み込む構想が報じられた。ユーザーがアプリを離れずに課金や購入ができる仕組みの検討と見られる。",
+      "impact": "ChatGPTの利用形態が変わる可能性がある。会社で使う場合、社費決済の流れやセキュリティ要件を確認する必要が出てくる。",
+      "notes": "未確認情報。HackerNewsのポイントが少なく、信頼度は低い。正式発表を待つ必要がある。"
+    },
+    {
+      "url": "https://www.thetimes.com/uk/politics/article/social-media-ban-keir-starmer-qcmskxc5z",
+      "normalized_url": "https://www.thetimes.com/uk/politics/article/social-media-ban-keir-starmer-qcmskxc5z",
+      "title": "Starmer to announce social media curfew and chatbot ban for teenagers",
+      "title_ja": "英首相、未成年向けのSNS利用時間制限とチャットボット使用禁止を表明へ",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "規制動向",
+        "未成年",
+        "チャットボット",
+        "SNS",
+        "英国"
+      ],
+      "summary": "英国の首相が未成年のSNS利用時間を制限し、チャットボットの使用を禁じる施策を発表する予定。",
+      "impact": "チャットボット製品やAI利用サービスの未成年向け機能に規制が入る可能性があり、提供企業の対応が変わる恐れがある。",
+      "notes": "英国での政策発表のため、日本の自社利用に直接的な影響は限定的。海外展開やグローバル規格の動向として把握する程度。"
+    },
+    {
+      "url": "https://www.cbc.ca/news/canada/new-brunswick/sue-open-ai-suicide-chat-gpt-9.7234630",
+      "normalized_url": "https://www.cbc.ca/news/canada/new-brunswick/sue-open-ai-suicide-chat-gpt-9.7234630",
+      "title": "New Brunswick woman sues OpenAI, alleging ChatGPT led to daughter's death",
+      "title_ja": "ChatGPTの利用が娘の死につながったとして女性がOpenAIを提訴",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "利用ルール",
+        "リスク管理",
+        "法的責任"
+      ],
+      "summary": "カナダ・ニューブランズウィック州の女性がOpenAIを相手に訴訟を起こした。ChatGPTの会話が関係していたと主張。",
+      "impact": "企業がChatGPT導入時、利用者の精神的危害を想定したルール設計や使用制限が求められる可能性がある。",
+      "notes": "訴訟の詳細内容は未確認。会社での利用ルール策定時に、利用者の安全管理と責任範囲を確認する必要がある。"
+    },
+    {
+      "url": "https://pncnmnp.github.io/blogs/chatgpt-containers.html",
+      "normalized_url": "https://pncnmnp.github.io/blogs/chatgpt-containers.html",
+      "title": "Tearing into ChatGPT's Container Environment",
+      "title_ja": "ChatGPTのコンテナ環境の内部構造を解析",
+      "published": "2026/06/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "技術",
+        "実行環境"
+      ],
+      "summary": "セキュリティ研究者がChatGPTの実行環境の構造を分析し、公開した記事。",
+      "impact": "会社でChatGPTを利用する際の基盤技術と制限内容を理解でき、ルール設定の参考になる。",
+      "notes": "記事の詳細内容を確認してから、実務での利用制限やセキュリティ方針に反映させる必要がある。"
+    },
+    {
+      "url": "https://github.com/attunehq/nudge",
+      "normalized_url": "https://github.com/attunehq/nudge",
+      "title": "Nudge – a collaborative memory layer for Claude Code and Codex CLI hooks",
+      "title_ja": "Nudge──ClaudeとCodexのための協調メモリ機能",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "ツール",
+        "未確認"
+      ],
+      "summary": "ClaudeやCodex向けのメモリ層ツール「Nudge」がGitHubで公開された。",
+      "impact": "Claude・Codexとの連携時に前後の文脈を保持できるようになり、会話の継続性が向上する可能性がある。",
+      "notes": "現段階ではHackerNewsでの認知が限定的（2ポイント）。自社で使う前に機能と安全性を確認する。"
+    },
+    {
+      "url": "https://github.com/wastedcode/truecast",
+      "normalized_url": "https://github.com/wastedcode/truecast",
+      "title": "Structured Subagents for Claude Code",
+      "title_ja": "Claude Code向けの構造化されたサブエージェント機能",
+      "published": "2026/06/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "コード自動化",
+        "開発ツール"
+      ],
+      "summary": "GitHubリポジトリが、Claude Codeで複数のエージェントを体系的に組み合わせる仕組みを提供している。",
+      "impact": "Claudeを使う開発チームが、複雑なタスクを複数エージェント間で分担できるようになり、自動化の幅が広がる可能性がある。",
+      "notes": "実装内容や動作環境の詳細は公式な説明が不明確なため、利用前にリポジトリの中身を確認する。"
+    }
+  ]
+}
