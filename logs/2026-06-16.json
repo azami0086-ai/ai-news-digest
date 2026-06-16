@@ -1,0 +1,219 @@
+{
+  "started_at": "2026-06-16T10:46:09.067976+09:00",
+  "finished_at": "2026-06-16T10:47:25.255677+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 68,
+    "arxiv": 30
+  },
+  "fetched_total": 103,
+  "after_dedupe": 102,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 6,
+  "count_c": 3,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/06/16.html",
+  "markdown_path": "output/2026-06-16_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34040,
+  "output_tokens": 4774,
+  "estimated_cost_usd": 0.05791,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://thenextweb.com/news/agentjacking-ai-coding-agents-sentry",
+      "normalized_url": "https://thenextweb.com/news/agentjacking-ai-coding-agents-sentry",
+      "title": "Agentjacking: Fake error reports hijack Claude Code and Cursor into running code",
+      "title_ja": "偽のエラー報告でClaudeやCursorを操作する脆弱性が報告",
+      "published": "2026/06/15",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "コード生成",
+        "脆弱性",
+        "Cursor"
+      ],
+      "summary": "AIコーディングツールが偽のエラーメッセージに騙され、意図しないコード実行につながる可能性がある脆弱性が指摘された。",
+      "impact": "Claude CodeやCursorを業務で使う場合、エラーメッセージの真正性を確認する仕組みやAIへの指示の検証を検討する必要がある。",
+      "notes": "詳細な攻撃方法や影響範囲は記事から確認されていない。Sentryなど外部サービスとの連携がある環境では注意が必要。"
+    },
+    {
+      "url": "https://github.com/firish/claude_code_vs",
+      "normalized_url": "https://github.com/firish/claude_code_vs",
+      "title": "Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
+      "title_ja": "Claude CodeがVisual Studio向けに拡張機能として登場",
+      "published": "2026/06/15",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "開発ツール",
+        "Visual Studio",
+        "拡張機能"
+      ],
+      "summary": "ClaudeのAIコード生成をVisual Studio統合環境で使える拡張機能が開発者により公開された。コード差分をその場で確認し承認・拒否できる。",
+      "impact": "開発チームがVisual Studio利用時にClaudeを直接使えるようになる。差分確認がしやすいため、生成コードの検証ルールを整備する際の参考になる。",
+      "notes": "まだ初期段階の開発。自社での導入前に動作確認と権限・保存先のルール設定が必要。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.15762v1",
+      "normalized_url": "https://arxiv.org/abs/2606.15762v1",
+      "title": "Snyk VulnBench JS 1.0: Can LLMs Find the Same Bugs Twice?",
+      "title_ja": "LLMのセキュリティ脆弱性検出の再現性を検証、結果は不安定",
+      "published": "2026/06/14",
+      "source": "arXiv",
+      "importance": "B",
+      "tags": [
+        "セキュリティ",
+        "LLM信頼性",
+        "脆弱性検出",
+        "Claude",
+        "コード解析"
+      ],
+      "summary": "LLMがコードの脆弱性を見つける作業の安定性を調べた。同じコードで繰り返し実行すると、見つかる脆弱性にばらつきが出た。",
+      "impact": "社内でLLMを使ったコードレビューやセキュリティチェックの導入を検討する場合、出力結果を信頼できない可能性がある。人による確認が必要か、仕組みを設計する必要がある。",
+      "notes": "論文の段階。実務への転用判断は自社でセキュリティ部門と相談してから。"
+    },
+    {
+      "url": "https://www.golproductions.com/blog/we-tested-gemini-ai-agent-67-percent-commands-were-unsafe",
+      "normalized_url": "https://www.golproductions.com/blog/we-tested-gemini-ai-agent-67-percent-commands-were-unsafe",
+      "title": "67% of AI-generated commands are unsafe. We tested it",
+      "title_ja": "Geminiが生成するコマンドの67%が危険―テスト結果",
+      "published": "2026/06/15",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "セキュリティ",
+        "AI利用リスク",
+        "コマンド生成"
+      ],
+      "summary": "Geminiが生成したコマンドの大部分が安全でないという検証結果が報告された。",
+      "impact": "社内でGeminiやAIエージェントを導入する場合、自動実行ルールの見直しと出力チェック体制の確認が必要になる可能性がある。",
+      "notes": "詳細な検証方法や対象環境が確認できておらず、自社利用への影響を判断するには公式資料や追加情報の確認が必要。"
+    },
+    {
+      "url": "https://daringfireball.net/linked/2026/06/15/ec-google-gemini-ai-dma",
+      "normalized_url": "https://daringfireball.net/linked/2026/06/15/ec-google-gemini-ai-dma",
+      "title": "EC Ruled Months Ago That Google's Integration of Gemini in Android Violates DMA",
+      "title_ja": "欧州委がGeminiのAndroid統合をDMA違反と判断",
+      "published": "2026/06/15",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "規制",
+        "Android",
+        "欧州"
+      ],
+      "summary": "欧州委員会がGoogleのGeminiをAndroidに統合する方針をDMA違反と数ヶ月前に判定していたことが明かされた。",
+      "impact": "Google が Gemini を Android デバイスに標準統合させる場合、欧州での販売・運用に支障が生じる可能性がある。",
+      "notes": "詳細が限定的なため、欧州ユーザーがいる場合は公式発表を確認する必要がある。"
+    },
+    {
+      "url": "https://www.conductor.build/blog/claude-subscription-update",
+      "normalized_url": "https://www.conductor.build/blog/claude-subscription-update",
+      "title": "Claude subscription changes for Conductor delayed indefinitely",
+      "title_ja": "Claudeの定期購入オプション変更が無期限延期に",
+      "published": "2026/06/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "契約・ライセンス",
+        "定期購入"
+      ],
+      "summary": "Claudeを提供するAnthropicが、Conductor向けのサブスクリプション変更計画を無期限延期すると発表した。",
+      "impact": "現在のClaude利用契約は当面維持される。自社で利用している場合は、契約条件の急な変更に対応する準備は当面不要だが、最新情報を定期確認するとよい。",
+      "notes": "公式ブログの発表内容だが、変更理由や再開時期は未確認。自社がConductorやClaudeのサブスクリプション契約を持つ場合は、Anthropic公式情報をフォローする。"
+    },
+    {
+      "url": "https://twitter.com/aronprins/status/2066607128563851546",
+      "normalized_url": "https://twitter.com/aronprins/status/2066607128563851546",
+      "title": "Anthropic is pausing the Claude Agent SDK credit change",
+      "title_ja": "Anthropicが Claude Agent SDK の料金改定を一時停止",
+      "published": "2026/06/15",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "料金変更",
+        "SDK"
+      ],
+      "summary": "AnthropicがClaudeエージェント向けSDKの料金改定計画を一時停止すると発表した。",
+      "impact": "Claude利用企業は当初予定の料金変更を見送られた。導入検討中の場合は確認が必要。",
+      "notes": "詳細は未確認。改定方針自体の取り下げか延期かを公式情報で確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "normalized_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "title_ja": "Googleがアラバマ州の施設に15億ドル投資、データセンター拡張へ",
+      "published": "2026/06/15",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Google",
+        "データセンター",
+        "インフラ投資",
+        "Gemini"
+      ],
+      "summary": "Googleがアラバマ州ジャクソン郡のデータセンター拠点を拡張するため、2026～2027年に15億ドルを投資する。",
+      "impact": "AI学習・推論の処理能力が増強されるが、自社の利用コスト変動や接続遅延の改善は未確認。",
+      "notes": "インフラ投資のため、自社のGoogle Cloud利用契約内容と接続先リージョンを確認するとよい。"
+    },
+    {
+      "url": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
+      "normalized_url": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
+      "title": "Xiaomi's agentic AI coding harness MiMo Code beats Claude Code at 200 step tasks",
+      "title_ja": "Xiaomiのコード生成AI「MiMo Code」、複雑なタスクでClaudeを上回る",
+      "published": "2026/06/16",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "AI・コード生成",
+        "Claude",
+        "Xiaomi",
+        "比較・評価"
+      ],
+      "summary": "Xiaomiが開発したコード生成ツール「MiMo Code」が、200ステップの複雑なタスクでClaudeを上回る性能を示した。",
+      "impact": "社内でコード生成AIの選定や比較検討を進める場合、新たな候補として評価する必要がある。",
+      "notes": "Hacker Newsでの言及は限定的（3ポイント）であり、広く認知された情報ではない。自社での導入検討前に性能や対応言語などを確認する。"
+    },
+    {
+      "url": "https://github.com/amiinwani/whoburnedmore.com",
+      "normalized_url": "https://github.com/amiinwani/whoburnedmore.com",
+      "title": "Show HN: Open-source CLI to see your AI coding token usage and compare it",
+      "title_ja": "AI開発ツール：コーディング時のトークン使用量を確認・比較するCLIツール",
+      "published": "2026/06/16",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発支援",
+        "コスト管理",
+        "オープンソース"
+      ],
+      "summary": "オープンソースのコマンドラインツールで、Claude等の開発支援AIを使う時の利用額や使用量を確認・比較できる。",
+      "impact": "AI開発支援ツール導入時に、実際のコスト管理と利用効率を数値で把握しやすくなる。",
+      "notes": "GitHub公開のツールのため、自社での使用に向けて機能や信頼性を事前に確認する。"
+    }
+  ]
+}
