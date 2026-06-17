@@ -1,0 +1,147 @@
+{
+  "started_at": "2026-06-17T10:40:49.593539+09:00",
+  "finished_at": "2026-06-17T10:42:09.594550+09:00",
+  "fetched_per_source": {
+    "official": 11,
+    "hn": 82,
+    "arxiv": 30
+  },
+  "fetched_total": 123,
+  "after_dedupe": 122,
+  "recorded_duplicate_excluded_count": 6,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/17.html",
+  "markdown_path": "output/2026-06-17_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33998,
+  "output_tokens": 4707,
+  "estimated_cost_usd": 0.057533,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.orcarouter.ai/blog/model-fusion-in-production-inside-orcarouter-fusion-and-the-routing-dsl",
+      "normalized_url": "https://www.orcarouter.ai/blog/model-fusion-in-production-inside-orcarouter-fusion-and-the-routing-dsl",
+      "title": "\" Claude Fable 5 was delisted. The answer isn't a bigger model – it's a panel: \"",
+      "title_ja": "Claude Fable 5が廃止に—大型モデルより複数モデルの組み合わせへ",
+      "published": "2026/06/16",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "API変更",
+        "モデル廃止",
+        "利用ルール確認"
+      ],
+      "summary": "Anthropicが単一の大型モデルではなく、複数の小型モデルを組み合わせる構成へ転換。Claude Fable 5は廃止される見通し。",
+      "impact": "Claude APIの利用構成が変わる可能性。現在Fable 5を使う場合は代替モデルの確認と移行計画が必要。",
+      "notes": "詳細な廃止時期や代替手段は未確認。Anthropic公式の発表を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/temporary-chats-and-conversation-deletion-control-for-gemini.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/temporary-chats-and-conversation-deletion-control-for-gemini.html",
+      "title": "Control whether your users can have temporary chats and delete conversations in the Gemini app",
+      "title_ja": "Gemini アプリで一時チャットと履歴削除の管理者設定が可能に",
+      "published": "2026/06/16",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Gemini",
+        "管理者設定",
+        "データ保持",
+        "Google Workspace"
+      ],
+      "summary": "Google Workspace管理者が、ユーザーのGemini利用時に一時チャット機能と履歴削除機能の利用を制限できるようになった。",
+      "impact": "会社のデータ保持ポリシーに合わせて、ユーザーのGemini利用ルールを設定し直す必要が出る可能性がある。",
+      "notes": "管理者コンソールでの設定方法と適用範囲を確認する。機密情報の取扱いに関係する場合は権限者と相談する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/expanded-availability-gemini-in-chrome.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/expanded-availability-gemini-in-chrome.html",
+      "title": "Gemini in Chrome expands to more languages and regions, including Latin America, Africa, and the Middle East",
+      "title_ja": "Chrome内のGeminiが中南米・アフリカ・中東など拡大へ",
+      "published": "2026/06/16",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Chrome",
+        "Google Workspace",
+        "新地域対応",
+        "データガバナンス",
+        "利用ポリシー"
+      ],
+      "summary": "GoogleのChrome統合AI「Gemini」が中南米・アフリカ・中東など新地域で利用可能になる。",
+      "impact": "新地域の従業員がChrome内でAI機能を使えるようになるため、利用ルール・データ保存場所・アクセス権限を確認する。",
+      "notes": "Google個人アカウントでもGeminiアプリを通じて使用可能。社用Chrome・個人Chrome両方での利用ポリシーを整理する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/deployment-simulation",
+      "normalized_url": "https://openai.com/index/deployment-simulation",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "title_ja": "OpenAI、デプロイ前にモデルの動作を予測する方法を導入",
+      "published": "2026/06/16",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "安全性",
+        "品質管理",
+        "OpenAI"
+      ],
+      "summary": "OpenAIが、実際の会話データを使ってAIモデルをデプロイ前に試す方法を説明した。安全性と精度を高める狙い。",
+      "impact": "ChatGPTなど新版リリース前に問題がないか確認する仕組みが加わる。利用者が受け取るAIの品質に関わる。",
+      "notes": "自社でChatGPTやAPIを使う場合、デプロイ後の問題減少により利用環境が安定する可能性がある。詳細はOpenAI公式資料で確認する。"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rwkAksbNsTg",
+      "normalized_url": "https://www.youtube.com/watch?v=rwkAksbNsTg",
+      "title": "Building Production AI Apps on Claude Code and Cloudflare [video]",
+      "title_ja": "ClaudeとCloudflareで本番向けAIアプリを作る",
+      "published": "2026/06/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "実装方法",
+        "Cloudflare",
+        "本番環境"
+      ],
+      "summary": "ClaudeとCloudflareを組み合わせて、実際に運用するAIアプリケーションを開発する方法を動画で紹介している。",
+      "impact": "Claudeを業務システムに組み込む際の実装パターンや注意点を学べるが、詳細は動画視聴が必要。",
+      "notes": "動画のため短時間では内容確認できない。社内でClaudeの利用を検討する場合は視聴を依頼するか、書き起こしの確認が必要。"
+    },
+    {
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "normalized_url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "title_ja": "Google DeepMind、英国の住宅建設を加速するAI試験運用を開始",
+      "published": "2026/06/16",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Google DeepMind",
+        "Gemini",
+        "公共部門",
+        "AI活用事例",
+        "英国"
+      ],
+      "summary": "英国政府とGoogle DeepMindが協力し、住宅建設の許認可判断を速める試験的なAIシステムを構築する。",
+      "impact": "公共部門でのAI利用が広がる事例として、社内でAI導入を進める際の参考になる可能性がある。",
+      "notes": "英国の施策であり、日本国内での直接的な影響は未確認。自社が公共部門向けAI開発に関わる場合は動向を追う。"
+    }
+  ]
+}
