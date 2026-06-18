@@ -1,0 +1,169 @@
+{
+  "started_at": "2026-06-18T10:39:50.794885+09:00",
+  "finished_at": "2026-06-18T10:41:16.011159+09:00",
+  "fetched_per_source": {
+    "official": 22,
+    "hn": 80,
+    "arxiv": 30
+  },
+  "fetched_total": 132,
+  "after_dedupe": 129,
+  "recorded_duplicate_excluded_count": 6,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/06/18.html",
+  "markdown_path": "output/2026-06-18_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33917,
+  "output_tokens": 4793,
+  "estimated_cost_usd": 0.057882,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/enhanced-ai-avatars-vids.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/enhanced-ai-avatars-vids.html",
+      "title": "Enhanced AI avatar features and capabilities in Google Vids",
+      "title_ja": "Google Vidsの自動生成アバター、音声と表現が向上",
+      "published": "2026/06/17",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Google Vids",
+        "動画制作",
+        "AI音声"
+      ],
+      "summary": "Google VidsのAIアバター機能が、Gemini 3.1の音声生成とVeo 3.1の映像処理で表現力が上がり、プリセットが23種から53種に増える。",
+      "impact": "動画作成業務で自動生成されたアバターの見た目と話し方が改善され、カスタマイズも可能になるため、社内研修資料や説明動画の制作時間が短縮できる可能性がある。",
+      "notes": "自社での利用前に、Google Workspace契約内容で利用権があるか、保存先ルール、出力動画の利用制限を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "normalized_url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "title_ja": "GPT-5.4を使ったAI化学者が医薬品合成の難しい反応を改善",
+      "published": "2026/06/17",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.4",
+        "AI活用",
+        "研究開発",
+        "医薬品",
+        "自動化"
+      ],
+      "summary": "OpenAIとMolecule.oneが、GPT-5.4で動く自動化学者が医薬品製造の重要な反応を改善したと発表した。",
+      "impact": "ChatGPTなど生成AIが研究開発で使われ始めたことを示す。社内で化学・製薬関連の業務がある場合、AI活用の可能性を検討する参考になる。",
+      "notes": "実験結果や改善内容の詳細は公式記事で確認する。社内で同様の活用を検討する場合、データの扱い方と成果の責任範囲を決める。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "normalized_url": "https://openai.com/index/introducing-life-sci-bench",
+      "title": "Introducing LifeSciBench",
+      "title_ja": "OpenAI、生命科学研究の評価ベンチマーク「LifeSciBench」を発表",
+      "published": "2026/06/17",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "ベンチマーク",
+        "生命科学",
+        "医療・ライフサイエンス",
+        "AI評価"
+      ],
+      "summary": "OpenAIが、AI システムが生命科学の実務的な研究課題にどう対応するかを測るベンチマークを公開した。",
+      "impact": "AI の研究開発や医療分野での活用を判断する際、実務的な能力を客観的に比較できるようになる。",
+      "notes": "ベンチマーク内容や自社での検証方法は公式資料で確認する。生命科学系の業務でAI導入を検討する場合は参考になる。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "normalized_url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "title": "Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+      "title_ja": "AnthropicがソウルにClaud支援オフィスを開設、韓国AI業界と提携",
+      "published": "2026/06/17",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "グローバル展開",
+        "地域戦略",
+        "パートナーシップ"
+      ],
+      "summary": "Anthropicがソウルにオフィスを開設し、韓国の企業や研究機関とClaudeの活用で提携する。",
+      "impact": "Claudeを韓国で本格的に広げる体制が整う。今後、韓国企業向けの翻訳・日本語対応・サポート強化の可能性がある。",
+      "notes": "日本への影響は未確認。提携企業の詳細と日本展開予定は公式資料で確認する。"
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "normalized_url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time",
+      "title": "ChatGPT's AI Assistant market share <50% as Gemini and Claude grow",
+      "title_ja": "ChatGPTの市場シェア50%割れ、GeminiとClaudeが成長",
+      "published": "2026/06/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "市場動向",
+        "AI競合"
+      ],
+      "summary": "ChatGPTのAIアシスタント市場シェアが初めて50%を下回り、競合のGeminiとClaudeが拡大している。",
+      "impact": "社内のAI利用選択肢が広がる可能性があり、ChatGPT以外のツール導入検討が増える見込み。",
+      "notes": "数値や詳細は根拠URLが限定的なため、正式な市場調査資料で確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "normalized_url": "https://www.anthropic.com/research/claude-code-expertise",
+      "title": "Agentic coding and persistent returns to expertise",
+      "title_ja": "Claude Codeのエージェント機能と専門スキルの継続的効果",
+      "published": "2026/06/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "自動実行",
+        "研究論文",
+        "開発業務"
+      ],
+      "summary": "Anthropicが、Claude Codeでコード生成を自動実行させた時の仕組みと効果を研究結果として公開した。",
+      "impact": "コード作成業務の自動化レベルが上がるため、開発チームの利用ルールと出力チェック体制を確認する必要がある。",
+      "notes": "未確認情報が多いため、Anthropic公式ページで詳細内容を確認し、自社での使用可否と管理ルールを判断する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "title_ja": "Googleの医療AI「AMIE」、主治医と同等の診療判断能力を実証",
+      "published": "2026/06/17",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "医療AI",
+        "AMIE",
+        "研究",
+        "診断支援"
+      ],
+      "summary": "GoogleがNature誌に発表した研究で、医療向けAI「AMIE」が複雑な疾患管理で主治医と同等の成果を示した。",
+      "impact": "医療業務へのAI導入検討時に、実績ある先例として参考になる。ただし日本の医療ルールでの使用には別途確認が必要。",
+      "notes": "医療AIの実装は医師法や医療法など法的制限が大きい。会社で医療機関と連携する場合、顧問医や法務と確認してから進める。"
+    }
+  ]
+}
