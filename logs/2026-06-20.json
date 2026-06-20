@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-06-20T09:18:42.147674+09:00",
+  "finished_at": "2026-06-20T09:20:01.470209+09:00",
+  "fetched_per_source": {
+    "official": 25,
+    "hn": 79,
+    "arxiv": 30
+  },
+  "fetched_total": 134,
+  "after_dedupe": 132,
+  "recorded_duplicate_excluded_count": 12,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 4,
+  "count_excluded": 4,
+  "errors": [],
+  "html_path": "docs/2026/06/20.html",
+  "markdown_path": "output/2026-06-20_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33852,
+  "output_tokens": 4536,
+  "estimated_cost_usd": 0.056532,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/weekly-recap-06-19-2026.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/weekly-recap-06-19-2026.html",
+      "title": "Google Workspace Weekly Recap",
+      "title_ja": "Google Chat に「発見可能スペース」機能、Google Voice に通信事業者連携",
+      "published": "2026/06/19",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Chat",
+        "Google Workspace",
+        "スペース管理",
+        "アクセス制御"
+      ],
+      "summary": "Google Chat に招待不要で検索・閲覧可能ながら、参加に承認が必要な新しいスペース設定が追加された。",
+      "impact": "スペース管理の選択肢が増え、部門やプロジェクト単位で参加者を制御しながら周知できるようになる。",
+      "notes": "Carrier Link については抜粋が不完全なため、公式ページで詳細を確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/useautumn/summer",
+      "normalized_url": "https://github.com/useautumn/summer",
+      "title": "Show HN: Multiplayer Usage Tracking for Claude Code, Codex and OpenCode",
+      "title_ja": "Claude Code、Codex対応の共有利用追跡ツール",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "開発ツール",
+        "利用管理",
+        "オープンソース"
+      ],
+      "summary": "複数人でAIコード生成ツールを使う際に、誰が何を利用したかを記録・追跡するオープンソースツールが公開された。",
+      "impact": "会社でClaude CodeやCodexを複数人で利用する場合、利用状況の把握と管理が技術的に可能になる。",
+      "notes": "開発初期段階（HNでの反応が少ない）のため、本番導入前に動作確認と自社での動作検証が必要。"
+    },
+    {
+      "url": "https://www.rnz.co.nz/news/science-and-technology/600928/more-than-chatbots-why-business-ai-agents-are-big-tech-s-next-product-battleground",
+      "normalized_url": "https://www.rnz.co.nz/news/science-and-technology/600928/more-than-chatbots-why-business-ai-agents-are-big-tech-s-next-product-battleground",
+      "title": "More than chatbots: Why business AI agents are the next product battleground",
+      "title_ja": "チャットボットから先へ、企業向けAIエージェントが次の競争領域に",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "AI全般",
+        "エージェント",
+        "ChatGPT",
+        "業務自動化"
+      ],
+      "summary": "大手IT企業が、チャットボットではなく自動実行するAIエージェント開発を競争領域にしている。",
+      "impact": "企業でのAI導入が、質問応答から実際の業務処理へシフトする可能性があり、社内システムとの連携ルールを見直す必要が出る。",
+      "notes": "Hacker Newsの引用件数が少ないため、業界トレンドとしての信度確認が必要。実際のエージェント製品・価格・自社対応範囲を確認する。"
+    },
+    {
+      "url": "https://github.com/fayzan123/claude-workflow-composer",
+      "normalized_url": "https://github.com/fayzan123/claude-workflow-composer",
+      "title": "Show HN: CWC scans your Claude Code history and auto-builds agent workflows",
+      "title_ja": "Claude利用履歴を分析して自動でワークフロー生成するツール",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ワークフロー自動化",
+        "API連携",
+        "履歴管理",
+        "アカウント権限"
+      ],
+      "summary": "GitHubで公開された「CWC」はClaudeの過去の会話記録から作業パターンを認識し、自動でAgentワークフローを組み立てるツール。",
+      "impact": "社内でClaudeを使う場合、利用履歴がツール経由で外部に読まれる可能性がある。スキャン対象範囲と出力先、Claudeアカウント連携時の権限を確認する。",
+      "notes": "執筆時点でHNでの反応が少なく（2ポイント、コメント0件）、実装の詳細や安全性について確認が必要。会社で使う前に開発状況と利用条件を把握する。"
+    },
+    {
+      "url": "https://old.reddit.com/r/artificial/comments/1u9t7mp/gemini_helped_me_get_scammed/",
+      "normalized_url": "https://old.reddit.com/r/artificial/comments/1u9t7mp/gemini_helped_me_get_scammed",
+      "title": "Gemini provides phone number of scammer posing as Delta Airlines",
+      "title_ja": "Geminiが詐欺師の電話番号を案内した例が報告される",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "生成AI",
+        "誤情報",
+        "詐欺",
+        "利用ルール"
+      ],
+      "summary": "Geminiが詐欺サイトの電話番号をデルタ航空の正規番号として提供し、ユーザーが詐欺被害に遭った事例が報告された。",
+      "impact": "AI生成の連絡先情報を無検証で使用すると詐欺被害につながる可能性があり、会社での利用ルール検討が必要になる可能性がある。",
+      "notes": "詳細情報が限定的（Redditスレッド、HackerNewsでの議論ポイント少）のため、事実確認や統計的な頻度は不明。内部で情報セキュリティ担当と共有することを推奨。"
+    },
+    {
+      "url": "https://professorprompts.com",
+      "normalized_url": "https://professorprompts.com/",
+      "title": "Made with Claude for Claude:Interactive Labs:Learn Claude Chat, Cowork, and Code",
+      "title_ja": "Claudeの学習と共同作業向けインタラクティブラボが登場",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "学習リソース",
+        "使い方"
+      ],
+      "summary": "Claudeを使った学習や共同作業、コーディングのためのインタラクティブラボが公開された。",
+      "impact": "Claude利用者が機能の使い方を体験できる環境が整い、チーム内の導入検討時に活用できる可能性がある。",
+      "notes": "HN投稿の反応は限定的（point=1、comment=0）のため、広く認知される資料かは未確認。自社で使う場合は内容確認が必要。"
+    },
+    {
+      "url": "https://imaxxs.com/behavioral-induction-capabilities-shape-execution",
+      "normalized_url": "https://imaxxs.com/behavioral-induction-capabilities-shape-execution",
+      "title": "Gemini CLI vs. Claude Code: Why agent capabilities matter more than prompts",
+      "title_ja": "Gemini CLI vs Claude Code：エージェント機能がプロンプト以上に重要である理由",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "AI開発ツール",
+        "エージェント",
+        "評価未確定"
+      ],
+      "summary": "Gemini CLIとClaude Codeの能力差について、プロンプト工夫より実装機能が結果を左右することを指摘した記事。",
+      "impact": "AI開発ツール選定時に、プロンプトの工夫だけでなく基盤の機能差を重視する必要があることを示唆する。",
+      "notes": "ソースの信頼性が未確認。Hacker Newsでの反応が少ない（2ポイント、コメント0）ため、業界内での検証や確認が必要。"
+    },
+    {
+      "url": "https://github.com/mertdeveci5/gora",
+      "normalized_url": "https://github.com/mertdeveci5/gora",
+      "title": "Show HN: Gora – simple search across all your local coding agents",
+      "title_ja": "Gora – ローカル開発AI全体の検索ツール",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "ローカル環境",
+        "検索機能"
+      ],
+      "summary": "ローカル環境で複数の開発AI（Claude Codeなど）を一括検索できるツール。GitHub上で公開された初期段階のプロジェクト。",
+      "impact": "開発チームがClaudeやその他のAIエージェントを使う場合、問い合わせ履歴や出力結果を一元管理できる可能性がある。",
+      "notes": "未確認情報のため、自社での利用検討前にドキュメントと動作確認を行う必要がある。"
+    },
+    {
+      "url": "https://github.com/alex-reysa/glueRun-go",
+      "normalized_url": "https://github.com/alex-reysa/glueRun-go",
+      "title": "Show HN: Git worktrees and evidence gates for Codex and Claude Code",
+      "title_ja": "Git worktreeとClaudeコード利用の検証機能をGitHubで公開",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "Git",
+        "コード生成",
+        "品質管理",
+        "GitHub"
+      ],
+      "summary": "開発者がGit worktreeと検証ゲートを組み合わせ、ClaudeやCodexのコード生成出力を管理する仕組みを公開した。",
+      "impact": "AI生成コードの品質検証や段階的導入を考える際、参考になる技術パターンが共有された。",
+      "notes": "記事の詳細情報が限定的（HNでの評価が低い、コメントなし）。実装を検討する場合は公開リポジトリの内容を確認する必要がある。"
+    },
+    {
+      "url": "https://linkraider.com/login",
+      "normalized_url": "https://linkraider.com/login",
+      "title": "Show HN: I built with Claude Code a bookmarks manager with a social cut",
+      "title_ja": "Claude Codeで作成したブックマーク管理ツール",
+      "published": "2026/06/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "生成AI",
+        "アプリ開発",
+        "Code",
+        "参考事例"
+      ],
+      "summary": "Claudeを使ってブックマーク管理アプリを開発した事例。機能やAPI設計の詳細は未確認。",
+      "impact": "Claude利用で小規模なWebアプリ開発が可能な事例として参考になるが、ビジネス導入には評価が必要。",
+      "notes": "ソースコード非公開。ユーザー数・セキュリティ対応・個人情報取り扱いは公開情報なし。自社で同様に利用する際は要件確認が必要。"
+    }
+  ]
+}
