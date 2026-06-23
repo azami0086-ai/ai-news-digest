@@ -1,0 +1,152 @@
+{
+  "started_at": "2026-06-23T09:19:49.763008+09:00",
+  "finished_at": "2026-06-23T09:21:02.310216+09:00",
+  "fetched_per_source": {
+    "official": 8,
+    "hn": 76,
+    "arxiv": 0
+  },
+  "fetched_total": 84,
+  "after_dedupe": 82,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 2,
+  "count_b": 4,
+  "count_c": 0,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/06/23.html",
+  "markdown_path": "output/2026-06-23_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33916,
+  "output_tokens": 4679,
+  "estimated_cost_usd": 0.057311,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://thenewstack.io/agentjacking-sentry-mcp-attack/",
+      "normalized_url": "https://thenewstack.io/agentjacking-sentry-mcp-attack",
+      "title": "A public Sentry key is all it takes to hijack Claude Code, Cursor, and Codex",
+      "title_ja": "Sentry公開鍵でClaudeやCursorが乗っ取られるリスク",
+      "published": "2026/06/22",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "認証",
+        "認証情報管理",
+        "Cursor",
+        "Codex"
+      ],
+      "summary": "Sentry の公開鍵が漏洩すると、Claude Code やCursor、Codex などの AI開発ツールが不正操作される脆弱性が指摘された。",
+      "impact": "AI開発ツールの認証管理を見直す必要がある。Sentry 鍵の取り扱いルール、アクセス権限、漏洩時の対応を確認する。",
+      "notes": "詳細は出所URL で確認する。社内で使用中のツール、保有するキーの保管方法、発行・無効化の手順を点検する。"
+    },
+    {
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "normalized_url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic",
+      "title": "The text in Claude Code’s “Extended Thinking” output",
+      "title_ja": "Claude Codeの「拡張思考」出力テキストの信頼性に疑問",
+      "published": "2026/06/22",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "拡張思考",
+        "出力信頼性",
+        "検証"
+      ],
+      "summary": "Claude Codeの拡張思考機能の出力内容が、実際の思考プロセスを正確に反映していない可能性があると指摘された。",
+      "impact": "Claude Code利用時、表示される思考過程をそのまま信じず、最終的な出力結果を重視して検証する必要がある。",
+      "notes": "公開資料として扱えるが、自社でClaude Codeを利用する場合は出力検証のルールを確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/troubleshoot-formula-errors-in-sheets.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/troubleshoot-formula-errors-in-sheets.html",
+      "title": "Troubleshoot formula errors quickly with Gemini in Google Sheets",
+      "title_ja": "Google Sheetsで数式エラーをGeminiが自動診断・修正",
+      "published": "2026/06/22",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Sheets",
+        "Gemini",
+        "数式エラー対応",
+        "業務効率化"
+      ],
+      "summary": "Google SheetでGeminiが数式エラーの原因を分析し、修正案を提示する機能が追加された。",
+      "impact": "数式エラーの調査時間が短縮される。経理・人事がデータ集計時の対応工数を削減できる可能性がある。",
+      "notes": "自社のGoogle Workspace契約に含まれるか、Gemini利用権の確認が必要。"
+    },
+    {
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "normalized_url": "https://openai.com/index/daybreak-securing-the-world",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "title_ja": "OpenAI、組織向けセキュリティツール「Daybreak」を発表",
+      "published": "2026/06/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "セキュリティ",
+        "脆弱性管理",
+        "Codex",
+        "ChatGPT",
+        "情報セキュリティ"
+      ],
+      "summary": "OpenAIが脆弱性の発見・検証・修正を支援するセキュリティツール群「Daybreak」を公開した。",
+      "impact": "社内システムのセキュリティ診断を自動化できる可能性があり、情報セキュリティ部門での導入検討が必要になる。",
+      "notes": "実装方法と自社システムとの互換性を情報セキュリティ部門と確認する。"
+    },
+    {
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "normalized_url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "title": "Codex-maxxing for long-running work",
+      "title_ja": "Codexで長時間のプロジェクト管理――文脈を保持して複数回の入力に対応",
+      "published": "2026/06/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "コード生成",
+        "長期プロジェクト管理",
+        "文脈保持",
+        "プロンプト設計"
+      ],
+      "summary": "Codexを使い、複数の指示をまたいで作業内容を保持し、長期プロジェクトを管理する方法をOpenAIが説明した。",
+      "impact": "コード生成AIで大規模な開発タスクを分割実行する時の文脈保持の考え方が参考になり、自社の運用設計に組み込める。",
+      "notes": "Codexは現在一般提供を終了している。API利用や類似機能の現在の利用可能性を確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/patch-the-planet",
+      "normalized_url": "https://openai.com/index/patch-the-planet",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "title_ja": "OpenAI、オープンソース保守者を支援する「Patch the Planet」を開始",
+      "published": "2026/06/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "オープンソース",
+        "脆弱性管理",
+        "Daybreak"
+      ],
+      "summary": "OpenAIがオープンソースの脆弱性を見つけ、検証し、修正するのをAIと専門家が支援する取り組みを始めた。",
+      "impact": "社内で使うオープンソースライブラリの脆弱性が自動で検出・修正される可能性があり、セキュリティ確認の手間が減る。",
+      "notes": "自社が使用しているオープンソースの脆弱性対応状況を事前に確認する。修正内容の検証体制を決める必要がある。"
+    }
+  ]
+}
