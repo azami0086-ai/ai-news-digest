@@ -1,0 +1,165 @@
+{
+  "started_at": "2026-06-24T09:10:03.884966+09:00",
+  "finished_at": "2026-06-24T09:11:25.849875+09:00",
+  "fetched_per_source": {
+    "official": 21,
+    "hn": 83,
+    "arxiv": 30
+  },
+  "fetched_total": 134,
+  "after_dedupe": 132,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 2,
+  "count_b": 5,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/24.html",
+  "markdown_path": "output/2026-06-24_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33800,
+  "output_tokens": 4673,
+  "estimated_cost_usd": 0.057165,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/google-apps-script-workspace-core-service.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/google-apps-script-workspace-core-service.html",
+      "title": "Google Apps Script is now a Google Workspace core service with enterprise-grade data protection",
+      "title_ja": "Google Apps ScriptがGoogle Workspaceのコアサービスに、エンタープライズ対応へ",
+      "published": "2026/06/23",
+      "source": "Google Workspace Updates",
+      "importance": "A",
+      "tags": [
+        "Google Workspace",
+        "Google Apps Script",
+        "データ保護",
+        "エンタープライズ",
+        "業務利用ルール"
+      ],
+      "summary": "Google Apps ScriptがGoogle Workspaceの公式サービスになり、他のコアサービスと同じレベルのデータ保護と管理機能が付く。",
+      "impact": "社内でApps Scriptを使う場合、エンタープライズレベルのセキュリティと管理ルールが適用される。展開範囲を広げる際の判断基準が変わる可能性がある。",
+      "notes": "利用ルール、監査ログ、権限管理の詳細は別途確認する。社内ガイドラインの見直しが必要な可能性がある。"
+    },
+    {
+      "url": "https://downdetector.com.br/en/status/claude-ai/",
+      "normalized_url": "https://downdetector.com.br/en/status/claude-ai",
+      "title": "Anthropic – Elevated error rate across multiple models",
+      "title_ja": "Claudeで複数モデルに障害、エラー率上昇",
+      "published": "2026/06/23",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "障害",
+        "サービス停止"
+      ],
+      "summary": "Claudeの複数モデルでエラー率が上昇し、サービス障害が発生している状況が報告されている。",
+      "impact": "Claudeを使用している業務は一時的に利用できない可能性がある。業務がClaudeに依存している場合は進捗確認が必要。",
+      "notes": "障害の範囲や復旧予定時刻は未確認。公式ステータスページで最新情報を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "normalized_url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "title": "Helping build shared standards for advanced AI",
+      "title_ja": "OpenAI、先端AI向けの共通基準づくりに参加",
+      "published": "2026/06/23",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "基準作り",
+        "ガバナンス"
+      ],
+      "summary": "OpenAIがAppia Foundation経由で、AI評価やセーフティ面の共通基準づくりに関わる。国際的な足並みを揃えるための取り組み。",
+      "impact": "AI導入を広げる前に、評価やリスク確認の基準が統一される可能性がある。自社のチェック項目を見直すターニングポイント。",
+      "notes": "詳細な基準内容は根拠URLで確認が必要。適用時期や自社への義務化の有無も未確定。"
+    },
+    {
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "normalized_url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "title_ja": "GPT-5がT細胞の謎を解く、免疫学の研究加速",
+      "published": "2026/06/23",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "GPT-5",
+        "ChatGPT",
+        "科学研究",
+        "医療応用",
+        "実例"
+      ],
+      "summary": "免疫学者がGPT-5を使い、3年間未解決だったT細胞の動きに関する謎を解いた。がんや自己免疫疾患の研究につながる可能性がある。",
+      "impact": "AIが科学研究で実際の成果を出す事例として、医療研究での利用をあらためて検討する材料になる。",
+      "notes": "公開内容から、GPT-5 Proの具体的な使い方や導入条件は未確認。自社での検討時は詳細を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/omio",
+      "normalized_url": "https://openai.com/index/omio",
+      "title": "How Omio is building the future of conversational travel",
+      "title_ja": "Omioが会話型の旅行サービスをOpenAIで実現",
+      "published": "2026/06/23",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "API活用",
+        "対話型UI",
+        "事例"
+      ],
+      "summary": "旅行予約サービスのOmioがOpenAIを使い、会話で旅程を提案するサービスを構築した。",
+      "impact": "ChatGPTを業務に組み込む際の具体例として、対話型インターフェースでの顧客対応の効率化を参考にできる。",
+      "notes": "公式事例なので読む価値はあるが、Omioの技術環境は自社と異なる可能性がある。自社での導入判断には、API利用コスト・応答精度・ユーザー体験の要件を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "normalized_url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "title": "Jun 23, 2026 Product Introducing Claude Tag",
+      "title_ja": "Anthropic、Claude用タグ機能を発表",
+      "published": "2026/06/23",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "新機能",
+        "タグ機能",
+        "会話管理",
+        "Anthropic"
+      ],
+      "summary": "AnthropicがClaudeに新しいタグ機能を追加。複数の用途や属性で会話や出力を整理・分類できるようになった。",
+      "impact": "Claudeを業務で使う際、プロジェクトごと・部門ごとにタグで仕分けできるため、履歴管理と検索が容易になる。",
+      "notes": "詳しい使い方・運用ルール・アカウント管理への影響は公式資料で確認する。"
+    },
+    {
+      "url": "https://withwillow.ai/platform/claude-policy-ranger",
+      "normalized_url": "https://withwillow.ai/platform/claude-policy-ranger",
+      "title": "Policy Ranger, a free Claude Code managed-settings policy builder (no signup)",
+      "title_ja": "Claude Code向け無料ポリシービルダー「Policy Ranger」公開",
+      "published": "2026/06/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "ポリシー設定",
+        "セキュリティ"
+      ],
+      "summary": "Claudeの利用ルールを作れる無料ツールが公開された。登録不要で、コード実行時の制限設定を簡単にできる。",
+      "impact": "Claude Code導入時のセキュリティルール設定が単純化される。会社で使う前にこのツールで許可・制限範囲を定めるとよい。",
+      "notes": "公開間もなくHN評価が低い（ポイント2）。実際の用途や動作確認してから利用判断する。"
+    }
+  ]
+}
