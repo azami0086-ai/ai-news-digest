@@ -1,0 +1,129 @@
+{
+  "started_at": "2026-06-25T09:20:55.040505+09:00",
+  "finished_at": "2026-06-25T09:22:11.693579+09:00",
+  "fetched_per_source": {
+    "official": 26,
+    "hn": 81,
+    "arxiv": 30
+  },
+  "fetched_total": 137,
+  "after_dedupe": 134,
+  "recorded_duplicate_excluded_count": 11,
+  "candidate_count": 20,
+  "published": 5,
+  "count_a": 2,
+  "count_b": 3,
+  "count_c": 0,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/06/25.html",
+  "markdown_path": "output/2026-06-25_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33885,
+  "output_tokens": 4535,
+  "estimated_cost_usd": 0.05656,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://runtimewire.com/article/anthropic-alibaba-qwen-claude-distillation-claims",
+      "normalized_url": "https://runtimewire.com/article/anthropic-alibaba-qwen-claude-distillation-claims",
+      "title": "Anthropic: Alibaba-Linked Operators Used 25k Accounts to Mine Claude for Qwen",
+      "title_ja": "AnthropicがAlibaba関連の不正アクセスを検出、25000アカウントでClaudeを無断利用",
+      "published": "2026/06/25",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "利用規約",
+        "アカウント管理"
+      ],
+      "summary": "AnthropicがAlibaba関連の事業者による大規模な不正アクセスを検出。Claudeを無断で利用する25000アカウントが確認された。",
+      "impact": "Claudeの利用規約違反と無断学習データ採取が発生。会社のAI利用アカウント管理と利用監視の必要性を確認する。",
+      "notes": "詳細は公式声明で確認する必要がある。自社のAPI利用状況とアクセスログを確認するとよい。"
+    },
+    {
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/",
+      "normalized_url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "title_ja": "AnthropicがAlibaba による無断のClaudeモデル抽出を指摘",
+      "published": "2026/06/24",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "知的財産",
+        "利用ルール"
+      ],
+      "summary": "AnthropicがAlibaba による不正なClaudeモデル機能の抽出を公表した。詳細な状況は確認中。",
+      "impact": "Claudeの利用ルールと出力の扱いについて、社内で改めて確認する必要がある。",
+      "notes": "根拠URLが限定的なため、公式な声明や詳細は自社でも確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/updates-to-gemini-in-google-classroom.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/updates-to-gemini-in-google-classroom.html",
+      "title": "Updates to Gemini in Google Classroom",
+      "title_ja": "Google ClassroomのGemini機能がモバイル対応、授業準備を強化",
+      "published": "2026/06/24",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "GoogleWorkspace",
+        "Gemini",
+        "GoogleClassroom",
+        "モバイル対応",
+        "教育機関"
+      ],
+      "summary": "Google ClassroomのGemini機能がスマートフォン・タブレットで使えるようになり、教員が外出先からも授業準備やビジュアル資料の作成ができるようになった。",
+      "impact": "教員がClassroomをモバイルで開く際、Geminiで授業案の検討や教材作成が可能になる。社内でClassroom導入している場合、利用場面が広がることに注意する。",
+      "notes": "モバイルでのGemini利用時のデータ保存先、共有範囲、ルール確認が必要。"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "normalized_url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "title_ja": "Geminiが画面操作機能を追加、Gemini 3.5 Flashで利用可能に",
+      "published": "2026/06/24",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "AI新機能",
+        "自動化",
+        "画面操作",
+        "業務利用",
+        "アクセス管理"
+      ],
+      "summary": "GoogleのGemini 3.5 Flashが、パソコンやスマートフォンの画面を見て操作する機能を搭載した。",
+      "impact": "Geminiを使った自動化業務の範囲が広がる。ただし業務適用には権限・監視・ログ保存のルール設定が必要になる。",
+      "notes": "利用開始前に、Geminiが何を操作できるか、誰が許可するか、使用ログをどこに保存するかを確認する。"
+    },
+    {
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "normalized_url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "title_ja": "OpenAI、Broadcomと大規模言語モデル向け推論チップを発表",
+      "published": "2026/06/24",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "AI推論",
+        "カスタムチップ",
+        "ハードウェア"
+      ],
+      "summary": "OpenAIとBroadcomが、大規模言語モデル専用の推論チップ「Jalapeño」を開発。性能と効率を改善する。",
+      "impact": "ChatGPTなど生成AIの処理速度向上やコスト削減につながる可能性。自社AI利用の応答時間や消費電力の改善を見通すとよい。",
+      "notes": "公式発表なので詳細はOpenAI Blogで確認できる。自社でOpenAI APIを使う場合、サービス改善の予定を公式資料で確認する。"
+    }
+  ]
+}
