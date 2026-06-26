@@ -1,0 +1,130 @@
+{
+  "started_at": "2026-06-26T10:28:57.825641+09:00",
+  "finished_at": "2026-06-26T10:30:10.266922+09:00",
+  "fetched_per_source": {
+    "official": 25,
+    "hn": 77,
+    "arxiv": 30
+  },
+  "fetched_total": 132,
+  "after_dedupe": 126,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 5,
+  "count_a": 0,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/26.html",
+  "markdown_path": "output/2026-06-26_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33913,
+  "output_tokens": 4596,
+  "estimated_cost_usd": 0.056893,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "normalized_url": "https://openai.com/index/how-agents-are-transforming-work",
+      "title": "How agents are transforming work",
+      "title_ja": "OpenAI、AI agents による仕事の変化を公開",
+      "published": "2026/06/25",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "AI agents",
+        "業務自動化",
+        "生産性",
+        "研究論文"
+      ],
+      "summary": "OpenAIが、AI agents がより長く複雑な仕事を実行し、仕事全体の生産性を高める様子を研究論文で示した。",
+      "impact": "ChatGPT など OpenAI のサービスで、単純な問い合わせ対応から多段階の業務実行へと利用の幅が広がる可能性がある。",
+      "notes": "社内でこうした agents 機能の導入を検討する際は、実行権限の範囲と監視ルールを先に決める必要がある。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/read-along-in-google-classroom-is-now-available-to-all-education-users-to-support-foundational-literacy.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/read-along-in-google-classroom-is-now-available-to-all-education-users-to-support-foundational-literacy.html",
+      "title": "Read Along in Google Classroom is now available to all education users to support foundational literacy",
+      "title_ja": "Google Classroom に音読支援AI「Read Along」が全教育ユーザー向けに無料提供開始",
+      "published": "2026/06/25",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Classroom",
+        "教育向けAI",
+        "読解支援",
+        "Google Workspace for Education",
+        "AI機能追加"
+      ],
+      "summary": "Googleが、学生の音読をリアルタイムで支援するAI機能をGoogle Classroomに追加。全教育向けユーザーが無料で利用できるようになった。",
+      "impact": "学校や塾でGoogle Classroomを使う場合、学生の読解スキル向上に活用できる機能が新たに使えるようになる。",
+      "notes": "日本国内での利用開始時期や言語対応状況は未確認。自社で導入する場合はGoogle Workspace管理者に機能の有効化を確認する。"
+    },
+    {
+      "url": "https://github.com/miopea/swarm",
+      "normalized_url": "https://github.com/miopea/swarm",
+      "title": "Swarm – open-source control center for Claude Code / Gemini / Codex agents",
+      "title_ja": "複数のAIエージェント管理できるオープンソースツール「Swarm」公開",
+      "published": "2026/06/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "Codex",
+        "エージェント",
+        "オープンソース",
+        "ツール"
+      ],
+      "summary": "Claude、Gemini、Codexなど複数のAIエージェントを一元管理するオープンソースツール「Swarm」がGitHubで公開された。",
+      "impact": "社内でAIエージェント複数を使う場合、統一的な管理・操作が可能になる選択肢が増える。導入前に自社の環境・セキュリティ要件と合わせて確認する。",
+      "notes": "オープンソースのため、運用・セキュリティ・サポート体制を自社で整える必要がある。本番利用前に十分なテストと権限・ログ管理の設計が必須。"
+    },
+    {
+      "url": "https://github.com/adatarwa/operator-skills",
+      "normalized_url": "https://github.com/adatarwa/operator-skills",
+      "title": "Claude Skills that turn your AI agent into an expert business operator",
+      "title_ja": "ClaudeのスキルでAIエージェントをビジネス運用者に",
+      "published": "2026/06/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AIエージェント",
+        "ビジネス自動化",
+        "スキル"
+      ],
+      "summary": "ClaudeのAIエージェントに業務スキルを追加するツールが公開された。ビジネス運用に特化した機能を装備できる。",
+      "impact": "自社でClaudeを使ったエージェント開発をする場合、業務スキルの追加方法が参考になる可能性がある。",
+      "notes": "GitHubリポジトリで公開されているため、自社で使う前に内容・ライセンス・セキュリティを確認する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "title_ja": "Google Financeが機能更新、新しいアプリを公開",
+      "published": "2026/06/25",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Google Finance",
+        "UI更新",
+        "ツール"
+      ],
+      "summary": "GoogleがFinanceアプリの更新を発表した。新アプリが追加される。",
+      "impact": "会計・経理業務でGoogleのFinanceツールを使っている場合、新機能の確認と動作確認が必要になる可能性がある。",
+      "notes": "抜粋のみで詳細不明。公式ブログで具体的な機能内容と対応時期を確認する。"
+    }
+  ]
+}
