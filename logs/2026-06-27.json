@@ -1,0 +1,219 @@
+{
+  "started_at": "2026-06-27T09:19:17.972343+09:00",
+  "finished_at": "2026-06-27T09:20:36.154002+09:00",
+  "fetched_per_source": {
+    "official": 16,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 120,
+  "after_dedupe": 118,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 9,
+  "count_c": 0,
+  "count_excluded": 0,
+  "errors": [],
+  "html_path": "docs/2026/06/27.html",
+  "markdown_path": "output/2026-06-27_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33872,
+  "output_tokens": 4726,
+  "estimated_cost_usd": 0.057502,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://pypi.org/project/ptn/",
+      "normalized_url": "https://pypi.org/project/ptn",
+      "title": "Show HN: `uvx ptn` and expose any system to agents (dangerously)",
+      "title_ja": "任意のシステムをAIエージェントに公開するツール「uvx ptn」",
+      "published": "2026/06/26",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "セキュリティ",
+        "ツール",
+        "アクセス制御"
+      ],
+      "summary": "Pythonツールで、システムのコマンドやAPIをAIエージェント（Claude含む）が直接操作できるようにする機能を提供している。",
+      "impact": "会社のシステムやデータベースをAIに操作させる可能性が広がるため、セキュリティ・アクセス権限・操作監査の仕組みを事前に決める必要がある。",
+      "notes": "ツール名に「危険」と明記されている。実装前に情報セキュリティ部門と確認し、操作ログ記録・権限制限・テスト環境での検証を必須とする。"
+    },
+    {
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "normalized_url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "title_ja": "OpenAI、次世代モデル「GPT-5.6 Sol」をプレビュー公開",
+      "published": "2026/06/26",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.6",
+        "次世代モデル",
+        "セキュリティ",
+        "コーディング"
+      ],
+      "summary": "OpenAIが、コーディング・科学・サイバーセキュリティで能力を強化した次世代モデルGPT-5.6 Solを発表した。",
+      "impact": "プログラミングやセキュリティ関連の業務でChatGPT利用を検討する場合、新モデルの性能を確認した上で導入可否を判断する必要がある。",
+      "notes": "プレビュー段階のため、本格利用前に自社の規約・セキュリティポリシー・利用ルールとの整合を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/streamline-your-data-backups-with-incremental-exports-for-Google-Workspace.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/streamline-your-data-backups-with-incremental-exports-for-Google-Workspace.html",
+      "title": "Streamline your data backups with incremental exports for Google Workspace",
+      "title_ja": "Google Workspaceの差分バックアップ機能が利用可能に",
+      "published": "2026/06/26",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "バックアップ",
+        "データ管理",
+        "Google Cloud Storage",
+        "運用効率"
+      ],
+      "summary": "Google Workspaceの管理者が、組織データの差分エクスポート機能を使えるようになった。全体を毎回バックアップするのではなく、変更分だけを定期的にGCSに保存できる。",
+      "impact": "バックアップの処理時間と保存容量・コストが削減でき、より頻繁なバックアップスケジュールが組みやすくなる。データ損失リスクを低減できる。",
+      "notes": "既存のバックアップ運用を差分方式に切り替えるには、GCS設定と管理者権限を確認する。"
+    },
+    {
+      "url": "https://rondoflow.app/",
+      "normalized_url": "https://rondoflow.app/",
+      "title": "Show HN: Orchestrate Claude Code agents on a canvas",
+      "title_ja": "Claude Code エージェントをキャンバス上で組み合わせるツール",
+      "published": "2026/06/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "自動コード生成",
+        "開発ツール",
+        "ワークフロー",
+        "エージェント"
+      ],
+      "summary": "Claudeの自動コード生成機能を複数組み合わせて、キャンバス上で視覚的に管理できるツールが公開された。",
+      "impact": "複雑なコード生成タスクを分割・並列実行できるため、大規模な開発業務の自動化に使える可能性がある。",
+      "notes": "まだ初期段階のツール（HNでの反応が限定的）。自社で採用する前に実際の動作と制限を確認する。"
+    },
+    {
+      "url": "https://github.com/workweave/router",
+      "normalized_url": "https://github.com/workweave/router",
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "title_ja": "Claude・Codex・Cursorで複数AIモデルの自動振り分け機能、オープンソース公開",
+      "published": "2026/06/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "ツール・ライブラリ",
+        "モデル選択"
+      ],
+      "summary": "複数のAIモデルを自動で選び分ける機能をClaudeやCodexなどで直接使えるようにするツールがGitHubで公開された。",
+      "impact": "社内でClaudeやコード補完を使う場合、タスクに応じて最適なモデルを自動選択でき、コスト削減や速度向上の可能性がある。",
+      "notes": "オープンソースのため、自社環境での導入前に機能・セキュリティ・対応状況を確認する。"
+    },
+    {
+      "url": "https://novakit.tech/",
+      "normalized_url": "https://novakit.tech/",
+      "title": "Show HN: Novakit.tech – pre-built Claude Code skills, no prompting required",
+      "title_ja": "Novakit.tech─Claudeの定型スキルを事前構築、プロンプト不要",
+      "published": "2026/06/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード自動化",
+        "ツール",
+        "業務効率化"
+      ],
+      "summary": "Claude向けにプロンプト入力なしで使えるコード自動化スキルを事前に用意したツール。",
+      "impact": "プロンプト作成の手間を減らしてClaudeを業務で使える可能性。自社の定型業務に当てはまるかを確認する。",
+      "notes": "新興サービスで実績が不明確。導入前に機能と制限を確認し、コード生成ツールの利用ルールに当てはまるか確認する必要がある。"
+    },
+    {
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "normalized_url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
+      "title": "Anthropic's Claude is winning over paid consumers, a market owned by ChatGPT",
+      "title_ja": "ClaudeがChatGPT有料ユーザーを取り込み始める",
+      "published": "2026/06/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "AI導入判断",
+        "市場動向"
+      ],
+      "summary": "AnthropicのClaudeが有料AI市場でChatGPTのユーザーを奪い取る動きが出ている。",
+      "impact": "社内でAI導入を検討する際、ChatGPT以外の選択肢の競争力が高まっている点を把握する必要がある。",
+      "notes": "HackerNewsでの議論で、まだコメント数が少ないため市場トレンドの詳細は未確認。実記事の内容を確認してから判断する。"
+    },
+    {
+      "url": "https://gregwilson.tech/building-domain-specific-ai-chatbots",
+      "normalized_url": "https://gregwilson.tech/building-domain-specific-ai-chatbots",
+      "title": "Building domain-specific AI chatbots with Claude",
+      "title_ja": "Claude で業界向けAIチャットボットを作る",
+      "published": "2026/06/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "チャットボット",
+        "カスタマイズ"
+      ],
+      "summary": "Claude を使い、特定の業界や用途に合わせたAIチャットボットを作る方法を説明している。",
+      "impact": "社内の定型業務や顧客対応にClaude を活用する際の参考になる。導入前にプロトタイプで検証するとよい。",
+      "notes": "個人ブログの記事のため、自社で使う場合はAnthropicの公式資料も確認する。"
+    },
+    {
+      "url": "https://www.rtrvr.ai/blog/code-as-plan-deepseek-flash-text-only-browser-agent",
+      "normalized_url": "https://www.rtrvr.ai/blog/code-as-plan-deepseek-flash-text-only-browser-agent",
+      "title": "Show HN: DeepSeek Flash inverted the economics of agent products",
+      "title_ja": "DeepSeek Flashがエージェント製品の採算性を変えた",
+      "published": "2026/06/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "DeepSeek",
+        "コスト最適化",
+        "エージェント",
+        "LLM"
+      ],
+      "summary": "低コストのDeepSeek Flashモデルを使い、テキストのみで動作するブラウザエージェントを開発。従来より大幅に安い運用が可能になった。",
+      "impact": "AI利用のランニングコスト削減が進む可能性。現在利用中のモデルの単価を改めて確認し、切り替えの検討が必要になるかもしれない。",
+      "notes": "実装内容と自社での適用可否は記事で確認する。テキストのみでの動作に業務適性があるか事前に判断する。"
+    },
+    {
+      "url": "https://www.businessinsider.com/google-3-5-pro-july-release-tokens-ai-agents-model-2026-6",
+      "normalized_url": "https://www.businessinsider.com/google-3-5-pro-july-release-tokens-ai-agents-model-2026-6",
+      "title": "Google's Gemini 3.5 Pro Release Slips to July",
+      "title_ja": "Google、Gemini 3.5 Proの公開を7月に延期",
+      "published": "2026/06/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "リリース遅延",
+        "AI利用計画"
+      ],
+      "summary": "GoogleがGemini 3.5 Proの公開予定を7月に遅らせると報じられた。予定より後ろずれする。",
+      "impact": "Gemini 3.5 Proを利用する企業計画がある場合、機能利用開始時期を後ろずれで見直す必要がある。",
+      "notes": "Hacker Newsの報道で、公式発表ではない。正式な遅延理由・新しい公開日は未確認。"
+    }
+  ]
+}
