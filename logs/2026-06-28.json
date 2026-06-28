@@ -1,0 +1,224 @@
+{
+  "started_at": "2026-06-28T09:13:49.003144+09:00",
+  "finished_at": "2026-06-28T09:15:07.178872+09:00",
+  "fetched_per_source": {
+    "official": 10,
+    "hn": 77,
+    "arxiv": 30
+  },
+  "fetched_total": 117,
+  "after_dedupe": 116,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 5,
+  "count_c": 5,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/06/28.html",
+  "markdown_path": "output/2026-06-28_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33716,
+  "output_tokens": 4447,
+  "estimated_cost_usd": 0.055951,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
+      "normalized_url": "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
+      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies",
+      "title_ja": "Anthropicが一部企業向けにMythos AIモデルをリリース、米政権が許可",
+      "published": "2026/06/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "Mythosモデル",
+        "政府許可",
+        "新技術",
+        "提供開始"
+      ],
+      "summary": "Anthropicが、米政権の許可を得て、一部の企業を対象にMythos AIモデルを提供開始する。",
+      "impact": "自社がMythosの対象企業に選ばれた場合、新しいClaudeベースのモデルの試験導入について検討する必要が生じる可能性がある。",
+      "notes": "未確認：リリースの具体的な対象企業、許可条件、利用制限の詳細。公式発表で確認する。"
+    },
+    {
+      "url": "https://claude.com/ecosystem",
+      "normalized_url": "https://claude.com/ecosystem",
+      "title": "Claude Ecosystem",
+      "title_ja": "Claude Ecosystemが発表",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "生成AI",
+        "エコシステム",
+        "ツール連携"
+      ],
+      "summary": "Anthropicが、Claude周辺のツールやサービスをまとめたエコシステム構想を公開した。",
+      "impact": "Claude利用時の関連ツールや連携先が明確になり、社内導入時の選択肢が増える可能性がある。",
+      "notes": "Hacker Newsの反応（4ポイント、コメント0）が少なく、詳細内容が未確認。公式ページで具体的な機能や利用条件を確認する必要がある。"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
+      "normalized_url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "title": "Anthropic says Alibaba used 25k accounts to mine Claude",
+      "title_ja": "AnthropicがAlibabaによるClaudeの大量利用と機能抽出を指摘",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "利用規約",
+        "不正利用"
+      ],
+      "summary": "AnthropicがAlibaba傘下企業が2万5千のアカウントでClaudeを利用し、機能を抽出しようとしたと主張している。",
+      "impact": "Claude利用規約違反の実例として、複数アカウント利用による大量データ抽出への監視体制が今後強化される可能性がある。",
+      "notes": "記事内容が公開報道のみで、Alibabaの公式見解は未確認。詳細は出所URLで確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/CopilotKit/OpenTag",
+      "normalized_url": "https://github.com/CopilotKit/OpenTag",
+      "title": "Show HN: Open Tag, the open source Claude Tag",
+      "title_ja": "Claudeの機能をオープンソース化、Open Tagを公開",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "開発ツール"
+      ],
+      "summary": "CopilotKitがClaudeのタグ機能を模したオープンソースツール「Open Tag」をGitHubで公開した。",
+      "impact": "Claudeの有料機能と同等の機能を無償で自社システムに組み込める可能性がある。社内での検証・利用判断が必要。",
+      "notes": "GitHubのコード品質・メンテナンス状況を確認してから採用判断する。Claudeの正式機能との仕様差分や利用規約への適合性も確認する。"
+    },
+    {
+      "url": "https://www.wsj.com/tech/personal-tech/ai-chatbots-psychology-delusion-662a3663",
+      "normalized_url": "https://www.wsj.com/tech/personal-tech/ai-chatbots-psychology-delusion-662a3663",
+      "title": "The psychology behind AI fueled delusions",
+      "title_ja": "AIチャットボットが生む思い込みの心理",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "利用者教育",
+        "チェック・検証",
+        "心理",
+        "信頼性"
+      ],
+      "summary": "ChatGPTなどのAIチャットボットとの会話で、ユーザーが根拠のない思い込みを持つようになる心理メカニズムについて報道。",
+      "impact": "社内でAI利用時に、チャットボットの回答を無批判に信じやすくなる傾向を認識し、出力チェックの重要性が増す。",
+      "notes": "AIからの回答は自動生成であり完全性は保証されない。利用者教育と検証ルールの整備が必要。"
+    },
+    {
+      "url": "https://trytested.com",
+      "normalized_url": "https://trytested.com/",
+      "title": "Show HN: Tested – AI Tools Scored by a Panel of LLMs (Claude, GPT, Gemini, Grok)",
+      "title_ja": "複数のAIモデルがAIツールを評価するサイト「Tested」が登場",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "Grok",
+        "AIツール評価",
+        "比較",
+        "参考情報"
+      ],
+      "summary": "Claude、GPT、Gemini、Grokなど複数のAIモデルにAIツールを採点させるサイトが公開された。",
+      "impact": "自社で使うAIツール選定の際、複数モデルの評価を参考にできる仕組みができた。",
+      "notes": "評価の根拠や評価基準が不明確なため、重要な判断では自社での検証が必要。"
+    },
+    {
+      "url": "https://medium.com/@Koukyosyumei/how-claude-code-and-codex-sandbox-untrusted-code-ba39b493046a",
+      "normalized_url": "https://medium.com/@Koukyosyumei/how-claude-code-and-codex-sandbox-untrusted-code-ba39b493046a",
+      "title": "How Claude Code and Codex Sandbox Untrusted Code",
+      "title_ja": "ClaudeとCodexが信頼できないコードを実行する仕組み",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "コード実行",
+        "サンドボックス"
+      ],
+      "summary": "ClaudeとCodexがどのように外部コードを安全に実行しているのかを説明した技術記事。",
+      "impact": "AI利用時にコード実行機能を使う場合、セキュリティ対策の考え方を把握できる。",
+      "notes": "公開資料だが、詳細な技術解説なので、開発者と一緒に確認する。"
+    },
+    {
+      "url": "https://github.com/shirozuki/claude-cli",
+      "normalized_url": "https://github.com/shirozuki/claude-cli",
+      "title": "Show HN: Claude-CLI – Run Claude Code in a throwaway Docker container",
+      "title_ja": "Claude-CLI──Claudeコードをワンタイムコンテナで実行するツール",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "コード実行",
+        "Docker",
+        "ツール"
+      ],
+      "summary": "GitHubで公開されたツール。Claudeが生成したコードを、使い捨てのDocker環境で安全に動かせる仕組み。",
+      "impact": "Claudeの出力コードを直接実行する前に、隔離環境で検証できるようになり、セキュリティリスクを減らせる可能性がある。",
+      "notes": "Hacker News掲載ですが、開発は初期段階（HN points=1、コメントなし）。本番導入前に動作確認と信頼性の検証が必要。"
+    },
+    {
+      "url": "https://github.com/kageroumado/adrafinil",
+      "normalized_url": "https://github.com/kageroumado/adrafinil",
+      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "title_ja": "Adrafinil – Mac をエージェント実行中だけ起動状態に保つツール",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "開発ツール",
+        "Mac"
+      ],
+      "summary": "Claude などのエージェント動作中に限り Mac をスリープ状態から回避するオープンソースツール。",
+      "impact": "AI エージェントを夜間や無人で実行する場合、PC の電源管理をプログラムが制御できるようになる。",
+      "notes": "GitHub 上のツールで、導入時には Mac の設定権限と実行環境を確認する必要がある。"
+    },
+    {
+      "url": "https://museum.nal.digital",
+      "normalized_url": "https://museum.nal.digital/",
+      "title": "Can a robot be a modern artist? I gave Claude Code creative freedom",
+      "title_ja": "AIに創作の自由を与えたら何が起きたか",
+      "published": "2026/06/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI創作",
+        "AI判断",
+        "事例",
+        "制度設計"
+      ],
+      "summary": "Claude Codeに創作活動の判断を任せた実験結果を報告している。",
+      "impact": "AI導入時に「どこまで判断を任せるか」の参考になる可能性がある。",
+      "notes": "詳細な内容が確認できない。実務への影響判断には記事本文の確認が必要。"
+    }
+  ]
+}
