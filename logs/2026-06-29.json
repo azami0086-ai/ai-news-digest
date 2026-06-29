@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-06-29T09:18:34.046594+09:00",
+  "finished_at": "2026-06-29T09:19:49.610623+09:00",
+  "fetched_per_source": {
+    "official": 7,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 111,
+  "after_dedupe": 110,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 10,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/29.html",
+  "markdown_path": "output/2026-06-29_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33778,
+  "output_tokens": 4559,
+  "estimated_cost_usd": 0.056573,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "normalized_url": "https://openai.com/index/hp-frontier-partnership",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "title_ja": "HPがOpenAIとの戦略的提携を拡大、AI導入を加速",
+      "published": "2026/06/28",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "企業提携",
+        "AI導入",
+        "HP"
+      ],
+      "summary": "HPがOpenAIと提携を広げ、顧客向けサービス・ソフト開発・社内業務にAIを導入する。",
+      "impact": "HP製品やサービスに統合されるAIが増えるため、HPとの連携がある場合は機能変更や新規対応の可能性を確認する。",
+      "notes": "詳細な実装時期や対象製品は公式資料で確認が必要。自社で使用するHP製品の対応予定を問い合わせるとよい。"
+    },
+    {
+      "url": "https://github.com/edonadei/caliper",
+      "normalized_url": "https://github.com/edonadei/caliper",
+      "title": "Show HN: Caliper – pass@k reliability testing for Claude Code and Codex skills",
+      "title_ja": "Caliper：Claude CodeとCodexの信頼性テストツール",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "テスト・検証",
+        "コード生成",
+        "信頼性評価"
+      ],
+      "summary": "Claude CodeとCodexのコード生成能力を複数回実行で検証するツール。同じプロンプトを繰り返して成功率を測定できる。",
+      "impact": "AI生成コードを本番導入する前に、出力の安定性を数値で確認できる。導入判断の材料になる。",
+      "notes": "未確認：利用料金、社内システムへの適用可否、出力ログの保存先・保管期限ルール。導入前に確認する。"
+    },
+    {
+      "url": "https://claude.com/docs/connectors/google/gmail",
+      "normalized_url": "https://claude.com/docs/connectors/google/gmail",
+      "title": "Claude Code now uses dark UI patterns to gain Google account access via MCP",
+      "title_ja": "Claude Code、Google連携でダークパターンUIを採用か",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Google",
+        "セキュリティ",
+        "ユーザー同意",
+        "アカウント権限"
+      ],
+      "summary": "ClaudeがGoogleアカウント連携時にダークパターンUIを使い、ユーザー同意を誘導している疑いがある。",
+      "impact": "社員がClaudeでGoogleアカウントを連携する際、不意に権限を与えてしまう可能性がある。連携前に権限内容を確認するルール化が必要。",
+      "notes": "情報源がHacker Newsの指摘で、Claudeの公式声明がない。Googleアカウント連携を禁止するか、連携時の権限確認を厳格化するとよい。"
+    },
+    {
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "normalized_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "title_ja": "MRI画像の診断にClaudeを使った個人の試み",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "医療AI",
+        "画像解析",
+        "規制対応",
+        "個人利用"
+      ],
+      "summary": "個人がClaudeのコード実行機能を使い、MRI画像の分析を試みた事例。医療診断への活用可能性を示す一例",
+      "impact": "医療画像解析にAIを活用する動きが進む中、企業での導入検討時は医師の指導下・規制確認が必須になる可能性がある",
+      "notes": "医療診断はAIの生成物だけで判断してはいけない。実装する場合は医療監督者・法務と事前に規制要件を確認する"
+    },
+    {
+      "url": "https://www.arguslab.co/",
+      "normalized_url": "https://www.arguslab.co/",
+      "title": "Show HN: Argus – Capture, replay and QA every Claude Code session your team runs",
+      "title_ja": "Argus──Claudeのコード実行を記録・検証する新ツール",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発",
+        "QA・テスト",
+        "ツール"
+      ],
+      "summary": "Claudeがコードを実行する際の過程を記録し、チーム内で検証・再実行できるツール。",
+      "impact": "Claudeを使った開発作業の履歴管理と品質確認が可能になる。導入前に自社の利用ルールに組み込めるか確認する。",
+      "notes": "未確認：国内利用可否、企業向けプランの有無、Claudeとの連携方式。URL先で詳細を確認する。"
+    },
+    {
+      "url": "https://venturebeat.com/infrastructure/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers",
+      "normalized_url": "https://venturebeat.com/infrastructure/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers",
+      "title": "Claude Code turned every engineer into three. Now companies need more PMs",
+      "title_ja": "Claude Codeで開発効率が上がり、プロダクト企画の人手不足が顕在化",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発効率",
+        "組織編成",
+        "人員配置"
+      ],
+      "summary": "Claude Codeの登場でエンジニア1人の生産性が約3倍になり、企画・設計者の不足が課題になってきた状況を報じている。",
+      "impact": "開発チーム内で誰がプロダクト企画を担当するか、役割分担を見直す必要が出てきた。エンジニアの配置計画に影響する可能性がある。",
+      "notes": "記事の詳細内容がコメント無く、具体的な調査結果や数値は未確認。自社の開発体制と人員配置がどう変わるかは個別に判断する。"
+    },
+    {
+      "url": "https://signoz.io/blog/claude-code-model-comparison/",
+      "normalized_url": "https://signoz.io/blog/claude-code-model-comparison",
+      "title": "Newer Claude models use more tokens but cost less per task solved",
+      "title_ja": "新しいClaudeモデルはトークン消費量は多いが、タスク解決コスト は安い",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト",
+        "トークン"
+      ],
+      "summary": "新版Claudeはトークン消費量が増えても、問題解決能力が高まり実質的な処理コストが低下した。",
+      "impact": "Claude利用時の予算計画では、トークン数だけでなく解決できるタスク数を基準に見直す必要がある。",
+      "notes": "詳細な比較内容と自社の利用パターンとの適合性は、提供元の資料で確認する。"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "normalized_url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "title": "Google limits Meta's use of its Gemini AI models",
+      "title_ja": "GoogleがMetaのGemini利用を制限",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Meta",
+        "AI利用契約",
+        "利用制限"
+      ],
+      "summary": "GoogleがMetaに対するGeminiモデルの利用を制限する措置を取った。詳細は未確認。",
+      "impact": "Metaが社内でGeminiを使う場合、アクセス権や利用範囲の変更が生じる可能性がある。自社のGoogle AI利用契約にも影響する可能性があるため確認する。",
+      "notes": "根拠URLが記事要約のため、制限の内容・期間・理由を公式資料で確認する。"
+    },
+    {
+      "url": "https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378",
+      "normalized_url": "https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378",
+      "title": "Google caps Meta's Gemini use as AI demand strains capacity",
+      "title_ja": "Googleが需要逼迫でGeminiの利用を制限、Meta向けに",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "API制限",
+        "容量",
+        "Meta"
+      ],
+      "summary": "容量不足を理由に、GoogleがMetaに対してGeminiの利用上限を設定した。",
+      "impact": "Google APIやGeminiの社内利用に制限がかかる可能性がある。自社の利用契約内容を確認する。",
+      "notes": "記事の詳細が不明確なため、公式発表が出るまで様子を見る。自社のGoogle API利用状況を把握しておくとよい。"
+    },
+    {
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "normalized_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "title_ja": "GLM 5.2がサイバーセキュリティベンチマークでClaudeを上回る",
+      "published": "2026/06/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "GLM",
+        "ベンチマーク",
+        "セキュリティ",
+        "モデル性能"
+      ],
+      "summary": "Semgrepが公開したサイバーセキュリティベンチマークで、GLM 5.2がClaudeより高いスコアを記録した。",
+      "impact": "Claudeより低い性能のモデルでセキュリティタスクに対応できる可能性があり、利用コストやモデル選択の検討材料になる。",
+      "notes": "ベンチマークはSemgrep主催のもので、全てのタスク・環境で同じ結果とは限らない。自社のセキュリティ用途に実装する前に実際の動作を確認する。"
+    }
+  ]
+}
