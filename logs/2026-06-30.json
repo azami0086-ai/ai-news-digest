@@ -1,0 +1,149 @@
+{
+  "started_at": "2026-06-30T09:17:58.271703+09:00",
+  "finished_at": "2026-06-30T09:19:16.905272+09:00",
+  "fetched_per_source": {
+    "official": 10,
+    "hn": 78,
+    "arxiv": 30
+  },
+  "fetched_total": 118,
+  "after_dedupe": 117,
+  "recorded_duplicate_excluded_count": 6,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 0,
+  "count_b": 5,
+  "count_c": 1,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/06/30.html",
+  "markdown_path": "output/2026-06-30_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33967,
+  "output_tokens": 4893,
+  "estimated_cost_usd": 0.058432,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/gemini-app-data-regions-support.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/gemini-app-data-regions-support.html",
+      "title": "Data regions support for the Gemini app now available",
+      "title_ja": "Gemini アプリがデータ保存地域の指定に対応",
+      "published": "2026/06/29",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "データ保存",
+        "GDPR対応",
+        "管理設定"
+      ],
+      "summary": "Gemini アプリが組織のデータ保存地域に対応し、EU またはUS での保存・処理を選択できるようになった。",
+      "impact": "EU拠点やデータ保管地域にルールがある場合、Gemini 利用時の設定確認が必要。部門ごと（OU単位）に設定できる。",
+      "notes": "現在、Google Workspace 管理コンソールで各組織ユニットのデータ地域設定を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/educators-and-students-can-now-share-Gemini-Canvas-creations-directly-to-Google-Classroom.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/educators-and-students-can-now-share-Gemini-Canvas-creations-directly-to-Google-Classroom.html",
+      "title": "Educators and students can now share Gemini Canvas creations directly to Google Classroom",
+      "title_ja": "Gemini Canvasの作成物をGoogle Classroomに直接共有できるように",
+      "published": "2026/06/29",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Classroom",
+        "教育",
+        "生成AI",
+        "連携"
+      ],
+      "summary": "GeminiでWebサイトやクイズなどを作ったら、Google Classroomの課題や投稿に直接添付できるようになった。",
+      "impact": "教育機関でGeminiを使う場合、作成物の共有が簡単になり、Classroom内での教材配布フローが変わる可能性がある。",
+      "notes": "Google Workspace管理者は、GeminiやGoogle Classroomの利用ルール・データ保存先・個人情報の扱いを改めて確認する。"
+    },
+    {
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "normalized_url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "title_ja": "EU各国のAI人材需要を分析、職種別の変化を予測",
+      "published": "2026/06/29",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "AI人材・教育",
+        "職業・キャリア",
+        "EU規制・政策"
+      ],
+      "summary": "OpenAIが、EU域内でAIが職種別にどう影響するかを分析したレポートを公開した。自動化が進む職種と新たに必要になる人材を明示している。",
+      "impact": "自社の従業員配置・研修計画を見直す際の参考になる。対象職種に当てはまるポジションがあれば、スキル転換やAI活用の準備を検討する必要がある。",
+      "notes": "EU向けの分析のため、日本の職場環境と直接は適用できない。自社の事業内容や配置と照らし合わせて判断する。"
+    },
+    {
+      "url": "https://github.com/SMJAI/open-memory-protocol",
+      "normalized_url": "https://github.com/SMJAI/open-memory-protocol",
+      "title": "Open Memory Protocol – One Memory Store for Claude, ChatGPT, Curso",
+      "title_ja": "複数のAIモデルで使える共通メモリ規格が公開",
+      "published": "2026/06/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "メモリ・コンテキスト",
+        "オープンソース",
+        "相互運用性"
+      ],
+      "summary": "ClaudeやChatGPT、その他AIモデルで共通に使えるメモリ保存の仕組み「Open Memory Protocol」がGitHubで公開された。",
+      "impact": "会社でAIツールを複数導入する場合、各ツール間でユーザーの学習内容や設定を共有できる可能性が出る。",
+      "notes": "まだHackerNewsで注目度が低い段階のため、実装の完成度や企業での使用可能性を確認する必要がある。"
+    },
+    {
+      "url": "https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code",
+      "normalized_url": "https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code",
+      "title": "You really shouldn't copy-paste errors into Claude Code",
+      "title_ja": "ClaudeのCode Interpreterにエラーをコピペしてはいけない",
+      "published": "2026/06/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Code Interpreter",
+        "入力値検証",
+        "エラーハンドリング"
+      ],
+      "summary": "ClaudeのCode機能にエラーメッセージをそのままコピーして貼ると、不正な結果や予期しない挙動が起きる恐れがある。",
+      "impact": "Claude使用時、エラー解決のため全文コピペしたエラー情報を貼り付ける際は、内容を確認してから渡す必要がある。",
+      "notes": "具体的な問題内容は記事本文で確認する。自社でClaudeコード生成機能を使う場合、入力データの検証と出力チェックのルールを決める。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "title_ja": "フルスタックAIとは何か——Googleが解説",
+      "published": "2026/06/29",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "AI基盤",
+        "インフラ",
+        "知識",
+        "Google公式"
+      ],
+      "summary": "Googleが、AIシステム全体を構成するハードウェアからソフトウェアまでの階層構造を説明している。",
+      "impact": "AI導入時に、チップ・モデル・アプリなど各レイヤーの役割を理解し、自社で何を準備・外注すべきか判断する参考になる。",
+      "notes": "記事は概要レベルの説明のため、具体的な導入判断には自社の用途に合わせた詳細確認が必要。"
+    }
+  ]
+}
