@@ -1,0 +1,218 @@
+{
+  "started_at": "2026-07-01T09:20:23.060166+09:00",
+  "finished_at": "2026-07-01T09:21:45.308610+09:00",
+  "fetched_per_source": {
+    "official": 26,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 130,
+  "after_dedupe": 126,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 6,
+  "count_c": 3,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/07/01.html",
+  "markdown_path": "output/2026-07-01_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34140,
+  "output_tokens": 4744,
+  "estimated_cost_usd": 0.05786,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "normalized_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "title": "Jun 30, 2026 Product Introducing Claude Sonnet 5",
+      "title_ja": "Anthropic、Claude Sonnet 5を発表",
+      "published": "2026/06/30",
+      "source": "Anthropic News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "新版リリース",
+        "AI導入"
+      ],
+      "summary": "AnthropicがClaude Sonnet 5をリリースした。新バージョンの性能や機能の詳細は公式ニュースで説明されている。",
+      "impact": "会社でClaude利用中の場合、新バージョンの提供時期や既存契約との関係を確認する必要がある。",
+      "notes": "公式リリースなので詳細は公式ニュースで確認する。AI利用ポリシーに新バージョン適用の手続きを盛り込んでいるか確認するとよい。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/ai-overviews-in-drive-now-available-on-mobile.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/ai-overviews-in-drive-now-available-on-mobile.html",
+      "title": "AI Overviews in Drive now available on mobile",
+      "title_ja": "Google Drive、AI要約機能がモバイルアプリで利用可能に",
+      "published": "2026/06/30",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Drive",
+        "モバイル",
+        "AI要約"
+      ],
+      "summary": "Google DriveのAI要約機能がAndroidとiOSアプリで使えるようになった。ファイル検索時にGeminiが文書をスキャンして要約を表示する。",
+      "impact": "モバイルでDrive利用時、複数ファイルを開かずに要点を確認できるようになる。社内文書検索の手間が減る可能性がある。",
+      "notes": "要約内容の正確性、対応ファイル形式、保存先など詳細は確認する。Geminiの学習データや出力ルールも関連するため、会社のAI利用ポリシーと照合する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/ask-gemini-in-drive-now-available-on-mobile.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/ask-gemini-in-drive-now-available-on-mobile.html",
+      "title": "Ask Gemini in Drive now available on mobile",
+      "title_ja": "Google Drive上でGeminiに質問する機能がモバイル版に対応",
+      "published": "2026/06/30",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Drive",
+        "モバイル対応",
+        "生成AI"
+      ],
+      "summary": "Google DriveでGeminiに質問する機能が、AndroidおよびiOSアプリで利用可能になった。ファイル内容について深い対話ができる。",
+      "impact": "モバイルからDrive内のファイルについてAIに質問でき、外出先での確認・検索の手間が減る可能性がある。社員の利用環境を確認する必要がある。",
+      "notes": "モバイル版で新たに利用可能になった機能のため、セキュリティ・データアクセス権・社内ルールを確認してから利用を認める必要がある。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/06/create-fully-native-and-editable-presentations-with-Gemini-in-Google-Slides.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/06/create-fully-native-and-editable-presentations-with-Gemini-in-Google-Slides.html",
+      "title": "Create fully native and editable presentations with Gemini in Google Slides",
+      "title_ja": "Google SlidesでGeminiが複数スライドのプレゼン資料を自動作成",
+      "published": "2026/06/30",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Slides",
+        "資料作成自動化"
+      ],
+      "summary": "GeminiがGoogle Slides内で、プロンプト1つから複数スライドの完成したプレゼン資料を生成できるようになった。",
+      "impact": "プレゼン資料作成の時間が短縮される。ただし生成内容は編集可能なため、作成後の確認と修正ルールを決める必要がある。",
+      "notes": "生成されたコンテンツは編集可能だが、ファイル保存先・共有範囲・最終チェック責任を明確にしておくとよい。"
+    },
+    {
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "normalized_url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "title_ja": "Gemini Omni FlashとNano Banana 2 Liteの開発開始",
+      "published": "2026/06/30",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "開発者向け",
+        "モデル比較",
+        "API"
+      ],
+      "summary": "GoogleがGemini Omni Flashと軽量モデルNano Banana 2 Liteの提供を開始。開発者向けに利用可能になった。",
+      "impact": "社内開発チームはこれらのモデルを試し、既存のChatGPTやClaudeとの性能・コストを比較し、導入判断の材料とする。",
+      "notes": "公開直後で採用事例が限定的。自社での検証と利用ルール決定が必要。"
+    },
+    {
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "normalized_url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "title": "How ChatGPT adoption has expanded",
+      "title_ja": "ChatGPT利用者が世界で増加、利用幅も拡大",
+      "published": "2026/06/30",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "利用動向",
+        "導入判断",
+        "グローバル"
+      ],
+      "summary": "OpenAIが公式データで、ChatGPT利用者数が世界規模で増え、ユーザーの活用方法も多様化していることを報告した。",
+      "impact": "社内でChatGPT導入を検討する際、実際の利用動向を参考にできる。利用ルールや対象範囲を決める判断材料になる。",
+      "notes": "詳細データや地域別・言語別の具体的な数字は、公式記事で確認する必要がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "normalized_url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "title": "Jun 30, 2026 Announcements Claude Science, an AI workbench for scientists, is now available",
+      "title_ja": "Claude Science、科学者向けAIワークベンチが利用可能に",
+      "published": "2026/06/30",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI活用範囲",
+        "研究支援",
+        "新機能"
+      ],
+      "summary": "Anthropicが科学研究向けの専門ツール「Claude Science」を公開。データ分析や仮説検証の作業を支援する。",
+      "impact": "研究部門や分析チームでClaudeを使う場合、専用ツールの利用申請や利用許可の管理ルールを確認する必要がある。",
+      "notes": "公式ツールのため、利用範囲・データ保存先・アクセス権限を確認してから導入を検討する。"
+    },
+    {
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "normalized_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "title_ja": "英国のAI人材育成計画、Googleが支援策を発表",
+      "published": "2026/06/30",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "教育・人材育成",
+        "地域政策"
+      ],
+      "summary": "Googleが英国向けにAI技術者や利用者を増やす支援プログラムを発表した。Geminiを活用した教育や企業向け支援が軸",
+      "impact": "英国でのAI利用環境が整備される。日本の関連企業がいずれ同様の施策に直面する可能性がある",
+      "notes": "詳細な支援内容や対象者、実施時期は抜粋からは確認できない。公式ページで確認する"
+    },
+    {
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "normalized_url": "https://openai.com/index/introducing-genebench-pro",
+      "title": "Introducing GeneBench-Pro",
+      "title_ja": "GeneBench-Pro公開。ゲノム・生物研究のAI性能を測る新指標",
+      "published": "2026/06/30",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "AI性能測定",
+        "ベンチマーク",
+        "生物学・ゲノム",
+        "科学研究"
+      ],
+      "summary": "OpenAIが、ゲノム・生物研究の分野でAI性能を測るベンチマーク「GeneBench-Pro」を公開した。",
+      "impact": "生物・ゲノム分野でのAI利用時に、その性能や信頼性を判断する材料ができた。",
+      "notes": "自社で同分野のAI導入を検討する場合は、このベンチマークの結果を参考にして判断するとよい。"
+    },
+    {
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "normalized_url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "title_ja": "OpenAI、18年前のバグを大規模解析で発見・修正",
+      "published": "2026/06/30",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "インフラ",
+        "バグ修正",
+        "システム安定性"
+      ],
+      "summary": "OpenAIのエンジニアが、稀なインフラ障害の原因を特定するため大規模なエラーログ解析を実施。ハードウェア障害と古いソフトウェアバグの両方を発見した。",
+      "impact": "ChatGPTなどのサービス安定性向上につながる可能性がある。自社システムでも同様の古いバグが残っていないか確認する参考になる。",
+      "notes": "公式ブログ記事だが、具体的な修正内容や自社へのセキュリティ影響は確認が必要。"
+    }
+  ]
+}
