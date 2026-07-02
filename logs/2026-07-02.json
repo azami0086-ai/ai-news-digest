@@ -1,0 +1,124 @@
+{
+  "started_at": "2026-07-02T09:20:23.639747+09:00",
+  "finished_at": "2026-07-02T09:21:42.178220+09:00",
+  "fetched_per_source": {
+    "official": 30,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 134,
+  "after_dedupe": 132,
+  "recorded_duplicate_excluded_count": 15,
+  "candidate_count": 20,
+  "published": 5,
+  "count_a": 0,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 4,
+  "errors": [],
+  "html_path": "docs/2026/07/02.html",
+  "markdown_path": "output/2026-07-02_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33736,
+  "output_tokens": 4641,
+  "estimated_cost_usd": 0.056941,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
+      "title": "The latest AI news we announced in June 2026",
+      "title_ja": "Google、6月のAI関連アップデートを公開",
+      "published": "2026/07/01",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "アップデート"
+      ],
+      "summary": "GoogleがGeminiと関連サービスの6月のアップデートをまとめて発表した。Pixel端末向けの新機能などが含まれる。",
+      "impact": "社内で使うGeminiやPixel端末の機能が変わる可能性があるため、公式ページで具体的な内容を確認する必要がある。",
+      "notes": "抜粋が限定的なため、実務判断には公式ブログの全文確認が必須。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "normalized_url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "title": "Redeploying Fable 5",
+      "title_ja": "Anthropic、Fable 5を再展開",
+      "published": "2026/06/30",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "機能更新"
+      ],
+      "summary": "Anthropicが新版のFable 5を展開した。具体的な機能や対象範囲は未確認。",
+      "impact": "未確認。自社でClaudeを使う場合、機能変更や利用可能性に変化がないか確認する必要がある。",
+      "notes": "公式記事だが抜粋がないため詳細不明。URLで直接内容を確認する。"
+    },
+    {
+      "url": "https://www.agentsessions.dev/",
+      "normalized_url": "https://www.agentsessions.dev/",
+      "title": "Show HN: Agent Sessions – A model agnostic Claude managed agents alternative",
+      "title_ja": "Claude対応のエージェント管理ツール「Agent Sessions」登場",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "ツール",
+        "管理"
+      ],
+      "summary": "Claudeを使うエージェント型AIの実行と管理を簡単にするツールが公開された。複数モデル対応を予定している。",
+      "impact": "Claudeでエージェント機能を使う場合、導入前に機能・制限・費用を確認する必要がある。",
+      "notes": "まだ初期段階の公開（HNの反応が少ない）なため、実務導入前に動作確認と責任範囲を決める。"
+    },
+    {
+      "url": "https://github.com/ymichael/bb",
+      "normalized_url": "https://github.com/ymichael/bb",
+      "title": "Show HN: An Open Source Codex App that works across provider",
+      "title_ja": "複数のAIサービスに対応したオープンソースのコード補完ツール",
+      "published": "2026/07/01",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード補完",
+        "開発ツール",
+        "オープンソース"
+      ],
+      "summary": "GitHubで公開されたオープンソースツール。複数のAIプロバイダーのコード補完機能を統一インタフェースで利用できる。",
+      "impact": "自社のコード補完環境をプロバイダーに依存せず運用できる可能性がある。ただし実装状況や対応プロバイダーを確認する必要がある。",
+      "notes": "公開直後で注目度が低い。本番導入前に動作確認とセキュリティレビューが必須。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit",
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "title_ja": "Googleがニューヨークで教育関係者と企業リーダーを集めAI教育の方向性を協議",
+      "published": "2026/07/01",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "教育",
+        "AI政策",
+        "地域連携"
+      ],
+      "summary": "GoogleがニューヨークでAI教育サミットを開催し、教育機関と企業150名が参加して学校でのAI利用の方針を協議した。",
+      "impact": "学校でのAI導入が進む可能性があり、自社の教育事業や学生向けAIサービスの方向性を見直す材料になる。",
+      "notes": "サミットの具体的な決定内容や提言は未確認。公式ブログで詳細を確認する。"
+    }
+  ]
+}
