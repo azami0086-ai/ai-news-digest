@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-07-03T09:18:08.118070+09:00",
+  "finished_at": "2026-07-03T09:19:45.972247+09:00",
+  "fetched_per_source": {
+    "official": 24,
+    "hn": 83,
+    "arxiv": 30
+  },
+  "fetched_total": 137,
+  "after_dedupe": 135,
+  "recorded_duplicate_excluded_count": 15,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 4,
+  "count_excluded": 4,
+  "errors": [],
+  "html_path": "docs/2026/07/03.html",
+  "markdown_path": "output/2026-07-03_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33908,
+  "output_tokens": 4712,
+  "estimated_cost_usd": 0.057468,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "normalized_url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "title": "Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "title_ja": "Claudeの新版「Fable 5」、サイバー攻撃対策と脱獄テスト方法を公開",
+      "published": "2026/07/02",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "Anthropic",
+        "脱獄対策",
+        "safeguards"
+      ],
+      "summary": "Anthropicが次世代Claude「Fable 5」のセキュリティ機能と、不正利用を検証するテスト枠組みを説明した。",
+      "impact": "社内でClaudeを使う場合、セキュリティ面での信頼度を判断する材料になる。新バージョン導入時の確認材料となる。",
+      "notes": "公式資料として読めるが、自社で使う場合は利用範囲・アクセス権限・出力チェックルールを確認する。"
+    },
+    {
+      "url": "https://github.com/schoppllc/Terminalcontrol",
+      "normalized_url": "https://github.com/schoppllc/Terminalcontrol",
+      "title": "FleetView – a browser cockpit for running many Claude Code agents at once",
+      "title_ja": "複数のClaudeコードエージェントを同時実行するブラウザツール「FleetView」",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "自動化",
+        "開発ツール",
+        "エージェント"
+      ],
+      "summary": "複数のClaudeコードエージェントを一度に動かすためのブラウザツールが公開された。",
+      "impact": "Claudeを使った自動化タスクを並行実行できるようになり、複数案件や大量処理の効率が上がる可能性がある。",
+      "notes": "GitHubの公開プロジェクトのため、使う前にドキュメントと安全性を確認する。社内で使う場合は権限範囲と出力データの保管ルールを決める。"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/omni",
+      "normalized_url": "https://ai.google.dev/gemini-api/docs/omni",
+      "title": "Generate and edit videos with Gemini Omni Flash",
+      "title_ja": "Gemini Omni Flashで動画生成・編集が可能に",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "動画生成",
+        "生成AI",
+        "API"
+      ],
+      "summary": "GoogleがGeminiの新モデル「Omni Flash」で、テキストから動画を生成・編集できる機能を提供開始した。",
+      "impact": "動画コンテンツ作成の自動化が進む。業務で動画利用する場合、生成AIの活用シーン検討が必要になる。",
+      "notes": "詳細機能は公式ドキュメント確認が必要。社内で使う場合は出力物の著作権・利用許可・保存ルールを定める。"
+    },
+    {
+      "url": "https://andonlabs.com/blog/why-gemini-lost-money-andon-cafe",
+      "normalized_url": "https://andonlabs.com/blog/why-gemini-lost-money-andon-cafe",
+      "title": "Why Gemini 3.1 Pro lost money running Andon Café",
+      "title_ja": "Gemini 3.1 Proが赤字を出した理由",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "コスト",
+        "AI導入",
+        "費用対効果"
+      ],
+      "summary": "Geminiを使ったカフェ運営のケーススタディ。AIの推論コストが想定より高く、ビジネス採算が合わなかった事例を紹介している。",
+      "impact": "AI導入時のコスト計算が重要。利用料の見積もりを詳しく確認し、想定利用量との照合が必要。",
+      "notes": "実例に基づく内容だが、HN上の反応が限定的（ポイント2）なため、全業界に該当するとは限らない。自社での利用規模で試算する。"
+    },
+    {
+      "url": "https://mrkt30.com/glm-5-2-open-source-ai/",
+      "normalized_url": "https://mrkt30.com/glm-5-2-open-source-ai",
+      "title": "GLM-5.2: The Open-Source Chinese Model Challenging Claude at One-Fifth the Cost",
+      "title_ja": "GLM-5.2：中国製オープンソースモデル、Claudeに対抗し5分の1の費用で動作",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "モデル比較",
+        "コスト",
+        "オープンソース",
+        "Claude"
+      ],
+      "summary": "中国のZhipu AIが開発したオープンソースAIモデル「GLM-5.2」が、Claudeと同等の性能をより低コストで実現している。",
+      "impact": "費用効率の高い選択肢が増え、AI導入時のモデル比較・コスト削減検討の材料になる。",
+      "notes": "中国製モデルの利用には、データ転送先・セキュリティ基準・企業ポリシーを確認する必要がある。"
+    },
+    {
+      "url": "https://ctrlnode.ai/news/fable-claude-model-audit-experiment/",
+      "normalized_url": "https://ctrlnode.ai/news/fable-claude-model-audit-experiment",
+      "title": "We Ran a Complex Task – A LangChain Repo Analysis with Claude Fable Models",
+      "title_ja": "Claude Fable モデルで複雑なコード解析タスクを試行",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "LLM新機能",
+        "コード解析",
+        "LangChain"
+      ],
+      "summary": "Claudeの新モデル「Fable」を使い、LangChainリポジトリの解析という複雑な作業ができるか検証した記事。",
+      "impact": "Claude新モデルの実務的な活用可能性を判断する材料になるが、個別事例のため自社での適用可否は別途確認が必要。",
+      "notes": "Fable の正式名称・リリース状況・自社利用可能性は公開URL内容のみでは確認できないため、公式ドキュメントで確認する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.01103v1",
+      "normalized_url": "https://arxiv.org/abs/2607.01103v1",
+      "title": "Clinician-Level Agreement Without Clinical Caution: LLM Evaluator Limits in Medical AI Benchmarking",
+      "title_ja": "医療AI評価で医師と同等の判定ができても臨床判断は別―LLM評価の限界",
+      "published": "2026/07/01",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "医療AI",
+        "評価手法",
+        "LLM評価者",
+        "Gemini",
+        "ベンチマーク",
+        "臨床判断"
+      ],
+      "summary": "医療AIの性能を測る試験で、LLMが医師と同じ点数をつけても、医学的な慎重さまで再現しているわけではないという研究結果。",
+      "impact": "医療AIの安全性や信頼性を社外評価に頼る場合、機械採点だけでは不十分。専門家による最終確認が必要になる可能性。",
+      "notes": "学術論文であり、実務への直接的な適用は未検討。社内で医療AI関連の導入や評価を検討する際は、この限界を踏まえて評価方法を決める。"
+    },
+    {
+      "url": "https://github.com/valmishq/valmis",
+      "normalized_url": "https://github.com/valmishq/valmis",
+      "title": "Show HN: I built an open-source alternative to Claude Cowork",
+      "title_ja": "オープンソースのClaudeの代替ツール、GitHubで公開",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "代替ツール",
+        "GitHub",
+        "開発者向け"
+      ],
+      "summary": "開発者がClaudeの機能を代替するオープンソースツールを公開した。GitHub上で利用できる。",
+      "impact": "社内でClaudeを使う場合、別の選択肢が増えたことになる。ただしツールの成熟度・セキュリティを自社で確認する必要がある。",
+      "notes": "GitHubプロジェクトの詳細内容やセキュリティ評価が未確認。社内で利用する前に技術チームによる検証が必須。"
+    },
+    {
+      "url": "https://github.com/tomascupr/sous-chef",
+      "normalized_url": "https://github.com/tomascupr/sous-chef",
+      "title": "Sous-Chef, a Claude Code plugin where Fable reviews, Codex implements",
+      "title_ja": "Claude向けコードプラグイン「Sous-Chef」、コード実装を自動化",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "プラグイン",
+        "開発効率化",
+        "コードレビュー",
+        "GitHub"
+      ],
+      "summary": "GitHubで公開されたClaudeプラグイン。Fableがコードレビュー、Codexが実装を担当する仕組み。",
+      "impact": "Claudeを使った開発時にコードレビューと実装が自動で連携する可能性。自社の開発ワークフロー見直しの材料になるかは要検証。",
+      "notes": "HNでの注目度は現在低い（ポイント1、コメントなし）。正式な製品ではなく個人開発。使用前に自社ポリシーと照合する。"
+    },
+    {
+      "url": "https://flashtype.com/",
+      "normalized_url": "https://flashtype.com/",
+      "title": "Show HN: Flashtype – Markdown editor for Claude and Codex with in-line diffs",
+      "title_ja": "Flashtype：ClaudeとCodex向けマークダウンエディタ、差分表示機能付き",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コーディング支援",
+        "開発ツール",
+        "マークダウン"
+      ],
+      "summary": "ClaudeやCodexと連携するマークダウンエディタが公開された。編集内容の差分をインラインで確認できる。",
+      "impact": "AIとの協働編集時に変更箇所を一目で見比べられる。使用ツールの選択肢が広がる可能性がある。",
+      "notes": "Hacker Newsでの反応は限定的（高評価5、コメント0）。実務での有用性は別途確認する。"
+    }
+  ]
+}
