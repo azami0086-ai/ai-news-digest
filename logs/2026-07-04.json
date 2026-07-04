@@ -1,0 +1,219 @@
+{
+  "started_at": "2026-07-04T09:16:19.832566+09:00",
+  "finished_at": "2026-07-04T09:17:50.283973+09:00",
+  "fetched_per_source": {
+    "official": 10,
+    "hn": 72,
+    "arxiv": 0
+  },
+  "fetched_total": 82,
+  "after_dedupe": 80,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 9,
+  "count_c": 0,
+  "count_excluded": 3,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/07/04.html",
+  "markdown_path": "output/2026-07-04_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33780,
+  "output_tokens": 4521,
+  "estimated_cost_usd": 0.056385,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code",
+      "normalized_url": "https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code",
+      "title": "Gemini Code Assist will be shut down on July 17",
+      "title_ja": "Gemini Code Assistが7月17日でサービス終了",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "Google",
+        "開発ツール",
+        "サービス終了",
+        "移行対応"
+      ],
+      "summary": "GoogleのGemini Code Assistが7月17日にシャットダウンされる。既利用者は後継サービスへの移行が必要になる。",
+      "impact": "同サービスを開発支援に使っている場合、代替ツールの選定と移行計画を立てる必要がある。",
+      "notes": "公式ドキュメントから後継サービスや移行手順を確認し、チーム内で共有する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "normalized_url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership",
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "title_ja": "Google DeepMindと映画スタジオA24が研究提携を発表",
+      "published": "2026/07/03",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "映像生成AI",
+        "研究開発"
+      ],
+      "summary": "Google DeepMindと映像制作会社A24が、AIと映画制作の研究を進める初の提携を開始する。",
+      "impact": "映像生成AIの研究進展により、社内での動画制作やコンテンツ生成業務の新しい選択肢が出てくる可能性がある。",
+      "notes": "詳細内容が抜粋に含まれていないため、公式ブログで研究内容と商用化時期を確認する。"
+    },
+    {
+      "url": "https://github.com/regolo-ai/brick-SR1",
+      "normalized_url": "https://github.com/regolo-ai/brick-SR1",
+      "title": "Save Claude Code Tokens with Smart Routing",
+      "title_ja": "Claude利用時のコストを削減する自動ルーティング手法",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト削減",
+        "自動ルーティング",
+        "GitHub"
+      ],
+      "summary": "Claudeでコード処理する際、質問内容に応じて最適なモデルに自動で振り分けることで、利用料金を抑える方法がGitHubで公開された。",
+      "impact": "Claudeをコード処理に使う場合、同じ精度で利用費を下げられる可能性がある。自社の運用規模によって導入効果を検討する。",
+      "notes": "公開直後で評価や事例が少ない段階。導入前に自社のコード処理パターンで実際の削減幅を試す必要がある。"
+    },
+    {
+      "url": "https://deepswe.datacurve.ai/",
+      "normalized_url": "https://deepswe.datacurve.ai/",
+      "title": "GPT 5.5 (high) is as good at coding as Claude Fable (medium) at a lower cost",
+      "title_ja": "GPT 5.5の高性能版、Claude Fableの中性能版に匹敵するコード生成を低コストで実現",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "コード生成",
+        "コスト比較"
+      ],
+      "summary": "OpenAIのGPT 5.5高性能版がClaudeの一部グレードと同等のコード生成能力を持ちながら、料金が安いという比較結果。",
+      "impact": "AI開発支援ツール導入時の機種選定、月間利用コストの見直しに関わる可能性。自社がClaudeを使う場合はGPT 5.5への切り替え効果を検討する価値がある。",
+      "notes": "Hacker Newsの投稿でコメントが無く、情報元URLが外部ツール。詳細な検証方法や前提条件を確認してから判断する。"
+    },
+    {
+      "url": "https://github.com/Pomax/Claude-VS-Code-Extension-patches",
+      "normalized_url": "https://github.com/Pomax/Claude-VS-Code-Extension-patches",
+      "title": "Make Claude Fix the Claude VS Code Extension",
+      "title_ja": "Claude VS Code拡張機能の修正パッチが公開",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "VS Code",
+        "開発ツール"
+      ],
+      "summary": "GitHubでClaudeのVS Code拡張機能の修正内容が共有されている。",
+      "impact": "社内でClaudeを開発ツール向けに使う場合、拡張機能の動作や更新情報を確認する必要がある。",
+      "notes": "詳細な修正内容と対象バージョン未確認のため、実際に利用する前に確認する。"
+    },
+    {
+      "url": "https://venturebeat.com/ai/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers",
+      "normalized_url": "https://venturebeat.com/ai/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers",
+      "title": "AI turned every engineer into three. Now companies need more product thinkers",
+      "title_ja": "AI が開発効率を3倍にした。いま企業に必要なのは製品思考を持つ人",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "開発効率",
+        "組織運営",
+        "エンジニア適正"
+      ],
+      "summary": "Claude Code などのAIツールで開発速度が大幅に上がり、エンジニア1人の生産性が3倍になった状況を指摘。",
+      "impact": "開発工数の見積もりや人員配置の考え直しが必要。エンジニアには実装だけでなく企画や判断力がより求められる。",
+      "notes": "まだコメント少なく詳細不明。記事の論拠を自社の開発体制と比べる。"
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3359375/alibaba-bans-staff-using-claude-code-over-anthropic-spyware-concerns",
+      "normalized_url": "https://www.scmp.com/tech/big-tech/article/3359375/alibaba-bans-staff-using-claude-code-over-anthropic-spyware-concerns",
+      "title": "Alibaba bans staff from using Claude Code over Anthropic spyware concerns",
+      "title_ja": "アリババ、Claudeコード利用を禁止 セキュリティ懸念から",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "セキュリティ",
+        "AI利用ルール",
+        "コード生成"
+      ],
+      "summary": "アリババがClaudeのコード機能の社内利用を禁止した。Anthropicのセキュリティリスク懸念が理由。",
+      "impact": "自社がClaudeを業務で使う場合、情報漏洩リスク評価と利用ルール見直しが必要になる可能性がある。",
+      "notes": "スパイウェア懸念は未確認。原文記事の詳細確認と、Anthropic公式の説明を確認する必要がある。"
+    },
+    {
+      "url": "https://chatgpt.com/apps/mindmap/asdk_app_69e1ea6c505c81918d6c8f0258a64906",
+      "normalized_url": "https://chatgpt.com/apps/mindmap/asdk_app_69e1ea6c505c81918d6c8f0258a64906",
+      "title": "Show HN: NotebookLM style mindmap inside ChatGPT",
+      "title_ja": "ChatGPTでNotebookLMスタイルのマインドマップが使える",
+      "published": "2026/06/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "NotebookLM",
+        "GPTストア",
+        "マインドマップ",
+        "業務ツール"
+      ],
+      "summary": "ChatGPTのGPTストアで、NotebookLMと同じ形式のマインドマップ作成ツールが公開された。",
+      "impact": "ChatGPT内で資料をマップ化できるようになり、別ツールを切り替えずに構想整理が可能になる可能性がある。",
+      "notes": "実装の詳細や安定性は未確認。実際に使う前に自社の利用環境と機能を試す必要がある。"
+    },
+    {
+      "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+      "normalized_url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+      "title": "Claude's Criminally Bad Electron Mac App Is an Inside Job",
+      "title_ja": "ClaudeのMacアプリに問題、指摘される",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Macアプリ",
+        "品質問題"
+      ],
+      "summary": "ClaudeのMacアプリについて品質や設計に関する指摘がされている。",
+      "impact": "Claudeを業務で使う場合、Macアプリの信頼性を確認してから導入するか判断する必要がある。",
+      "notes": "Hacker Newsでの言及が限定的なため、詳細の確認が必要。記事の全文を読んで自社の利用環境と比べる。"
+    },
+    {
+      "url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "normalized_url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "title_ja": "Claude Mythos Preview公開時期に脆弱性報告が増加",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "脆弱性",
+        "新機能"
+      ],
+      "summary": "Claude Mythos Previewの公開前後で深刻度の高い脆弱性報告が増加した状況が報告された。",
+      "impact": "新版AIツール導入前に、セキュリティ情報を確認し、自社環境での利用開始時期や制限を検討する必要がある。",
+      "notes": "未確認情報として扱う。脆弱性の詳細、自社との関連性、影響範囲を公式資料で確認する。"
+    }
+  ]
+}
