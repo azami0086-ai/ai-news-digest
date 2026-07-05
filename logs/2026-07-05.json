@@ -1,0 +1,225 @@
+{
+  "started_at": "2026-07-05T09:11:50.292462+09:00",
+  "finished_at": "2026-07-05T09:13:03.415793+09:00",
+  "fetched_per_source": {
+    "official": 6,
+    "hn": 71,
+    "arxiv": 30
+  },
+  "fetched_total": 107,
+  "after_dedupe": 104,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 5,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/07/05.html",
+  "markdown_path": "output/2026-07-05_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33834,
+  "output_tokens": 4690,
+  "estimated_cost_usd": 0.057284,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/74066",
+      "normalized_url": "https://github.com/anthropics/claude-code/issues/74066",
+      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "title_ja": "Claude Code：ワークスペース間でセッション情報が漏洩する可能性",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude Code",
+        "セキュリティ",
+        "セッション情報",
+        "ワークスペース管理",
+        "情報漏洩",
+        "アカウント管理"
+      ],
+      "summary": "Claude Codeで、複数のワークスペースやアカウント間でセッション情報やキャッシュが漏洩する可能性が報告された。",
+      "impact": "自社の複数チーム・複数ワークスペースでClaudeを使う場合、情報流出のリスクを確認し、利用環境の分離やアクセス制限の必要性を検討する。",
+      "notes": "GitHubの公式報告なので確認する。セッション情報が別のワークスペースに見える状態が起こりうるため、機密データを扱う場合は特に注意が必要。"
+    },
+    {
+      "url": "https://github.com/0xmmo/crew",
+      "normalized_url": "https://github.com/0xmmo/crew",
+      "title": "Show HN: Crew – Let Claude Code agents talk to each other",
+      "title_ja": "複数のClaudeエージェント同士が連携するツール「Crew」が公開",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "自動化",
+        "開発ツール",
+        "マルチエージェント"
+      ],
+      "summary": "Claudeで作ったコード生成エージェント同士が連携・通信できるツール。複数のAIが協力して作業するための仕組み。",
+      "impact": "社内でClaudeを使ったAI自動化を検討している場合、複数タスクの並列実行や役割分担が可能になる選択肢が増える。",
+      "notes": "GitHubの開発段階プロジェクト。実運用前に動作確認と自社ルール（API利用・出力管理・データ保存）の適用が必要。"
+    },
+    {
+      "url": "https://sajith.me/blog/2026/six_months_with_claude_code.html",
+      "normalized_url": "https://sajith.me/blog/2026/six_months_with_claude_code.html",
+      "title": "Six Months with Claude Code",
+      "title_ja": "Claudeでコード生成を6ヶ月使った報告",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "開発効率",
+        "ツール評価"
+      ],
+      "summary": "開発者がClaudeのコード生成機能を半年間使った結果をまとめた個人レポート。実務での活用法や課題が記載されている。",
+      "impact": "Claude導入や活用方法の参考になるが、個人の利用経験であり組織の判断材料には別途検証が必要。",
+      "notes": "執筆者が1人であり、企業規模での検証ではない。自社で使う場合は部門内で試した上でルールを決める必要がある。"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "title": "Anthropic wants to develop its own drugs",
+      "title_ja": "AnthropicがClaudeで医薬品開発に参入",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "新展開",
+        "医薬・創薬",
+        "AI応用"
+      ],
+      "summary": "AnthropicがClaudeを使い医薬品開発事業に乗り出す計画。AI技術を創薬プロセスに活用する方向。",
+      "impact": "医薬・製造業での企業導入や提携時に、Claudeの新しい用途や信頼性判断が含まれる可能性がある。",
+      "notes": "詳細は未確認。自社での医薬関連業務や提携検討時に、信頼性と法的リスク（医療規制・知財・機密）を確認する。"
+    },
+    {
+      "url": "https://www.lockinmcp.com",
+      "normalized_url": "https://www.lockinmcp.com/",
+      "title": "Show HN: An MCP server that gives your AI assistant write access to /etc./hosts",
+      "title_ja": "Claude用MCPサーバー：AIに/etc/hostsファイルの書き込み権限を付与するツール",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "MCP",
+        "セキュリティ",
+        "権限管理",
+        "ツール"
+      ],
+      "summary": "Claudeなどで使えるMCPサーバーで、AIが直接ホストファイルを編集できるツール。",
+      "impact": "Claudeの拡張機能として使われるもので、導入時にはAIに与える権限の範囲を厳しく制限する必要がある。",
+      "notes": "ホストファイル編集は悪用されるとシステムが危険になるため、利用は慎重に判断し、ローカル環境などで実際の運用には持ち込まない。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.02432v1",
+      "normalized_url": "https://arxiv.org/abs/2607.02432v1",
+      "title": "Automated grading of Linux/bash examinations using large language models: a four-level cognitive taxonomy approach",
+      "title_ja": "大規模言語モデルでLinux/bash試験を自動採点、認知レベル4段階で評価",
+      "published": "2026/07/02",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "GPT",
+        "Gemini",
+        "教育",
+        "自動採点",
+        "論文"
+      ],
+      "summary": "GPT・Claude・Geminiなど4つのAIモデルが、Linux/bashコマンドの試験採点で専門家の判定に近い結果を出せるか検証した研究。",
+      "impact": "教育機関がAIで試験採点を自動化する際、モデル選択や採点ルール設計の参考になる可能性がある。",
+      "notes": "実際の導入には採点の信頼性と責任範囲を確認する必要がある。"
+    },
+    {
+      "url": "https://contextify.sh/",
+      "normalized_url": "https://contextify.sh/",
+      "title": "Show HN: Pull Claude Code transcripts into your Codex session, and vice versa",
+      "title_ja": "Claude のコード生成を Codex のセッションに統合するツール",
+      "published": "2026/07/03",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "コード生成",
+        "開発ツール",
+        "統合"
+      ],
+      "summary": "HN に投稿されたツール。Claude で生成したコードを Codex のセッションに取り込み、相互に利用できるようにする。",
+      "impact": "複数の AI コーディングツールを組み合わせたい場合の選択肢が増える可能性。自社で複数モデルを試している場合は確認するとよい。",
+      "notes": "ツールの実装・安定性・セキュリティは確認が必要。生成コードを本番利用する場合は出力チェック体制を整える。"
+    },
+    {
+      "url": "https://hn-job-match-production.up.railway.app/",
+      "normalized_url": "https://hn-job-match-production.up.railway.app/",
+      "title": "Show HN: Who wants to be hired?\" meets \"Who is hiring?\" (July 2026)",
+      "title_ja": "Hacker Newsの求人マッチングプラットフォーム",
+      "published": "2026/07/02",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "求人マッチング",
+        "Hacker News",
+        "ツール"
+      ],
+      "summary": "Hacker Newsの「採用者を探す」と「仕事を探す」投稿をマッチングするツール。Geminiを利用している。",
+      "impact": "求職者や採用担当者がHacker Newsの求人情報を効率的に検索できるようになる可能性がある。",
+      "notes": "ベータ版で注目度は限定的。実務利用はサービスの安定性と信頼性を確認してから検討する。"
+    },
+    {
+      "url": "https://github.com/haabe/mycelium",
+      "normalized_url": "https://github.com/haabe/mycelium",
+      "title": "Show HN: Mycelium – AI agent plugin guiding you from purpose to market",
+      "title_ja": "Mycelium──目的から市場投入までを支援するAIエージェントプラグイン",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AIエージェント",
+        "プラグイン",
+        "ビジネス支援ツール"
+      ],
+      "summary": "GitHubで公開されたプラグインで、ビジネスアイデアから市場投入まで段階的に支援するAIエージェントツール。",
+      "impact": "社内でAI導入の参考になるが、実務利用は企業内での試験・検証が必要。",
+      "notes": "まだ初期段階の発表（HNでの反応が限定的）で、製品の安定性や信頼性は未確認。"
+    },
+    {
+      "url": "https://github.com/hannah-wright/saas-landing-page-template",
+      "normalized_url": "https://github.com/hannah-wright/saas-landing-page-template",
+      "title": "Free SaaS Landing Page Template – React, Vue, HTML for Claude Code and Cursor",
+      "title_ja": "Claude CodeとCursor向けSaaS用ランディングページテンプレート公開",
+      "published": "2026/07/04",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "テンプレート",
+        "React",
+        "Vue"
+      ],
+      "summary": "React、Vue、HTMLで使えるSaaS向けランディングページテンプレートがGitHubで公開された。Claude CodeやCursorでの利用を想定している。",
+      "impact": "開発チームがAIコーディングツール（Claude Code、Cursor）で業務システムやプロトタイプを作る際、テンプレートとして参考にできる。",
+      "notes": "テンプレートの利用ルール（ライセンス、カスタマイズ時の許可範囲）を確認してから社内で活用する。"
+    }
+  ]
+}
