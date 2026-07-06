@@ -1,0 +1,216 @@
+{
+  "started_at": "2026-07-06T09:15:02.684966+09:00",
+  "finished_at": "2026-07-06T09:16:18.898765+09:00",
+  "fetched_per_source": {
+    "official": 4,
+    "hn": 76,
+    "arxiv": 30
+  },
+  "fetched_total": 110,
+  "after_dedupe": 110,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 3,
+  "count_c": 7,
+  "count_excluded": 6,
+  "errors": [],
+  "html_path": "docs/2026/07/06.html",
+  "markdown_path": "output/2026-07-06_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33749,
+  "output_tokens": 4566,
+  "estimated_cost_usd": 0.056579,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://quickchat.ai/post/expose-ai-agent-as-mcp-server",
+      "normalized_url": "https://quickchat.ai/post/expose-ai-agent-as-mcp-server",
+      "title": "Turn Your AI Agent into an MCP Server for ChatGPT, Claude and Cursor",
+      "title_ja": "AIエージェントをMCPサーバーに変換してChatGPT、Claude、Cursorで使う",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Cursor",
+        "MCP",
+        "AI連携",
+        "カスタム統合"
+      ],
+      "summary": "独自開発したAIエージェントをMCPサーバー経由でChatGPT、Claude、Cursorから利用できるようにする方法を説明した記事。",
+      "impact": "自社システムやカスタムAIを複数のAIツールから統一的に呼び出せる仕組みが整い、導入検討時にシステム連携の選択肢が広がる。",
+      "notes": "実装の詳細は元記事で確認する必要があり、自社での技術実現可否を開発チームと協議してから進める。"
+    },
+    {
+      "url": "https://github.com/nsankar/Aletheia",
+      "normalized_url": "https://github.com/nsankar/Aletheia",
+      "title": "Show HN: Aletheia – The Uncertainty Loop Agent for Claude Code and Codex",
+      "title_ja": "不確実性に対応するClaudeエージェント「Aletheia」がGitHubで公開",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "オープンソース",
+        "GitHub"
+      ],
+      "summary": "Claudeを使い、不確実な状況で判断を繰り返すエージェント「Aletheia」がオープンソースで公開された。",
+      "impact": "Claudeを使った自動判断・検証の仕組みを自社で試す際の選択肢が増えた。導入前に機能と限界を確認する。",
+      "notes": "GitHub上の公開プロジェクトで、利用規約・ライセンス・サポート体制を自社利用前に確認する。"
+    },
+    {
+      "url": "https://github.com/Priyanshu-byte-coder/contextrot",
+      "normalized_url": "https://github.com/Priyanshu-byte-coder/contextrot",
+      "title": "Show HN: Contextrot– Analyze where Claude Code degrades from its own session log",
+      "title_ja": "Claude Codeのセッション中の精度低下を分析するツール",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "品質管理",
+        "検証ツール"
+      ],
+      "summary": "開発者がClaudeのコード生成精度がセッション中にどう低下するかを調べるツールがGitHubで公開された。",
+      "impact": "Claude Code利用時にセッションが長くなると品質が下がる傾向を可視化できる。自社の利用方法（セッション分割の必要性など）を検討する材料になる。",
+      "notes": "ツール自体は実験的な段階。実務判断には、自社でのClaudeの出力チェックと実際の問題事例の整理が先。"
+    },
+    {
+      "url": "https://github.com/puffinsoft/peek-cli",
+      "normalized_url": "https://github.com/puffinsoft/peek-cli",
+      "title": "Show HN: Peek-CLI: Let Claude Code See the Browser",
+      "title_ja": "Claude がブラウザ画面を見られるツール「Peek-CLI」公開",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発者向けツール",
+        "ブラウザ自動化"
+      ],
+      "summary": "開発者がClaudeにブラウザの表示内容をスクリーンショットとして渡し、画面認識させるコマンドラインツール。",
+      "impact": "Claudeを使った自動化やテスト業務で、ブラウザ操作の指示がしやすくなる可能性がある。",
+      "notes": "GitHub上のプロジェクトで、実装例や利用方法は公開リポジトリで確認する。"
+    },
+    {
+      "url": "https://www.nomlings.cc/",
+      "normalized_url": "https://www.nomlings.cc/",
+      "title": "Show HN: Nomlings – a virtual pet that eats your Claude Code session's tokens",
+      "title_ja": "Nomlings：Claude使用時のトークン消費を可視化する仮想ペット",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "トークン管理",
+        "可視化ツール",
+        "個人開発"
+      ],
+      "summary": "Claude利用時に消費されるトークンを、仮想ペットが食べる仕組みで可視化するツール。遊び心を持ちながらAI利用状況の把握ができる。",
+      "impact": "Claude使用量の把握が容易になり、部門別・プロジェクト別のトークン消費状況を見直す材料になるかもしれない。",
+      "notes": "個人向けツールで、法人利用時の正確性や対応状況は未確認。本格導入前に自社での動作確認が必要。"
+    },
+    {
+      "url": "https://github.com/yuliang615/claude-cache-guard",
+      "normalized_url": "https://github.com/yuliang615/claude-cache-guard",
+      "title": "Claude Code cache guard because Fable 5 tokens are way too precious to waste",
+      "title_ja": "Claude Code Cacheを効率的に使うガード機能",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "API利用コスト",
+        "開発"
+      ],
+      "summary": "Claudeの処理結果キャッシュ機能で、トークン消費を抑えるための管理ツールがGitHubに公開された。",
+      "impact": "Claudeを使う場合、キャッシュの効きを高めるルールを事前に決めておくと、API利用コストが削減できる可能性がある。",
+      "notes": "実装の詳細や効果は未確認。自社で使う場合は、Claudeの仕様変更に追従する必要がある。"
+    },
+    {
+      "url": "https://github.com/ostikwhy-blip/claude-code-handoff-skill",
+      "normalized_url": "https://github.com/ostikwhy-blip/claude-code-handoff-skill",
+      "title": "Show HN: Handoff – a verified context bridge between Claude Code sessions",
+      "title_ja": "Claude Codeのセッション間でコンテキストを引き継ぐツール「Handoff」",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "開発支援",
+        "コンテキスト管理"
+      ],
+      "summary": "Claude Codeの利用時に、前のセッションの文脈を次のセッションに引き継げるツールが公開された。",
+      "impact": "Claude Codeを複数回使う業務では、毎回最初から説明し直す手間が減る可能性がある。",
+      "notes": "まだ初期段階の公開ツール。自社で試す場合は動作確認とセキュリティ面を確認する。"
+    },
+    {
+      "url": "https://cooked.house",
+      "normalized_url": "https://cooked.house/",
+      "title": "Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS",
+      "title_ja": "親が子どもの過度なゲーム利用に対抗、独自FPSを自作",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI開発支援",
+        "ゲーム開発",
+        "個人開発",
+        "コーディング"
+      ],
+      "summary": "親がClaudeを使い、子どものRoblox過度利用に対抗するため独自ゲームを開発したという取り組み事例。",
+      "impact": "AIコーディング支援の実例として、個人開発や家庭向けプロジェクトの可能性を示すが、会社業務への直接的な影響はない。",
+      "notes": "Hacker News掲載で反応は限定的（ポイント6、コメント0）。詳細な技術内容や実装方法は公式資料で確認が必要。"
+    },
+    {
+      "url": "https://terminai.app",
+      "normalized_url": "https://terminai.app/",
+      "title": "Show HN: AI integrated in any terminal that's invisible until you need it",
+      "title_ja": "ターミナルに統合されたAI、必要なときだけ呼び出し",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発支援",
+        "ターミナル",
+        "セキュリティ確認必須"
+      ],
+      "summary": "ターミナル操作中にClaudeを利用できるツール。通常は見えず、必要時に呼び出して質問やコード支援が可能。",
+      "impact": "開発者がコマンド実行中にAI支援を受けられるようになる場合、導入前に情報セキュリティと利用ルールを確認する必要がある。",
+      "notes": "Hacker Newsの初期段階の投稿（ポイント3、コメント0）のため、内容の詳細と安定性の確認が必要。ターミナル経由のAPI利用となるため、認証情報やログの取り扱いをあらかじめ決める。"
+    },
+    {
+      "url": "https://twitter.com/plannotator/status/2073845811847512372",
+      "normalized_url": "https://twitter.com/plannotator/status/2073845811847512372",
+      "title": "Show HN: Open-source guided code reviews",
+      "title_ja": "オープンソースのコード審査支援ツール",
+      "published": "2026/07/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード審査",
+        "オープンソース",
+        "開発効率化"
+      ],
+      "summary": "Claudeを活用したコード審査を自動支援するオープンソースツールが公開された。",
+      "impact": "社内でコード審査の効率化を検討する際の選択肢として参考になる可能性がある。",
+      "notes": "実装内容や利用方法の詳細は公式リポジトリで確認する必要がある。"
+    }
+  ]
+}
