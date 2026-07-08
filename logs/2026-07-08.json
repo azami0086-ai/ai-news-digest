@@ -1,0 +1,150 @@
+{
+  "started_at": "2026-07-08T09:10:28.567996+09:00",
+  "finished_at": "2026-07-08T09:11:59.069083+09:00",
+  "fetched_per_source": {
+    "official": 17,
+    "hn": 88,
+    "arxiv": 0
+  },
+  "fetched_total": 105,
+  "after_dedupe": 102,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 0,
+  "count_excluded": 3,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/07/08.html",
+  "markdown_path": "output/2026-07-08_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33880,
+  "output_tokens": 4592,
+  "estimated_cost_usd": 0.05684,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/fill-with-gemini-in-sheets-now-available-in-11-additional-languages.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/fill-with-gemini-in-sheets-now-available-in-11-additional-languages.html",
+      "title": "Fill with Gemini in Sheets now available in 11 additional languages",
+      "title_ja": "Google Sheets の「Gemini で埋める」機能、11言語に対応",
+      "published": "2026/07/07",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Sheets",
+        "Gemini",
+        "多言語対応",
+        "データ処理",
+        "Google Workspace"
+      ],
+      "summary": "Google Sheets の Gemini 機能が 11 言語に対応した。テキスト生成やデータ分類などが複雑な式なしに使える。",
+      "impact": "国内チームが Google Sheets で日本語を使ったデータ処理を自動化できるようになる可能性がある。対応言語を確認する。",
+      "notes": "公式資料として読める。自社で Google Sheets を使う場合、生成内容の確認と責任者の決定が必要。"
+    },
+    {
+      "url": "https://openai.com/index/australian-payments-plus",
+      "normalized_url": "https://openai.com/index/australian-payments-plus",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "title_ja": "オーストラリア決済企業、ChatGPT EnterpriseとCodexで業務効率化",
+      "published": "2026/07/07",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "事例",
+        "Enterprise"
+      ],
+      "summary": "決済企業がChatGPT EnterpriseとCodexを使い、支払い処理の複雑さに対応しながら時間短縮と品質改善を実現している。",
+      "impact": "AI導入で時間と品質が改善できる実例として参考になる。自社の定型業務や複雑な処理での導入検討時に確認するとよい。",
+      "notes": "公式事例だが、具体的な運用方法や制限事項は抜粋から不明。実装前に詳細資料を確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "title_ja": "Gemini APIの管理型エージェント機能を拡張、バックグラウンド実行や外部接続に対応",
+      "published": "2026/07/07",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "API",
+        "エージェント",
+        "自動化",
+        "バックグラウンド処理"
+      ],
+      "summary": "GoogleがGemini APIの管理型エージェント機能を拡張し、バックグラウンドタスク実行と外部接続機能を追加した。",
+      "impact": "Gemini APIを使う開発部門は、より複雑な自動化タスクをAPI側で処理できるようになり、開発工数が減る可能性がある。",
+      "notes": "利用可否や価格、制限条件は公式資料で確認する。既存のGemini API利用契約や権限を確認してから試用するとよい。"
+    },
+    {
+      "url": "https://openai.com/index/mufg",
+      "normalized_url": "https://openai.com/index/mufg",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "title_ja": "MUFGがOpenAIと連携、ChatGPT Enterpriseで金融サービスを刷新",
+      "published": "2026/07/07",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT Enterprise",
+        "金融業界",
+        "AI導入事例",
+        "業務効率化"
+      ],
+      "summary": "MUFGがChatGPT Enterpriseを導入し、社内業務の効率化と新しいAI金融サービスの構築に取り組む。",
+      "impact": "大手金融機関のAI導入事例として、社内でChatGPT活用の検討材料になる可能性がある。",
+      "notes": "MUFGの具体的な利用方法や導入ルール、セキュリティ対応は別途確認が必要。"
+    },
+    {
+      "url": "https://brianni.co/blog/prove-were-not-lying",
+      "normalized_url": "https://brianni.co/blog/prove-were-not-lying",
+      "title": "Show HN: Brianni – AI chat on GPT/Claude/Gemini that we can't read (provable)",
+      "title_ja": "Brianni、AIチャットの会話内容を事業者も読めない仕組みを実装",
+      "published": "2026/07/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "プライバシー",
+        "暗号化",
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "セキュリティ"
+      ],
+      "summary": "BrianniはGPT・Claude・Geminiを使うチャットアプリで、会話内容を暗号化し開発者にも読めない設計にした。",
+      "impact": "AI利用時のプライバシー水準が高まるが、自社での導入時は暗号化の運用や監査ルール、緊急時のアクセス権限を確認する必要が生じる。",
+      "notes": "実装方法や信頼性の詳細は、ブログ記事で確認する。社内利用する場合は権限・監査・責任範囲を定める。"
+    },
+    {
+      "url": "https://www.cubic.dev/state-of-ai-coding-2026",
+      "normalized_url": "https://www.cubic.dev/state-of-ai-coding-2026",
+      "title": "Codex makes fewer bugs, but more people use Claude",
+      "title_ja": "Codexはバグ減だが、Claudeの利用者が増加",
+      "published": "2026/07/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "コード生成",
+        "開発ツール"
+      ],
+      "summary": "プログラミング向けAIツール比較で、Codexはバグが少ないが、Claudeの利用者数が上回っている状況が報告された。",
+      "impact": "社内で使うコード生成ツール選定時、バグの少なさと利用者数のどちらを重視するか判断材料になる。",
+      "notes": "詳細データと根拠が不明確。記事内容を確認した上で、自社の導入判断に反映させる。"
+    }
+  ]
+}
