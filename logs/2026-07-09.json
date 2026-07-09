@@ -1,0 +1,145 @@
+{
+  "started_at": "2026-07-09T09:19:42.119532+09:00",
+  "finished_at": "2026-07-09T09:20:52.609102+09:00",
+  "fetched_per_source": {
+    "official": 24,
+    "hn": 79,
+    "arxiv": 30
+  },
+  "fetched_total": 133,
+  "after_dedupe": 127,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 4,
+  "errors": [],
+  "html_path": "docs/2026/07/09.html",
+  "markdown_path": "output/2026-07-09_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33829,
+  "output_tokens": 4572,
+  "estimated_cost_usd": 0.056689,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.wsj.com/tech/ai/china-says-it-has-found-security-vulnerabilities-in-anthropics-claude-code-5ecf05dc",
+      "normalized_url": "https://www.wsj.com/tech/ai/china-says-it-has-found-security-vulnerabilities-in-anthropics-claude-code-5ecf05dc",
+      "title": "China Says It Has Found Security Vulnerabilities in Anthropic's Claude Code",
+      "title_ja": "中国、AnthropicのClaudeのコード脆弱性を発見と主張",
+      "published": "2026/07/08",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "脆弱性"
+      ],
+      "summary": "中国がAnthropicのClaudeに関するセキュリティ脆弱性を発見したと報告した。詳細は未確認。",
+      "impact": "Claudeを使う場合、脆弱性の内容・影響範囲・修正状況を確認してから利用判断する必要がある。",
+      "notes": "報告の詳細が確認できていない。Anthropicからの公式見解や修正情報を待つ。"
+    },
+    {
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "normalized_url": "https://openai.com/index/government-national-security-partnerships",
+      "title": "Our approach to government and national security partnerships",
+      "title_ja": "OpenAIが政府・国防機関とのAI利用について方針を発表",
+      "published": "2026/07/08",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "政府・公的機関",
+        "セキュリティ",
+        "利用ルール"
+      ],
+      "summary": "OpenAIが、政府や国防機関とAIを使う時の考え方を説明した。責任ある利用、民主的な説明責任、公共の安全が軸。",
+      "impact": "政府向けAIサービスの利用ルールが明確になる。自社が官公庁向けAI導入を進める場合、OpenAIの方針が参考になる。",
+      "notes": "公式資料として読める。自社で政府機関にAIサービスを提供する場合は、セキュリティと情報保護の基準を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "normalized_url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "title": "Separating signal from noise in coding evaluations",
+      "title_ja": "OpenAI、コード評価ベンチマークの問題を指摘",
+      "published": "2026/07/08",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "コード生成",
+        "評価・ベンチマーク",
+        "信頼性"
+      ],
+      "summary": "OpenAIが、コード評価の標準テスト「SWE-Bench Pro」に信頼性の問題があると指摘した。",
+      "impact": "AIコード生成ツールの実力判定が不正確な可能性があり、導入判断時の評価基準を見直す必要がある。",
+      "notes": "公式ブログ記事なので詳細は原文で確認する。自社がSWE-Bench Proの結果を参考に導入判断した場合は改めて検証するとよい。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "normalized_url": "https://openai.com/index/introducing-gpt-live",
+      "title": "Introducing GPT-Live",
+      "title_ja": "OpenAI、ChatGPTの新音声機能「GPT-Live」発表",
+      "published": "2026/07/08",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "音声機能",
+        "OpenAI",
+        "会話AI"
+      ],
+      "summary": "ChatGPTが新しい音声モデルを搭載し、人間らしい会話ができるようになった。",
+      "impact": "音声でChatGPTを使う際の応答性や自然さが向上するため、音声入力を活用している業務の品質が変わる可能性がある。",
+      "notes": "自社の音声利用ポリシーや保存ルールを確認する。"
+    },
+    {
+      "url": "https://github.com/rondoflow/rondoflow",
+      "normalized_url": "https://github.com/rondoflow/rondoflow",
+      "title": "Show HN: Visually orchestrate Claude Code agents",
+      "title_ja": "Claude Codeエージェントを視覚的に操作するツール",
+      "published": "2026/07/08",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Code",
+        "自動化",
+        "GUI",
+        "ツール"
+      ],
+      "summary": "ClaudeのCode機能を使うエージェントを、画面上で視覚的に組み立て・操作できるツール。",
+      "impact": "Claudeを使った複数ステップの自動化を、コード不要で設計・管理できる選択肢が増える。",
+      "notes": "まだ初期段階で、実務利用には動作確認と権限設定の検討が必要。"
+    },
+    {
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "normalized_url": "https://openai.com/index/k-12-educators-practical-skills",
+      "title": "Helping K–12 educators build practical AI skills",
+      "title_ja": "OpenAI、K-12教育者向けのAI実践スキル講座を開始",
+      "published": "2026/07/08",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "教育",
+        "スキル育成",
+        "K-12"
+      ],
+      "summary": "OpenAIとウォルトン・ファミリー財団がK-12教育者向けの実践的なAIスキル講座を提供し、教室での活用を支援する。",
+      "impact": "学校現場でのChatGPT活用が広がる可能性があるため、教育機関との連携やAI導入の動きを把握する必要がある。",
+      "notes": "日本の学校導入にはこのプログラムの詳細確認が不要だが、海外拠点や教育機関との取引がある場合は参考になる可能性がある。"
+    }
+  ]
+}
