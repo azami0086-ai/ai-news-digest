@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-07-10T09:17:23.548984+09:00",
+  "finished_at": "2026-07-10T09:18:47.861400+09:00",
+  "fetched_per_source": {
+    "official": 28,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 132,
+  "after_dedupe": 129,
+  "recorded_duplicate_excluded_count": 11,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 3,
+  "count_b": 6,
+  "count_c": 1,
+  "count_excluded": 0,
+  "errors": [],
+  "html_path": "docs/2026/07/10.html",
+  "markdown_path": "output/2026-07-10_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33939,
+  "output_tokens": 4769,
+  "estimated_cost_usd": 0.057784,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "normalized_url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "title_ja": "GPT-5.6がMicrosoft 365 Copilotの主要モデルに",
+      "published": "2026/07/09",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.6",
+        "Microsoft 365",
+        "Copilot",
+        "Word",
+        "Excel",
+        "PowerPoint"
+      ],
+      "summary": "OpenAIのGPT-5.6がMicrosoft 365 Copilotで採用され、Word・Excel・PowerPointなど各アプリで動作するようになった。",
+      "impact": "自社でMicrosoft 365を使う場合、Copilotの出力品質や対応範囲が変わるため、業務での使い方を見直す必要がある。",
+      "notes": "GPT-5.6の具体的な能力・制限・コスト影響を確認してから社内利用ルールを適用する。"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "normalized_url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "title_ja": "ChatGPT、複数アプリを操作して仕事を完結させる機能を追加",
+      "published": "2026/07/09",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "エージェント機能",
+        "アプリ統合",
+        "セキュリティ",
+        "利用ルール"
+      ],
+      "summary": "ChatGPTが複数のアプリやファイルを操作して、目標を完成した成果物に変えるエージェント機能を提供する。",
+      "impact": "社内のChatGPT利用ルールで、アプリ操作権限や接続可能なサービス、データ保存先の制限を改めて確認する必要が生じる。",
+      "notes": "アプリケーション間の自動操作には、認証情報管理やデータアクセス権限の整理が必須。導入前に情報セキュリティ部門と協議する。"
+    },
+    {
+      "url": "https://discuss.ai.google.dev/t/gemini-2-5-flash-deprecated-without-warning-earlier-than-shutdown-date/174217",
+      "normalized_url": "https://discuss.ai.google.dev/t/gemini-2-5-flash-deprecated-without-warning-earlier-than-shutdown-date/174217",
+      "title": "Gemini 2.5 models accidentally deprecated early by Google",
+      "title_ja": "Gemini 2.5が予定より早く廃止、Google側のミス",
+      "published": "2026/07/09",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "API廃止",
+        "Google",
+        "緊急"
+      ],
+      "summary": "GoogleがGemini 2.5モデルを予告なく予定日より前に廃止した。ユーザーが利用できなくなる事態が発生。",
+      "impact": "Gemini 2.5を本番環境で使っている場合、代替モデルへの移行が急ぎ必要。API呼び出しがエラーになる可能性あり。",
+      "notes": "公式フォーラムでの報告のため、Google側が修正する可能性あり。自社で使っている場合は廃止状況を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "normalized_url": "https://openai.com/index/bio-bug-bounty",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "title_ja": "OpenAIが生物学分野の脆弱性報告制度を開始",
+      "published": "2026/07/09",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "セキュリティ",
+        "利用ルール"
+      ],
+      "summary": "OpenAIが生物学関連の脆弱性や誤用リスクを報告する制度を立ち上げた。",
+      "impact": "生物学情報の利用時に、会社で報告ルールや利用制限の必要性を検討する材料になる。",
+      "notes": "詳細な報告対象や報告方法は公式資料で確認する。社内でのGPT利用時に対象外かどうか判断する。"
+    },
+    {
+      "url": "https://openai.com/index/gpt-5-6",
+      "normalized_url": "https://openai.com/index/gpt-5-6",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "title_ja": "GPT-5.6：スケーラブルなフロンティア知能",
+      "published": "2026/07/09",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.6",
+        "新モデル",
+        "API",
+        "コスト効率"
+      ],
+      "summary": "OpenAIがGPT-5.6を発表。トークン当たりの知能向上と1ドルあたりの性能引き上げで、より高度な処理に対応する。",
+      "impact": "会社のChatGPT利用時、より複雑な業務や大量処理の精度・コスト効率が改善される可能性がある。契約条件の確認が必要。",
+      "notes": "新モデルの料金体系・API仕様・アクセス時期の詳細は公式資料で確認する。既存システムへの影響を事前に検討する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "normalized_url": "https://www.anthropic.com/news/hard-questions",
+      "title": "Inviting hard questions",
+      "title_ja": "難しい質問に向き合う―Anthropicの新しい取り組み",
+      "published": "2026/07/09",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "回答品質",
+        "AI性能"
+      ],
+      "summary": "AnthropicがClaudeの回答品質を高めるため、困難な質問への対応方法を改善する取り組みを開始した。",
+      "impact": "Claudeの利用時に、より正確で信頼できる回答が期待される。社内でClaudeを導入する際の評価材料になる。",
+      "notes": "詳細は公式記事で確認する。具体的な改善内容や適用時期は記事で説明されている可能性があるため、導入前に確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "normalized_url": "https://www.anthropic.com/news/reflect-with-claude",
+      "title": "Jul 9, 2026 Announcements Introducing a way to reflect on how you use Claude",
+      "title_ja": "Claudeの利用状況を振り返る機能が登場",
+      "published": "2026/07/09",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "利用機能",
+        "ユーザー機能"
+      ],
+      "summary": "AnthropicがClaudeの利用パターンを確認・分析できる機能を追加した。ユーザーが自分の使い方を把握しやすくなる。",
+      "impact": "Claudeの利用状況をデータで見られるようになり、社内での使用実績や効果測定の材料が増える。",
+      "notes": "詳細な機能内容と対象ユーザー、日本語対応状況を確認する必要がある。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/streamline-identity-lifecycle-management-in-Google-Workspace-with-new-inbound-SCIM-support.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/streamline-identity-lifecycle-management-in-Google-Workspace-with-new-inbound-SCIM-support.html",
+      "title": "Streamline identity lifecycle management in Google Workspace with new inbound SCIM support",
+      "title_ja": "Google Workspace、IDプロバイダとの同期機能を一般提供開始",
+      "published": "2026/07/09",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "ID管理",
+        "SCIM",
+        "自動化",
+        "アカウント管理"
+      ],
+      "summary": "Google Workspaceが、外部のID管理システムとリアルタイム同期する機能を一般提供。従業員のアカウント権限変更が自動で反映される。",
+      "impact": "IDプロバイダでのアカウント操作がWorkspaceに即座に反映されるため、アカウント管理の手動作業を削減できる。",
+      "notes": "自社のID管理システムがSCIM対応か確認する。権限変更時の反映範囲や遅延時間など動作仕様を事前に確認する。"
+    },
+    {
+      "url": "https://www.channelnewsasia.com/east-asia/china-anthropic-claude-code-ai-backdoor-security-alert-6240476",
+      "normalized_url": "https://www.channelnewsasia.com/east-asia/china-anthropic-claude-code-ai-backdoor-security-alert-6240476",
+      "title": "China warns of 'security backdoor' in Anthropic AI coding tool",
+      "title_ja": "中国がAnthropicのAIコーディングツールにセキュリティ警告",
+      "published": "2026/07/09",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "コード生成",
+        "中国"
+      ],
+      "summary": "中国がAnthropicのClaudeコーディング機能に関するセキュリティ上の懸念を表明した。",
+      "impact": "Claudeのコード生成機能を社内で使う場合、当該警告の具体的内容を確認し、コード検査や権限制限の必要性を判断する。",
+      "notes": "ハッカーニュースでの関心は低い（ポイント4、コメント0）。正式な根拠資料を確認する必要がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "normalized_url": "https://www.anthropic.com/news/ben-bernanke",
+      "title": "Jul 9, 2026 Announcements Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "title_ja": "元FRB議長ベン・バーナンキがAnthropicの長期利益信託に就任",
+      "published": "2026/07/09",
+      "source": "Anthropic News",
+      "importance": "C",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "ガバナンス",
+        "企業信頼性"
+      ],
+      "summary": "Anthropicが、元米国中央銀行議長のベン・バーナンキを長期利益信託の役員に任命した。",
+      "impact": "Anthropicのガバナンスと信頼性強化の方向性を示すものであり、AI企業の社会的責任体制の動向を参考にできる。",
+      "notes": "公式資料として扱える。自社のAIベンダー評価時に参考にするとよい。"
+    }
+  ]
+}
