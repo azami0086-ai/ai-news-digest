@@ -1,0 +1,214 @@
+{
+  "started_at": "2026-07-12T09:08:58.743186+09:00",
+  "finished_at": "2026-07-12T09:10:09.170167+09:00",
+  "fetched_per_source": {
+    "official": 15,
+    "hn": 73,
+    "arxiv": 30
+  },
+  "fetched_total": 118,
+  "after_dedupe": 116,
+  "recorded_duplicate_excluded_count": 15,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 5,
+  "count_c": 5,
+  "count_excluded": 6,
+  "errors": [
+    "analyze failed for 'See more': no JSON found in response"
+  ],
+  "html_path": "docs/2026/07/12.html",
+  "markdown_path": "output/2026-07-12_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 19,
+  "input_tokens": 32048,
+  "output_tokens": 4231,
+  "estimated_cost_usd": 0.053203,
+  "fallback_used": true,
+  "api_error": true,
+  "api_error_type": "unknown_api_error",
+  "api_error_message_sanitized": "no JSON found in response",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://mentedb.com",
+      "normalized_url": "https://mentedb.com/",
+      "title": "Persistent memory for Claude Code that survives context compaction",
+      "title_ja": "Claude Codeにコンテキスト圧縮後も残るメモリ機能",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Code",
+        "メモリ機能",
+        "コンテキスト管理"
+      ],
+      "summary": "ClaudeのCode機能で、会話履歴を圧縮しても保持される永続的なメモリ機能が追加された。",
+      "impact": "Claude利用時にコンテキストを消費せずに情報を保存できるため、長期的な作業や複数プロジェクトの管理が効率化される可能性がある。",
+      "notes": "機能詳細が未確認のため、自社で利用する場合はClaudeの公式リリースノートで機能範囲・制限・データ保存先を確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/nikvdp/searxng-ai-kit",
+      "normalized_url": "https://github.com/nikvdp/searxng-ai-kit",
+      "title": "Show HN: Standalone SearXNG CLI+MCP (no server needed)",
+      "title_ja": "SearXNG を Claude で使えるツール、サーバー不要で公開",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "検索ツール",
+        "MCP（Model Context Protocol）",
+        "スタンドアロン",
+        "SearXNG"
+      ],
+      "summary": "検索エンジン SearXNG を Claude から直接使えるスタンドアロン型ツール。サーバー立ち上げなしで、CLI とプラグイン形式で動作する。",
+      "impact": "Claude でローカル検索が可能になれば、社内データや非公開サイトの検索が業務で活用できる可能性がある。実装の手間と自社対応範囲を確認する。",
+      "notes": "GitHub のコード公開直後で機能・安定性は未確認。会社で使う場合は、検索対象の権限範囲と出力の精度を事前にテストする。"
+    },
+    {
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366",
+      "normalized_url": "https://www.theregister.com/ai-and-ml/2026/07/01/anthropic-is-removing-its-covert-code-for-catching-chinese-competitors/5265366",
+      "title": "Secret Claude tracker surprises users after Anthropic's anti-surveillance stance",
+      "title_ja": "Anthropicが隠れた追跡機能を削除、ユーザーから指摘受け",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "プライバシー",
+        "利用ルール"
+      ],
+      "summary": "Anthropicが、Claudeに組み込んでいた追跡機能を削除した。利用者が発見し批判されたため対応した。",
+      "impact": "Claude利用時の個人情報扱いや利用ログの管理方針を改めて確認する必要がある。",
+      "notes": "根拠URLの記事内容が現在不確認のため、Anthropic公式声明で詳細を確認する。"
+    },
+    {
+      "url": "https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/",
+      "normalized_url": "https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521",
+      "title": "I used to love Claude, but the latest models are slowly ruining it",
+      "title_ja": "Claude最新版に対するユーザーの不満が増加",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI利用ルール",
+        "モデル更新"
+      ],
+      "summary": "Claudeの最新モデルについてユーザーから動作や仕様の変更に対する批判が出ている。",
+      "impact": "社内でClaudeを利用している場合、最新版への更新時に出力品質や動作の変化を確認する必要がある。",
+      "notes": "記事本体にアクセスして具体的な不満内容を確認した上で、実際の運用への影響を判断する。"
+    },
+    {
+      "url": "https://index.canopii.dev",
+      "normalized_url": "https://index.canopii.dev/",
+      "title": "Show HN: A Trust Index for MCP Servers",
+      "title_ja": "MCP サーバーの信頼度指標、開発者向けに公開",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "MCP",
+        "セキュリティ",
+        "ツール連携",
+        "信頼評価"
+      ],
+      "summary": "Claude向けツール連携規格MCPサーバーの信頼性を指標化するサイトが登場。導入前の審査参考になる。",
+      "impact": "Claude利用時にMCPサーバーを選ぶ際、信頼度指標を判断基準に加えられる。自社で外部ツール連携を許可する前の確認材料になる。",
+      "notes": "詳細内容は未確認。自社で使う場合は、指標の算出ルール・更新頻度・対象範囲を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "normalized_url": "https://www.anthropic.com/news",
+      "title": "See more",
+      "title_ja": "See more",
+      "published": "2026/07/09",
+      "source": "Anthropic News",
+      "importance": "C",
+      "tags": [
+        "Claude"
+      ],
+      "summary": "See more",
+      "impact": "未分析。会社での使い方は手動で確認する。",
+      "notes": "AI解析未実施"
+    },
+    {
+      "url": "https://www.runaether.dev/",
+      "normalized_url": "https://www.runaether.dev/",
+      "title": "Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch",
+      "title_ja": "Aether – Claude Code やコード実行ツールを監視可能な開発環境で実行",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード実行",
+        "開発環境",
+        "セキュリティ"
+      ],
+      "summary": "Claude Code など複数のコード実行ツールを、ブラウザから監視・制御できる開発環境を提供するサービス。",
+      "impact": "AIがコードを書いて実行する場合、動作を見守り途中で止める仕組みが使える。自社でAIコード実行を試す際の検討候補になる可能性がある。",
+      "notes": "初期段階のサービス（HNでの注目度は低い）。実務導入前に機能・料金・セキュリティを確認する。"
+    },
+    {
+      "url": "https://openbenchmarks.com",
+      "normalized_url": "https://openbenchmarks.com/",
+      "title": "Show HN: OpenBenchmarks – Helping agents discover and pick the right SaaS APIs",
+      "title_ja": "OpenBenchmarks：AIエージェントが適切なSaaS APIを選ぶのを支援",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "AI導入",
+        "SaaS API",
+        "エージェント",
+        "ベンチマーク",
+        "Claude"
+      ],
+      "summary": "AIエージェントが複数のSaaS APIから最適なものを選べるようにするベンチマークツールが登場した。",
+      "impact": "AIエージェント導入時にAPI選定の判断基準が増えるため、事前検証の工数を考慮する必要がある。",
+      "notes": "実装例・対応API一覧・Claude利用の詳細は未確認。自社で使う場合は実装可能性を確認する。"
+    },
+    {
+      "url": "https://github.com/raine/claude-code-proxy",
+      "normalized_url": "https://github.com/raine/claude-code-proxy",
+      "title": "Show HN: Use GPT-5.6 and other models in Claude Code",
+      "title_ja": "Claude Codeで複数のAIモデルを使える仕組みが公開",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "複数モデル連携",
+        "開発者向けツール"
+      ],
+      "summary": "GitHubで、Claude Code内からGPT-5.6など他社のAIモデルを呼び出せるプロキシツールが公開された。",
+      "impact": "Claude使用時に他社モデルも選択肢に入る可能性があるが、会社のセキュリティ・API利用ルールを確認してから導入する。",
+      "notes": "Hacker Newsでの反応は限定的（ポイント1件）。実際に社内で使う場合は、データ送信先・API管理・利用許可を確認する。"
+    },
+    {
+      "url": "https://claudelines.com",
+      "normalized_url": "https://claudelines.com/",
+      "title": "Show HN: Share and explore custom Claude Code status lines",
+      "title_ja": "Claude Code向けカスタムステータス行の共有サイト登場",
+      "published": "2026/07/11",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "カスタマイズ",
+        "コード機能"
+      ],
+      "summary": "Claudeのコード実行機能向けに、カスタムステータス行を共有・探索できるサイトが開設された。",
+      "impact": "Claude Codを社内で使う場合、カスタマイズ例を参考にできる。ただし利用には自社ルール確認が必要。",
+      "notes": "サイトの詳細と使い方は未確認。Claudeのコード機能を使う際、カスタマイズの安全性と会社の利用ポリシーを確認する。"
+    }
+  ]
+}
