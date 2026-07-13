@@ -1,0 +1,217 @@
+{
+  "started_at": "2026-07-13T09:08:59.496493+09:00",
+  "finished_at": "2026-07-13T09:10:14.762453+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 75,
+    "arxiv": 30
+  },
+  "fetched_total": 110,
+  "after_dedupe": 109,
+  "recorded_duplicate_excluded_count": 6,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 8,
+  "count_c": 2,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/07/13.html",
+  "markdown_path": "output/2026-07-13_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33756,
+  "output_tokens": 4570,
+  "estimated_cost_usd": 0.056606,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "normalized_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "title_ja": "Claude Codeは入力前に3.3万トークン送信、OpenCodeは7000トークン",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "OpenAI",
+        "API",
+        "コスト",
+        "トークン",
+        "ベンチマーク"
+      ],
+      "summary": "Claude CodeとOpenCodeのトークン効率を比較したベンチマーク。Claude Codeはプロンプト読み込み前の事前送信が多く、コスト面で非効率。",
+      "impact": "Claude使用時のAPI利用料が予想より高くなる可能性。AI利用コストの見直しやモデル選択判断の材料になる。",
+      "notes": "詳細な計測方法や条件を確認する必要がある。自社の実際の利用パターンと結果が合致するか検証してから判断する。"
+    },
+    {
+      "url": "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion",
+      "normalized_url": "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion",
+      "title": "Claude Code May–July 2026 weekly limits promotion",
+      "title_ja": "Claude Codeの利用制限が2026年5月〜7月に緩和",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "利用制限",
+        "プロモーション"
+      ],
+      "summary": "AnthropicがClaude Codeのウィークリーリミットを一時的に緩和するプロモーションを実施している。",
+      "impact": "Claude Codeを多用する部門では、この期間に制限内容を確認し、プロモーション終了後のルール変更に備える必要がある。",
+      "notes": "プロモーション終了時期と制限内容の変更を事前に確認する。公式ドキュメントで詳細を読むとよい。"
+    },
+    {
+      "url": "https://github.com/ninjahawk/Confessor",
+      "normalized_url": "https://github.com/ninjahawk/Confessor",
+      "title": "Show HN: Confessor – replay what private info Claude Code accessed on your PC",
+      "title_ja": "Claude Codeが閲覧した個人情報をPC上で追跡するツール登場",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "セキュリティ",
+        "ローカル利用",
+        "個人情報アクセス"
+      ],
+      "summary": "Claude Codeがアクセスした個人情報を記録・再生できるツール「Confessor」がGitHubで公開された。",
+      "impact": "Claude Codeをローカルで使う場合、アクセス履歴の追跡と透明性確保が求められる可能性がある。",
+      "notes": "ツールの動作内容・信頼性は未確認。自社でClaude Codeを使う前に、アクセス権限・ログ記録・監視ルールを確認する。"
+    },
+    {
+      "url": "https://www.qxlabs.com",
+      "normalized_url": "https://www.qxlabs.com/",
+      "title": "Show HN: QX Labs – build agents, flows and grids that work across your tools",
+      "title_ja": "QX Labs：複数ツール間で動作するエージェント・フロー・グリッドを構築",
+      "published": "2026/07/09",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "AI_エージェント",
+        "ワークフロー自動化",
+        "Google_Workspace",
+        "SaaS連携",
+        "ノーコード"
+      ],
+      "summary": "QX Labsは複数のビジネスツール間で連携するAIエージェントやワークフロー、データグリッドを作成できるプラットフォーム。Google Workspaceなど既存ツールと統合可能。",
+      "impact": "Google WorkspaceなどSaaSツール間のデータ連携や定型業務の自動化が簡単になる可能性がある。自社の連携ツール対応状況を確認する価値がある。",
+      "notes": "ベータ版段階の可能性がある。実際の対応ツール、セキュリティ、データ保存先、権限制御を公式サイトで確認する。"
+    },
+    {
+      "url": "https://xcancel.com/claudeai/status/2076351399999557669",
+      "normalized_url": "https://xcancel.com/claudeai/status/2076351399999557669",
+      "title": "We're extending Claude Fable 5 access through July 19",
+      "title_ja": "Claude Fable 5のアクセス期間を7月19日まで延長",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "期間制限"
+      ],
+      "summary": "Anthropicが、Claude Fable 5の利用期限を7月19日まで延長すると発表した。",
+      "impact": "Claude Fable 5を試用中の場合、利用継続期間が明確になるため、運用スケジュール確認が必要。",
+      "notes": "詳細は公式アカウント確認で。Fable 5の正式リリース時期やその後の利用方法については未確認。"
+    },
+    {
+      "url": "https://twitter.com/claudeai/status/2076351399999557669",
+      "normalized_url": "https://twitter.com/claudeai/status/2076351399999557669",
+      "title": "Fable extended until 19 July",
+      "title_ja": "Claude向けプログラムFableの提供期限が7月19日まで延長",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Fable",
+        "サービス終了予定"
+      ],
+      "summary": "ClaudeのFableプログラムの提供終了日が7月19日まで延長される。",
+      "impact": "Fableを利用中の場合、7月19日までに代替手段への移行準備が必要になる可能性がある。",
+      "notes": "Fableの具体的な機能や移行方法は未確認。公式情報をClaudeの利用画面またはメールで確認する。"
+    },
+    {
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "normalized_url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households",
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "title_ja": "OpenAIが家庭向けの機能を拡充、ChatGPTの利用拡大を狙う",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "個人利用",
+        "ルール確認",
+        "アカウント管理"
+      ],
+      "summary": "OpenAIがChatGPTを家庭内での利用を想定した機能や料金プランを打ち出し、個人ユーザーの獲得を強化している。",
+      "impact": "会社支給のChatGPTと個人利用の境界が曖昧になる可能性があり、データ扱いや利用ルール、アカウント管理の見直しが必要になる可能性がある。",
+      "notes": "詳細は記事の全文確認が必要。会社での利用ルール上、家庭内利用との区別をどう管理するか検討する。"
+    },
+    {
+      "url": "https://hitsubscribe.com/surviving-the-great-commoditizer-stop-getting-good-at-chatgpt/",
+      "normalized_url": "https://hitsubscribe.com/surviving-the-great-commoditizer-stop-getting-good-at-chatgpt",
+      "title": "Stop Getting 'Good' at ChatGPT (2024)",
+      "title_ja": "ChatGPTの使い方を磨くだけでは不十分",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AIスキル",
+        "人材育成",
+        "競争力"
+      ],
+      "summary": "ChatGPTのスキルを高めるだけでなく、AIツールが一般的になった時代に競争力を保つ別の視点が必要との主張。",
+      "impact": "社員がAIツール導入を進める際、単なるプロンプト技術ではなく、業務全体での価値創造をどう設計するかを見直すきっかけになる。",
+      "notes": "Hacker Newsでの反応は限定的（ポイント3、コメント0）。記事の主要な主張内容を確認して、自社の人材育成方針に組み込むべきか検討する。"
+    },
+    {
+      "url": "https://gettheia.org/",
+      "normalized_url": "https://gettheia.org/",
+      "title": "Theia, a fact-checker that flags sycophancy from ChatGPT/Claude/Gemini",
+      "title_ja": "Claude・ChatGPT・Geminiへつらい文体を検知するツール「Theia」",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "出力検証",
+        "信頼性"
+      ],
+      "summary": "複数のAIが利用者に過度に同調する返答をしないか検査するツール。AIの出力が信頼できるか判断する手段の一つ。",
+      "impact": "社内でAI出力を活用する際、そのAIが実際の判断に偏った返答をしていないか事前チェックできる可能性がある。ただし実務での有効性は未検証。",
+      "notes": "ツール自体がベータ段階でAI検査精度が確立していない。自社での利用は導入前に専門家に相談する。"
+    },
+    {
+      "url": "https://sanbox.cloud",
+      "normalized_url": "https://sanbox.cloud/",
+      "title": "Show HN: Sanbox, batteries included sandboxes for AI agents",
+      "title_ja": "Sanbox：AI エージェント向けサンドボックス環境",
+      "published": "2026/07/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "AI安全性",
+        "サンドボックス",
+        "Claude",
+        "エージェント"
+      ],
+      "summary": "AIエージェントが安全に動作する隔離環境を提供するSanboxが公開された。",
+      "impact": "AI利用時のセキュリティ対策として、実行環境の隔離方法の選択肢が増える。",
+      "notes": "Claudeとの連携が示唆されているが、詳細は未確認。自社での利用可否は公式資料で確認する。"
+    }
+  ]
+}
