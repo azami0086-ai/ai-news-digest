@@ -1,0 +1,217 @@
+{
+  "started_at": "2026-07-14T09:05:44.853996+09:00",
+  "finished_at": "2026-07-14T09:06:55.713654+09:00",
+  "fetched_per_source": {
+    "official": 3,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 107,
+  "after_dedupe": 107,
+  "recorded_duplicate_excluded_count": 4,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 4,
+  "count_excluded": 5,
+  "errors": [],
+  "html_path": "docs/2026/07/14.html",
+  "markdown_path": "output/2026-07-14_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33761,
+  "output_tokens": 4445,
+  "estimated_cost_usd": 0.055986,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://software.rajivprab.com/2026/07/13/using-subagents-to-improve-claude-code/",
+      "normalized_url": "https://software.rajivprab.com/2026/07/13/using-subagents-to-improve-claude-code",
+      "title": "Using Subagents to Improve Claude Code Results: A Step-by-Step Guide",
+      "title_ja": "Claudeのコード生成を改善するサブエージェント活用法",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI開発",
+        "コード生成",
+        "プロンプト工学"
+      ],
+      "summary": "Claudeでコード生成の精度を上げるため、複数のサブエージェントを組み合わせる方法を説明した記事。",
+      "impact": "Claudeを使った開発で、出力チェックや修正を自動化できる仕組みを検討する参考になる。",
+      "notes": "HN での注目度が低い（ポイント2、コメント0）ため、一般向けの記事か確認する。"
+    },
+    {
+      "url": "https://github.com/lacion/fleet-deck",
+      "normalized_url": "https://github.com/lacion/fleet-deck",
+      "title": "Show HN: Fleet Deck – see every Claude Code session on your machine in one board",
+      "title_ja": "Fleet Deck – Claude Code のセッション管理ツールが公開",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "開発ツール",
+        "セッション管理"
+      ],
+      "summary": "Claude Code のセッション履歴を一つのボードで確認できるツールが GitHub で公開された。",
+      "impact": "Claude Code 利用時のセッション管理・監視が容易になる可能性がある。導入検討前に機能と権限範囲を確認する。",
+      "notes": "ツールは個人開発で、利用規約・セキュリティ・会社での許可状況を確認する必要がある。"
+    },
+    {
+      "url": "https://finterm.ai/",
+      "normalized_url": "https://finterm.ai/",
+      "title": "Show HN: Finterm.ai Bloomberg terminal for Claude Code",
+      "title_ja": "Finterm.ai：Claude Codeで動く金融データ端末",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "金融データ",
+        "ツール",
+        "未確認情報"
+      ],
+      "summary": "Claude Codeを使ってBloomberg terminalのような金融データ端末をつくるツール。リアルタイム株価や市場情報をClaude上で確認できる。",
+      "impact": "社内で金融データ確認が必要な場合、Claude Code経由で低コスト導入の選択肢が増える。既存ツール契約との使い分けを検討する。",
+      "notes": "出所のHacker Newsは開発者向けの投稿で、実用性や信頼性はまだ未確認。自社で使う場合はデータの正確性・遅延・セキュリティを確認する必要がある。"
+    },
+    {
+      "url": "https://leadstories.com/analysis/2026/07/google-gemini-synthid-detector-confuses-results-within-same-chat.html",
+      "normalized_url": "https://leadstories.com/analysis/2026/07/google-gemini-synthid-detector-confuses-results-within-same-chat.html",
+      "title": "Google Gemini's SynthID AI Watermark Detector Appears to Mix Up Results in Chat",
+      "title_ja": "Google Gemini、SynthIDの判定結果が同じチャット内で矛盾する",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "SynthID",
+        "AI生成検出",
+        "精度"
+      ],
+      "summary": "GeminiのAI生成検出機能SynthIDが、同じ対話内で矛盾した判定を返している問題が報告された。",
+      "impact": "AI生成コンテンツの検出精度に疑問がある。自社でSynthIDやGeminiの判定に頼る場合は、結果を鵜呑みにしない。",
+      "notes": "報道の詳細が限定的なため、Google公式の確認が必要。SynthID機能の利用有無を確認する。"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/prompting",
+      "normalized_url": "https://learn.chatgpt.com/docs/prompting",
+      "title": "Prompting",
+      "title_ja": "ChatGPTのプロンプティング公式ドキュメント公開",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "プロンプティング",
+        "公式資料"
+      ],
+      "summary": "ChatGPTを効果的に使うためのプロンプト作成方法をOpenAIが公式ドキュメントで説明した。",
+      "impact": "社内でChatGPT利用を進める際の基準や使い方をルール化するとき、公式資料として参照できる。",
+      "notes": "実務で使う場合は、自社の利用ルール（権限・保存先・機密度による制限）を先に決める。"
+    },
+    {
+      "url": "https://ads.openai.com/",
+      "normalized_url": "https://ads.openai.com/",
+      "title": "Advertise in ChatGPT – OpenAI Ads",
+      "title_ja": "OpenAI、ChatGPTに広告配信機能を開始",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "広告・マネタイズ",
+        "利用ルール",
+        "プライバシー"
+      ],
+      "summary": "OpenAIがChatGPTユーザーに向けた広告配信サービスを正式に提供開始。企業が広告を出稿できるプラットフォームが立ち上がった。",
+      "impact": "ChatGPT利用時に広告表示が増える可能性がある。社員の業務利用時に広告データの扱いや閲覧履歴の管理を確認する必要が出てくる。",
+      "notes": "広告配信に伴う個人データの利用範囲、ログ保存、社内利用ルールの見直しを検討する。"
+    },
+    {
+      "url": "https://docs.dev",
+      "normalized_url": "https://docs.dev/",
+      "title": "Show HN: Docs.dev – A docs site you own, where AI drafts and you edit in place",
+      "title_ja": "Docs.dev──AIが初稿を作成し編集できるドキュメント作成ツール",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "生成AI",
+        "ドキュメント作成",
+        "文書管理"
+      ],
+      "summary": "Claude Codeを使い、AIが文書の初稿を生成して、そのまま編集できるドキュメント管理サービス。",
+      "impact": "文書作成時にAIで初稿を生成し、その場で修正・完成させるワークフローが可能になる。",
+      "notes": "早期段階の発表のため、実際の利用可能性や機能範囲を確認する必要がある。"
+    },
+    {
+      "url": "https://medium.com/@Koukyosyumei/how-to-quantitatively-evaluate-prompt-quality-in-claude-code-and-codex-47f2f27f4bc5",
+      "normalized_url": "https://medium.com/@Koukyosyumei/how-to-quantitatively-evaluate-prompt-quality-in-claude-code-and-codex-47f2f27f4bc5",
+      "title": "How to Quantitatively Evaluate Prompt Quality in Claude Code and Codex",
+      "title_ja": "ClaudeとCodexのプロンプト品質を数値で評価する方法",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "プロンプト",
+        "品質評価",
+        "定量化"
+      ],
+      "summary": "ClaudeとCodexで使うプロンプトの質を定量的に測定・比較する方法を紹介している記事。",
+      "impact": "社内でAIに指示する際、プロンプトの良し悪しを客観的に判断できるようになり、精度向上に役立つ。",
+      "notes": "注目度が低い投稿のため、記事内容の確度は未確認。自社での活用前に実務適用性を検証する。"
+    },
+    {
+      "url": "https://github.com/Arman-Luthra/aftr",
+      "normalized_url": "https://github.com/Arman-Luthra/aftr",
+      "title": "Show HN: Make Production Ready Videos in After Effects Using Claude Code (OSS)",
+      "title_ja": "After EffectsでClaudeコードを使い映像制作を自動化するツール公開",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "動画・映像制作",
+        "オープンソース",
+        "自動化",
+        "After Effects"
+      ],
+      "summary": "ClaudeのコードAPI機能を使い、After Effectsで本番用動画を自動作成するオープンソースツールが公開された。",
+      "impact": "映像制作業務の一部をAIで自動化できるが、自社の動画制作フローに合うか確認してから導入を検討する。",
+      "notes": "GitHub上のプロジェクトのため、コード品質と継続管理を自社で確認する必要がある。"
+    },
+    {
+      "url": "https://duetbrowser.com/krnl-ss-redirect?k2vh",
+      "normalized_url": "https://duetbrowser.com/krnl-ss-redirect?k2vh",
+      "title": "Show HN: HTML, CSS and JavaScript in the Terminal",
+      "title_ja": "ターミナルでHTMLやCSSを実行するツール",
+      "published": "2026/07/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "開発ツール",
+        "ターミナル",
+        "HTML/CSS/JavaScript"
+      ],
+      "summary": "ターミナル上でHTML、CSS、JavaScriptを動かせるツールが開発された。ブラウザなしでWebコンテンツの動作確認ができる。",
+      "impact": "開発環境の整備方針に影響なし。ターミナル専用のUI確認が必要な場合のみ検討対象になる可能性がある。",
+      "notes": "技術者向けのツール。会社での業務利用を検討する前に、機能と制限範囲を確認する。"
+    }
+  ]
+}
