@@ -1,0 +1,221 @@
+{
+  "started_at": "2026-07-16T09:07:56.269433+09:00",
+  "finished_at": "2026-07-16T09:09:30.636379+09:00",
+  "fetched_per_source": {
+    "official": 20,
+    "hn": 73,
+    "arxiv": 0
+  },
+  "fetched_total": 93,
+  "after_dedupe": 91,
+  "recorded_duplicate_excluded_count": 9,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 7,
+  "count_c": 3,
+  "count_excluded": 1,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/07/16.html",
+  "markdown_path": "output/2026-07-16_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33869,
+  "output_tokens": 4790,
+  "estimated_cost_usd": 0.057819,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "normalized_url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "title": "The US is advancing AI safety through state and federal action",
+      "title_ja": "米国、州と連邦による「逆向き連邦制」でAI安全規制を推進",
+      "published": "2026/07/15",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI規制",
+        "ガバナンス",
+        "米国"
+      ],
+      "summary": "OpenAIが、州の法律を活用して全国統一のAI安全ルールを作る考え方を説明した。",
+      "impact": "企業のAI利用ルール検討時に、米国の規制動向を参考にする際の公式見解として参照できる。",
+      "notes": "日本企業の場合、米国規制との整合性を確認する必要があるため、自社での使用・参考は権限者に確認する。"
+    },
+    {
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "normalized_url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "title_ja": "OpenAI、自動攻撃テストでChatGPTの安全性を強化する新システム",
+      "published": "2026/07/15",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "安全性・セキュリティ",
+        "自動テスト",
+        "プロンプト注入対策"
+      ],
+      "summary": "OpenAIが自己対戦を使い、AIの安全性と耐性を自動で向上させるテストシステムを発表した。",
+      "impact": "ChatGPT利用時の想定外の指示や不正使用への耐性が強化され、業務利用の信頼性が高まる可能性がある。",
+      "notes": "実装時期や利用ユーザーへの影響範囲は未確認。公式資料として読むが、自社の安全要件との照合が必要。"
+    },
+    {
+      "url": "https://ddsboston.com/blogs/vibe-code-academy/ai-news-for-vibe-coders-daily-2026-07-15",
+      "normalized_url": "https://ddsboston.com/blogs/vibe-code-academy/ai-news-for-vibe-coders-daily-2026-07-15",
+      "title": "Claude Managed Agents add per-session overrides and lifecycle webhooks, Gemini",
+      "title_ja": "Claude Managed Agentsがセッション単位の設定とウェブフック機能を追加",
+      "published": "2026/07/15",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "API",
+        "自動化",
+        "ウェブフック"
+      ],
+      "summary": "Claudeの自動実行機能で、セッションごとの設定変更と外部システムとの連携機能が利用できるようになった。",
+      "impact": "社内でClaudeを使った自動化を進めている場合、システムとの連携やセッション管理の設計を見直すとよい。",
+      "notes": "Hacker Newsの低ポイント記事のため詳細が不明。公式ドキュメントで機能内容と制限範囲を確認する。"
+    },
+    {
+      "url": "https://www.kurrent.io/blog/when-your-coding-agent-doesnt-listen/",
+      "normalized_url": "https://www.kurrent.io/blog/when-your-coding-agent-doesnt-listen",
+      "title": "When your coding agent doesn't listen: evaluating a 241-turn Claude session",
+      "title_ja": "コーディングエージェントが指示に従わない場合",
+      "published": "2026/07/15",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コーディング",
+        "エージェント",
+        "長期対話",
+        "指示精度"
+      ],
+      "summary": "Claudeを使った241ターンの対話でコーディングエージェントが指示を守らない事例を評価した記事。",
+      "impact": "Claudeを開発補助やコード生成に使う場合、長い対話で指示が伝わりにくくなる可能性を認識する必要がある。",
+      "notes": "具体的な問題と対策は記事で確認する。自社でClaudeを運用する場合、長期の対話で指示確認の工夫が有効かテストするとよい。"
+    },
+    {
+      "url": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
+      "normalized_url": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
+      "title": "Jailbroken Gemini spun up new C2 server for Russian fraudster in just 6 minutes",
+      "title_ja": "セキュリティ制限を回避したGeminiが悪用される、C2サーバー構築に利用",
+      "published": "2026/07/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "セキュリティ",
+        "悪用事例",
+        "利用ルール"
+      ],
+      "summary": "セキュリティ制限を外したGeminiが、犯罪者に悪用されてサーバー構築に使われた事例が報告された。",
+      "impact": "AI利用時のセキュリティ制限の重要性が明らかになり、社内でAI利用ルール強化の検討が必要になる可能性がある。",
+      "notes": "詳細な攻撃手法や自社への影響は確認が必要。公開情報は限定的で、実務判断には詳細内容の確認が重要。"
+    },
+    {
+      "url": "https://mrkt30.com/dolphins-ai-and-copyright-the-strange-case-heading-to-europes-top-court/",
+      "normalized_url": "https://mrkt30.com/dolphins-ai-and-copyright-the-strange-case-heading-to-europes-top-court",
+      "title": "Google's Gemini is sued for summarizing a Hungarian news article",
+      "title_ja": "Geminiがハンガリーの記事要約で訴訟に直面",
+      "published": "2026/07/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "著作権",
+        "EU規制",
+        "法的リスク"
+      ],
+      "summary": "Geminiがハンガリーのニュースサイトコンテンツを無断で要約したことで法的問題が生じた。",
+      "impact": "AIモデルによるコンテンツ要約時の著作権リスクが現実化。社内のAI利用時に原著作権への配慮が必要。",
+      "notes": "EUの著作権規制が背景にある。自社のAI導入で外部コンテンツを扱う場合は法務に確認する。"
+    },
+    {
+      "url": "https://github.com/Zaimwa9/themis",
+      "normalized_url": "https://github.com/Zaimwa9/themis",
+      "title": "Show HN: Themis – Self-hosted AI code reviews with your own keys and models",
+      "title_ja": "Themis──自前モデルで動くセルフホステッド型コードレビューツール",
+      "published": "2026/07/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "コードレビュー",
+        "セルフホステッド",
+        "Gemini",
+        "AI利用ルール"
+      ],
+      "summary": "自社サーバで動かせるコードレビューツール。利用するAIモデルと認証情報を自分で管理できる。",
+      "impact": "社内のコード審査フローに外部AIサービスを使わずに導入できる。データ外流やライセンス懸念を軽くできる。",
+      "notes": "実装段階の可能性がある。社内で試す前に対応モデルと動作環境を確認する。"
+    },
+    {
+      "url": "https://backscroll.xyz",
+      "normalized_url": "https://backscroll.xyz/",
+      "title": "Show HN: Backscroll – search your ChatGPT/Claude/Gemini history",
+      "title_ja": "ChatGPT・Claude・Geminiの履歴検索ツール「Backscroll」",
+      "published": "2026/07/15",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "ツール",
+        "会話管理"
+      ],
+      "summary": "複数のAIチャットの過去の会話を一括検索できるツール。会社で複数AIを使う場合、昔の質問と回答を素早く見つけられる。",
+      "impact": "AIとの過去のやり取りが探しやすくなれば、再度の質問削減や過去の判断根拠の確認が効率化される可能性がある。",
+      "notes": "ツールの信頼性・セキュリティ・利用規約は未確認。会社で使う場合は、会話データの保存先と扱いを事前に確認する。"
+    },
+    {
+      "url": "https://github.com/OtoDock/oto-dock/",
+      "normalized_url": "https://github.com/OtoDock/oto-dock",
+      "title": "Show HN: OtoDock, run Claude Code and Codex as a team of agents on your server",
+      "title_ja": "OtoDock、Claude CodeとCodexを複数エージェントとしてサーバーで動作可能に",
+      "published": "2026/07/15",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "AI",
+        "エージェント",
+        "開発ツール",
+        "サーバー"
+      ],
+      "summary": "ClaudeとCodexを複数のエージェントとして動作させるツールOtoDockがGitHubで公開された。サーバーで統合して利用できる。",
+      "impact": "社内サーバーでClaudeを含むコード生成AIを連携させる運用を検討する際の選択肢が増える。",
+      "notes": "注目度が低く（HN points=2）、安定性・実運用での評判は未確認の段階。導入前に自社環境での動作確認が必要。"
+    },
+    {
+      "url": "https://github.com/anandgupta42/aireceipts",
+      "normalized_url": "https://github.com/anandgupta42/aireceipts",
+      "title": "Show HN: Aireceipts, itemized cost receipts for AI coding agents",
+      "title_ja": "AI コーディングエージェントの費用明細ツール「Aireceipts」",
+      "published": "2026/07/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "AI利用コスト管理",
+        "Gemini",
+        "開発者向けツール"
+      ],
+      "summary": "AI コーディングエージェントが使った API 呼び出しの費用を明細書形式で表示するツール。Gemini対応。",
+      "impact": "社内で複数のAIエージェントを使う場合、各案件やツールの利用コストを追跡・管理しやすくなる可能性がある。",
+      "notes": "未確認情報が多い。利用前に動作環境・対応モデル・ライセンスを確認する。"
+    }
+  ]
+}
