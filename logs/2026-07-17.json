@@ -1,0 +1,225 @@
+{
+  "started_at": "2026-07-17T09:10:49.737854+09:00",
+  "finished_at": "2026-07-17T09:12:09.360600+09:00",
+  "fetched_per_source": {
+    "official": 32,
+    "hn": 83,
+    "arxiv": 30
+  },
+  "fetched_total": 145,
+  "after_dedupe": 142,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 8,
+  "count_c": 2,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/07/17.html",
+  "markdown_path": "output/2026-07-17_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34325,
+  "output_tokens": 4918,
+  "estimated_cost_usd": 0.058915,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/expanded-language-support-for-gemini-in-Google-Docs.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/expanded-language-support-for-gemini-in-Google-Docs.html",
+      "title": "Expanded language support for Gemini in Google Docs",
+      "title_ja": "Google DocsのGemini機能、11言語に対応拡大",
+      "published": "2026/07/16",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "GoogleDocs",
+        "GoogleWorkspace",
+        "多言語対応",
+        "文書作成"
+      ],
+      "summary": "Google DocsのGemini機能が、中国語やオランダ語など11言語に新たに対応し、計19言語での利用が可能になった。",
+      "impact": "多言語ユーザーがGoogle Docsで自動作成機能を使えるようになるため、文書作成の業務範囲が広がる可能性がある。",
+      "notes": "自社の利用言語がリストに含まれるかで活用度が変わるため、対応言語を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/cast-yourself-in-ai-video-clips-using-your-personal-avatar-with-Gemini-Omni-in-Vids.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/cast-yourself-in-ai-video-clips-using-your-personal-avatar-with-Gemini-Omni-in-Vids.html",
+      "title": "Cast yourself in AI video clips using your personal avatar with Gemini Omni in Vids",
+      "title_ja": "Google Vidsで個人アバターを使ったAI動画作成が可能に",
+      "published": "2026/07/16",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "GoogleWorkspace",
+        "GoogleVids",
+        "GeminiOmni",
+        "AI動画生成",
+        "個人アバター",
+        "利用ルール確認"
+      ],
+      "summary": "Google VidsでGemini Omniを使い、自分の顔を登録した個人アバターでAI動画を作成できるようになった。",
+      "impact": "動画制作の手間が減り、プレゼンテーション資料や社内説明動画を簡単に作成できる。個人情報の取扱いルールを確認する必要がある。",
+      "notes": "顔認証で個人アバターを登録する仕組み。Google Accountで管理される。会社での利用前に、肖像権・個人情報・利用目的のルールを決める。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/generate-higher-quality-ai-video-clips-and-edit-any-video-with-Gemini-Omni-in-Vids.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/generate-higher-quality-ai-video-clips-and-edit-any-video-with-Gemini-Omni-in-Vids.html",
+      "title": "Generate higher quality AI video clips and edit any video with Gemini Omni in Vids",
+      "title_ja": "Google Vidsで動画生成・編集がGemini Omniに対応、品質向上",
+      "published": "2026/07/16",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "GoogleWorkspace",
+        "GoogleVids",
+        "GeminiOmni",
+        "動画生成",
+        "AI動画編集"
+      ],
+      "summary": "Google VidsでGemini Omniが直接利用でき、動画生成の品質が向上し、テキスト指示による動画編集も可能になった。",
+      "impact": "会社で動画作成する場合、Vidsの生成品質が上がり、編集作業の手間が減る可能性がある。Vids利用状況を確認するとよい。",
+      "notes": "Omni Flash等の新機能は段階的配信の可能性があるため、実装状況を確認する。会社で使う前に出力内容と著作権対応を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/cars24",
+      "normalized_url": "https://openai.com/index/cars24",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "title_ja": "Cars24、OpenAIの音声・チャットエージェントで月間100万分の会話対応",
+      "published": "2026/07/16",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI音声対応",
+        "カスタマーサポート",
+        "業務自動化",
+        "エージェント"
+      ],
+      "summary": "Cars24がOpenAIのエージェント機能を導入し、音声とチャットで月間100万分以上の顧客対応を自動化。失注した見込み客の12%を回復した。",
+      "impact": "チャットボットやAIエージェントの社内導入を検討する際、大規模な会話処理と顧客接点の改善事例を参考にできる。",
+      "notes": "具体的な技術仕様や運用ルールは原文で確認する。自社の顧客接点や音声対応の必要性を整理した上で検討するとよい。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/connected-apps",
+      "title": "Connect more of your apps to Search",
+      "title_ja": "Google検索でアプリ連携が広がる",
+      "published": "2026/07/16",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google検索",
+        "アプリ連携",
+        "社内システム連携"
+      ],
+      "summary": "GoogleがGeminiの検索機能を通じて、より多くのアプリと連携できるようにした。ユーザーは検索結果からアプリ内の情報に直接アクセスできるようになる。",
+      "impact": "社内でGoogleサービスやGeminiを検索ツールとして使う場合、外部アプリとの連携が増える。業務システムとGoogleサービスの接続状況を確認する必要が出てくる。",
+      "notes": "アプリ連携に際して、会社のセキュリティポリシー・認証ルール・データ連携範囲を確認してから導入する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "title_ja": "Google Vidsで動画作成・編集・出演が可能に",
+      "published": "2026/07/16",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Google Vids",
+        "Gemini",
+        "動画生成",
+        "Google Workspace",
+        "生成AI"
+      ],
+      "summary": "GoogleがGoogle Vidsに新機能を追加し、テキストから動画を作成・編集できるようにした。",
+      "impact": "Google Workspace利用企業は、社内動画資料の作成に手作業が減る可能性がある。自社での利用許可・保存ルールを確認する時期になる。",
+      "notes": "公式発表のため公式資料として読める。会社で使う場合は、動画作成の権限・保存先・著作権・外部共有の可否を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "normalized_url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "title": "Why teens deserve access to safe AI",
+      "title_ja": "OpenAI、10代向けにChatGPTの安全機能を強化",
+      "published": "2026/07/16",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "安全性",
+        "10代向け",
+        "保護者対応",
+        "アクセス制御"
+      ],
+      "summary": "OpenAIが10代ユーザー向けにChatGPTを安全に使えるようにした。年齢に合わせた制限、学習機能、保護者向けコントロール、専門家との連携を導入。",
+      "impact": "会社が10代インターン・従業員の子どもへのAI利用を認める際、OpenAIの安全機能が参考になる。導入前にどの保護措置があるか確認するとよい。",
+      "notes": "公式資料として読める。自社で10代向けアクセスを許可する場合は、保護者同意と利用ルールを事前に決める。"
+    },
+    {
+      "url": "https://github.com/kunal12203/webify-mcp",
+      "normalized_url": "https://github.com/kunal12203/webify-mcp",
+      "title": "Fixed Deep research and web fetch in Claude Code : full open source",
+      "title_ja": "ClaudeのコードモードにWeb検索機能を追加、オープンソース化",
+      "published": "2026/07/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Code機能",
+        "Web検索",
+        "オープンソース",
+        "開発効率"
+      ],
+      "summary": "ClaudeのCode機能でWeb検索と情報取得ができるようにするツールがオープンソースで公開された。",
+      "impact": "Claudeを使った開発時にリアルタイム情報を参照でき、コード生成の精度向上が期待できる。自社の利用環境で動作確認が必要。",
+      "notes": "GitHubで公開されているが、導入前に動作環境・依存関係・セキュリティを確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html",
+      "title": "NotebookLM is now Gemini Notebook",
+      "title_ja": "NotebookLMが「Gemini Notebook」に改称",
+      "published": "2026/07/16",
+      "source": "Google Workspace Updates",
+      "importance": "C",
+      "tags": [
+        "Google Workspace",
+        "Gemini Notebook",
+        "NotebookLM",
+        "名称変更"
+      ],
+      "summary": "GoogleがNotebookLMをGemini Notebookに改称する。研究ツールとしての機能は変わらず、Google生態系との連携を強化していく方針を示したもの。",
+      "impact": "社内でNotebookLMを使用している場合、数週間かけて名称とロゴが変わる。既存のノート共有リンクは自動でリダイレクトされる。",
+      "notes": "管理者による対応は不要。ユーザーが目にする名称変更が段階的に進む。"
+    },
+    {
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "normalized_url": "https://deepmind.google/blog/our-approach-to-bioresilience",
+      "title": "Our approach to bioresilience",
+      "title_ja": "Google DeepMindが生物系システムの強靱性に向けたAIの活用方針を公開",
+      "published": "2026/07/16",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Google DeepMind",
+        "生物学",
+        "AI活用方針",
+        "医薬品開発"
+      ],
+      "summary": "Google DeepMindとIsomorphic Labsが、生物学分野でAIモデルをどう使うかの考え方を説明した。",
+      "impact": "医薬品開発や生物学研究でのAI活用ルールが示される可能性があり、自社での生物学関連AIプロジェクト評価に参考になる。",
+      "notes": "詳細な内容は公式資料で確認する。生物系の開発・研究部門がある場合は一読する。"
+    }
+  ]
+}
