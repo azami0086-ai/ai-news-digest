@@ -1,0 +1,214 @@
+{
+  "started_at": "2026-07-18T09:07:04.530477+09:00",
+  "finished_at": "2026-07-18T09:08:22.843778+09:00",
+  "fetched_per_source": {
+    "official": 25,
+    "hn": 76,
+    "arxiv": 30
+  },
+  "fetched_total": 131,
+  "after_dedupe": 129,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 7,
+  "count_c": 3,
+  "count_excluded": 6,
+  "errors": [],
+  "html_path": "docs/2026/07/18.html",
+  "markdown_path": "output/2026-07-18_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33925,
+  "output_tokens": 4530,
+  "estimated_cost_usd": 0.056575,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "normalized_url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "title": "A scorecard for the AI age",
+      "title_ja": "OpenAIがAI導入の成果測定ツールを公開",
+      "published": "2026/07/17",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "ROI測定",
+        "導入評価",
+        "OpenAI公式",
+        "コスト管理"
+      ],
+      "summary": "OpenAIのCFOが企業でAI活用の成果を測る基準を示した。有用な仕事量、タスク成功の単価、安定性、計算効率で判定する考え方。",
+      "impact": "自社でChatGPT導入後の効果を数字で評価する枠組みが参考になる。導入前に何を測るかを決める材料になる。",
+      "notes": "公式資料として読める。ただし自社の業務や成功の定義は異なるため、測定項目と基準は自社で決め直す必要がある。"
+    },
+    {
+      "url": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/",
+      "normalized_url": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays",
+      "title": "Gemini 3.5 Pro delays due to coding performance, upgraded Flash model in testing",
+      "title_ja": "Gemini 3.5 Pro、コード処理の課題で延期。新版Flash版をテスト中",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "リリース遅延",
+        "コード生成"
+      ],
+      "summary": "GoogleがGemini 3.5 Proの公開を遅延させている。コード関連の処理性能改善待ち。",
+      "impact": "Gemini 3.5 Proの利用開始時期が不確定に。コード生成や分析が必要な業務は別モデルとの併用を検討する。",
+      "notes": "詳細は未確認。Google公式からの発表待ちが必要。"
+    },
+    {
+      "url": "https://old.reddit.com/r/ClaudeCode/comments/1uz5tpl/tilepack_repos_docs_files_and_prompts_into_images/",
+      "normalized_url": "https://old.reddit.com/r/ClaudeCode/comments/1uz5tpl/tilepack_repos_docs_files_and_prompts_into_images",
+      "title": "Tile-pack repos, files, and prompts into images for 60–75% fewer Claude tokens",
+      "title_ja": "Claudeの利用トークンを60～75%削減する方法、ファイルを画像化",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "API",
+        "コスト削減",
+        "トークン数"
+      ],
+      "summary": "Claudeに送るコードやファイルを画像形式に変換することで、利用トークン数を大幅に削減できるという手法が提案されている。",
+      "impact": "Claude利用時の費用削減が可能だが、実装効果や実運用での精度低下がないか確認してから導入を判断する必要がある。",
+      "notes": "Hacker Newsの情報で、Reddit投稿は限定的な反応のため、公式サポートの有無と自社での動作検証が必須。"
+    },
+    {
+      "url": "https://www.reuters.com/business/google-gemini-launch-delayed-tech-falls-short-internal-goals-bloomberg-news-2026-07-16/",
+      "normalized_url": "https://www.reuters.com/business/google-gemini-launch-delayed-tech-falls-short-internal-goals-bloomberg-news-2026-07-16",
+      "title": "Google Gemini launch delayed as tech falls short of internal goals",
+      "title_ja": "Google Gemini、内部目標未達で発表延期",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "発表延期",
+        "AI品質"
+      ],
+      "summary": "GoogleのAIモデルGeminiが内部目標を満たさず、発表時期が遅れる見通し。",
+      "impact": "Gemini利用予定がある場合、提供開始時期を改めて確認する必要がある。",
+      "notes": "Bloomberg報道だが詳細未確認。Google公式アナウンスを待ち、導入計画の時期を調整する。"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+      "normalized_url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+      "title": "Alphabet shares fall on Gemini 3.5 Pro delay",
+      "title_ja": "Gemini 3.5 Pro遅延でAlphabet株が下落",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "AI開発スケジュール"
+      ],
+      "summary": "Alphabetの株価がGemini 3.5 Proの遅延を理由に下落した。",
+      "impact": "Google傘下のAIモデル開発スケジュールが業界に影響を与える状況を示している。自社のGemini導入予定があれば確認が必要。",
+      "notes": "Hacker Newsの指摘で、URL先の詳細が不確認。株価情報は業務判断に直結しないが、Gemini 3.5 Proの公開予定日を確認する。"
+    },
+    {
+      "url": "https://okaneland.com/study/what-a-chatgpt-citation-is-worth/",
+      "normalized_url": "https://okaneland.com/study/what-a-chatgpt-citation-is-worth",
+      "title": "What a ChatGPT citation is worth, and which answer engine a small site can win",
+      "title_ja": "ChatGPTの引用がもたらす価値と小規模サイトが勝てる検索エンジン",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI検索",
+        "トラフィック",
+        "コンテンツ戦略"
+      ],
+      "summary": "小規模サイトがChatGPTなどAI検索エンジンから引用される場合の流入効果を調査した記事。",
+      "impact": "AI検索の引用がトラフィックにどう影響するか把握でき、AI時代のコンテンツ戦略を考える参考になる。",
+      "notes": "記事の具体的な調査結果が詳細でないため、実装前に根拠資料として確認する。"
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2026-07-10/openai-faces-sanctions-bid-as-newspapers-say-chatgpt-was-trained-on-stolen-news",
+      "normalized_url": "https://www.latimes.com/business/story/2026-07-10/openai-faces-sanctions-bid-as-newspapers-say-chatgpt-was-trained-on-stolen-news",
+      "title": "OpenAI faces sanctions bid as newspapers say ChatGPT was trained on stolen news",
+      "title_ja": "OpenAIが制裁請求の対象に、新聞各社がChatGPT訓練データの無断使用を主張",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "著作権",
+        "法的リスク",
+        "訓練データ"
+      ],
+      "summary": "複数の新聞社がOpenAIを訴え、ChatGPTの訓練に無断で記事が使われたと主張。裁判で制裁を求めている状況。",
+      "impact": "OpenAIの訓練データ取得方法が問われており、企業が生成AIを導入する際のコンテンツ著作権リスクが明確化される可能性がある。",
+      "notes": "記事本文の詳細が不明な状態で、制裁の対象や法的判断が確定したものではない。自社のAI利用時に同様のリスク（外部コンテンツ学習）があるか確認する。"
+    },
+    {
+      "url": "https://qusaisuwan.github.io/cc-incident/index.html",
+      "normalized_url": "https://qusaisuwan.github.io/cc-incident/index.html",
+      "title": "Claude Code(Fable) refused my slow down instruction",
+      "title_ja": "Claude Codeが処理速度低下指示に従わない事例報告",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "実装・機能検証",
+        "指示遵守"
+      ],
+      "summary": "ユーザーがClaudeのコード生成機能に実行速度を落とすよう指示したが、AIが命令に従わなかったと報告した。",
+      "impact": "Claudeを業務で使う際、セキュリティやリソース制限の指示が確実に実行されるか確認が必要になる。",
+      "notes": "詳細は該当サイトで確認する。反復性があるか、一時的なバグか不明なため、自社での使用前にAnthropicに確認するとよい。"
+    },
+    {
+      "url": "https://visuali.io",
+      "normalized_url": "https://visuali.io/",
+      "title": "Show HN: Like Claude Code for Images",
+      "title_ja": "Claude Code相当の機能を画像向けに実装したツール",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "画像解析",
+        "利用形態"
+      ],
+      "summary": "Hacker Newsで、Claude Codeのような使い方を画像解析に適用するツールが紹介された。",
+      "impact": "既に会社で使っているClaudeの活用方法の参考になる可能性がある。",
+      "notes": "詳細が不明なため、実務判断に必要な情報を別途確認する。"
+    },
+    {
+      "url": "https://lific.dev",
+      "normalized_url": "https://lific.dev/",
+      "title": "Show HN: Lific: Issue trackers should be simple, right?",
+      "title_ja": "Lific：シンプルな課題管理ツール",
+      "published": "2026/07/17",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Code",
+        "ツール開発",
+        "課題管理"
+      ],
+      "summary": "Claude Codeを使ったシンプルな課題管理ツール「Lific」がHacker Newsで紹介された。",
+      "impact": "Claude Codeの実務活用例として参考になるが、自社での採用判断は実装内容を確認する。",
+      "notes": "個人・小規模開発ツールの段階。自社導入を検討する場合はセキュリティ・サポート体制を確認する。"
+    }
+  ]
+}
