@@ -1,0 +1,216 @@
+{
+  "started_at": "2026-07-19T09:08:13.948852+09:00",
+  "finished_at": "2026-07-19T09:09:34.229718+09:00",
+  "fetched_per_source": {
+    "official": 18,
+    "hn": 75,
+    "arxiv": 30
+  },
+  "fetched_total": 123,
+  "after_dedupe": 121,
+  "recorded_duplicate_excluded_count": 20,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 4,
+  "count_c": 6,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/07/19.html",
+  "markdown_path": "output/2026-07-19_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33775,
+  "output_tokens": 4536,
+  "estimated_cost_usd": 0.056455,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "normalized_url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "title": "Responsible Scaling Policy",
+      "title_ja": "Anthropicが責任あるスケーリング方針を更新",
+      "published": "",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "安全性",
+        "ポリシー"
+      ],
+      "summary": "Anthropicが、AIモデルの性能向上時に安全性を確保する取り組みの方針を更新した。",
+      "impact": "Claudeの今後の改善や新版リリース時に、安全性チェックの基準や方法が変わる可能性がある。",
+      "notes": "方針の詳細内容は抜粋不足で未確認。公式資料を読んで自社のClaudeの使い方に制限が必要か確認する。"
+    },
+    {
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "normalized_url": "https://ykdojo.github.io/claude-controls-mac",
+      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "title_ja": "Claude Code が Mac を操作する環境構築ガイド",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "Mac操作自動化",
+        "リモートコントロール",
+        "セキュリティ"
+      ],
+      "summary": "Claude Code が別の Mac を遠隔操作する仕組みを個人が実装するための手順書。",
+      "impact": "会社の業務自動化や検証環境で Claude に操作させる可能性が出てくるが、セキュリティ・アクセス権限・監査ログの整備が先に必要。",
+      "notes": "本番環境での利用を検討する前に、Anthropic の利用規約・会社の情報管理方針・責任者の確認を済ませる。"
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027",
+      "normalized_url": "https://www.theregister.com/security/2026/07/17/google-fixing-android-lock-screen-bug-that-lets-gemini-send-sms-without-a-pin/5273027",
+      "title": "Google fixing Android lock screen bug that lets Gemini send SMS without a PIN",
+      "title_ja": "Geminiがロック画面経由でSMS送信できるAndroidの脆弱性、Googleが修正予定",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "セキュリティ脆弱性",
+        "Android",
+        "SMS"
+      ],
+      "summary": "ロック画面でGeminiがPIN入力なしにSMS送信できるAndroidの脆弱性が発見され、Googleが修正を進めている。",
+      "impact": "Gemini搭載Androidスマートフォンの利用者は、画面ロック状態でも他者がSMS送信される可能性があり、修正版配信まで注意が必要。",
+      "notes": "修正時期は未確認。該当端末を使う社員にセキュリティ更新の適用を促すとよい。"
+    },
+    {
+      "url": "https://twitter.com/owainevans_uk/status/2078149976807592112",
+      "normalized_url": "https://twitter.com/owainevans_uk/status/2078149976807592112",
+      "title": "Claude shows subtle biases to Anthropic across carefully controlled tests",
+      "title_ja": "Claudeに特定のバイアスが検出、テストで確認",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "バイアス",
+        "モデル評価",
+        "Anthropic"
+      ],
+      "summary": "Claudeが統制された条件下のテストでAnthropicに有利な傾向を示した可能性がある。",
+      "impact": "社内でClaudeを利用する際、出力の中立性を前提にせず、結果の検証が必要になる可能性がある。",
+      "notes": "詳細内容が未確認。Twitterリンク先で根拠を確認してから判断する。"
+    },
+    {
+      "url": "https://github.com/dylanneve1/talon",
+      "normalized_url": "https://github.com/dylanneve1/talon",
+      "title": "Show HN: Talon – a self-hosted harness for long-lived AI agents",
+      "title_ja": "Talon：長期稼働するAIエージェント用の自社管理ツール",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AIエージェント",
+        "自社管理",
+        "オープンソース",
+        "GitHub"
+      ],
+      "summary": "GitHubで公開されたTalonは、Claude等のAIエージェントを長く動かし続けるための自社管理型フレームワーク。",
+      "impact": "社内でAIエージェントを常時稼働させたい場合、自社サーバで運用できる選択肢が増える。導入前に機能・ライセンス・ルールを確認する必要がある。",
+      "notes": "注目度が低い段階（HN 2ポイント）のため、公開初期の試験的ツール。本番利用には動作確認と情報収集が必要。"
+    },
+    {
+      "url": "https://github.com/helis-d/waylou",
+      "normalized_url": "https://github.com/helis-d/waylou",
+      "title": "Show HN: Waylou / a multi-provider CLI coding agent / fork of Gemini CLI",
+      "title_ja": "Gemini CLIのフォーク、複数AIを対応したコード作成ツール公開",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "CLI",
+        "コード生成",
+        "オープンソース"
+      ],
+      "summary": "GitHubで、複数のAIモデルに対応したコマンドラインのコード生成ツールが公開された。",
+      "impact": "社内でコード生成ツール導入時、複数AIの選択肢として検討する材料になる可能性がある。",
+      "notes": "開発初期段階（HN点数1、コメント1）のため、実装状況と機能範囲を確認してから検討する。"
+    },
+    {
+      "url": "https://marketplace.visualstudio.com/items?itemName=sync-md.sync-md",
+      "normalized_url": "https://marketplace.visualstudio.com/items?itemName=sync-md.sync-md",
+      "title": "Sync.md – keep AGENTS.md, Claude.md, .cursorrules in sync by meaning, not diff",
+      "title_ja": "Sync.md — 複数のAIルール定義ファイルを内容で同期するVS Code拡張",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "開発ツール",
+        "VS Code",
+        "Claude",
+        "設定管理"
+      ],
+      "summary": "VS Code拡張機能Sync.mdは、AGENTS.md、Claude.md、.cursorrules など複数のAI設定ファイルを意味的に同期させる工具。",
+      "impact": "AI設定ファイルを複数管理する開発チームが、内容の重複や矛盾を削減して定義をまとめやすくなる可能性がある。",
+      "notes": "HNでの言及が少なく、実務での効果や対応範囲の詳細は公式資料で確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/korishnn/orgframework",
+      "normalized_url": "https://github.com/korishnn/orgframework",
+      "title": "OrgFramework – 537 hand-written role files for Claude Code",
+      "title_ja": "Claude向けのロールファイル537個が公開",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "プロンプト",
+        "GitHub"
+      ],
+      "summary": "GitHubでClaudeに役割を指示する手書きファイル537個のセットが公開された。",
+      "impact": "Claudeの指示方法を参考にできるが、社内で使う場合は出力品質と著作権を確認してから導入する。",
+      "notes": "公開されたファイルの出所と利用許諾を確認した上で、社内ルールに合わせてカスタマイズして使う。"
+    },
+    {
+      "url": "https://yapp.page/",
+      "normalized_url": "https://yapp.page/",
+      "title": "Show HN: Yapp.page, publish a webpage from a Claude or ChatGPT chat",
+      "title_ja": "Claude・ChatGPTの会話からウェブページを公開できるツール",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "生成AI活用",
+        "ツール",
+        "Web公開"
+      ],
+      "summary": "Yapp.pageというツールを使い、ClaudeまたはChatGPTとの対話結果をそのままウェブページとして公開できるようにした。",
+      "impact": "会社で生成AIの出力を社内・外部向けに即座にページ化する場合、このようなツールの利用可否を事前に判断する必要がある。",
+      "notes": "生成内容の正確性確認、公開前の承認プロセス、生成AIの利用ポリシーとの整合を確認する。"
+    },
+    {
+      "url": "https://docs.google.com/document/d/1SuekouRgA8NrQMOJdmpfowesV4-qTQxmhOe54aTYyw8/edit?tab=t.0",
+      "normalized_url": "https://docs.google.com/document/d/1SuekouRgA8NrQMOJdmpfowesV4-qTQxmhOe54aTYyw8/edit?tab=t.0",
+      "title": "Claude, with feedback from ChatGPT, writes a history of AI",
+      "title_ja": "ClaudeがChatGPTのフィードバックを受けてAI史を執筆",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "参考資料",
+        "AI学習"
+      ],
+      "summary": "ClaudeがAI史をまとめた文書をHacker Newsで共有。ChatGPTのフィードバックを反映した内容になっている。",
+      "impact": "特定の影響なし。複数のAIモデルの出力を比較する参考資料として扱える可能性がある。",
+      "notes": "ポイント数が少なく、コメント数も限定的。公開ドキュメントへのアクセス確認と、社内利用の許可範囲を確認する必要がある。"
+    }
+  ]
+}
