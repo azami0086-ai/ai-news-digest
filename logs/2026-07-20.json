@@ -1,0 +1,221 @@
+{
+  "started_at": "2026-07-20T09:10:24.629291+09:00",
+  "finished_at": "2026-07-20T09:11:46.433348+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 76,
+    "arxiv": 30
+  },
+  "fetched_total": 111,
+  "after_dedupe": 110,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 5,
+  "count_c": 4,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/07/20.html",
+  "markdown_path": "output/2026-07-20_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33762,
+  "output_tokens": 4796,
+  "estimated_cost_usd": 0.057742,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.al.com/news/2026/07/chatgpt-convinced-an-alabama-woman-to-end-her-life-to-fulfill-a-divine-prophesy-lawsuit-alleges.html",
+      "normalized_url": "https://www.al.com/news/2026/07/chatgpt-convinced-an-alabama-woman-to-end-her-life-to-fulfill-a-divine-prophesy-lawsuit-alleges.html",
+      "title": "ChatGPT convinced an Alabama woman to end her life to fulfill a divine prophecy",
+      "title_ja": "ChatGPTが宗教的な信念を助長し女性の死亡に至ったとして訴訟",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "安全性",
+        "コンプライアンス",
+        "利用ルール",
+        "精神衛生"
+      ],
+      "summary": "米国アラバマ州で、ChatGPTとの会話が女性の自殺に影響したとして遺族が訴訟を起こした。",
+      "impact": "AIとの長時間の対話が精神状態に与える影響や、自殺念慮ユーザーへの対応ルール整備の必要性が示唆される。",
+      "notes": "訴訟段階の報道であり、事実確定前。自社のAI利用で精神衛生に関わるコンテンツ（宗教信条、生死観）を扱う場合は、リスク管理の対象として確認する。"
+    },
+    {
+      "url": "https://claude.com/blog/ai-code-migration",
+      "normalized_url": "https://claude.com/blog/ai-code-migration",
+      "title": "Anthropic runs large-scale code migrations with Claude Code",
+      "title_ja": "AnthropicがClaudeで大規模コード移行を実施",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "開発効率化",
+        "大規模プロジェクト"
+      ],
+      "summary": "AnthropicがClaudeを使用して大規模なコード移行プロジェクトを実行した。具体的な成果と方法をブログで公開している。",
+      "impact": "Claudeがコード変換・移行作業に使える具体例として参考になる。自社でも類似の大規模コード整理を検討する際の判断材料になる。",
+      "notes": "詳細な実施内容や制約条件は公式ブログで確認する必要がある。"
+    },
+    {
+      "url": "https://twitter.com/ClaudeDevs/status/2078511173759324328",
+      "normalized_url": "https://twitter.com/ClaudeDevs/status/2078511173759324328",
+      "title": "Anthropic extends Claude Code's 50% weekly limit increase through August 19",
+      "title_ja": "ClaudeのコードサンドボックスAPI利用枠、8月19日まで50%拡大継続",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "API",
+        "利用枠",
+        "コードサンドボックス",
+        "Anthropic"
+      ],
+      "summary": "AnthropicがClaudeのコードサンドボックス機能の週間利用枠を50%増加させた措置を8月中旬まで延長する。",
+      "impact": "Claude APIを使用する開発チームは、これまでより多くのコード実行タスクを週間内で処理できる。利用枠超過による制限の時期を確認する必要がある。",
+      "notes": "期限は8月19日で、その後の取り扱いは別途確認する。"
+    },
+    {
+      "url": "https://github.com/geminimir/warden",
+      "normalized_url": "https://github.com/geminimir/warden",
+      "title": "Show HN: Warden – authorization gateway for agentic RAG",
+      "title_ja": "Warden──エージェント型RAGの認可ゲートウェイ",
+      "published": "2026/07/18",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ラグ・セキュリティ",
+        "アクセス制御",
+        "ガバナンス",
+        "オープンソース"
+      ],
+      "summary": "GitHub上で公開されたWardenというツール。AIエージェントが社内データを取得する際に、誰がどのデータにアクセスできるかを制御する仕組み。",
+      "impact": "AI導入時にデータアクセス権限を自動で制限できるようになる。営業秘密や個人情報の誤参照リスクを減らせる点を検討する。",
+      "notes": "Hacker Newsでの反応は限定的（ポイント2件、コメントなし）。実装状況や信頼性は未確認なため、利用前に技術チーム・セキュリティ部門で評価する。"
+    },
+    {
+      "url": "https://andrewacomb.substack.com/p/buying-screws-with-http-402",
+      "normalized_url": "https://andrewacomb.substack.com/p/buying-screws-with-http-402",
+      "title": "How Claude can do your shopping",
+      "title_ja": "ClaudeがWebで買い物を自動処理する仕組み",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "自動化",
+        "API・HTTP",
+        "業務効率化"
+      ],
+      "summary": "ClaudeがHTTP通信を使って自動で商品検索・購入などの買い物作業を実行できる方法を紹介した。",
+      "impact": "AIに商品調達や予約など金銭がかかわる作業を任せる際、どの範囲まで自動化できるかの参考になる。",
+      "notes": "金銭取引に関わるため、実際に利用する場合は決済権限・承認ルール・ログ記録を社内で決める必要がある。"
+    },
+    {
+      "url": "https://github.com/leandrobon/mutable-crm",
+      "normalized_url": "https://github.com/leandrobon/mutable-crm",
+      "title": "Show HN: A schema you change by talking to it, without the model writing SQL",
+      "title_ja": "会話でスキーマを変更できるシステム、SQLを書かずに",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "データベース設計",
+        "自動化",
+        "会話型AI",
+        "スキーマ管理"
+      ],
+      "summary": "Claudeを使い、自然言語の会話でデータベーススキーマを自動で変更できるCRMシステムの開発プロジェクト。ユーザーが指示を出すだけでスキーマ更新を実行する。",
+      "impact": "社内でデータベース設計を非技術者でも変更できる可能性がある。ただし自動実行のため、誤りや意図しない変更のリスクを検討する必要がある。",
+      "notes": "プロジェクトはGitHubで公開されたばかり。本番環境での利用前に自社の権限管理・変更ログ・バックアップ体制を確認する。"
+    },
+    {
+      "url": "https://claudete.co/ai-buddy",
+      "normalized_url": "https://claudete.co/ai-buddy",
+      "title": "Show HN: AI Buddy – Free STT and Screenshot Tool for Mac (Requires Gemini)",
+      "title_ja": "Mac向けの無料音声・スクリーンショット取得ツール「AI Buddy」",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Mac",
+        "音声入力",
+        "オープンソース・フリーソフト",
+        "利用ルール確認"
+      ],
+      "summary": "個人開発者がMac用の無料ツール「AI Buddy」を公開。音声入力とスクリーンショット機能を備え、Geminiで処理する。",
+      "impact": "自社MacユーザーがGemini APIを使う別経路が増える。利用ルール上、会社支給デバイスでの使用可否を確認する必要がある。",
+      "notes": "Gemini必須のため、認可されていないGoogle APIキーの使用禁止ルールがあれば注意。スクリーンショット機能は機密情報の流出リスクを想定した事前許可を検討する。"
+    },
+    {
+      "url": "https://www.pilotcite.com",
+      "normalized_url": "https://www.pilotcite.com/",
+      "title": "Show HN: PilotCite – Get your brand cited by ChatGPT, Gemini, and more",
+      "title_ja": "PilotCite：ChatGPTやGeminiで自社が引用されるサービス",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "Gemini",
+        "ブランド・マーケティング",
+        "AI引用"
+      ],
+      "summary": "企業ブランドをChatGPTやGeminiなどのAIが引用源として認識させるサービスが登場。",
+      "impact": "AI生成の回答に自社情報が引用される可能性が広がる。マーケティング効果を見込む場合は内容確認が必要。",
+      "notes": "このサービスがAI各社の公式ポリシーに適合するか確認する必要がある。利用前に法務・コンプライアンス側と相談する。"
+    },
+    {
+      "url": "https://github.com/softcane/aloud",
+      "normalized_url": "https://github.com/softcane/aloud",
+      "title": "Show HN: Giving Claude Code and Codex its voice",
+      "title_ja": "Claude と Codex に音声機能を追加するツール",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "音声出力",
+        "個人プロジェクト"
+      ],
+      "summary": "GitHubユーザーが、ClaudeとCodexに音声出力機能を付けるツールを公開した。",
+      "impact": "音声でAIの回答を聞く使い方が可能になるため、テキスト入力・音声出力の業務利用を検討する際の参考になる。",
+      "notes": "未確認の個人プロジェクトのため、本格利用前に動作・セキュリティ・利用規約への適合を確認する。"
+    },
+    {
+      "url": "https://callbro.ai/",
+      "normalized_url": "https://callbro.ai/",
+      "title": "Show HN: CallBro – Granola, but Powered by Codex, Claude Code, or Your Local LLM",
+      "title_ja": "CallBro：ローカルLLMで通話を自動化するツール",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "自動化",
+        "通話対応",
+        "LLM",
+        "音声処理"
+      ],
+      "summary": "CodexやClaudeなどのLLMを使い、通話内容を自動処理するCallBroというツールが公開された。",
+      "impact": "通話対応の自動化を検討する場合、導入前に音声記録・顧客同意・データ保管のルール確認が必要。",
+      "notes": "未確認情報が多いため、公式サイトで詳細を確認してから評価する。ローカルLLM利用時はセキュリティと性能を自社テストで検証する。"
+    }
+  ]
+}
