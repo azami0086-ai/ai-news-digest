@@ -1,0 +1,218 @@
+{
+  "started_at": "2026-07-21T09:07:54.886435+09:00",
+  "finished_at": "2026-07-21T09:09:18.798895+09:00",
+  "fetched_per_source": {
+    "official": 7,
+    "hn": 76,
+    "arxiv": 30
+  },
+  "fetched_total": 113,
+  "after_dedupe": 110,
+  "recorded_duplicate_excluded_count": 4,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 8,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/07/21.html",
+  "markdown_path": "output/2026-07-21_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33810,
+  "output_tokens": 4338,
+  "estimated_cost_usd": 0.0555,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+      "normalized_url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes",
+      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+      "title_ja": "Cursor、Codex、Gemini CLIなどのAIツールに脆弱性、サンドボックス突破の恐れ",
+      "published": "2026/07/20",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "セキュリティ",
+        "Cursor",
+        "Codex",
+        "Gemini",
+        "脆弱性",
+        "脱獄",
+        "コーディングツール"
+      ],
+      "summary": "複数のAIコーディングツールにサンドボックス機能を回避する脆弱性が見つかった。AIが制限を超えた命令実行や機密データへのアクセスが起きる可能性がある。",
+      "impact": "社内で使うAIツールの脆弱性を把握し、提供元の修正状況や対策内容を確認する必要がある。",
+      "notes": "詳細な脆弱性内容は元記事で確認が必要。該当ツールの利用可否を判断するまでに情報を整理する。"
+    },
+    {
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "normalized_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "title_ja": "長期間動作するAIモデルの安全性と方針を巡る課題",
+      "published": "2026/07/20",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "安全性",
+        "導入・運用"
+      ],
+      "summary": "OpenAIが、数日以上に渡って動作するAIモデルの導入で見つかった安全上の課題と対策を説明した。",
+      "impact": "社内でChatGPTやAIモデルを長く動作させる場合、新しい制限や監視ルールの実装が必要になる可能性がある。",
+      "notes": "公式説明として読めるが、自社での長期利用計画がある場合は権限・監視範囲・停止方法を事前に確認する。"
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+      "normalized_url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+      "title": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
+      "title_ja": "Geminiの遅延、コーディングの問題と社内対立",
+      "published": "2026/07/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "開発遅延",
+        "AI品質"
+      ],
+      "summary": "GoogleのGeminiが開発の遅延に直面。コード生成の課題と担当チーム間の意見対立が背景にあると報道された。",
+      "impact": "Geminiの機能拡張スケジュールが不透明。自社でGemini導入を計画中の場合は提供時期の見直しが必要になる可能性がある。",
+      "notes": "報道の詳細や解決時期は未確認。公式な遅延発表までは社内で情報を保留し、Googleの発表を待つ。"
+    },
+    {
+      "url": "https://twitter.com/i/status/2079315549163778366",
+      "normalized_url": "https://twitter.com/i/status/2079315549163778366",
+      "title": "Claude Code now has a screen reader mode",
+      "title_ja": "Claude Codeにスクリーンリーダー対応機能が追加",
+      "published": "2026/07/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "アクセシビリティ",
+        "スクリーンリーダー",
+        "開発環境"
+      ],
+      "summary": "AnthropicのClaude Codeがスクリーンリーダー対応モードを搭載。視覚障害者の利用性が向上する。",
+      "impact": "視覚支援技術を使う従業員がClaudeで開発・コード確認する際の障壁が減少。利用可能な対象者が広がる。",
+      "notes": "詳細な機能仕様はTwitterリンク先で未確認。自社での実装前に動作と互換性を確認する。"
+    },
+    {
+      "url": "https://www.reuters.com/business/google-plans-new-chip-run-gemini-models-more-efficiently-information-reports-2026-07-20/",
+      "normalized_url": "https://www.reuters.com/business/google-plans-new-chip-run-gemini-models-more-efficiently-information-reports-2026-07-20",
+      "title": "Google plans new chip to run Gemini models more efficiently",
+      "title_ja": "Google、Gemini実行効率化向け新チップを計画",
+      "published": "2026/07/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "ハードウェア",
+        "コスト効率"
+      ],
+      "summary": "GoogleがGeminiモデルを効率よく動かすための専用チップ開発を計画している。",
+      "impact": "自社でGemini利用を検討する場合、今後のコスト削減や処理速度の改善が見込まれるため動向を追う価値がある。",
+      "notes": "詳細は公開資料では未確認。正式発表後に改めて確認する。"
+    },
+    {
+      "url": "https://thenextweb.com/news/google-frozen-chip-gemini-silicon",
+      "normalized_url": "https://thenextweb.com/news/google-frozen-chip-gemini-silicon",
+      "title": "Google is building a chip with Gemini baked into the silicon",
+      "title_ja": "GoogleがGeminiをチップに組み込む新型プロセッサを開発",
+      "published": "2026/07/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "ハードウェア",
+        "プロセッサ"
+      ],
+      "summary": "GoogleがAI機能をハードウェアレベルで統合したプロセッサの開発を進めている。",
+      "impact": "今後のGoogle端末やサーバーでAI処理が高速化する可能性がある。自社のAI導入計画に影響する場合は動向を確認する。",
+      "notes": "詳細な仕様や展開時期は未確認。公式発表を待ち、自社システムとの互換性が必要な場合は情報を追跡する。"
+    },
+    {
+      "url": "https://mastodon.online/users/mwichary/statuses/116952836351215165",
+      "normalized_url": "https://mastodon.online/users/mwichary/statuses/116952836351215165",
+      "title": "Chrome installed a global Ctrl+G keyboard shortcut to launch Gemini",
+      "title_ja": "Chrome が Gemini 起動用の Ctrl+G キーボードショートカットを全体に導入",
+      "published": "2026/07/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Chrome",
+        "ブラウザ",
+        "ショートカット"
+      ],
+      "summary": "Chrome が Gemini を起動するキーボードショートカット Ctrl+G をブラウザ全体で有効にした。",
+      "impact": "Chrome 利用者は意図せず Gemini が起動する可能性がある。社内利用ルール確認時に実装内容を把握する。",
+      "notes": "ショートカット変更・無効化の可否や、既存の Ctrl+G 割り当てとの競合状況を確認する。"
+    },
+    {
+      "url": "https://twitter.com/christinexzhu/status/2074847461588267466",
+      "normalized_url": "https://twitter.com/christinexzhu/status/2074847461588267466",
+      "title": "You're not ambitious enough with Claude",
+      "title_ja": "Claudeの活用はまだ浅い可能性",
+      "published": "2026/07/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI活用",
+        "機能活用"
+      ],
+      "summary": "Claudeの機能や使い方について、現在の使用方法がより大きな可能性を引き出していないという指摘。",
+      "impact": "自社のClaude利用が基本的な用途に止まっていないか、より高度な活用があるか見直す契機になる可能性。",
+      "notes": "元の議論の詳細が不明なため、具体的な活用方法は Twitter投稿またはHN元記事で確認する必要がある。"
+    },
+    {
+      "url": "https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings/",
+      "normalized_url": "https://blog.jetbrains.com/ai/2026/07/rtk-claude-code-token-savings",
+      "title": "Does \"rtk\" skill cut agent tokens by 60–90%? We tested it",
+      "title_ja": "Claude の「rtk」スキルがトークン使用量を60～90%削減するか検証",
+      "published": "2026/07/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "トークン削減",
+        "コスト",
+        "エージェント"
+      ],
+      "summary": "JetBrainsがClaudeの「rtk」という機能でエージェント実行時のトークン消費を削減できるか実測した。",
+      "impact": "Claudeを社内で使う際、トークン削減で運用コストが下がる可能性がある。自社の使用パターンで効果を確認する価値がある。",
+      "notes": "「rtk」の詳細と条件を確認する。すべての業務で60～90%削減できるとは限らない。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "normalized_url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "title": "Jul 20, 2026 Announcements Apply for Anthropic’s AI for Science rare disease research grants",
+      "title_ja": "Anthropicが希少疾患研究の助成金プログラムを開始",
+      "published": "2026/07/20",
+      "source": "Anthropic News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "助成金・グラント",
+        "医療・ヘルスケア",
+        "研究開発",
+        "Anthropic"
+      ],
+      "summary": "Anthropicが希少疾患の研究開発にClaudeを活用する研究機関向けの助成金プログラムを始めた。",
+      "impact": "医療・製薬分野の関係部門は、AI研究の外部資金調達の選択肢として検討できる。",
+      "notes": "助成対象や申請条件、採択基準は公式ページで確認する必要がある。"
+    }
+  ]
+}
