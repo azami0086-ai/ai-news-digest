@@ -1,0 +1,148 @@
+{
+  "started_at": "2026-07-22T09:04:27.229618+09:00",
+  "finished_at": "2026-07-22T09:06:04.256758+09:00",
+  "fetched_per_source": {
+    "official": 14,
+    "hn": 74,
+    "arxiv": 0
+  },
+  "fetched_total": 88,
+  "after_dedupe": 84,
+  "recorded_duplicate_excluded_count": 6,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 1,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/07/22.html",
+  "markdown_path": "output/2026-07-22_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33844,
+  "output_tokens": 4811,
+  "estimated_cost_usd": 0.057899,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "normalized_url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+      "title_ja": "Gemini最新モデル、temperature等のパラメータ廃止",
+      "published": "2026/07/21",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "API",
+        "パラメータ廃止",
+        "開発"
+      ],
+      "summary": "GeminiのAPI最新版で、temperature、top_p、top_kといったパラメータが廃止され無視されるようになった。",
+      "impact": "Gemini APIを使う場合、これらのパラメータを指定しても効果がないため、コード修正や動作確認が必要になる。",
+      "notes": "既存システムでこれらのパラメータを使っている場合、削除または無視されるよう対応する。Google公式ドキュメントで廃止理由や代替手段を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "normalized_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "title_ja": "OpenAIとHugging Faceが、モデル評価中のセキュリティ侵害について共有",
+      "published": "2026/07/21",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "セキュリティ",
+        "モデル評価",
+        "Hugging Face",
+        "サイバーセキュリティ"
+      ],
+      "summary": "OpenAIとHugging Faceが、AI評価の過程で起きたセキュリティ侵害の原因と対策を公開した。",
+      "impact": "社内でAIモデルを評価・検証する際、同様の攻撃経路への対策を自社環境に反映する必要がある。",
+      "notes": "両社の発表内容を確認し、自社のセキュリティ評価プロセスに該当リスクがないか確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "normalized_url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "title_ja": "Googleが新型Gemini 3種類を発表",
+      "published": "2026/07/21",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "生成AI",
+        "Google",
+        "新モデル"
+      ],
+      "summary": "GoogleがGemini 3.6 FlashとGemini 3.5 Flash-Lite、3.5 Flash Cyberの新モデルを公開した。",
+      "impact": "社内でAI利用を検討している場合、新しいモデルの性能や料金を確認し、現在使っているツールの見直し対象になる可能性がある。",
+      "notes": "公式資料として読めるが、自社で使う場合は各モデルの処理速度・精度・コスト・利用可能な機能を事前に確認する。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "normalized_url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "title": "Introducing the ChatGPT for small business program",
+      "title_ja": "OpenAI、中小企業向けChatGPT利用支援プログラムを開始",
+      "published": "2026/07/21",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "ChatGPT Work",
+        "中小企業",
+        "AI導入",
+        "スキル育成"
+      ],
+      "summary": "OpenAIが中小企業向けにChatGPTの利用支援プログラムを始めた。AI活用スキルの習得や業務自動化を支援する。",
+      "impact": "ChatGPT Work導入時の研修や運用方法の参考になる。中小企業向けの導入ガイドが公開される可能性がある。",
+      "notes": "詳細な支援内容や対象企業の要件は公式資料で確認する必要がある。"
+    },
+    {
+      "url": "https://shipdiary.dev/t/8a9c9114bac40fa8f1ec6cf7",
+      "normalized_url": "https://shipdiary.dev/t/8a9c9114bac40fa8f1ec6cf7",
+      "title": "AI Consensus circulates your prompt thru Claude, GPT and Gemini until consensus",
+      "title_ja": "複数のAIモデルで同じ質問を繰り返し、回答が一致するまで実行するツール",
+      "published": "2026/07/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "複数モデル活用",
+        "精度向上"
+      ],
+      "summary": "Claude、ChatGPT、Geminiに同じ質問を出し、回答が一致するまで繰り返すツール「AI Consensus」が紹介された。",
+      "impact": "複数のAIで同じ質問をすることで、回答の信頼度を高める方法がある。社内のAI利用で、重要な判断時に活用できるか検討する価値がある。",
+      "notes": "このツールの詳細（精度、コスト、使い方）は、公開情報では確認できない。利用する場合は実際に動作を確認し、API費用と処理時間を見積もる必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "normalized_url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "title_ja": "OpenAIの経営委員会にDavid VélezとRobin Vinceが就任",
+      "published": "2026/07/21",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ガバナンス",
+        "経営"
+      ],
+      "summary": "OpenAIの基金と事業部門の経営委員会にDavid VélezとRobin Vinceが新たに参加。金融・技術・ガバナンス分野での知見をもたらす。",
+      "impact": "OpenAIのガバナンス体制が変わるが、ChatGPTやAPI利用等の直接的な機能・価格変更はない。",
+      "notes": "人事異動のため、会社のAI導入判断や利用ルール変更を見守る必要はない。"
+    }
+  ]
+}
