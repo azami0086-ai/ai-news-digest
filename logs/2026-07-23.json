@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-07-23T09:11:50.833980+09:00",
+  "finished_at": "2026-07-23T09:13:10.035932+09:00",
+  "fetched_per_source": {
+    "official": 26,
+    "hn": 75,
+    "arxiv": 0
+  },
+  "fetched_total": 101,
+  "after_dedupe": 98,
+  "recorded_duplicate_excluded_count": 11,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 6,
+  "count_c": 3,
+  "count_excluded": 0,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/07/23.html",
+  "markdown_path": "output/2026-07-23_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33976,
+  "output_tokens": 4960,
+  "estimated_cost_usd": 0.058776,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "normalized_url": "https://openai.com/index/introducing-openai-presence",
+      "title": "Introducing OpenAI Presence",
+      "title_ja": "OpenAIが企業向けAIエージェントプラットフォーム「OpenAI Presence」を発表",
+      "published": "2026/07/22",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "企業向けAI",
+        "音声エージェント",
+        "チャットボット",
+        "業務自動化"
+      ],
+      "summary": "OpenAIが、音声とチャットで顧客対応や社内業務を自動化するエージェントプラットフォームを提供開始した。",
+      "impact": "顧客対応や社内問い合わせ業務の自動化が可能になり、導入を検討する場合は要件定義と運用体制の整備が必要になる。",
+      "notes": "実運用には利用ルール、責任者、監視体制などを事前に確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/ntt-data",
+      "normalized_url": "https://openai.com/index/ntt-data",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "title_ja": "NTT DATA、ChatGPTとCodexで障害対応を30分に短縮",
+      "published": "2026/07/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT Enterprise",
+        "Codex",
+        "業務自動化",
+        "障害対応",
+        "導入事例"
+      ],
+      "summary": "NTT DATAが、ChatGPT EnterpriseとCodexを使い、9000人の従業員の業務を自動化し、障害分析の時間を30分に削減した。",
+      "impact": "障害対応の時間短縮事例として参考になる。自社でも同様の業務（ログ分析やレポート作成など）の効率化を検討する際の参考資料として読める。",
+      "notes": "公式事例なので信頼できる。ただしNTT DATAの環境・規模・業務内容は自社と異なる可能性がある。導入前に自社の状況と比べて、適用できる業務を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "normalized_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "title_ja": "OpenAI、ジョージア州でAIインフラ建設プロジェクトを開始",
+      "published": "2026/07/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "インフラ",
+        "Codex",
+        "事業計画"
+      ],
+      "summary": "OpenAIがジョージア州エフィンガムカウンティでAIインフラ施設を建設し、地域雇用とCodexアクセス提供を約束した。",
+      "impact": "自社のAI利用環境やCodex導入スケジュールに関わる可能性があるため、事業計画との関連を確認する必要がある。",
+      "notes": "公式発表として扱えるが、日本国内の利用契約への直接的な影響は未確認。詳細は公式資料で確認する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "normalized_url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026",
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "title_ja": "Galaxy Unpacked 2026でのGoogleの3つの発表",
+      "published": "2026/07/22",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "新機能",
+        "ハードウェア連携",
+        "カメラ機能",
+        "実務効率化"
+      ],
+      "summary": "GoogleがGalaxy Unpacked 2026イベントで、眼鏡などのハードウェアとGeminiの新機能を発表した。",
+      "impact": "Geminiが眼鏡のカメラ機能と連動し、撮影した建物の履歴調べや店舗予約が可能になる可能性がある。",
+      "notes": "詳細な機能や提供時期は公式ブログで確認する。国内提供時期や日本語対応は未確認。"
+    },
+    {
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "normalized_url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "title_ja": "ニュース企業がAIで報道と経営を強化、OpenAIツールが活用広がる",
+      "published": "2026/07/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "業務活用事例",
+        "ニュース・メディア",
+        "編集・執筆"
+      ],
+      "summary": "ニュース企業がOpenAIのAIツールを使い、報道、読者拡大、経営改善に活用している事例をOpenAIが紹介した。",
+      "impact": "自社でも編集・営業・管理部門でChatGPTやAPI活用の可能性を検討する参考になる。",
+      "notes": "事例紹介のため、各企業の具体的な使い方や効果測定方法は本ブログで確認する必要がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "normalized_url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "title": "Jul 22, 2026 Economic Research A research agenda for the Economic Futures Research Fund",
+      "title_ja": "Anthropic、経済研究の基金と研究課題を発表",
+      "published": "2026/07/22",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "経済研究",
+        "AI政策",
+        "長期戦略"
+      ],
+      "summary": "Anthropicが経済の将来に関する研究基金を設立し、研究の方向性を説明した。",
+      "impact": "AI企業が経済研究に投資する背景と狙いを知ることで、AIが経済・労働・業務に与える影響への向き合い方が参考になる可能性がある。",
+      "notes": "詳細は公式ページで確認する。自社のAI導入時に経済リスク・労働への影響を検討する際の参考資料として使える。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "normalized_url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "title": "Jul 22, 2026 Product Ask Claude about the Anthropic Economic Index",
+      "title_ja": "Claude、Anthropic Economic Indexについての質問に対応",
+      "published": "2026/07/22",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "データ分析",
+        "経済指標",
+        "新機能"
+      ],
+      "summary": "AnthropicがEconomic Indexというツールをリリースし、Claudeで経済データについて質問・分析できるようにした。",
+      "impact": "社内で経済指標や市場データの確認が必要な場合、Claudeを通じて照会できる選択肢が増える。権限・アクセス範囲を確認する必要がある。",
+      "notes": "実装内容・利用可能なデータ範囲・料金体系が未確認。社内利用を検討する場合は公式ドキュメントで詳細を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/gemini-alpha-is-now-gemini-beta.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/gemini-alpha-is-now-gemini-beta.html",
+      "title": "Gemini Alpha is now Gemini Beta",
+      "title_ja": "Gemini AlphaがGemini Betaに名称変更",
+      "published": "2026/07/22",
+      "source": "Google Workspace Updates",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Google Workspace",
+        "ブランド変更"
+      ],
+      "summary": "GoogleがGemini AlphaプログラムをGemini Betaに改称した。機能の規模と品質を反映した名前変更で、ブランド関連のみの変更。",
+      "impact": "利用中の設定・プライバシー・料金・管理機能は変わらない。契約書の再署名も不要。",
+      "notes": "名称変更のみで、運用上の対応は不要。"
+    },
+    {
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "normalized_url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "title_ja": "Googleが科学研究向けAI支援に40億円投じるGenesis Mission",
+      "published": "2026/07/22",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "研究支援",
+        "Google DeepMind",
+        "AI利用コスト"
+      ],
+      "summary": "GoogleがGenesis Missionという科学研究支援プログラムに40百万ドル分のAIクレジットを提供し、研究機関によるAI活用を加速する。",
+      "impact": "自社の研究部門や外部パートナーの研究機関が同プログラムに参画可能な場合、AI利用コストを削減できる選択肢が増える。",
+      "notes": "プログラムの対象機関・申請条件・実施開始時期を事前に確認し、自社の研究活動に適用可能か検討する。"
+    },
+    {
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "normalized_url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "title": "Advancing the next era of national science",
+      "title_ja": "OpenAIが米国の科学研究を支援、エネルギー省と連携",
+      "published": "2026/07/22",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "科学研究",
+        "政策協力"
+      ],
+      "summary": "OpenAIが米エネルギー省と国立研究所と組み、最先端のAIを使って科学的発見を加速させる取り組みを説明した。",
+      "impact": "ChatGPTなど自社で導入しているAIツールが、科学研究の分野でどう使われるかの方向性が示される。",
+      "notes": "公式発表の内容であり、契約・セキュリティ・データ扱いについては別途確認する必要がある。"
+    }
+  ]
+}
