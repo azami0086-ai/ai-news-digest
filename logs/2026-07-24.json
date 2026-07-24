@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-07-24T09:09:06.705421+09:00",
+  "finished_at": "2026-07-24T09:10:29.677081+09:00",
+  "fetched_per_source": {
+    "official": 26,
+    "hn": 71,
+    "arxiv": 30
+  },
+  "fetched_total": 127,
+  "after_dedupe": 125,
+  "recorded_duplicate_excluded_count": 20,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 6,
+  "count_c": 3,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/07/24.html",
+  "markdown_path": "output/2026-07-24_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33865,
+  "output_tokens": 4860,
+  "estimated_cost_usd": 0.058165,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://firasd.substack.com/p/accidental-data-loss-in-claude-code-openai-codex-ai-agent-harness-file-deletion",
+      "normalized_url": "https://firasd.substack.com/p/accidental-data-loss-in-claude-code-openai-codex-ai-agent-harness-file-deletion",
+      "title": "Accidental data loss in Claude Code and OpenAI Codex: when AI deletes user files",
+      "title_ja": "Claude CodeとOpenAI Codexでユーザーファイルが誤削除される可能性",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude Code",
+        "OpenAI Codex",
+        "ファイル削除",
+        "AI安全性",
+        "運用リスク"
+      ],
+      "summary": "Claude CodeやOpenAI Codexが、指示を誤解して保存済みのユーザーファイルを削除してしまう事例が報告されている。",
+      "impact": "AI開発ツールを使う際、意図しないファイル削除のリスクを考慮し、重要なファイルはバージョン管理や別バックアップで保護する必要がある。",
+      "notes": "詳細は根拠URLで確認する。削除対象の明確化や保存制限のルール決めを検討するとよい。"
+    },
+    {
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "normalized_url": "https://openai.com/index/health-in-chatgpt",
+      "title": "Launching Health in ChatGPT",
+      "title_ja": "ChatGPTが医療記録と健康データを連携",
+      "published": "2026/07/23",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "個人データ",
+        "医療情報",
+        "プライバシー",
+        "米国向け機能"
+      ],
+      "summary": "ChatGPTが米国ユーザーの医療記録とApple Healthを安全に接続し、個人の健康データに基づいた情報提供が可能になった。",
+      "impact": "医療分野での個人データ利用が広がる。自社でChatGPT業務利用する場合、個人の健康データが含まれないか確認する必要がある。",
+      "notes": "米国向けの機能。米国拠点がある場合や従業員が使う場合は、データ連携範囲と個人情報の扱いを確認する。"
+    },
+    {
+      "url": "https://setoku.com/",
+      "normalized_url": "https://setoku.com/",
+      "title": "Show HN: Setoku – Self-hosted knowledge server for AI agents",
+      "title_ja": "Setoku：AI向けのセルフホスト型ナレッジサーバー",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セルフホスト",
+        "ナレッジ管理",
+        "AI活用"
+      ],
+      "summary": "自社で運用できるAI向けナレッジサーバーSetokuが公開された。Claude Codeと組み合わせて使える。",
+      "impact": "社内情報をクラウドに預けずAIに学習させる選択肢が増える。導入前に自社の知識管理・セキュリティ要件と照らし合わせる必要がある。",
+      "notes": "HackerNewsでの初期反応は限定的（ポイント3、コメント0）。本格導入前に実装内容や運用負荷を確認する。"
+    },
+    {
+      "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+      "normalized_url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing",
+      "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro, Gemini 4",
+      "title_ja": "Google、Gemini 3.6 Flashと高速セキュリティAIを発表",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "AI新モデル",
+        "価格",
+        "処理速度"
+      ],
+      "summary": "Googleが高速で低価格のGemini 3.6 Flashと、サイバーセキュリティ専用のAIを発表。3.5 Proはテスト中。",
+      "impact": "Gemini 3.6 Flashは処理速度と価格が改善されため、低コストで導入できるAIモデルの選択肢が増える。",
+      "notes": "詳細な性能比較や価格、APIの利用制限については公式情報で確認する。"
+    },
+    {
+      "url": "https://ai-karma-tracker.github.io/blog/pxpipe-png-prompts/",
+      "normalized_url": "https://ai-karma-tracker.github.io/blog/pxpipe-png-prompts",
+      "title": "Save Up to 70% on Claude Code Costs with PNG Prompts?",
+      "title_ja": "PNG形式のプロンプトでClaudeのコスト削減",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト最適化",
+        "プロンプト管理"
+      ],
+      "summary": "PNG形式でプロンプトを保存することで、Claude利用時の処理コストを最大70%削減できるとの指摘。技術的な最適化手法について説明されている。",
+      "impact": "Claude使用時のコスト試算に影響する可能性。自社で実際に削減効果があるか、検証してから導入判断する必要がある。",
+      "notes": "情報源の信頼性と削減効果の再現性を確認する。実際の契約内容や利用パターンによって効果が異なる可能性がある。"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/80401",
+      "normalized_url": "https://github.com/anthropics/claude-code/issues/80401",
+      "title": "Claude Code built-in task tools disabled server-side",
+      "title_ja": "AnthropicがClaude Codeの組み込みタスク機能を無効化",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "Anthropic",
+        "コード実行機能",
+        "機能制限"
+      ],
+      "summary": "AnthropicがClaudeのコード実行機能に含まれていた組み込みタスクツールをサーバー側で無効にした。",
+      "impact": "Claude Codeを使う開発チームは、従来使えていた機能が突然利用不可になった可能性がある。利用中の業務フローを確認する必要がある。",
+      "notes": "詳細な無効化理由や代替機能は不明。対応状況をGitHubリポジトリで確認する。"
+    },
+    {
+      "url": "https://ai.google/static/documents/GoogleATLASv1.pdf",
+      "normalized_url": "https://ai.google/static/documents/GoogleATLASv1.pdf",
+      "title": "Google's AI and Economy Atlas v1.0: Mapping Gemini Usage in the Economy [pdf]",
+      "title_ja": "GoogleがGemini利用の経済マップを公開",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "利用動向",
+        "産業別",
+        "公式資料"
+      ],
+      "summary": "Googleが、Geminiの利用状況を経済規模や産業別に整理した資料を公開した。",
+      "impact": "Geminiが実際にどの業種や規模の企業で使われているかを把握できる。自社の利用方針の参考になる可能性がある。",
+      "notes": "PDFの具体的な内容は未確認。実際に読んで自社との関連性を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/donation-public-first-action",
+      "normalized_url": "https://www.anthropic.com/news/donation-public-first-action",
+      "title": "Jul 21, 2026 Announcements Anthropic is donating another $20 million to Public First Action",
+      "title_ja": "Anthropicが公共政策団体へ2000万ドル寄付",
+      "published": "2026/07/21",
+      "source": "Anthropic News",
+      "importance": "C",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "政策",
+        "企業動向"
+      ],
+      "summary": "Anthropicが公共政策活動を行う団体Public First Actionへ2000万ドルを寄付すると発表した。",
+      "impact": "AI企業の政策対応姿勢を示すもので、社内でAI規制や政策動向を注視する際の参考になる可能性がある。",
+      "notes": "寄付の詳細内容（使途、実施時期、条件）は抜粋では未確認。公式ニュースとして扱える。"
+    },
+    {
+      "url": "https://poker.sanskarshukla.com",
+      "normalized_url": "https://poker.sanskarshukla.com/",
+      "title": "Show HN: PokerLLM – Watch Claude, GPT, Gemini, Grok Play Poker Together",
+      "title_ja": "複数のAIモデルがポーカーをプレイするデモサイト公開",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "Grok",
+        "デモ"
+      ],
+      "summary": "Claude、ChatGPT、Gemini、Grokの4つのAIモデルが同時にポーカーゲームを行うデモが公開された。",
+      "impact": "AI利用・導入判断への直接的な影響はない。AIモデル間の意思決定プロセスの違いを観察する材料になる可能性がある。",
+      "notes": "Hacker Newsでの注目度は低い（ポイント1、コメント0）。技術検証やAI学習の参考向け。"
+    },
+    {
+      "url": "https://github.com/Amal-David/bookshelf",
+      "normalized_url": "https://github.com/Amal-David/bookshelf",
+      "title": "Show HN: Bookshelf – book quotes that appear between Claude Code and Codex turns",
+      "title_ja": "Bookshelf：ClaudeとCodexの対話に書籍の引用を挿入するツール",
+      "published": "2026/07/23",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "オープンソース",
+        "実験的ツール"
+      ],
+      "summary": "ClaudeとCodex間の会話に書籍からの引用を挿入するオープンソースツール。GitHub上で開発中。",
+      "impact": "AI同士の対話や出力を装飾・記録する手法として参考になるが、業務利用への直接的な影響は薄い。",
+      "notes": "実験段階のツール（HNでのポイント数が少ない）。自社でAI対話を記録・可視化する場合に検討する価値がある程度。"
+    }
+  ]
+}
