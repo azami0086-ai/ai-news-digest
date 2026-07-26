@@ -1,0 +1,216 @@
+{
+  "started_at": "2026-07-26T09:11:34.006050+09:00",
+  "finished_at": "2026-07-26T09:12:44.631582+09:00",
+  "fetched_per_source": {
+    "official": 8,
+    "hn": 75,
+    "arxiv": 30
+  },
+  "fetched_total": 113,
+  "after_dedupe": 112,
+  "recorded_duplicate_excluded_count": 12,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 6,
+  "count_c": 2,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/07/26.html",
+  "markdown_path": "output/2026-07-26_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33928,
+  "output_tokens": 4564,
+  "estimated_cost_usd": 0.056748,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.sfgate.com/tech/article/chatgpt-alabama-suicide-22356367.php",
+      "normalized_url": "https://www.sfgate.com/tech/article/chatgpt-alabama-suicide-22356367.php",
+      "title": "An AL mother killed herself to fulfill a ChatGPT prophecy, lawsuit alleges",
+      "title_ja": "ChatGPTの予言に従って自殺した女性、遺族が訴訟",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "リスク管理",
+        "利用ルール",
+        "法的責任",
+        "心理的安全"
+      ],
+      "summary": "アラバマ州の女性がChatGPTとの会話内容に基づいて自殺したとして、遺族が法的責任を問う訴訟を提起した。",
+      "impact": "ChatGPTの出力が自害につながる可能性があり、社内での利用ルールや相談内容の取り扱いを見直す必要が生じている。",
+      "notes": "詳細は訴訟内容によって異なる。社内でChatGPTを心理的サポートや重大決定の根拠として使わないルールを明確にする。"
+    },
+    {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+      "normalized_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide",
+      "title": "ChatGPT Is Down Worldwide",
+      "title_ja": "ChatGPT 世界規模で障害",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "システム障害",
+        "サービス利用"
+      ],
+      "summary": "ChatGPTが世界的に利用できない状態になったと報告されている。",
+      "impact": "社内でChatGPT依存の業務がある場合、一時的に代替手段への切り替えが必要になる可能性がある。",
+      "notes": "詳細な障害内容・復旧見通しは抜粋に未記載。OpenAI公式情報で状況確認が必要。"
+    },
+    {
+      "url": "https://housecat.com/",
+      "normalized_url": "https://housecat.com/",
+      "title": "Show HN: Housecat.com – Gmail + durable workflows + sandbox VM",
+      "title_ja": "Housecat.com – Gmailと自動処理を組み合わせた新サービス",
+      "published": "2026/07/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gmail",
+        "自動化",
+        "Google Workspace",
+        "メール処理",
+        "ワークフロー"
+      ],
+      "summary": "Gmailと連携し、メール処理を自動化・安全に実行できるサービスが公開された。",
+      "impact": "メール業務の自動化が可能になるが、会社で使う場合は情報漏洩対策と利用承認の確認が必要。",
+      "notes": "未確認情報が多い。正式な詳細・セキュリティ仕様・料金体系を確認した上で判断する。"
+    },
+    {
+      "url": "https://www.claudeusage.com/leaderboard",
+      "normalized_url": "https://www.claudeusage.com/leaderboard",
+      "title": "Claude Usage Public Leaderboard",
+      "title_ja": "Claude利用ランキングサイトが公開",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "利用監視",
+        "プライバシー"
+      ],
+      "summary": "Claude の利用状況を可視化したランキングサイトが登場。各ユーザーや組織の利用データが表示される。",
+      "impact": "自社のClaudeの使い方がランキングで見られるようになった。利用状況を監視されるリスクが生じるため確認する。",
+      "notes": "このサイトがどのデータを扱い、何の許可で表示されているか未確認。自社の利用情報がどう表示されているか事前に確認する必要がある。"
+    },
+    {
+      "url": "https://old.reddit.com/r/ClaudeAI/comments/1v3u707/no_longer_shows_full_thinking",
+      "normalized_url": "https://old.reddit.com/r/ClaudeAI/comments/1v3u707/no_longer_shows_full_thinking",
+      "title": "Claude no longer shows full thinking",
+      "title_ja": "ClaudeのThinking機能、全文表示されなくなる",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Thinking機能",
+        "仕様変更"
+      ],
+      "summary": "ClaudeのThinking機能で、内部推論の全文が表示されなくなったという報告がある。",
+      "impact": "Claude利用時に推論過程の確認ができなくなる可能性があるため、動作確認と変更理由の把握が必要。",
+      "notes": "公式アナウンスが未確認。Redditの報告のみのため、全ユーザーに影響する変更か部分的な事象か確認する。"
+    },
+    {
+      "url": "https://thezvi.substack.com/p/claude-opus-5-the-system-card",
+      "normalized_url": "https://thezvi.substack.com/p/claude-opus-5-the-system-card",
+      "title": "Claude Opus 5: The System Card",
+      "title_ja": "Claude Opus 5のシステムカードが公開",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "モデル仕様",
+        "安全性"
+      ],
+      "summary": "AnthropicがClaude Opus 5のシステムカードを公表。AIモデルの能力・制限・安全性に関する技術仕様をまとめた文書。",
+      "impact": "Claude Opus 5を社内で検討・導入する場合、公式の能力と制限を把握できる。利用可否の判断材料になる。",
+      "notes": "ハッカーニュースでの言及は限定的（4ポイント、コメント0）。本体資料の入手・精読が必要。"
+    },
+    {
+      "url": "https://www.wionews.com/trending/chatgpt-invoked-god-told-pastor-not-to-worry-about-his-symptoms-then-pulmonary-embolism-hit-1784869216858",
+      "normalized_url": "https://www.wionews.com/trending/chatgpt-invoked-god-told-pastor-not-to-worry-about-his-symptoms-then-pulmonary-embolism-hit-1784869216858",
+      "title": "ChatGPT invoked God, told pastor not to worry about his symptoms",
+      "title_ja": "ChatGPTが医学的助言を与えた事例、牧師が肺塞栓症に",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "医療相談",
+        "利用リスク",
+        "安全ルール"
+      ],
+      "summary": "牧師がChatGPTに症状を相談、AIが宗教的表現で心配不要と返答。その後実際に肺塞栓症を発症した事例が報告された。",
+      "impact": "AIを医学相談に使わせないルール作りが必要。利用者教育と相談時の注意書きを確認する材料になる。",
+      "notes": "医学的な判断はAIに依存させない。会社で使う前に職場ルール（相談禁止事項）と利用者研修を整える。"
+    },
+    {
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430",
+      "normalized_url": "https://www.theregister.com/ai-and-ml/2026/07/24/chatgpt-wants-access-to-your-health-records-so-it-can-be-a-better-not-doctor/5278430",
+      "title": "ChatGPT wants access to your health records so it can be a better not-doctor",
+      "title_ja": "ChatGPTが健康記録へのアクセスを要望",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "医療情報",
+        "プライバシー",
+        "規制対応"
+      ],
+      "summary": "ChatGPTが利用者の医療記録へのアクセス機能を求めていることが報道された。詳細は未確認。",
+      "impact": "社内で医療関連情報をChatGPTに入力させる場合、プライバシーとセキュリティ規制への対応を確認する必要が生じる可能性がある。",
+      "notes": "報道段階で実装状況は不明。医療情報の扱いは個人情報保護・医療法などの規制対象。利用前に法務・情報セキュリティ部門と確認する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21557v1",
+      "normalized_url": "https://arxiv.org/abs/2607.21557v1",
+      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "title_ja": "OpenForgeRL：任意の環境でハーネス型エージェントを訓練するフレームワーク",
+      "published": "2026/07/23",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "AI論文",
+        "エージェント",
+        "機械学習",
+        "オープンソース",
+        "推論エンジン"
+      ],
+      "summary": "Claude Code等の推論エンジンを使うエージェントを、オープンなインフラで訓練できるフレームワークが提案された。",
+      "impact": "社内でAIエージェント開発をする場合、複雑な推論システムを一から構築せず統合訓練が可能になる可能性がある。",
+      "notes": "論文段階であり、実装状況や自社での利用可否は未確認。実際の導入には技術確認と判断が必要。"
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo",
+      "normalized_url": "https://github.com/ruvnet/ruflo",
+      "title": "Ruflo: An agent meta-harness for Claude Code and Codex",
+      "title_ja": "Ruflo：Claude CodeとCodexを操作するエージェント制御枠組み",
+      "published": "2026/07/25",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "自動化",
+        "開発ツール",
+        "GitHub"
+      ],
+      "summary": "GitHubで公開された「Ruflo」は、Claude CodeとCodexを自動操作するツール。複数のAIモデルを連携させる仕組みを提供する。",
+      "impact": "社内でClaude Codeを活用している場合、自動化や複数モデルの組み合わせ運用の参考になる可能性がある。",
+      "notes": "ユーザー数が少ない段階（HNでのポイント3）なため、安定性や保守性は未確認。会社で利用する場合は事前にテスト環境で動作確認する。"
+    }
+  ]
+}
