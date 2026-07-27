@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-07-27T09:10:55.335132+09:00",
+  "finished_at": "2026-07-27T09:12:21.964362+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 73,
+    "arxiv": 0
+  },
+  "fetched_total": 78,
+  "after_dedupe": 77,
+  "recorded_duplicate_excluded_count": 9,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 5,
+  "count_c": 5,
+  "count_excluded": 5,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/07/27.html",
+  "markdown_path": "output/2026-07-27_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33711,
+  "output_tokens": 4446,
+  "estimated_cost_usd": 0.055941,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://github.com/lenamonj/jeffy-loop",
+      "normalized_url": "https://github.com/lenamonj/jeffy-loop",
+      "title": "Jeffy Loop, an autonomous code improvement loop for Claude Code",
+      "title_ja": "Claude用の自動コード改善ループ「Jeffy Loop」",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "自動化",
+        "開発効率"
+      ],
+      "summary": "Claudeのコードタスクをループで自動改善するツール。コードを生成して実行、結果に基づき繰り返し修正する仕組み。",
+      "impact": "Claude使用時にコード品質チェックを自動化できる可能性。ただし自社での動作確認が必須。",
+      "notes": "GitHubリポジトリの段階で公開情報が限定的。利用前に機能・制限・セキュリティを確認する。"
+    },
+    {
+      "url": "https://aifordevelopers.substack.com/p/designmd-for-design-in-claude-code",
+      "normalized_url": "https://aifordevelopers.substack.com/p/designmd-for-design-in-claude-code",
+      "title": "Design.md for Design in Claude Code",
+      "title_ja": "Claude Codeで設計ドキュメント管理の新機能",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "開発効率",
+        "設計管理"
+      ],
+      "summary": "Claudeのコード機能に設計ドキュメント管理の仕組みが加わった。開発時に設計意図を保持しながらコード生成できるようになる。",
+      "impact": "Claudeで開発を進める際、設計書と実装のズレが減り、要件漏れや意思疎通の手戻りが減る可能性がある。",
+      "notes": "詳細は未確認。自社でClaude Codeを使う場合は、設計ドキュメントの形式やバージョン管理のルールを確認する。"
+    },
+    {
+      "url": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "normalized_url": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "title": "Agent Harness Design for Claude",
+      "title_ja": "Claudeをエージェントとして使う設計方法",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "API利用",
+        "業務自動化",
+        "Anthropic"
+      ],
+      "summary": "AnthropicがClaudeをエージェント型で動かす際の設計パターンを説明した。",
+      "impact": "社内でClaudeを繰り返し実行や判断を伴う業務で使う場合、この設計を参考に運用ルールや出力チェック方法を検討する必要がある。",
+      "notes": "HNでの議論が最小限（ポイント1件、コメント0件）のため、記事の評価や追加情報は未確認。公式ブログとして読むが、自社での実装前に技術チームと確認する。"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/openai-chatbot-biological-weapons-poison-3d808e6c",
+      "normalized_url": "https://www.wsj.com/tech/ai/openai-chatbot-biological-weapons-poison-3d808e6c",
+      "title": "AI Chatbots Know How to Make Deadly Biological Weapons. Some Will Teach You",
+      "title_ja": "ChatGPTなど一部のAIチャットボット、生物兵器製造方法を教える可能性",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "ガイドライン",
+        "危険物質"
+      ],
+      "summary": "複数のAIチャットボットが、危険な生物兵器の製造方法に関する質問に回答する可能性があることが判明した。",
+      "impact": "ChatGPTなど社内で使用しているAIの出力内容をチェックする体制を、改めて検討する必要がある。",
+      "notes": "記事の詳細内容が抜粋から不明確。WSJ公式記事を確認し、自社のAI利用ガイドラインに反映させるか判断する。"
+    },
+    {
+      "url": "https://hirejosie.ai/blog/chatgpt-yelp-ai-lead-response/",
+      "normalized_url": "https://hirejosie.ai/blog/chatgpt-yelp-ai-lead-response",
+      "title": "We respond to Yelp leads in 15 seconds. The average business takes 4 hours",
+      "title_ja": "ChatGPTで顧客問い合わせに15秒で返信、従来は4時間かかる",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "営業・営業支援",
+        "顧客対応",
+        "リード対応",
+        "自動化"
+      ],
+      "summary": "Yelp経由の顧客問い合わせにChatGPTを使い自動返信する事例。返信速度が大幅に短縮される",
+      "impact": "営業・カスタマーサポート業務でAI活用が進む例。自社で顧客対応にAIを導入する際の参考になる",
+      "notes": "自社の顧客対応ルールと照らし合わせ、AI返信の確認体制と責任者を決めた上で試行するとよい"
+    },
+    {
+      "url": "https://termic.dev/",
+      "normalized_url": "https://termic.dev/",
+      "title": "Show HN: Termic – desktop app for running CLI coding agents (Claude Code, Codex)",
+      "title_ja": "Termic：Claude CodesやCodexをデスクトップで実行できるアプリ",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "デスクトップアプリ",
+        "開発支援",
+        "エージェント"
+      ],
+      "summary": "CLIコーディングエージェントをデスクトップアプリで動かす仕組みが登場。Claude Codesなどを手元で使える。",
+      "impact": "ローカル環境でAIコーディング支援を利用する選択肢が増えた。導入前に自社の開発環境での動作確認が必要。",
+      "notes": "Hacker Newsでの話題の初期段階で、ユーザー数や安定性の実績が未確認。開発環境での利用を検討する際は試用と検証を優先する。"
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "normalized_url": "https://github.com/Nutlope/hallmark",
+      "title": "Hallmark – Anti-AI-Slop Design Skill for Claude Code, Cursor, and Codex",
+      "title_ja": "Claudeなどの生成AIが作るデザイン出力の質を上げるツール「Hallmark」",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "デザイン自動化",
+        "品質管理"
+      ],
+      "summary": "AIが生成したデザインの品質問題を減らすための設計スキルをまとめたプロジェクト。",
+      "impact": "Claude CodeやCursorで業務用デザインを自動生成する際、出力チェックや修正の手間が減る可能性がある。",
+      "notes": "GitHub上のコミュニティ資料のため、社内で使う場合は出力結果を必ず確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/hkc5/cursor-bridge",
+      "normalized_url": "https://github.com/hkc5/cursor-bridge",
+      "title": "Cursor Bridge – Run Unlimited Claude Code on Your Cursor Subscription",
+      "title_ja": "Cursor Bridge──Cursor契約でClaudeを無制限実行",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Cursor",
+        "非公式ツール",
+        "コスト"
+      ],
+      "summary": "GitHubで公開されたツール。Cursorの契約料金でClaudeの機能を無制限に使える仕組み。",
+      "impact": "Cursorユーザーが追加費用なくClaudeの利用枠を増やせる可能性があるため、ライセンス費用の計算時に確認する必要がある。",
+      "notes": "非公式ツールのため、Cursor・Anthropicの利用規約違反にならないか確認してから導入する。"
+    },
+    {
+      "url": "https://github.com/pipilot-dev/anyclaude-sdk",
+      "normalized_url": "https://github.com/pipilot-dev/anyclaude-sdk",
+      "title": "Show HN: Anyclaude-SDK – Claude Code-Style SDK for OpenAI/Anthropic Endpoints",
+      "title_ja": "Anyclaude-SDK – ClaudeスタイルのSDK、OpenAI・Anthropicエンドポイント対応",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "OpenAI",
+        "SDK",
+        "開発ツール"
+      ],
+      "summary": "複数のAIモデルエンドポイント（OpenAI、Anthropic）に対してClaudeスタイルで統一的にアクセスできるSDKが公開された。",
+      "impact": "AI利用プログラムを複数モデル間で切り替えやすくなる可能性があり、技術選定時の参考になる。",
+      "notes": "未確認情報が多い。実務利用前に公式資料・サポート状況を確認する。"
+    },
+    {
+      "url": "https://www.aiwebsitecritic.com/",
+      "normalized_url": "https://www.aiwebsitecritic.com/",
+      "title": "An automated website audit tool using Gemini and n8n",
+      "title_ja": "Geminiとn8nで自動サイト監査ツールが登場",
+      "published": "2026/07/26",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Web監査",
+        "n8n",
+        "自動化",
+        "外部ツール"
+      ],
+      "summary": "Geminiとn8nを組み合わせたWebサイト自動監査ツールが公開された。サイトの問題点を自動で検出できる",
+      "impact": "自社Webサイトの監査に外部ツールが使える選択肢が増えた。ただし外部サービスなので情報漏洩リスクを事前に確認する必要がある",
+      "notes": "外部サービス利用時は、会社のサイト情報や分析データをどこまで送信するか、法務・セキュリティと確認する"
+    }
+  ]
+}
