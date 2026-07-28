@@ -1,0 +1,148 @@
+{
+  "started_at": "2026-07-28T09:09:59.585361+09:00",
+  "finished_at": "2026-07-28T09:11:14.182419+09:00",
+  "fetched_per_source": {
+    "official": 8,
+    "hn": 73,
+    "arxiv": 30
+  },
+  "fetched_total": 111,
+  "after_dedupe": 106,
+  "recorded_duplicate_excluded_count": 4,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 2,
+  "count_b": 3,
+  "count_c": 1,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/07/28.html",
+  "markdown_path": "output/2026-07-28_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33923,
+  "output_tokens": 4703,
+  "estimated_cost_usd": 0.057438,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
+      "normalized_url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results",
+      "title": "Anthropic used robots.txt to hide shared Claude chats; the pages have no noindex",
+      "title_ja": "Claude共有チャットが検索結果に露出、Anthropicのロボット対策に不備",
+      "published": "2026/07/27",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "共有機能",
+        "検索エンジン登録"
+      ],
+      "summary": "Anthropicが共有設定のClaudeチャットをrobots.txtで隠そうとしたが、noindexタグがないため検索エンジンに登録される。",
+      "impact": "社内でClaudeの共有機能を使う場合、共有URLが予期せずGoogle・Bingの検索結果に表示される可能性がある。",
+      "notes": "機密情報や個人情報をClaudeの共有チャットに入れないよう注意する。社内ルールで共有機能の利用制限を確認する。"
+    },
+    {
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "normalized_url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
+      "title": "Claude shared chats and Artifacts may have ended up on Google",
+      "title_ja": "Claude共有チャットとArtifactsがGoogle検索に露出した可能性",
+      "published": "2026/07/27",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "情報漏洩",
+        "共有設定",
+        "Google検索"
+      ],
+      "summary": "AnthropicのClaudeで共有したチャットやArtifactsがGoogle検索で索引される問題が報告されている。",
+      "impact": "社内のClaudeでの共有チャットに機密情報や個人データがあれば、Google検索で外部に見つかるリスクがある。",
+      "notes": "自社でClaudeの共有機能を使っている場合、過去の共有コンテンツをGoogle検索で試し、機密情報の露出有無を確認する必要がある。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "normalized_url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "title": "Jul 27, 2026 Announcements Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+      "title_ja": "CognizantとAnthropicが提携拡大、Claudeを企業向けに展開",
+      "published": "2026/07/27",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "企業向けAI",
+        "提携",
+        "Cognizant"
+      ],
+      "summary": "CognizantとAnthropicが提携を拡大し、Claudeを企業クライアント向けに提供する。",
+      "impact": "企業でClaude導入を検討する場合、Cognizantを通じた支援・統合サービスが利用可能になる可能性がある。",
+      "notes": "詳細な提携内容（利用可能な機能、価格、対応範囲）は公式資料で確認が必要。"
+    },
+    {
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "normalized_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "title": "How AI is expanding what people do at work",
+      "title_ja": "OpenAIが発表、ChatGPT利用で業務範囲が広がる傾向",
+      "published": "2026/07/27",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "業務利用",
+        "職務範囲",
+        "OpenAI公式調査"
+      ],
+      "summary": "OpenAIの調査で、ChatGPT利用者が従来の職種の枠を超えて新しい業務に取り組む傾向が明らかになった。",
+      "impact": "社内でChatGPT導入時、職種別の利用想定業務を単純に定めるのではなく、新しい業務への対応を視野に入れてルール設計する必要がある。",
+      "notes": "詳細な業務例や利用シーン、職種別の傾向は公式ブログで確認し、自社の職務分掌・評価基準への影響を検討する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "normalized_url": "https://www.anthropic.com/news/position-open-weights-models",
+      "title": "Jul 27, 2026 Announcements Our position on open-weights models",
+      "title_ja": "Anthropicがオープンウェイトモデルへの立場を表明",
+      "published": "2026/07/27",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "モデル方針",
+        "セキュリティ"
+      ],
+      "summary": "Anthropicが、誰でも改変・利用できるオープンウェイトモデルについての考え方を公式に発表した。",
+      "impact": "Claude採用時のモデル選択やセキュリティ方針の判断に影響する可能性がある。社内でAI導入を検討する際の参考情報として確認する。",
+      "notes": "詳細内容は公式ページで確認する。Anthropicの方針変更や新しいモデルリリースの可能性もあるため、定期的に確認する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22513v1",
+      "normalized_url": "https://arxiv.org/abs/2607.22513v1",
+      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
+      "title_ja": "LLMの設定が疑似科学の評価に与える影響",
+      "published": "2026/07/24",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "Grok",
+        "信頼性",
+        "検証",
+        "研究"
+      ],
+      "summary": "Claude、GPT、Gemini、Grokの4つのLLMが、疑似科学的な主張をどう評価するかを調査した。モデルやインターフェースによって評価が大きく異なる。",
+      "impact": "社内でLLMを情報源として使う際、同じ質問でも出力結果が異なる可能性がある。利用ルール検討時に、このばらつきを考慮する必要がある。",
+      "notes": "学術調査の段階。実務判断に直結する製品情報ではないが、LLMの回答に対する信頼度判定を社内で統一する時の参考になる。"
+    }
+  ]
+}
