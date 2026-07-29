@@ -1,0 +1,185 @@
+{
+  "started_at": "2026-07-29T09:07:41.868590+09:00",
+  "finished_at": "2026-07-29T09:09:12.510370+09:00",
+  "fetched_per_source": {
+    "official": 17,
+    "hn": 83,
+    "arxiv": 0
+  },
+  "fetched_total": 100,
+  "after_dedupe": 96,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 2,
+  "count_excluded": 0,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/07/29.html",
+  "markdown_path": "output/2026-07-29_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34136,
+  "output_tokens": 4853,
+  "estimated_cost_usd": 0.058401,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/generate-and-edit-visuals-with-gemini-in-Google-Docs.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/generate-and-edit-visuals-with-gemini-in-Google-Docs.html",
+      "title": "Generate and edit visuals with Gemini in Google Docs",
+      "title_ja": "Google DocsでGeminiが画像生成・編集に対応",
+      "published": "2026/07/28",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Docs",
+        "画像生成",
+        "文書作成"
+      ],
+      "summary": "Google DocsでGeminiを使い、テキストと一緒に画像や図表をその場で作成・編集できるようになった。",
+      "impact": "文書作成時に外部ツールを使わず視覚資料を用意できるため、作業の手順を減らせる。自社の文書作成フローを見直すきっかけになる。",
+      "notes": "実装の詳細や利用対象ユーザー層、言語対応状況は抜粋からは未確認。自社のGoogle Workspace契約で使えるかどうか確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/streamline-collaboration-in-google-docs-with-Gemini-powered-comment-workflows.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/streamline-collaboration-in-google-docs-with-Gemini-powered-comment-workflows.html",
+      "title": "Streamline collaboration in Google Docs with Gemini-powered comment workflows",
+      "title_ja": "Google Docs、Geminiがコメント対応を自動支援する新機能",
+      "published": "2026/07/28",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Docs",
+        "コメント機能",
+        "協業",
+        "自動化"
+      ],
+      "summary": "Google DocsでGeminiがコメント内容を読み込み、要約や対応内容を提案する機能が追加された。",
+      "impact": "ドキュメント共有での確認・返信作業が減り、複数人協業時の時間短縮につながる。機能実装前に会社のGemini利用ルールを確認する。",
+      "notes": "公式資料として読めるが、ドキュメント内容やコメント履歴をGeminiに読ませることになるため、扱うデータの機密性を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "normalized_url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "title": "Scientific computing in the age of agentic AI",
+      "title_ja": "科学計算の現場でAIコーディングエージェント活用、OpenAIが事例報告",
+      "published": "2026/07/28",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI利用事例",
+        "コード生成",
+        "導入検討"
+      ],
+      "summary": "科学者がAIコーディングエージェントを使い、ゲノムなどの研究開発を加速させている状況をOpenAIが報告した。",
+      "impact": "社内で科学計算や解析業務が多い場合、コード生成AIの導入検討の参考になる。効果測定項目も確認するとよい。",
+      "notes": "事例は科学研究向けだが、社内の解析業務にも応用できるかは自社の業務内容で確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "title_ja": "Gemini APIの自動エージェント機能が拡張、3.6 Flashに対応",
+      "published": "2026/07/28",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "API",
+        "開発者向け",
+        "自動化",
+        "Google"
+      ],
+      "summary": "GoogleがGemini APIの自動エージェント機能を拡張し、新モデル3.6 Flashへの対応やhooksとtriggersを追加した。",
+      "impact": "Gemini APIを使った自動化機能の実装方法が変わる。開発部門で新機能の活用を検討する際の基準が変わる可能性がある。",
+      "notes": "詳細な機能仕様と自社での利用方法は公式資料で確認する。APIキーの権限管理と利用ログの保存方法を事前に定める必要がある。"
+    },
+    {
+      "url": "https://github.com/softcane/hamza",
+      "normalized_url": "https://github.com/softcane/hamza",
+      "title": "Show HN: Hamza Mask secrets and PII before Claude Code or Codex sends them",
+      "title_ja": "Claudeに送信前にマスクする秘密情報・個人情報の検出ツール",
+      "published": "2026/07/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "コード送信",
+        "秘密情報管理"
+      ],
+      "summary": "GitHubで公開されたHamzaというツール。Claudeやほかのコード生成AIに送る前に、ソースコードから秘密鍵や個人情報を自動検出してマスクする。",
+      "impact": "Claudeを含むAIツールにコードを送信する際、誤って秘密情報を漏らすリスクを減らせる。社内のコード送信ルールを見直す際の参考になる。",
+      "notes": "評判や利用実績は未確認。自社で使う場合は、検出精度と漏れやすい情報パターンを事前テストする。"
+    },
+    {
+      "url": "https://www.noclick.com/",
+      "normalized_url": "https://www.noclick.com/",
+      "title": "Show HN: NoClick – Build always-on agents with your existing AI subscriptions",
+      "title_ja": "NoClick - 既存のAI利用料で常時動作するエージェント構築ツール",
+      "published": "2026/07/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "AI活用",
+        "エージェント",
+        "ツール・サービス"
+      ],
+      "summary": "NoClickは、ChatGPTやClaudeなど既に契約しているAIサービスを使って、自動実行するエージェントを作るツール。",
+      "impact": "自社で使っているAI利用料の範囲内でエージェント導入を検討できる。利用中のサービスの追加活用により、新規導入コストが回避できる可能性がある。",
+      "notes": "まだ認知度が低い段階（Hacker News投稿時点）。自社で実際に使う場合は、APIの仕様・利用規約・コスト・セキュリティを確認する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "title_ja": "Google検索のAIモードが現実世界をより楽しくする5つの方法",
+      "published": "2026/07/28",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Google検索",
+        "AI活用例"
+      ],
+      "summary": "GoogleがAIモード機能を使い、旅行・趣味・イベント探しなど日常の楽しみを広げる活用例を紹介した。",
+      "impact": "検索機能にAIが統合されることで、社員の情報探索や計画立案の方法が変わる可能性がある。",
+      "notes": "業務外利用を想定した記事のため、社内AIポリシーと照らし合わせて確認する必要がない。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "title_ja": "Google検索で完璧なディナーパーティーを開く5つの方法",
+      "published": "2026/07/28",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Google検索",
+        "Gemini",
+        "知識"
+      ],
+      "summary": "Google検索とGeminiを使い、メニュー案から予約手配まで、ディナーパーティーの企画を支援する機能を紹介した。",
+      "impact": "検索画面上でレシピや店舗情報を拾える利便性を示すもので、業務での検索活用方法には直結しない。",
+      "notes": "消費者向けのTips記事であり、社内AI利用ルール策定には参考にならない。"
+    }
+  ]
+}
