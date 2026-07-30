@@ -1,0 +1,170 @@
+{
+  "started_at": "2026-07-30T09:08:46.869742+09:00",
+  "finished_at": "2026-07-30T09:09:59.741660+09:00",
+  "fetched_per_source": {
+    "official": 23,
+    "hn": 84,
+    "arxiv": 30
+  },
+  "fetched_total": 137,
+  "after_dedupe": 133,
+  "recorded_duplicate_excluded_count": 11,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 2,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 0,
+  "errors": [],
+  "html_path": "docs/2026/07/30.html",
+  "markdown_path": "output/2026-07-30_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34006,
+  "output_tokens": 4787,
+  "estimated_cost_usd": 0.057941,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "normalized_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "title_ja": "OpenAIが新モデルGPT-5.6を発表、性能と効率を両立",
+      "published": "2026/07/29",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "API",
+        "コスト",
+        "推論"
+      ],
+      "summary": "OpenAIが新版GPT-5.6を発表。推論速度を改善し、同じ処理にかかる費用を削減したと説明した。",
+      "impact": "ChatGPTの利用コストが下がる可能性がある。自社でChatGPT APIを使う場合は、新モデルの料金表と従来版を比較する必要がある。",
+      "notes": "公式ブログの情報。新モデルの仕様・料金・提供時期を確認してから判断する。"
+    },
+    {
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+      "normalized_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+      "title": "Gemini 2.5 models are being deprecated and discontinued",
+      "title_ja": "Gemini 2.5モデルが廃止予定に",
+      "published": "2026/07/29",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "廃止予定",
+        "クラウドサービス",
+        "移行対応"
+      ],
+      "summary": "GoogleがGemini 2.5モデルの廃止を発表した。クラウド環境での利用が対象。",
+      "impact": "Gemini 2.5を社内システムで使っている場合、移行計画を立てる必要がある。代替モデルの確認が必要。",
+      "notes": "公式ドキュメントで廃止スケジュール・代替モデルを確認する。現在の利用状況を把握してから対応する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "normalized_url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "title_ja": "Googleが音楽生成AI「Lyria 3.5」を発表、歌詞や音声品質を改善",
+      "published": "2026/07/29",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "音楽生成",
+        "Google",
+        "クリエイティブツール"
+      ],
+      "summary": "GoogleがLyria 3.5を音楽生成サービスに導入。歌詞生成や音声品質、創作コントロールを改良した。",
+      "impact": "社内で音楽生成AIを利用する場合、より自然な歌詞や音声で制作できるようになる。導入前に自社での利用シーンと品質を確認する。",
+      "notes": "Google公式情報として扱える。自社で導入する際は、音声・歌詞の著作権確認と利用ルールを決めておく。"
+    },
+    {
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "normalized_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "title_ja": "2つのAPI設定でARC-AGI-3ベンチマークのスコアが3倍に",
+      "published": "2026/07/29",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.6",
+        "API設定",
+        "ベンチマーク",
+        "推論"
+      ],
+      "summary": "OpenAIがGPT-5.6で2つのAPI設定を有効にすることで、ARC-AGI-3ベンチマークのスコアが大幅に向上したと説明した。",
+      "impact": "ChatGPT APIを使う場合、この設定を適用することで推論精度が上がる可能性がある。自社の運用に組み込めるか確認する。",
+      "notes": "設定内容と対象モデル・APIプランを公式資料で確認してから導入判断する。"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "normalized_url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "title_ja": "OpenAI、学術研究者向けにChatGPTの最新モデルを無料提供",
+      "published": "2026/07/29",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "学術研究",
+        "無料提供",
+        "利用可能性"
+      ],
+      "summary": "OpenAIが学術研究者10万人にChatGPTの高度なモデルを無料で提供し、研究の加速を支援する。",
+      "impact": "研究機関の職員が学外の研究者とAIを使った共同研究をする際、コスト負担を減らせる可能性がある。",
+      "notes": "対象者の定義、利用期間、商用利用の制限、機関での管理方法を確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/toshipepe/tokimeter",
+      "normalized_url": "https://github.com/toshipepe/tokimeter",
+      "title": "Show HN: Tokimeter – open-source usage meter for Claude, Codex, Cursor and more",
+      "title_ja": "Tokimeter：Claude・Codexなどの利用量を測定するオープンソースツール",
+      "published": "2026/07/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "利用管理",
+        "コスト管理",
+        "オープンソース"
+      ],
+      "summary": "Claude・Codex・Cursorなどの利用状況を記録・分析するオープンソースツールがGitHubで公開された。",
+      "impact": "AI利用料金やトークン消費を把握する仕組みが簡単に導入できるようになる。社内のAI利用実績を管理する際の選択肢が増える。",
+      "notes": "ツール詳細や対応範囲は公開リポジトリで確認する。自社で使う場合は導入前に権限・保存先・責任者を決める。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.25921v1",
+      "normalized_url": "https://arxiv.org/abs/2607.25921v1",
+      "title": "Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA",
+      "title_ja": "ゲーム品質確認でのビジョン言語モデルによる不具合検出の評価",
+      "published": "2026/07/28",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "VLM",
+        "Vision Language Model",
+        "異常検出",
+        "ゲーム開発",
+        "品質確認",
+        "Gemini",
+        "GPT",
+        "論文"
+      ],
+      "summary": "ゲーム開発で自動エージェントがレベルを探索し、ビジョン言語モデルで画面の不具合を検出できるかを複数モデル比較した論文。",
+      "impact": "ゲームQAの不具合検出業務で、AIによる自動確認の実用性を判断する材料になる。",
+      "notes": "未確認"
+    }
+  ]
+}
