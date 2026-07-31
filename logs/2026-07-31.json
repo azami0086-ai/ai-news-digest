@@ -1,0 +1,186 @@
+{
+  "started_at": "2026-07-31T09:14:15.934906+09:00",
+  "finished_at": "2026-07-31T09:15:31.041425+09:00",
+  "fetched_per_source": {
+    "official": 23,
+    "hn": 79,
+    "arxiv": 30
+  },
+  "fetched_total": 132,
+  "after_dedupe": 125,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 3,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/07/31.html",
+  "markdown_path": "output/2026-07-31_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34158,
+  "output_tokens": 4782,
+  "estimated_cost_usd": 0.058068,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "normalized_url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "title_ja": "GPT-5.6、Luna・Terraの価格引き下げ。企業向けAIコスト削減",
+      "published": "2026/07/30",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "API価格",
+        "OpenAI",
+        "運用コスト",
+        "Luna",
+        "Terra"
+      ],
+      "summary": "OpenAIがGPT-5.6の新しい価格設定を発表。Luna・Terraモデルで従来より低額になり、大規模利用に対応する。",
+      "impact": "ChatGPT APIの運用コストが下がる可能性がある。現在利用中なら新価格を確認し、予算・契約を見直す機会になる。",
+      "notes": "正式な価格表と適用時期を公式ブログで確認する。既存契約との関係、移行手続きについて営業に問い合わせるとよい。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/07/use-gemini-in-google-forms-to-quickly-create-a-new-quiz.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/07/use-gemini-in-google-forms-to-quickly-create-a-new-quiz.html",
+      "title": "Use Gemini in Google Forms to quickly create a new quiz",
+      "title_ja": "Google Formsで Gemini を使ったクイズ作成が可能に",
+      "published": "2026/07/30",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Forms",
+        "Gemini",
+        "Google Workspace",
+        "自動生成",
+        "教育・研修"
+      ],
+      "summary": "Google Forms で Gemini の「作成を支援」機能がクイズ生成に対応し、プロンプトと Drive ファイルを指定して自動作成できるようになった。",
+      "impact": "社内研修や理解度テストの準備時間が短縮でき、Google Drive の資料から直接クイズを作れるため、教材管理の効率が上がる。",
+      "notes": "生成されたクイズの正答が適切か、実際に使う前に目視確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "normalized_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "title": "Jul 30, 2026 Frontier Red Team Investigating three real-world incidents in our cybersecurity evaluations",
+      "title_ja": "Anthropic、サイバーセキュリティ評価で3つの実案件を調査",
+      "published": "2026/07/30",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "リスク評価",
+        "利用ルール"
+      ],
+      "summary": "Anthropicが、Claude利用時のセキュリティ問題3件を実例として調査・報告。評価方法の透明性を高める取り組み。",
+      "impact": "Claude導入時に想定すべきセキュリティリスクが具体化する。自社の利用ルール・データ管理ルール・ユーザー権限の見直しが必要な可能性。",
+      "notes": "公式報告書として読めるが、記載内容に対して自社での対応策・責任者を確認する。"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-accidentally-spent-usd1-8-million-using-claude-for-menial-coding-task-went-860-percent-over-budget-catastrophically-expensive-coding-blunders-discovered-in-internal-amazon-ai-usage-metrics",
+      "normalized_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-accidentally-spent-usd1-8-million-using-claude-for-menial-coding-task-went-860-percent-over-budget-catastrophically-expensive-coding-blunders-discovered-in-internal-amazon-ai-usage-metrics",
+      "title": "Amazon accidentally spent $1.8M using Claude for a menial coding task, went",
+      "title_ja": "Amazonが単純なコーディング業務でClaudeを使用し、180万ドルを予算超過",
+      "published": "2026/07/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト管理",
+        "Amazon",
+        "AI予算"
+      ],
+      "summary": "Amazonが単純なコード作成にClaudeを使い、予算を大幅に超過した事例が報告された。",
+      "impact": "AI利用時の費用管理と、使用モデルの選択基準を設定する必要性が明らかになった。",
+      "notes": "詳細は未確認。自社のAI利用コストを定期確認し、タスクと利用モデルの組み合わせを見直すとよい。"
+    },
+    {
+      "url": "https://miget.com/ai-copilot",
+      "normalized_url": "https://miget.com/ai-copilot",
+      "title": "Deploy and debug your infrastructure from Claude Code- no dashboard,just prompts",
+      "title_ja": "Claude Codeでインフラを操作・デバッグ、ダッシュボード不要",
+      "published": "2026/07/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "インフラ管理",
+        "デバッグ",
+        "自動化",
+        "開発環境"
+      ],
+      "summary": "Claudeがコード経由でインフラ管理やデバッグができるようになった。ダッシュボード画面を開かずプロンプトだけで操作する。",
+      "impact": "インフラ構築・トラブル対応でClaudeを使う際の業務フローが変わる可能性がある。実際に使う場合は権限・操作ログ・責任範囲を確認する。",
+      "notes": "記事の詳細情報が限定的。実装範囲・セキュリティ要件・対応環境を公式資料で確認してから利用判断する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "normalized_url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "title_ja": "Geminiがロボット制御に対応、複数ロボット連携も可能に",
+      "published": "2026/07/30",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "ロボット",
+        "自動化",
+        "AI活用"
+      ],
+      "summary": "GoogleがロボットAI「Gemini Robotics ER 2」を公開。動画理解と複数ロボットの連携で、実務的な作業ができるようになった。",
+      "impact": "ロボット導入時の制御や判断がAIで自動化される可能性。会社で自動化検討時の参考情報として押さえておく。",
+      "notes": "未確認情報。実際の使用環境・コスト・日本での利用可能性を確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "normalized_url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "title_ja": "Gemini Robotics 2、ロボットに全身制御の知能を搭載",
+      "published": "2026/07/28",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "ロボット",
+        "AI",
+        "自動化",
+        "Google DeepMind"
+      ],
+      "summary": "GoogleがGeminiの新バージョンをロボット向けに開発。複雑な動作を学習し実行できるようにした。",
+      "impact": "ロボットが単純な指示以上の動作に対応し、製造・物流での自動化範囲が広がる可能性がある。",
+      "notes": "記事詳細は公式ブログで確認し、自社でのロボット導入や業務自動化検討時に参考にする。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.27189v1",
+      "normalized_url": "https://arxiv.org/abs/2607.27189v1",
+      "title": "APEX-Accounting",
+      "title_ja": "会計業務のAIベンチマーク、Claude-Fable-5が最高スコア",
+      "published": "2026/07/29",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI評価",
+        "会計・経理",
+        "ベンチマーク",
+        "arXiv論文"
+      ],
+      "summary": "会計実務タスクでAI性能を測る新しい評価基準が公開された。記帳・決算・報告書作成など実際の業務160件を複数モデルで比較する。",
+      "impact": "社内のAI利用検討時に、会計・経理領域での実現可能性を参考にできる。ただし学術ベンチマークなので本番運用の代わりにはならない。",
+      "notes": "未確認情報も含まれている可能性があるため、実際の導入検討では出力チェック・最終確認の仕組みを決める。"
+    }
+  ]
+}
