@@ -1,0 +1,168 @@
+{
+  "started_at": "2026-08-01T09:10:18.505207+09:00",
+  "finished_at": "2026-08-01T09:11:36.072067+09:00",
+  "fetched_per_source": {
+    "official": 21,
+    "hn": 80,
+    "arxiv": 30
+  },
+  "fetched_total": 131,
+  "after_dedupe": 127,
+  "recorded_duplicate_excluded_count": 12,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 2,
+  "count_b": 5,
+  "count_c": 0,
+  "count_excluded": 4,
+  "errors": [],
+  "html_path": "docs/2026/08/01.html",
+  "markdown_path": "output/2026-08-01_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33784,
+  "output_tokens": 4669,
+  "estimated_cost_usd": 0.057129,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "normalized_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "title": "Disrupting a Criminal Scam Operation",
+      "title_ja": "OpenAI、ChatGPTを悪用した詐欺グループの活動を停止",
+      "published": "2026/07/31",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "詐欺対策",
+        "利用ルール",
+        "従業員教育"
+      ],
+      "summary": "OpenAIがカンボジア拠点の詐欺グループによるChatGPT悪用を検出し、利用を停止した。投資詐欺やなりすまし詐欺などに使われていた。",
+      "impact": "ChatGPTが詐欺手口に使われる事例が存在する。会社で利用時は、生成テキストの信頼性確認と従業員への注意喚起が必要。",
+      "notes": "詐欺防止の観点から、ChatGPT出力を無批判に信用しない、疑わしい勧誘には応じないというルールを確認する。"
+    },
+    {
+      "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated/",
+      "normalized_url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash Deprecated – GitHub Changelog",
+      "title_ja": "Gemini 2.5 ProとGemini 3 Flashが廃止予定に",
+      "published": "2026/07/31",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "API廃止",
+        "バージョン管理",
+        "開発者向け"
+      ],
+      "summary": "GoogleがGeminiの旧バージョン2つを廃止予定と発表。GitHub経由で開発者に通知している。",
+      "impact": "自社でGemini 2.5 ProまたはGemini 3 Flashを使っている場合、新バージョンへの移行スケジュールを確認する必要がある。",
+      "notes": "廃止時期と移行対象の詳細は公式ブログで確認する。現在利用中のAPIやアプリケーション、自社システムとの連携箇所を洗い出す。"
+    },
+    {
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "normalized_url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "title": "Advancing responsible AI across Europe",
+      "title_ja": "OpenAIがヨーロッパでの責任あるAI推進について説明",
+      "published": "2026/07/31",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "EU AI法",
+        "セキュリティ・透明性",
+        "規制対応",
+        "責任あるAI"
+      ],
+      "summary": "OpenAIが、EU AI法への対応として安全性・セキュリティ・透明性・出所確認の取り組みを説明した。",
+      "impact": "ChatGPT利用時のデータ取扱い・監査対応・利用制限ルールがEU規制に合わせ変わる可能性がある。",
+      "notes": "EU AI法の進展に応じてOpenAIが対応を進めるため、定期的に公式説明を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/unive",
+      "normalized_url": "https://openai.com/index/unive",
+      "title": "Univé builds an AI-ready workforce",
+      "title_ja": "ユニベ、ChatGPT Enterprise で社員中心のAI人材育成を実現",
+      "published": "2026/07/31",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT Enterprise",
+        "AI導入事例",
+        "企業利用",
+        "人材育成",
+        "ガバナンス"
+      ],
+      "summary": "ユニベ社がChatGPT Enterpriseを導入し、リーダーシップと利用ルール、社員主導の工夫を組み合わせてAI活用を広げた事例を紹介している。",
+      "impact": "AI導入時に経営層の決定、利用ルール設定、社員への委譲がどう機能するかを学べる。自社の導入計画の参考になる。",
+      "notes": "事例研究のため、自社の規模や業務と比べて取り入れられる部分を確認する。詳細はOpenAI公式ブログで読める。"
+    },
+    {
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "normalized_url": "https://openai.com/index/building-abundant-intelligence",
+      "title": "Building abundant intelligence",
+      "title_ja": "OpenAI、高性能AIを低コスト化する「フルスタック戦略」を発表",
+      "published": "2026/07/31",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "コスト最適化",
+        "AI戦略"
+      ],
+      "summary": "OpenAIが、AIの性能向上と低価格化を同時に進める組織横断的な取り組みを説明した。",
+      "impact": "ChatGPTなど既存サービスの利用コストや仕様が変わる可能性がある。社内のAI利用予算と導入計画の見直しが必要になるかもしれない。",
+      "notes": "詳しい内容は公式ブログで確認する。自社のAI利用契約や利用量との関係を整理しておくとよい。"
+    },
+    {
+      "url": "https://openai.com/index/avatarin",
+      "normalized_url": "https://openai.com/index/avatarin",
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "title_ja": "GPT-Realtimeで24時間対応の店舗スタッフ、ヤマダ電機で運用開始",
+      "published": "2026/07/30",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "GPT-Realtime",
+        "ChatGPT",
+        "音声AI",
+        "カスタマーサポート",
+        "小売",
+        "ヤマダ電機",
+        "多言語"
+      ],
+      "summary": "ヤマダ電機がOpenAIのGPT-Realtimeを使い、多言語対応の自動接客を24時間運営。2週間で3万人が利用した。",
+      "impact": "リアルタイム音声AIの商用利用例として、自社の顧客対応業務での導入可否や効果測定の参考になる。",
+      "notes": "実装内容や技術要件、導入コスト、日本語対応の詳細は別途確認が必要。"
+    },
+    {
+      "url": "https://github.com/ForeverSc/pinfix",
+      "normalized_url": "https://github.com/ForeverSc/pinfix",
+      "title": "Show HN: PinFix – Click any UI element and edit its source with Claude Code",
+      "title_ja": "Claude Codeで、ページ上の要素をクリックして直接編集できるツール",
+      "published": "2026/07/31",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "UI編集",
+        "開発ツール",
+        "GitHub"
+      ],
+      "summary": "PinFixは、UIの任意の要素をクリックするとClaudeが自動で修正コードを生成し、ウェブページをその場で編集できるツール。",
+      "impact": "開発時にブラウザの検査ツールを使わず、直感的に要素を修正できるため、デザイン調整やバグ修正の手順が簡潔になる可能性がある。",
+      "notes": "実験的段階で利用者が少なく、本番環境での動作保証や制限事項は未確認。社内導入前に自社の開発フローと照合する。"
+    }
+  ]
+}
