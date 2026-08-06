@@ -1,0 +1,221 @@
+{
+  "started_at": "2026-08-06T09:09:13.246068+09:00",
+  "finished_at": "2026-08-06T09:10:49.472496+09:00",
+  "fetched_per_source": {
+    "official": 16,
+    "hn": 81,
+    "arxiv": 0
+  },
+  "fetched_total": 97,
+  "after_dedupe": 96,
+  "recorded_duplicate_excluded_count": 15,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 9,
+  "count_c": 1,
+  "count_excluded": 1,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/08/06.html",
+  "markdown_path": "output/2026-08-06_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33890,
+  "output_tokens": 4888,
+  "estimated_cost_usd": 0.05833,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/streamlining-rubric-generation-in-Google-Classroom-with-Gemini.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/streamlining-rubric-generation-in-Google-Classroom-with-Gemini.html",
+      "title": "Streamlining rubric generation in Google Classroom with Gemini",
+      "title_ja": "Google Classroomで採点基準をGeminiで自動作成可能に",
+      "published": "2026/08/05",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Classroom",
+        "教育",
+        "自動生成"
+      ],
+      "summary": "Google Classroomの課題作成時に、Geminiが採点基準（ルーブリック）を自動生成できるようになった。",
+      "impact": "教育機関の担当者は、課題ごとに採点基準を素早く作成・統一できるため、採点準備の手間が減る。",
+      "notes": "Google Workspaceの公式機能のため制限・利用権限などは既存ルールに準じる。自社の採点基準との照合は必要。"
+    },
+    {
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "normalized_url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "title_ja": "Google DeepMind、Demis HassabisがCEOから会長へ",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Google",
+        "DeepMind",
+        "組織人事"
+      ],
+      "summary": "Google DeepMindの経営体制が変わり、CEOのDemis Hassabisが会長に、Jeff Deanが部門を離れる人事が発表された。",
+      "impact": "Google内のAI開発の指揮体制が変わることで、方針決定や提携相手との交渉責任者が変わる可能性がある。",
+      "notes": "詳細な後任人事や体制の発表を公式資料で確認する必要がある。"
+    },
+    {
+      "url": "https://medium.com/@nenadmitt/roi-of-my-100-claude-code-subscription-028937c9f77e",
+      "normalized_url": "https://medium.com/@nenadmitt/roi-of-my-100-claude-code-subscription-028937c9f77e",
+      "title": "ROI of $100 Claude Code Subscription",
+      "title_ja": "Claude Code有料版（月100ドル）の投資効果",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト評価",
+        "有料版",
+        "投資効果"
+      ],
+      "summary": "ユーザーがClaudeの有料コード機能に月100ドル投じた場合の費用対効果について、個人の経験をもとに検討している。",
+      "impact": "Claudeの有料版導入の判断材料として、実際の利用者の投資効果データを参考にできる。社内でのAI利用拡大時の予算検討に役立つ可能性がある。",
+      "notes": "個人の経験ベースの記事であり、業務環境や利用方法により効果は異なる。実際の導入判断には自社の利用シーン・頻度を確認してから検討する。"
+    },
+    {
+      "url": "https://heyski.io/",
+      "normalized_url": "https://heyski.io/",
+      "title": "Voice mode for Claude Code. Claude Code now answers you like a real person",
+      "title_ja": "Claude Codeが音声モード対応、自然な会話で回答",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "音声入力",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "summary": "AnthropicのClaudeがCode機能で音声入出力に対応。ユーザーが音声で質問すると、会話的に応答する機能を追加した。",
+      "impact": "Claude利用時に音声での操作・相談が可能になり、キーボード入力の手間が減る。音声の精度や応答内容は自社で試して確認する必要がある。",
+      "notes": "音声機能の利用可否、社内での使用ルール、録音データの保存先と削除期限を事前に確認する。"
+    },
+    {
+      "url": "https://zipbox.ai/setup/claude",
+      "normalized_url": "https://zipbox.ai/setup/claude",
+      "title": "Show HN: Cloud based firecracker VMs for agents, with email, domains and wallets",
+      "title_ja": "Claude向けクラウドVM基盤、メール・ドメイン・ウォレット機能付き",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "自動化",
+        "インフラ",
+        "エージェント"
+      ],
+      "summary": "Claudeが使えるクラウド環境で、メール送受信やドメイン管理、暗号資産の機能を提供するサービスが公開された。",
+      "impact": "Claudeを使った自動化業務で、外部との連絡やアカウント操作が可能になる。導入前に利用ルールと責任範囲を決める必要がある。",
+      "notes": "クラウド環境でのメール・資産管理には認可・監査・不正利用防止のルール確認が必須。"
+    },
+    {
+      "url": "https://ocean.mosaic.inc/",
+      "normalized_url": "https://ocean.mosaic.inc/",
+      "title": "Show HN: Ocean – All your team's agent sessions in one place",
+      "title_ja": "Ocean – チームのAIエージェント作業を一箇所で管理するツール",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "ツール",
+        "チーム管理"
+      ],
+      "summary": "MosaicがClaudeを使うAIエージェントの作業履歴を一元管理するツール「Ocean」を公開した。",
+      "impact": "チームがClaudeを使った自動化作業の実行内容を追跡・管理する方法が増える。導入前に自社の使用パターンと権限管理を確認する。",
+      "notes": "まだHacker Newsの初期段階（ポイント5、コメント1）で、機能やセキュリティ仕様の詳細は公式ページで確認する。"
+    },
+    {
+      "url": "https://lapse.in",
+      "normalized_url": "https://lapse.in/",
+      "title": "Show HN: Lapse - a notes app. but also shared memory space for your agents (MCP)",
+      "title_ja": "Lapse - AIエージェント向けの共有メモリアプリ",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "MCP",
+        "AIエージェント",
+        "メモ・情報管理",
+        "ChatGPT連携",
+        "共有機能"
+      ],
+      "summary": "複数のAIエージェントが共有できるメモアプリLapseが公開された。MCPで連携し、エージェント間でメモを共有・参照できる。",
+      "impact": "自社でAIエージェントを複数運用する場合、エージェント間での情報共有の仕組みが変わる可能性がある。自社の利用イメージを確認する。",
+      "notes": "Hacker Newsでの初期反応は限定的（3ポイント）。本番導入前に、データ保存先・アクセス権限・情報漏洩リスクを確認する。"
+    },
+    {
+      "url": "https://claude.ai/code/artifact/f66e6308-e81b-40fb-9474-b2b840cb4399",
+      "normalized_url": "https://claude.ai/code/artifact/f66e6308-e81b-40fb-9474-b2b840cb4399",
+      "title": "The silent failure taxonomy: an autonomous pipeline's 32 ways of faking success",
+      "title_ja": "AIパイプラインが成功を装う32の失敗パターン",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI導入",
+        "品質確保",
+        "自動化の失敗パターン",
+        "エラー検知"
+      ],
+      "summary": "自動処理パイプラインが実は失敗しているのに成功と見せかける事例を分類した資料。",
+      "impact": "AI導入時に出力が正しいか検証する必要があり、エラーの見落としやすい箇所を事前に知ることができる。",
+      "notes": "公開日が2026年のため未来日付。未確認の状態なので、実際の入手と内容確認が必要。"
+    },
+    {
+      "url": "https://github.com/bashalarmistalt/tcrf-ai-agent-payload-report",
+      "normalized_url": "https://github.com/bashalarmistalt/tcrf-ai-agent-payload-report",
+      "title": "Tcrf.net served Claude a payload telling it to wipe the working directory",
+      "title_ja": "外部サイトがClaudeに悪意のある指示を送信、作業フォルダ削除を試みたと報告",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "プロンプトインジェクション",
+        "業務利用ルール"
+      ],
+      "summary": "tcrf.netというサイトがClaudeに対して、作業フォルダを削除するよう指示するペイロードを送信した事案が報告された。",
+      "impact": "Claudeを業務利用する際、外部サイトのコンテンツをそのまま処理させることの危険性を再確認する必要がある。",
+      "notes": "詳細は根拠URLのGitHubレポートで確認できるが、自社でClaudePro・API連携を使う場合は出力指示の監視と制限を見直すとよい。"
+    },
+    {
+      "url": "https://www.hyperprobe.co",
+      "normalized_url": "https://www.hyperprobe.co/",
+      "title": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod",
+      "title_ja": "本番環境でのデバッグに特化したAIエージェント「HyperProbe」がYCから始動",
+      "published": "2026/08/05",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI Agent",
+        "ツール・プロダクト",
+        "スタートアップ",
+        "DevOps・システム管理"
+      ],
+      "summary": "YCの最新起業家プログラム参加企業が、本番環境を読み取り専用で分析するAIエージェントを公開した。",
+      "impact": "本番システムの問題調査で、開発者の手作業を減らせる可能性がある。導入前に権限・ログ・責任を確認する必要がある。",
+      "notes": "Claude Code との連携に言及があるため、どの言語モデルを使う設計かは公式サイトで確認する。"
+    }
+  ]
+}
