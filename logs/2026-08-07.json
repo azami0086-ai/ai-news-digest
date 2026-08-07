@@ -1,0 +1,146 @@
+{
+  "started_at": "2026-08-07T10:43:29.689401+09:00",
+  "finished_at": "2026-08-07T10:44:43.671639+09:00",
+  "fetched_per_source": {
+    "official": 15,
+    "hn": 86,
+    "arxiv": 30
+  },
+  "fetched_total": 131,
+  "after_dedupe": 129,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 0,
+  "count_b": 5,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/08/07.html",
+  "markdown_path": "output/2026-08-07_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33927,
+  "output_tokens": 4675,
+  "estimated_cost_usd": 0.057302,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "normalized_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "title_ja": "ChatGPTがGPT-5.6 Solを改良、無料ユーザーにGPT-5.6 Lunaを開放",
+      "published": "2026/08/06",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.6",
+        "無料利用",
+        "アクセス拡大"
+      ],
+      "summary": "ChatGPTの高性能モデルGPT-5.6 Solの精度を高め、無料ユーザーもGPT-5.6 Lunaを無制限に使えるようにした。",
+      "impact": "無料ユーザーが高性能なAIを日常的に利用できるため、社内でChatGPT無料版の活用範囲が広がる可能性がある。",
+      "notes": "自社の利用契約（有料版・無料版の区別）と照らし合わせて、導入効果を検討する。"
+    },
+    {
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "normalized_url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "title_ja": "OpenAIが米国心理学会と提携、青少年の心の健康とAI利用のガイダンスを開発",
+      "published": "2026/08/06",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "ガイダンス",
+        "青少年",
+        "心の健康",
+        "安全対策",
+        "OpenAI"
+      ],
+      "summary": "OpenAIと米国心理学会が、青少年のAI利用と心の健康について、根拠のあるガイダンスと安全対策を共同で開発する。",
+      "impact": "社内でAIツール導入時に、特に若年層利用者向けの心理的リスク評価と利用ガイドの作成が必要になる可能性がある。",
+      "notes": "公式資料として参照できるが、日本の学生や若年従業員に適用する場合は文化的背景と法規制を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "normalized_url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "title_ja": "ChatGPTの利用実態、国別データで公開",
+      "published": "2026/08/06",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "利用実態",
+        "国別トレンド",
+        "導入状況"
+      ],
+      "summary": "OpenAIが世界各国のChatGPT利用状況をデータで示した。採用度や使い方のトレンド、利用者の行動変化を国ごとに説明している。",
+      "impact": "自社のAI導入状況が業界や地域の平均と比べてどの段階にあるかを把握できる。営業支援や顧客対応など業務での具体的な使われ方を参考にできる。",
+      "notes": "公式データとして読める。自社で活用する際は、掲載されている他社事例が自社と同業種・同規模かを確認してから判断する。"
+    },
+    {
+      "url": "https://github.com/uber/ADR",
+      "normalized_url": "https://github.com/uber/ADR",
+      "title": "Uber open-sourced its security monitoring for Claude Code, Cursor and Codex",
+      "title_ja": "Uber、Claude Code・Cursor・Codex向けのセキュリティ監視ツールをオープンソース化",
+      "published": "2026/08/06",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "オープンソース",
+        "開発ツール"
+      ],
+      "summary": "Uberが、AI開発ツール利用時のセキュリティ監視ツールをGitHubで公開した。",
+      "impact": "自社がClaudeやCursorを使う場合、同じ監視方法を無料で導入できる可能性がある。",
+      "notes": "ツール内容・適用範囲・設定方法をGitHubで確認してから導入判断する。"
+    },
+    {
+      "url": "https://statewright.ai/blog/loop-engineering-with-native-model-switching-in-codex-and-claude",
+      "normalized_url": "https://statewright.ai/blog/loop-engineering-with-native-model-switching-in-codex-and-claude",
+      "title": "Loop Engineering with native model switching in Codex and Claude",
+      "title_ja": "CodexとClaudeのモデル切り替え機能を使ったループ設計",
+      "published": "2026/08/06",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "モデル選択",
+        "開発"
+      ],
+      "summary": "CodexとClaudeで、複数のAIモデルを組み合わせて使う設計方法が説明された。",
+      "impact": "AI活用の際、用途に応じてモデルを切り替える考え方を参考にできる。自社で複数モデルを使う場合の設計に役立つ。",
+      "notes": "詳細な内容については公開情報を確認し、自社の利用規約・契約内容と照らし合わせて判断する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "normalized_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "title_ja": "GoogleのAIが台風予測で新たな精度を達成",
+      "published": "2026/08/06",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "気象予測",
+        "AI精度向上",
+        "DeepMind"
+      ],
+      "summary": "GoogleのDeepMindが気象予測AI「WeatherNext」を開発し、台風などの予測精度を大幅に向上させた。",
+      "impact": "気象関連業務や防災判断の精度が向上する可能性があるが、社内業務への直接的な影響は限定的。",
+      "notes": "気象予測の実用化には気象庁など公式機関の検証と承認を待つ必要がある。"
+    }
+  ]
+}
