@@ -1,0 +1,219 @@
+{
+  "started_at": "2026-08-09T08:42:23.061679+09:00",
+  "finished_at": "2026-08-09T08:43:35.188495+09:00",
+  "fetched_per_source": {
+    "official": 15,
+    "hn": 84,
+    "arxiv": 30
+  },
+  "fetched_total": 129,
+  "after_dedupe": 127,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 5,
+  "count_c": 4,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/08/09.html",
+  "markdown_path": "output/2026-08-09_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33768,
+  "output_tokens": 4655,
+  "estimated_cost_usd": 0.057043,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://thenewstack.io/claude-code-auto-mode/",
+      "normalized_url": "https://thenewstack.io/claude-code-auto-mode",
+      "title": "Auto Mode will be the default in Claude Code – because humans can't be trusted",
+      "title_ja": "Claude Codeの自動実行がデフォルト化へ、手動確認廃止へ",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "自動実行",
+        "セキュリティ",
+        "業務利用ルール"
+      ],
+      "summary": "AnthropicがClaude CodeのAuto Modeをデフォルト設定にして、ユーザー承認なしに自動コード実行する方針を示した。",
+      "impact": "社内でClaude Codeを使う場合、コード実行が自動化されるため、出力チェックや実行制限のルール見直しが必要になる。",
+      "notes": "Auto Modeの詳細（実行範囲・エラー時の対応・取消方法）未確認。導入前に公式ドキュメント確認と、社内の許可基準・責任範囲を決める。"
+    },
+    {
+      "url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs/",
+      "normalized_url": "https://www.wired.com/story/how-to-disable-the-gemini-ai-features-in-gmail-and-google-docs",
+      "title": "How to Disable Gemini in Gmail and Google Docs",
+      "title_ja": "GmailとGoogle Docsの Gemini 機能を無効にする方法",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Workspace",
+        "Gmail",
+        "Google Docs",
+        "利用制限"
+      ],
+      "summary": "WiredがGmailとGoogle DocsのGemini機能を無効にする手順を説明した。",
+      "impact": "Google Workspace利用時、AI機能の利用可否を社員が個別に制御できることが分かる。利用ルール検討時の参考になる。",
+      "notes": "実際の無効化手順は記事で確認する。会社全体で制限する場合は管理者設定の確認が別途必要。"
+    },
+    {
+      "url": "https://vibsync.com/",
+      "normalized_url": "https://vibsync.com/",
+      "title": "Show HN: Vibsync – One Shared Memory for Claude Code, Cursor and Codex (MCP)",
+      "title_ja": "Vibsync – Claude、Cursor、Codexの共有メモリ機能（MCP対応）",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Cursor",
+        "コーディング支援",
+        "MCP",
+        "開発ツール"
+      ],
+      "summary": "複数のAIコーディングツール間で共有できるメモリ機能Vibsyncがリリースされた。MCPプロトコルに対応し、文脈情報を保持したまま利用できる。",
+      "impact": "Claude、Cursor、Codexを併用する場合、各ツール間で情報を再入力する手間が減る可能性がある。実装前に自社の開発環境での動作を確認する。",
+      "notes": "Hacker Newsでの注目度は低い（3ポイント、コメント0件）。正式版との区別や制限事項は公開情報のみでは未確認。"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/cross-session-messaging",
+      "normalized_url": "https://code.claude.com/docs/en/cross-session-messaging",
+      "title": "Message your other Claude Code sessions",
+      "title_ja": "Claude Codeの複数セッション間でメッセージ機能",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Code",
+        "セッション管理"
+      ],
+      "summary": "ClaudeのCode機能で、別のセッション間でメッセージを送受信できるようになった。",
+      "impact": "複数のClaudeセッションを並行して使う場合、セッション間での情報共有が容易になる。",
+      "notes": "実装方法と利用制限は公式ドキュメントで確認する。"
+    },
+    {
+      "url": "https://twitter.com/ClaudeDevs/status/2085817074816070014",
+      "normalized_url": "https://twitter.com/ClaudeDevs/status/2085817074816070014",
+      "title": "Claude Code: sessions can now message each other",
+      "title_ja": "Claude Codeのセッション機能が相互メッセージに対応",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "コラボレーション機能"
+      ],
+      "summary": "AnthropicがClaudeの開発環境で複数セッション間の通信機能を追加した。",
+      "impact": "開発チームでClaudeを使う場合、セッション間でコンテキストやコード情報を共有できるようになるため、チーム利用の設計を見直す必要がある。",
+      "notes": "機能の詳細（例：保存先、アクセス権限、監査方法）が未確認のため、会社で使う前に確認する。"
+    },
+    {
+      "url": "https://www.reddit.com/r/vibecoding/comments/1vifa9f/i_got_a_browser_running_inside_the_terminal_and/",
+      "normalized_url": "https://www.reddit.com/r/vibecoding/comments/1vifa9f/i_got_a_browser_running_inside_the_terminal_and",
+      "title": "I got a browser running inside the terminal and let Claude Code control it",
+      "title_ja": "ターミナル内でブラウザを実行しClaudeのコード機能で操作",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "自動化",
+        "ブラウザ操作",
+        "開発効率"
+      ],
+      "summary": "開発者がターミナル内に実行したブラウザをClaude Codeで制御する試み。AIにブラウザ操作を自動化させる取り組みが進む。",
+      "impact": "Claude Codeの応用範囲が広がり、自動化やテスト業務でのAI活用が現実的になる可能性がある。社内利用時の用途検討が必要。",
+      "notes": "個人実験の段階で確認記事が限定的。本格導入には動作安定性・セキュリティ・業務への適合性を確認する必要がある。"
+    },
+    {
+      "url": "https://www.aiusagebar.com",
+      "normalized_url": "https://www.aiusagebar.com/",
+      "title": "AIUsageBar – Track Claude, Codex, Cursor and Gemini Usage from the Mac Menu Bar",
+      "title_ja": "Mac メニューバーから Claude や Gemini の利用状況を確認できるツール",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "利用管理",
+        "ローカルツール"
+      ],
+      "summary": "Mac メニューバーで Claude、Codex、Cursor、Gemini の利用量をトラッキングするアプリケーション。",
+      "impact": "複数の AI ツール利用時の消費量を一元確認でき、予算管理や過剰利用の把握が簡単になる。",
+      "notes": "個人向けツールのため、会社での利用方針や API キー管理ルールを事前に確認する。"
+    },
+    {
+      "url": "https://mirafold.com/",
+      "normalized_url": "https://mirafold.com/",
+      "title": "Show HN: Mirafold – Your Agent with Generative UI (Codex, Claude Code, Gemini)",
+      "title_ja": "Mirafold：生成UIを使うエージェントツール",
+      "published": "2026/08/07",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "エージェント",
+        "UI生成",
+        "開発ツール"
+      ],
+      "summary": "Codex、Claude Code、Geminiに対応したエージェント型ツールが登場。ユーザーインターフェースを自動生成して業務を進める仕組み。",
+      "impact": "複数のAIモデルを切り替えて使えるため、自社で選んだAIツールに対応するか事前に確認する必要がある。",
+      "notes": "まだ初期段階の可能性が高い。導入前に自社の用途で動作確認すること。"
+    },
+    {
+      "url": "https://benzi.fly.dev/about",
+      "normalized_url": "https://benzi.fly.dev/about",
+      "title": "Show HN: Try Benzi – A coding harness/agent beating Claude Code itself on Sonnet",
+      "title_ja": "Benzi：Claude Sonnetを上回るコーディング支援ツール",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "開発ツール",
+        "評価・性能比較"
+      ],
+      "summary": "Benzi という開発支援ツールが、Claude Sonnet 単体よりもコード生成性能が高いと開発者が報告している。",
+      "impact": "社内でコード生成に Claude を使っている場合、別ツールでの性能比較を検討する材料になる可能性がある。",
+      "notes": "投稿は Hacker News で点数が低く、動作確認・詳細な性能データなし。自社で検討する前に実際の動作と条件確認が必要。"
+    },
+    {
+      "url": "https://github.com/ZiadAbdelkarim/beat-synced-edit",
+      "normalized_url": "https://github.com/ZiadAbdelkarim/beat-synced-edit",
+      "title": "Use Claude Code to make synced video edits to a song",
+      "title_ja": "ClaudeのCode Interpreterで音楽に合わせた動画編集",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Code Interpreter",
+        "動画編集",
+        "自動化",
+        "GitHub"
+      ],
+      "summary": "GitHubで公開されたプロジェクト。Claudeのコード実行機能を使い、楽曲のビートに同期した動画編集を自動化する方法を示している。",
+      "impact": "動画編集作業でClaudeを活用できる事例として、AI活用の選択肢が増える。社内で同様の作業がある場合は検討する価値がある。",
+      "notes": "技術的な詳細はGitHubリポジトリで確認する必要がある。実務導入前に自社の動画編集ツールとの相性を確認する。"
+    }
+  ]
+}
