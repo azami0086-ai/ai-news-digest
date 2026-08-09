@@ -1,0 +1,216 @@
+{
+  "started_at": "2026-08-10T08:44:32.019216+09:00",
+  "finished_at": "2026-08-10T08:46:01.177347+09:00",
+  "fetched_per_source": {
+    "official": 14,
+    "hn": 75,
+    "arxiv": 0
+  },
+  "fetched_total": 89,
+  "after_dedupe": 88,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 5,
+  "count_excluded": 4,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/08/10.html",
+  "markdown_path": "output/2026-08-10_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33839,
+  "output_tokens": 4375,
+  "estimated_cost_usd": 0.055714,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "normalized_url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
+      "title": "Anthropic is turning Claude Code's auto mode on by default",
+      "title_ja": "AnthropicがClaudeのコード自動実行機能をデフォルト有効化",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "コード実行",
+        "自動化",
+        "利用ルール",
+        "セキュリティ"
+      ],
+      "summary": "AnthropicがClaudeのコード生成機能で、ユーザーの確認なしに自動実行する設定を標準化する。",
+      "impact": "Claudeでコード実行を指示した場合、確認画面を経ずに実行される。業務利用時のチェック体制を見直す必要がある。",
+      "notes": "実行前の確認ステップが省かれるため、出力を信頼できるルール作りと権限管理を事前に決める。"
+    },
+    {
+      "url": "https://whetstone.akbarsha.dev/",
+      "normalized_url": "https://whetstone.akbarsha.dev/",
+      "title": "Show HN: Whetstone – 20 Claude Code skills, each distilled from one real failure",
+      "title_ja": "Claudeのコード作成スキル20個を実践から抽出したガイド「Whetstone」",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "利用ガイド",
+        "失敗事例"
+      ],
+      "summary": "Claudeを使ったコード作成で実際に起きた失敗20件から、対処法をまとめたオンラインガイド。",
+      "impact": "Claudeでコード生成させる際の落とし穴と回避方法を事前に把握できる。社内での利用ルール検討の参考になる。",
+      "notes": "ガイド内容の詳細は確認が必要。社内でコード生成を許可する場合、チェックリストとして活用するとよい。"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/",
+      "normalized_url": "https://simonwillison.net/2026/Aug/8/auto-mode",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "title_ja": "ClaudeのCode機能、自動実行がデフォルトに",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Code",
+        "自動化",
+        "利用ルール"
+      ],
+      "summary": "ClaudeのProプラン以上で、コード生成時に自動で実行する設定がデフォルトになった。",
+      "impact": "コード実行の承認手続きが不要になり、業務でのAI活用が加速する一方、出力内容の確認体制が重要になる。",
+      "notes": "自動実行の範囲や制限、会社の許可・監視ルールを事前に確認してから導入する。"
+    },
+    {
+      "url": "https://newsletter.semianalysis.com/p/gemini-is-cooked-but-gcp-is-cooking",
+      "normalized_url": "https://newsletter.semianalysis.com/p/gemini-is-cooked-but-gcp-is-cooking",
+      "title": "Gemini is Cooked but GCP is Cooking",
+      "title_ja": "Geminiの評価は下落、だがGoogle Cloudの勢いは続く",
+      "published": "2026/08/08",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Cloud",
+        "AIモデル評価"
+      ],
+      "summary": "Geminiの競争力が低下する一方で、Google Cloudプラットフォームの事業展開が加速している状況を指摘した記事。",
+      "impact": "Google提供のAIモデル利用を検討する際、Geminiの性能・信頼性を見直す必要が生じた可能性がある。",
+      "notes": "根拠となる詳細データが不足しており、記事内容の詳細は未確認。実装判断の前に原文で数値・根拠を確認する。"
+    },
+    {
+      "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+      "normalized_url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+      "title": "ChatGPT starts blocking direct requests to copy an author's style",
+      "title_ja": "ChatGPTが特定の著者のスタイル模倣をブロック開始",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "利用制限",
+        "著作権・倫理",
+        "文体模倣"
+      ],
+      "summary": "ChatGPTが、著名な著者の文体を直接に真似るよう求める指示に対して応じなくなった。",
+      "impact": "社内でChatGPTを文体模倣や執筆補助に使う場合、従来の指示が機能しなくなる可能性がある。",
+      "notes": "著者のスタイルを「参考にする」程度の指示や、基本的な執筆補助は引き続き利用できるかは未確認。実際に使う前に試して確認する。"
+    },
+    {
+      "url": "https://machinesatplay.com",
+      "normalized_url": "https://machinesatplay.com/",
+      "title": "Show HN: Remaking Unreal engine in Rust for coding agents",
+      "title_ja": "Rust版Unreal Engineを開発、コーディング支援AI向け",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Rust",
+        "開発環境",
+        "AI支援ツール",
+        "Hacker News"
+      ],
+      "summary": "開発者がUnreal EngineをRustで再実装し、AI支援プログラミング向けに最適化するプロジェクト。",
+      "impact": "AI開発環境の構築方法が多様化する可能性があるが、自社での直接的な影響は現時点では限定的。",
+      "notes": "Hacker Newsの初期段階での投稿（閲覧数1）のため、詳細情報は未確認。進展状況を注視する。"
+    },
+    {
+      "url": "https://robss2020.github.io/sol-vnc-elapsed/",
+      "normalized_url": "https://robss2020.github.io/sol-vnc-elapsed",
+      "title": "Show HN: See how long it takes ChatGPT Sol 5.6 to send a byte across the LAN",
+      "title_ja": "ChatGPT Sol 5.6がLAN経由でデータ送信にかかる時間を測定",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "パフォーマンス測定",
+        "LAN通信",
+        "技術検証"
+      ],
+      "summary": "開発者がChatGPT Sol 5.6のLAN通信遅延を実測。1バイト送信の応答時間を可視化した。",
+      "impact": "AI利用時の実際の処理速度や遅延を把握する参考になるが、業務導入判断には詳細な環境確認が必要。",
+      "notes": "公開測定値であり、自社環境での性能は異なる可能性がある。具体的な用途や要件があれば別途検証する。"
+    },
+    {
+      "url": "https://github.com/galiprandi/job-seeker",
+      "normalized_url": "https://github.com/galiprandi/job-seeker",
+      "title": "Show HN: Job Seeker – AI agent skills for job searching",
+      "title_ja": "Claudeを使った求職支援AIエージェントがGitHub公開",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AIエージェント",
+        "オープンソース",
+        "事例"
+      ],
+      "summary": "Claudeを活用して求人検索や応募を自動化するAIエージェントのプロジェクトがGitHub上で公開された。",
+      "impact": "社内でAIエージェント活用の事例を参考にできるが、求職支援ツール自体は自社業務への直接影響は薄い。",
+      "notes": "オープンソースプロジェクトのため、社内で試す場合はClaudeの利用条件を確認する。"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viwlgj/comment/p2mn1xt/",
+      "normalized_url": "https://www.reddit.com/r/LocalLLaMA/comments/1viwlgj/comment/p2mn1xt",
+      "title": "Claude Code in 9 lines Python",
+      "title_ja": "Claude Codeを9行のPythonで動かす方法",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "API",
+        "実装例"
+      ],
+      "summary": "Reddit投稿で、Anthropic のClaudeの機能を最小限のコードで実装する方法が共有されている。",
+      "impact": "社内でClaudeを使う開発者が、実装の参考にできる。ただしコミュニティ投稿のため、公式な推奨方法かは未確認。",
+      "notes": "HN points が2と低く、コミュニティの限定的な共有の可能性がある。公式ドキュメントと比べて確認してから利用する。"
+    },
+    {
+      "url": "https://geosona.com/software/2026/08/09/gemini-normal-maps/",
+      "normalized_url": "https://geosona.com/software/2026/08/09/gemini-normal-maps",
+      "title": "Gemini 3 Pro can generate normal maps",
+      "title_ja": "Gemini 3 Proがノーマルマップの生成に対応",
+      "published": "2026/08/09",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "3D画像",
+        "機能拡張"
+      ],
+      "summary": "Gemini 3 Proがノーマルマップ生成機能を備えた。3D画像処理の自動化が可能になる可能性がある。",
+      "impact": "3D設計や画像加工業務でAIが使える範囲が広がる。自社で検討する場合は出力品質と用途を確認する。",
+      "notes": "Hacker Newsでの言及が限定的（2ポイント、コメント5件）。公式発表や詳細ドキュメントで確認する。"
+    }
+  ]
+}
