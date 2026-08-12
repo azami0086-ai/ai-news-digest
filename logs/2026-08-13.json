@@ -1,0 +1,166 @@
+{
+  "started_at": "2026-08-13T08:55:58.529352+09:00",
+  "finished_at": "2026-08-13T08:57:08.574994+09:00",
+  "fetched_per_source": {
+    "official": 25,
+    "hn": 82,
+    "arxiv": 30
+  },
+  "fetched_total": 137,
+  "after_dedupe": 137,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 0,
+  "count_b": 5,
+  "count_c": 2,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/08/13.html",
+  "markdown_path": "output/2026-08-13_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34015,
+  "output_tokens": 4724,
+  "estimated_cost_usd": 0.057635,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "normalized_url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "title_ja": "OpenAI、企業のAI導入実態を調査―ChatGPTやCodexの活用状況を報告",
+      "published": "2026/08/12",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "企業導入",
+        "AI活用",
+        "OpenAI公式"
+      ],
+      "summary": "OpenAIが企業のAI導入状況を調査し、ChatGPTやCodexの使われ方、先進企業の取り組みについて説明した。",
+      "impact": "自社のAI導入状況が業界平均と比べてどのレベルか、先進企業の動きから参考になる点を確認するとよい。",
+      "notes": "公式資料として読める。導入推進時に「自社の状況と比べる」判断材料として活用する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/new-usability-features-connected-sheets-google.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/new-usability-features-connected-sheets-google.html",
+      "title": "New usability features in Connected Sheets",
+      "title_ja": "Connected Sheetsの利便性向上、リスト型パラメータに対応",
+      "published": "2026/08/11",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Connected Sheets",
+        "BigQuery",
+        "データ管理",
+        "機能追加"
+      ],
+      "summary": "Google WorkspaceのConnected Sheetsに、複数値をリスト化して検索できる機能が追加。シート内の値をそのまま条件として使える。",
+      "impact": "BigQueryのデータ検索をシート内の値リストで絞り込み可能に。データ管理者は条件変更の手間が減る。",
+      "notes": "Google Workspace契約者向け。自社でConnected Sheetsを使う場合、この機能の権限・運用ルールを事前に確認する。"
+    },
+    {
+      "url": "https://openai.com/index/ringcentral",
+      "normalized_url": "https://openai.com/index/ringcentral",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "title_ja": "RingCentralがChatGPT WorkとCodexで開発・運用を効率化",
+      "published": "2026/08/12",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "ChatGPT Work",
+        "Codex",
+        "導入事例",
+        "開発効率化",
+        "運用管理"
+      ],
+      "summary": "RingCentralがChatGPT WorkとCodexを使い、製品開発と運用業務を一体で進める取り組みを紹介した事例。",
+      "impact": "ChatGPTを開発・運用ツールとして導入する場合、複数部門での運用方法や権限管理の参考になる可能性がある。",
+      "notes": "自社での導入前に、RingCentralの業務内容と自社の業務タイプがどの程度合致しているか確認する。"
+    },
+    {
+      "url": "https://github.com/robertkeus/peter",
+      "normalized_url": "https://github.com/robertkeus/peter",
+      "title": "Peter – graph-based agent orchestration as a Claude Code skill",
+      "title_ja": "Claudeのコード実行機能で、複数のAIエージェントを組み合わせて使える「Peter」が登場",
+      "published": "2026/08/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI エージェント",
+        "コード実行",
+        "自動化"
+      ],
+      "summary": "Claudeのコード実行機能を使い、複数のAIエージェントを連携させるツール「Peter」がGitHubで公開された。",
+      "impact": "Claudeを使った業務自動化で、複数のエージェントを同時に動かす方法の選択肢が増える。",
+      "notes": "まだ初期段階（HN評価が低い）。自社で使う前に動作確認と権限設定が必要。"
+    },
+    {
+      "url": "https://itmeetsot.eu/posts/2026-08-12-opus5_automode/",
+      "normalized_url": "https://itmeetsot.eu/posts/2026-08-12-opus5_automode",
+      "title": "Prompt Injection Experiments with Opus-5 in Claude Code – Auto-Mode Edition",
+      "title_ja": "Claude Code自動モード、プロンプトインジェクション攻撃に対する耐性を検証",
+      "published": "2026/08/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "プロンプトインジェクション",
+        "自動実行"
+      ],
+      "summary": "Claude Opus-5の自動実行機能に対し、プロンプトインジェクション攻撃を試みた検証結果を公開している。",
+      "impact": "社内でClaudeを自動実行する場合、入力データの検証やサンドボックス環境の必要性を確認する参考になる。",
+      "notes": "詳細な検証内容や攻撃手法は記事内容が未確認のため、正式導入前に技術チームが確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "normalized_url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "title": "Putting sign language AI into users’ hands",
+      "title_ja": "手話をテキストに変換するAI、Google DeepMindが公開",
+      "published": "2026/08/12",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "アクセシビリティ",
+        "音声・言語処理",
+        "Google DeepMind"
+      ],
+      "summary": "Google DeepMindが手話をテキストに変換するAIモデルを開発。聴覚障害者向けの新機能として提供する。",
+      "impact": "聴者との対話時にスマートフォンで手話を字幕化できるようになり、聴覚障害者の通信手段が広がる。",
+      "notes": "手話認識精度や対応言語・手話の種類、利用可能地域は未確認。公式資料で詳細を確認する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.11095v1",
+      "normalized_url": "https://arxiv.org/abs/2608.11095v1",
+      "title": "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding",
+      "title_ja": "Claude向け指示ファイルの肥大化問題、削除困難性に関する研究",
+      "published": "2026/08/11",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "プロンプト管理",
+        "継続学習",
+        "研究論文"
+      ],
+      "summary": "開発者がClaude用の指示ファイル（CLAUDE.md）に指示を追加し続けると、削除が困難になり無限に増殖する現象を分析した論文。",
+      "impact": "エージェント型AIとの協働で指示・プロンプトを蓄積する場合、管理ルールと定期見直しの必要性が示唆される。",
+      "notes": "実装への直接的な影響は限定的だが、長期運用での指示管理ポリシー検討の参考になる。"
+    }
+  ]
+}
