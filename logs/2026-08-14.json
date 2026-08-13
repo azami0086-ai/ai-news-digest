@@ -1,0 +1,204 @@
+{
+  "started_at": "2026-08-14T08:56:08.520629+09:00",
+  "finished_at": "2026-08-14T08:57:29.346886+09:00",
+  "fetched_per_source": {
+    "official": 34,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 138,
+  "after_dedupe": 136,
+  "recorded_duplicate_excluded_count": 17,
+  "candidate_count": 20,
+  "published": 9,
+  "count_a": 1,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/08/14.html",
+  "markdown_path": "output/2026-08-14_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34058,
+  "output_tokens": 4932,
+  "estimated_cost_usd": 0.058718,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "normalized_url": "https://openai.com/index/previewing-ultrafast",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "title_ja": "GPT-5.6 Sol の高速版「Ultrafast」、最大14倍速で利用可能に",
+      "published": "2026/08/13",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "API",
+        "GPT-5.6 Sol",
+        "処理速度",
+        "利用料金",
+        "Ultrafast"
+      ],
+      "summary": "OpenAIが新しいAPI層「Ultrafast」を発表。GPT-5.6 Solを通常より最大14倍速く動作させ、毎秒750トークン出力できる。",
+      "impact": "API利用料金の体系や応答速度が変わる。大量処理や時間制約のある業務で、別途費用での高速利用を検討する必要がある。",
+      "notes": "料金体系・利用条件・提供時期を確認する。既存APIとの費用比較をしてから導入判断する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/use-google-sheets-canvas-to-visualize-data.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/use-google-sheets-canvas-to-visualize-data.html",
+      "title": "Use Sheets canvas to visualize data in custom, interactive mini-apps",
+      "title_ja": "Google Sheets にGemini連携のキャンバス機能、データ可視化アプリを自動生成",
+      "published": "2026/08/13",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "GoogleWorkspace",
+        "Sheets",
+        "Gemini",
+        "データ可視化",
+        "自動化"
+      ],
+      "summary": "Google Sheetsに「canvas」機能が追加。自然言語の指示でGeminiがデータを対話的なアプリに変換できる。",
+      "impact": "社内ダッシュボードや資料作成の手間が減る可能性がある。Sheetsの利用方法と出力品質を事前に確認する。",
+      "notes": "Geminiの精度や出力内容は利用前に確認する。機密データの扱いについて情報セキュリティと協議する。"
+    },
+    {
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "normalized_url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "title": "The builder’s guide to GPT‑5.6",
+      "title_ja": "GPT-5.6を使った開発者向けガイド、AIエージェント構築の考え方",
+      "published": "2026/08/13",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-5.6",
+        "API",
+        "開発",
+        "コスト"
+      ],
+      "summary": "OpenAIがGPT-5.6を使ったスタートアップの開発事例を紹介。モデル選択とAPI機能で、安く速くAIを組み込む方法を説明した。",
+      "impact": "会社でChatGPTを業務システムに組み込む場合、コスト削減と動作速度の改善策が参考になる。API利用契約の内容を確認する際の材料になる。",
+      "notes": "公式資料として読める。ただしスタートアップ向けの内容なので、自社の規模と用途に合わせて適用範囲を判断する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "title_ja": "Google Sheets、キャンバス機能でスプレッドシートを可視化",
+      "published": "2026/08/13",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Sheets",
+        "Gemini",
+        "データ可視化",
+        "スプレッドシート"
+      ],
+      "summary": "Google Sheetsに新機能「Sheets canvas」が追加され、スプレッドシートのデータを図表やレイアウトで表示できるようになった。",
+      "impact": "スプレッドシートのデータ共有・説明の方法が変わる。資料作成時にGoogleスプレッドシート内で図表化できるため、別ツール連携の手間が減る可能性がある。",
+      "notes": "実装範囲（全ユーザー対象か、有料プランのみか）や日本での提供時期は未確認。自社でGoogle Workspace導入時の仕様確認を推奨。"
+    },
+    {
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "normalized_url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "title": "Introducing Gemini 3.7 Flash",
+      "title_ja": "Gemini 3.7 Flashが登場",
+      "published": "2026/08/13",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "AIモデル",
+        "軽量モデル",
+        "処理速度"
+      ],
+      "summary": "Googleが軽量AI「Gemini 3.7 Flash」を発表した。処理速度と精度のバランスを重視した設計。",
+      "impact": "社内でAIチャット利用時、レスポンス速度が重要な場面で選択肢が増える。実装判断を検討する。",
+      "notes": "未確認情報。公式ブログを直接確認して、性能・利用料・セキュリティ要件を自社と照らし合わせる。"
+    },
+    {
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "normalized_url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "title_ja": "OpenAI、Dali Rajicを最高収益責任者に任命",
+      "published": "2026/08/13",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "経営体制",
+        "企業向けAI"
+      ],
+      "summary": "OpenAIが新たに最高収益責任者を置き、企業向けAIの売上・事業拡大を推進する体制を整えた。",
+      "impact": "ChatGPT等の企業向けサービス提供や価格戦略の変更につながる可能性がある。提供条件や契約内容の変動を注視する。",
+      "notes": "公式発表だが、詳細な事業方針や日本市場への影響は別途確認する。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.12236v1",
+      "normalized_url": "https://arxiv.org/abs/2608.12236v1",
+      "title": "How Organizations Use AI: Evidence from ChatGPT",
+      "title_ja": "企業のChatGPT利用実態：17万件以上のメッセージから分析",
+      "published": "2026/08/12",
+      "source": "arXiv",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Enterprise",
+        "利用実態",
+        "採用データ",
+        "業務分析"
+      ],
+      "summary": "企業向けChatGPT利用者1500社以上の利用記録から、導入状況と業務での使い方を分析した研究。",
+      "impact": "企業でAI導入が進む実態と、職種や業務ごとの活用パターンが明らかになった。自社の利用状況と比べて評価できる。",
+      "notes": "arXivの論文で査読済みではない可能性がある。分析結果の詳細は論文全文を確認する必要がある。"
+    },
+    {
+      "url": "https://help.openai.com/en/articles/12628342-company-knowledge-in-chatgpt-business-enterprise-and-edu",
+      "normalized_url": "https://help.openai.com/en/articles/12628342-company-knowledge-in-chatgpt-business-enterprise-and-edu",
+      "title": "Company Knowledge in ChatGPT (Business, Enterprise, and Edu)",
+      "title_ja": "ChatGPTに企業知識を追加できる新機能、Business・Enterprise・Edu向け",
+      "published": "2026/08/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Enterprise",
+        "会社知識",
+        "業務利用"
+      ],
+      "summary": "OpenAIが、ChatGPTで企業内の文書やデータを学習させる機能を提供開始した。Business・Enterprise・Eduプランが対象。",
+      "impact": "社内文書をChatGPTに読ませて、業務での回答精度を上げられる。ただし保存先や利用権限、誤情報混入の責任範囲を決める必要がある。",
+      "notes": "公式ヘルプページだが、詳細な機能説明や制限条件は確認が必要。データセキュリティ・著作権・個人情報の取り扱いルールを定めてから導入する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash",
+      "title": "Gemini 3.7 Flash",
+      "title_ja": "Gemini 3.7 Flash が発表",
+      "published": "2026/08/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google",
+        "AIモデル",
+        "API"
+      ],
+      "summary": "Googleが新しいAIモデル「Gemini 3.7 Flash」を発表。高速処理と低コストを特徴とする。",
+      "impact": "自社でGemini APIを使う場合、新モデルの選択肢が増える。処理速度とコスト効率を検討し直す必要がある。",
+      "notes": "未確認。公式ブログ記事の内容確認が必要。自社利用中のモデルバージョンと比較検討する。"
+    }
+  ]
+}
