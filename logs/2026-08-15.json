@@ -1,0 +1,219 @@
+{
+  "started_at": "2026-08-15T08:35:21.831971+09:00",
+  "finished_at": "2026-08-15T08:36:36.165182+09:00",
+  "fetched_per_source": {
+    "official": 27,
+    "hn": 82,
+    "arxiv": 30
+  },
+  "fetched_total": 139,
+  "after_dedupe": 135,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 4,
+  "count_c": 6,
+  "count_excluded": 2,
+  "errors": [
+    "analyze failed for 'See more': no JSON found in response"
+  ],
+  "html_path": "docs/2026/08/15.html",
+  "markdown_path": "output/2026-08-15_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 19,
+  "input_tokens": 32087,
+  "output_tokens": 4259,
+  "estimated_cost_usd": 0.053382,
+  "fallback_used": true,
+  "api_error": true,
+  "api_error_type": "unknown_api_error",
+  "api_error_message_sanitized": "no JSON found in response",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "normalized_url": "https://www.anthropic.com/news/claude-text-watermark",
+      "title": "Aug 14, 2026 Announcements How Claude’s text watermark works",
+      "title_ja": "Claudeのテキスト透かしの仕組みを公開",
+      "published": "2026/08/14",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "生成テキスト",
+        "真正性",
+        "透かし",
+        "出力検証"
+      ],
+      "summary": "Anthropicが、Claude生成テキストに埋め込まれた透かしがどう機能するかを説明した。",
+      "impact": "Claude出力の真正性を判定する方法が明確になり、社内での利用時に出力の信頼性を確認できるようになる。",
+      "notes": "透かしの検証方法や精度については公式資料で確認する。社内ルールでClaudeの出力をそのまま外部配布する場合は、透かしの有無や検証方法を明記するとよい。"
+    },
+    {
+      "url": "https://github.com/kanjani-ai-research/Vesta",
+      "normalized_url": "https://github.com/kanjani-ai-research/Vesta",
+      "title": "Vesta, adaptive ontology for Claude Code",
+      "title_ja": "Claude Code向けの適応型オントロジー「Vesta」が公開",
+      "published": "2026/08/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Code生成",
+        "オントロジー",
+        "開発者向け",
+        "未評価"
+      ],
+      "summary": "Claude Codeの出力を構造化するための適応型オントロジー「Vesta」がGitHubで公開された。",
+      "impact": "Claude Codeを使う際、出力の形式や構造を統一できる可能性がある。自社での使用可能性を確認する段階。",
+      "notes": "公開直後で採用事例が少ない（HN評価2点）。実務導入前に自社の運用に合わせて評価する必要がある。"
+    },
+    {
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "normalized_url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "title_ja": "Claude Codeのセッションを効果的に使う方法",
+      "published": "2026/08/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "開発効率化",
+        "利用ガイド"
+      ],
+      "summary": "Anthropicが、Claude Codeを使った開発作業の効率を高めるコツを説明した。",
+      "impact": "開発チームがClaude Codeを導入する際、実務的な使い方や制限事項を確認する参考になる。",
+      "notes": "公式ブログなので参考資料として使える。ただし自社で実装する前に、セキュリティ・データ保存先・利用ルールを確認する。"
+    },
+    {
+      "url": "https://github.com/NanoNets/Graft",
+      "normalized_url": "https://github.com/NanoNets/Graft",
+      "title": "Show HN: Graft – Claude Code hooks that cut grep tokens by 42%",
+      "title_ja": "Claudeのコード処理を効率化するツール「Graft」、トークン使用量を42%削減",
+      "published": "2026/08/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト削減",
+        "開発ツール",
+        "トークン最適化"
+      ],
+      "summary": "Claudeでコード処理する際のトークン使用量を削減するツール「Graft」がGitHubで公開された。",
+      "impact": "Claude利用時のコスト削減やAPI呼び出し制限への対応が可能になる。自社のClaudeコード利用にコスト影響がないか確認する。",
+      "notes": "GitHub上の実装例。自社で採用する場合は、カスタマイズ必要性と動作検証を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "normalized_url": "https://www.anthropic.com/news",
+      "title": "See more",
+      "title_ja": "See more",
+      "published": "2026/08/14",
+      "source": "Anthropic News",
+      "importance": "C",
+      "tags": [
+        "Claude"
+      ],
+      "summary": "See more",
+      "impact": "未分析。会社での使い方は手動で確認する。",
+      "notes": "AI解析未実施"
+    },
+    {
+      "url": "https://github.com/choiyounggi/cliclaw",
+      "normalized_url": "https://github.com/choiyounggi/cliclaw",
+      "title": "Show HN: Control Claude Code, Codex, Pi and Gemini CLI from Telegram",
+      "title_ja": "Telegram から Claude、Codex、Pi、Gemini を操作できるCLIツール",
+      "published": "2026/08/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "Codex",
+        "ツール",
+        "CLI",
+        "個人開発"
+      ],
+      "summary": "複数の AI モデルを Telegram 経由でコマンドラインから操作するオープンソースツールが公開された。",
+      "impact": "個人の開発効率化の選択肢が増えるが、組織利用を検討する場合は Telegram 経由の AI 利用に関する社内ルール確認が必要。",
+      "notes": "Telegram で AI を操作する際、送受信データや API キー管理の社内ポリシー対応を事前に確認する。"
+    },
+    {
+      "url": "https://tomlarkworthy.github.io/lopebooks/notebooks/Caged_Code.html",
+      "normalized_url": "https://tomlarkworthy.github.io/lopebooks/notebooks/Caged_Code.html",
+      "title": "Caged Code – Vanilla Claude Code Binary in a Webpage",
+      "title_ja": "ウェブページ内でClaudeのコードを実行する実験",
+      "published": "2026/08/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード実行",
+        "NotebookLM",
+        "技術実験"
+      ],
+      "summary": "開発者がウェブブラウザ上でClaudeのコード実行機能を動かす仕組みを試験的に構築した取り組み。",
+      "impact": "会社でClaudeを使う場合、ブラウザ経由での独立した実行環境の可能性を把握する参考になる。",
+      "notes": "実験段階の取り組みで、セキュリティ面や業務利用での制限・許可範囲は別途確認が必要。"
+    },
+    {
+      "url": "https://weavescope.com/",
+      "normalized_url": "https://weavescope.com/",
+      "title": "Show HN: WeaveScope – Elixir native observability for AI agents",
+      "title_ja": "WeaveScope：Elixir向けAIエージェント監視ツール",
+      "published": "2026/08/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "AIエージェント",
+        "Elixir",
+        "監視・ログ"
+      ],
+      "summary": "Elixir言語でAIエージェントの動作状況を監視するツールが公開された。",
+      "impact": "Elixirでエージェント型AIを使う場合、動作ログやエラー追跡の方法を検討する際の選択肢が増える。",
+      "notes": "プロダクション利用の前に公式サイトで機能・制限・対応モデルを確認する。"
+    },
+    {
+      "url": "https://defencecore.com/audit",
+      "normalized_url": "https://defencecore.com/audit",
+      "title": "Show HN: A prompt to check Supabase DB security",
+      "title_ja": "Supabase データベースのセキュリティをチェックするプロンプト",
+      "published": "2026/08/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Supabase",
+        "セキュリティ監査",
+        "プロンプト",
+        "データベース"
+      ],
+      "summary": "Claudeを使ってSupabaseデータベースのセキュリティ問題を自動検査するプロンプトが紹介された。",
+      "impact": "データベース監査の手間を減らせるが、自社で使う場合はClaudeの利用権限と検査結果の確認体制を決める。",
+      "notes": "プロンプトの検査精度は不明。本格監査の代わりにはならず、補助ツルとして位置づけ、検査結果は必ず人が確認する。"
+    },
+    {
+      "url": "https://fn2.ai/claude",
+      "normalized_url": "https://fn2.ai/claude",
+      "title": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
+      "title_ja": "Claudeの拡張機能で企業決算説明会の大規模データベースを検索可能に",
+      "published": "2026/08/14",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI拡張機能",
+        "データベース検索",
+        "決算情報"
+      ],
+      "summary": "開発者が、Claudeで1060万件の決算説明会データを検索できるプラグインを作成した。",
+      "impact": "Claudeの利用シーンが拡大し、金融・投資関連の調査業務での活用を検討する余地がある。",
+      "notes": "実装内容や利用規約は公式サイトで確認が必要。自社で利用する場合は利用許諾と費用を事前に確認する。"
+    }
+  ]
+}
