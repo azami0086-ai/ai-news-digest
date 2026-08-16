@@ -1,0 +1,214 @@
+{
+  "started_at": "2026-08-17T08:32:41.544450+09:00",
+  "finished_at": "2026-08-17T08:33:50.996335+09:00",
+  "fetched_per_source": {
+    "official": 16,
+    "hn": 82,
+    "arxiv": 30
+  },
+  "fetched_total": 128,
+  "after_dedupe": 126,
+  "recorded_duplicate_excluded_count": 17,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/08/17.html",
+  "markdown_path": "output/2026-08-17_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33817,
+  "output_tokens": 4439,
+  "estimated_cost_usd": 0.056012,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://claude.ai/new",
+      "normalized_url": "https://claude.ai/new",
+      "title": "Claude Is Down",
+      "title_ja": "Claude サービス障害が発生",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "障害",
+        "サービス停止"
+      ],
+      "summary": "Claudeがダウン状態にあり、利用できない状況が報告されている。",
+      "impact": "Claudeを業務で使用している場合、サービス復旧まで利用できない。復旧予定時間は未確認。",
+      "notes": "Hacker Newsの報告のため、公式ステータスページで最新情報を確認する。"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "title": "ChatGPT's Computer History tracks your clicks and keystrokes",
+      "title_ja": "ChatGPTの画面記録機能、クリックとキーストロークを追跡",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "データ記録",
+        "利用ルール"
+      ],
+      "summary": "ChatGPTの新機能「Computer History」がユーザーのクリックやキー入力を記録・追跡する仕組みについて報道された。",
+      "impact": "会社支給のPC上でChatGPTを使う場合、入力内容や操作が記録される可能性があり、情報管理と利用ルールの確認が必要になる。",
+      "notes": "詳細は確認が必要。社内でChatGPTの利用許可やアカウント管理のルールがあれば、この機能の取り扱いを決める。"
+    },
+    {
+      "url": "https://thomas-witt.com/blog/blog-subagent-model-pin/",
+      "normalized_url": "https://thomas-witt.com/blog/blog-subagent-model-pin",
+      "title": "I stopped my Claude Code subagents from running on Fable instead of Sonnet",
+      "title_ja": "Claude Codeのサブエージェントが意図しないモデルで動作、ピン留めで対応",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "サブエージェント",
+        "モデル設定"
+      ],
+      "summary": "Claude Codeのサブエージェント機能で、設定と異なるモデルが実行される問題が報告された。",
+      "impact": "Claude Codeを業務で使う場合、サブエージェントのモデル設定が意図した通り動作しているか確認する必要がある。",
+      "notes": "未確認情報のため、Anthropic公式の説明や対応状況を確認してから本格運用する。"
+    },
+    {
+      "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/",
+      "normalized_url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code",
+      "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
+      "title_ja": "ClaudeのコードエディタでMoonshot AIの「Kimi K3」を試してみた",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成ツール",
+        "外部モデル連携"
+      ],
+      "summary": "ClaudeのコードエディタにMoonshot AIの別モデルKimi K3を統合して動作確認した個人の試験報告。",
+      "impact": "Claudeが他社モデルとの連携に対応する可能性を示唆しており、今後の自社AI利用環境の構成検討に関わる可能性がある。",
+      "notes": "個人報告のため、公式な対応状況は未確認。自社でClaudeを利用している場合は、公式の互換性アナウンスを確認する。"
+    },
+    {
+      "url": "https://www.zhcinstitute.com/research/oh-my-claudecode-multi-agent-field-notes/",
+      "normalized_url": "https://www.zhcinstitute.com/research/oh-my-claudecode-multi-agent-field-notes",
+      "title": "Oh-My-Claudecode, Orchestration Layer That Removes Humans from the Build Loop",
+      "title_ja": "Claudeを使った自動ビルドツール、人間の手作業を減らす",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "開発効率化",
+        "自動化",
+        "HackerNews"
+      ],
+      "summary": "Claudeのコード生成機能を使い、ビルドプロセスを自動化するツールが紹介された。",
+      "impact": "コード生成AIを社内開発に組み込む場合の実装パターンを参考にできるが、セキュリティと品質確認の体制を先に決める必要がある。",
+      "notes": "ツールの詳細仕様や導入時の注意点は原文で確認する。社内で試す場合は、出力コードのレビュー体制とGitHub等での保管ルールを明確にする。"
+    },
+    {
+      "url": "https://medium.com/@CometAPI_/claude-opus-5-surprised-me-detailed-explanation-of-its-performance-c7f59b727f7b",
+      "normalized_url": "https://medium.com/@CometAPI_/claude-opus-5-surprised-me-detailed-explanation-of-its-performance-c7f59b727f7b",
+      "title": "Claude Opus 5: context window, and API changes",
+      "title_ja": "Claude Opus 5のコンテキスト上限と API仕様が変わった",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "API",
+        "API仕様変更",
+        "コンテキスト上限"
+      ],
+      "summary": "Anthropic が Claude Opus 5 の機能と API の仕様を更新した。コンテキスト上限やクエリ処理方法に変更がある。",
+      "impact": "Claude を利用している業務では、入力可能な文字数や API 呼び出し方法を確認して対応する必要がある。",
+      "notes": "詳細は Medium 記事で確認する。社内での利用方法に制限や変更が生じる可能性がある。"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/08/14/business/google-gemini-ai-schools.html",
+      "normalized_url": "https://www.nytimes.com/2026/08/14/business/google-gemini-ai-schools.html",
+      "title": "Google Turns on Gemini A.I. For Students Using Its Classroom App",
+      "title_ja": "GoogleがClassroomアプリでGeminiを学生向けに利用可能に",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Workspace",
+        "教育機関",
+        "AI利用ルール"
+      ],
+      "summary": "Googleが教育向けClassroomアプリにGemini AIを統合し、学生が利用できるようにした。",
+      "impact": "教育機関がGoogle Workspaceを導入している場合、学生のAI利用環境が変わる可能性がある。",
+      "notes": "学校での利用ルール、学生の個人情報保護、出力チェック体制を確認する必要がある。"
+    },
+    {
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "normalized_url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "title_ja": "Claude のウォーターマーク機能、文章改変として批判",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "機能評価",
+        "利用ルール"
+      ],
+      "summary": "Anthropic が Claude に組み込んだウォーターマーク機能が、文章の改変にあたるとして批判されている。",
+      "impact": "Claude の出力内容や表示形式が変わる可能性があり、会社での利用時に確認が必要。",
+      "notes": "未確認情報。根拠 URL が Hacker News コメント集計のため、批判の具体的内容と Anthropic 公式の説明を確認する。"
+    },
+    {
+      "url": "https://canonry.ai/blog/claude-appends-year-to-web-searches",
+      "normalized_url": "https://canonry.ai/blog/claude-appends-year-to-web-searches",
+      "title": "Claude appends the current year for some web search queries",
+      "title_ja": "Claude、ウェブ検索で現在年を自動付加",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ウェブ検索",
+        "動作仕様"
+      ],
+      "summary": "Claudeが一部のウェブ検索時に現在年を自動的に付加する挙動が確認された。",
+      "impact": "検索結果の精度が変わる可能性があり、最新情報が必要な業務では動作確認が必要。",
+      "notes": "公式説明未確認のため、Anthropicの仕様資料を確認して自社での使用ルールを決める。"
+    },
+    {
+      "url": "https://aicharts.grok.me/c/market-share",
+      "normalized_url": "https://aicharts.grok.me/c/market-share",
+      "title": "ChatGPT lost 22 points of web share in a year",
+      "title_ja": "ChatGPTのウェブシェアが1年で22ポイント低下",
+      "published": "2026/08/16",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "市場シェア",
+        "AI競争",
+        "ツール選定"
+      ],
+      "summary": "ChatGPTのウェブ検索での利用シェアが1年間で22ポイント下落した。競合AIサービスとの利用シェア競争が進んでいる状況が示されている。",
+      "impact": "AI利用ツールの選定時に、単一サービスへの依存度を見直す必要がある。複数ツール並行利用の検討やベンダーロックイン対策を意識する時期に入った。",
+      "notes": "詳細な調査根拠や市場分析の方法論が記事に示されていないため、数字だけで判断せず自社のアクセスログで確認する。"
+    }
+  ]
+}
