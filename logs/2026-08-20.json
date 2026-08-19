@@ -1,0 +1,147 @@
+{
+  "started_at": "2026-08-20T08:34:21.262124+09:00",
+  "finished_at": "2026-08-20T08:35:34.231328+09:00",
+  "fetched_per_source": {
+    "official": 26,
+    "hn": 85,
+    "arxiv": 30
+  },
+  "fetched_total": 141,
+  "after_dedupe": 139,
+  "recorded_duplicate_excluded_count": 14,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 2,
+  "count_b": 4,
+  "count_c": 0,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/08/20.html",
+  "markdown_path": "output/2026-08-20_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33803,
+  "output_tokens": 4842,
+  "estimated_cost_usd": 0.058013,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "normalized_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "title": "Offering Zero Data Retention for frontier models",
+      "title_ja": "OpenAIが最先端モデルでデータ無保持オプションを提供",
+      "published": "2026/08/19",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "API",
+        "プライバシー",
+        "データ保持",
+        "セキュリティ"
+      ],
+      "summary": "OpenAIが、API利用企業向けに通信データを保持しないオプションを確認し、プライバシーを守りながら安全性チェックできる仕組みをプレビュー公開した。",
+      "impact": "企業がChatGPTやAPIを使う際、入力データを OpenAI側に残さない選択肢が広がる。機密情報を扱う業務での利用判断が変わる可能性がある。",
+      "notes": "Zero Data Retention の対象範囲（どのプランか、コスト増加の有無、申し込み方法）は公式資料で確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/77136",
+      "normalized_url": "https://github.com/anthropics/claude-code/issues/77136",
+      "title": "Opus 5.0 drives incoherence into the stratosphere",
+      "title_ja": "Claude Opus 5.0で一貫性の問題が指摘される",
+      "published": "2026/08/19",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "Claude Opus",
+        "Claude Code",
+        "品質"
+      ],
+      "summary": "Claude Opus 5.0でコード生成時に矛盾した出力が増えているという報告がHacker Newsで話題に。",
+      "impact": "社内でClaudeを利用している場合、出力の信頼性を確認してから使う必要がある。",
+      "notes": "GitHubのissueページは確認し、自社の利用パターンでも同じ現象が起きるか試す。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools",
+      "title": "5 new ways to level up your learning with Search",
+      "title_ja": "Googleが検索とGeminiで学習支援機能を拡充",
+      "published": "2026/08/19",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google検索",
+        "学習ツール",
+        "Google Workspace連携"
+      ],
+      "summary": "Googleが学習向けの検索機能とGemini連携ツールを5つ追加。検索結果からノート作成やAIへの質問が直接できるようになった。",
+      "impact": "従業員の調べ学習やスキル習得時に、検索からGemini利用へスムーズに移行できるようになる。Google Workspaceとの連携で社内学習の効率が変わる可能性がある。",
+      "notes": "実務での活用シーンを確認する。NotebookLMなど既存ツールとの役割分担を整理する前に、自社の学習環境と比べる。"
+    },
+    {
+      "url": "https://openai.com/index/replit",
+      "normalized_url": "https://openai.com/index/replit",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "title_ja": "Replit、GPT-5.6 Lunaで無料モードを開始",
+      "published": "2026/08/19",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "コード生成",
+        "Replit",
+        "無料ツール",
+        "開発効率"
+      ],
+      "summary": "ReplitがGPT-5.6 Lunaを使った無料モードを開始。トークン費用を気にせずコード生成・実行ができるようになる。",
+      "impact": "社内でコード自動生成が必要な場合、Replitの無料モードを選択肢に入れられる。ただしGPT-5.6 Lunaの性能・制限を確認する必要がある。",
+      "notes": "未確認情報が多い。GPT-5.6 Lunaの公開性能、無料版の利用制限、データ保存先・出力の著作権をOpenAI公式に確認してから導入判断する。"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "normalized_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "title": "ChatGPT Ads expands across Europe",
+      "title_ja": "ChatGPT広告、欧州31か国に拡大",
+      "published": "2026/08/18",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "広告配信",
+        "欧州展開",
+        "マーケティング"
+      ],
+      "summary": "OpenAIがChatGPT広告サービスを欧州31市場に展開。ユーザーが検索・比較・判断する場面で広告配信できるようになる。",
+      "impact": "欧州でChatGPTを広告媒体として使う際の対応地域が大幅に増加。広告出稿者は新規市場への配信準備を確認する必要がある。",
+      "notes": "日本への展開時期は未公表。自社の広告戦略で欧州配信を予定している場合は、プラットフォーム仕様・出稿ルール・コンプライアンス要件を確認する。"
+    },
+    {
+      "url": "https://oblique.security/blog/hacking-saml/",
+      "normalized_url": "https://oblique.security/blog/hacking-saml",
+      "title": "Hacking SAML with Claude Code",
+      "title_ja": "Claude Codeを使ったSAML攻撃手法の研究",
+      "published": "2026/08/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "SAML",
+        "セキュリティ",
+        "認証",
+        "脆弱性"
+      ],
+      "summary": "セキュリティ研究者がClaudeを使ってSAML認証の脆弱性を調査する方法を公開した。",
+      "impact": "自社のSAML認証が使われている場合、実装の確認や改善の優先順位付けで参考になる可能性がある。",
+      "notes": "記事の詳細内容を確認してから対応判断する。攻撃手法の公開であり、セキュリティチームとの確認が必要。"
+    }
+  ]
+}
