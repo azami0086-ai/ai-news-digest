@@ -1,0 +1,164 @@
+{
+  "started_at": "2026-08-21T08:37:12.992668+09:00",
+  "finished_at": "2026-08-21T08:38:38.107363+09:00",
+  "fetched_per_source": {
+    "official": 33,
+    "hn": 82,
+    "arxiv": 30
+  },
+  "fetched_total": 145,
+  "after_dedupe": 143,
+  "recorded_duplicate_excluded_count": 18,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/08/21.html",
+  "markdown_path": "output/2026-08-21_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34030,
+  "output_tokens": 4751,
+  "estimated_cost_usd": 0.057785,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/view-google-chat-usage-metrics-in-Gemini-reports-dashboard.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/view-google-chat-usage-metrics-in-Gemini-reports-dashboard.html",
+      "title": "View Google Chat usage metrics in Gemini reports dashboard",
+      "title_ja": "Google ChatのGemini利用状況を管理画面で確認可能に",
+      "published": "2026/08/20",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Chat",
+        "管理者機能",
+        "利用状況分析"
+      ],
+      "summary": "管理者がGemini reports ダッシュボードでGoogle Chat内のGemini利用状況を組織・ユーザー単位で追跡できるようになった。",
+      "impact": "Geminiの社内浸透度や機能別の利用状況をデータで把握でき、導入効果の測定やユーザー教育の優先順位付けに使える。",
+      "notes": "管理画面で何が見えるのかを確認し、個人情報・アクセス権限の社内ルールを確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/ask-gemini-in-chat.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/ask-gemini-in-chat.html",
+      "title": "Introducing Ask Gemini in Chat: your new partner in productivity",
+      "title_ja": "Google ChatにGemini統合、生産性向上ツール「Ask Gemini」を8月26日から提供開始",
+      "published": "2026/08/19",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "GoogleChat",
+        "GoogleWorkspace",
+        "業務効率化"
+      ],
+      "summary": "Google ChatにGemini機能を統合し、検索や情報取得をチャット内で一元化する「Ask Gemini in Chat」を提供開始する。",
+      "impact": "Google Chat内でGeminiを使え、社員は検索や資料確認の手間が減り、チャットのみで業務を進めやすくなる。",
+      "notes": "Google Workspace契約者向けの新機能。自社がGoogle Chatを使っている場合、導入時期と利用ルール（生成内容の確認、情報共有範囲）を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/stampli",
+      "normalized_url": "https://openai.com/index/stampli",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "title_ja": "Stamplicが ChatGPT Workで製品ローンチの準備期間を68%削減",
+      "published": "2026/08/20",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT Work",
+        "生産性",
+        "業務効率化",
+        "Codex"
+      ],
+      "summary": "Stamplicが ChatGPT Workを使い、本来数週間かかる製品ローンチ準備を数日に短縮した。",
+      "impact": "社内でも期限が迫った業務や人手不足の場面で、AIで作業時間を削減できる可能性がある。",
+      "notes": "実際の業務への適用は自社の対象業務・データ機密性・ChatGPT Work利用規約を確認した上で検討する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/allowlisted-domains-api-now-generally-available.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/allowlisted-domains-api-now-generally-available.html",
+      "title": "Allowlisted Domains API now generally available",
+      "title_ja": "Google Workspace、許可ドメイン管理APIが正式利用可能に",
+      "published": "2026/08/20",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "API",
+        "管理者向け",
+        "外部共有",
+        "自動化"
+      ],
+      "summary": "Google Workspaceの許可ドメイン管理がAPIで自動化できるようになった。これまで手作業だった外部共有の許可先管理をプログラムで一括処理できる。",
+      "impact": "管理者の手作業が減り、外部共有ルールの設定・更新を自動化できるようになる。自社の許可ドメイン管理体制を見直す機会になる。",
+      "notes": "API導入には開発チームとの調整が必要。現在の手作業フローと自動化のメリット・デメリットを確認する。"
+    },
+    {
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "normalized_url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "title": "Build production agents with computer use, the Skills API, and the Files API",
+      "title_ja": "Claude、コンピュータ操作とスキルAPI・ファイルAPIで本番環境エージェントを実装可能に",
+      "published": "2026/08/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "API",
+        "エージェント自動化",
+        "ファイル処理"
+      ],
+      "summary": "Claudeが、画面操作・カスタム機能・ファイル操作を組み合わせてAIエージェントを構築できる機能を提供開始した。",
+      "impact": "社内業務を自動化するAIツール開発時、Claudeの利用選択肢が広がり、導入前に技術検証が必要になる。",
+      "notes": "公式ブログの発表であり、実装方法は公開資料で確認できるが、自社システムとの連携・セキュリティ・本番運用ルールは別途検討する。"
+    },
+    {
+      "url": "https://github.com/EricAndrechek/Pacer",
+      "normalized_url": "https://github.com/EricAndrechek/Pacer",
+      "title": "Show HN: Pacer – Realtime Claude Code Usage Tracking / Pacing",
+      "title_ja": "Claude Code利用の実時間追跡ツール「Pacer」登場",
+      "published": "2026/08/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "利用管理",
+        "コスト管理",
+        "開発ツール"
+      ],
+      "summary": "GitHubで公開されたツール。Claude Codeの使用量をリアルタイムで追跡・制御できる。",
+      "impact": "Claude Code利用量を可視化し、予算超過や過剰利用を事前に防ぐことができる。会社で使う場合は設定内容と権限を確認する。",
+      "notes": "執筆時点でHacker Newsでの反応は限定的（ポイント2、コメント1）。導入前に実装要件と自社環境との互換性を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "normalized_url": "https://openai.com/index/introducing-ai-futures",
+      "title": "Introducing AI Futures",
+      "title_ja": "OpenAI、AI時代の社会変化を扱う新ブログ「AI Futures」を開設",
+      "published": "2026/08/20",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "ガバナンス",
+        "企業AI活用"
+      ],
+      "summary": "OpenAIが、AI導入による権力・統治・経済・個人の自由への影響を扱う新ブログを開始した。",
+      "impact": "AI活用時の企業ガバナンスやルール作りの参考になる公式資料が増える。",
+      "notes": "技術解説ではなく社会影響を扱うため、導入判断に直結する内容とは限らない。自社のAI利用ルール検討時に参照するかは任意。"
+    }
+  ]
+}
