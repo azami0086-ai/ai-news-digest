@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-08-22T08:35:59.744370+09:00",
+  "finished_at": "2026-08-22T08:37:10.210046+09:00",
+  "fetched_per_source": {
+    "official": 27,
+    "hn": 80,
+    "arxiv": 30
+  },
+  "fetched_total": 137,
+  "after_dedupe": 136,
+  "recorded_duplicate_excluded_count": 19,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 7,
+  "count_c": 3,
+  "count_excluded": 2,
+  "errors": [
+    "official fetch failed: Microsoft AI Blog: RSS parse failed: https://blogs.microsoft.com/ai/feed/"
+  ],
+  "html_path": "docs/2026/08/22.html",
+  "markdown_path": "output/2026-08-22_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33800,
+  "output_tokens": 4667,
+  "estimated_cost_usd": 0.057135,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://github.com/proliferate-ai/proliferate",
+      "normalized_url": "https://github.com/proliferate-ai/proliferate",
+      "title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+      "title_ja": "Proliferate─オープンソース化した自社ホスト型コード補完ツール",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "コード補完",
+        "自社ホスト",
+        "オープンソース",
+        "セキュリティ",
+        "Claude対応"
+      ],
+      "summary": "GitHubで、任意のコーディングエージェント向けに自社サーバーで動かせるコード補完ツールがオープンソース公開された。",
+      "impact": "自社サーバーでコード補完を運用する場合、外部クラウド依存を減らし、コード流出リスク管理が容易になる可能性がある。",
+      "notes": "Claudeなど複数のAIモデルに対応するとみられるが、自社導入前に機能・セキュリティ・サポート体制を確認する必要がある。"
+    },
+    {
+      "url": "https://frigade.com/blog/we-replaced-grafana-with-a-claude-code-skill",
+      "normalized_url": "https://frigade.com/blog/we-replaced-grafana-with-a-claude-code-skill",
+      "title": "We replaced our Grafana stack with a single Claude Code skill",
+      "title_ja": "GrafanaをClaudeのコード機能に置き換え",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "モニタリング",
+        "自動化",
+        "コスト効率"
+      ],
+      "summary": "企業がモニタリングツールGrafanaを、ClaudeのAI機能を組み込んだ仕組みに変更した事例が報告された。",
+      "impact": "AIでモニタリング・分析業務を自動化できる可能性があり、類似の監視・レポート業務の効率化を検討する際の参考になる。",
+      "notes": "実装の詳細や自社環境への適用可能性は公式記事で確認する。Claudeの機能制限や利用コスト増加も合わせて検討が必要。"
+    },
+    {
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "normalized_url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+      "title": "Quick impressions: A week of using Codex more than Claude",
+      "title_ja": "Codexを多く使った1週間の所感",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "Claude",
+        "開発支援",
+        "ツール選定",
+        "実運用"
+      ],
+      "summary": "開発者がCodexとClaudeを実際に使い比べた結果をまとめた記事。どちらが何に向いているかの実感が記録されている。",
+      "impact": "自社のAI支援開発ツール選択の参考になる。実際の利用者の評価を確認して、導入候補を絞る際に役立つ。",
+      "notes": "個人の意見記事であり、全社導入の判断基準ではない。自社の開発スタイルと比べて検討する。"
+    },
+    {
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "normalized_url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "title_ja": "Claude Mythos 5のサイバーセキュリティ機能、より多くの担当者に提供開始",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "ツール拡張"
+      ],
+      "summary": "AnthropicがClaudeのサイバーセキュリティ機能を拡張し、より多くのセキュリティ担当者が利用できるようにした。",
+      "impact": "セキュリティ業務でClaudeを使う場合、新しい機能や利用方法を確認し、現在の業務フローへの組み込みを検討する。",
+      "notes": "公式ブログの情報だが、具体的な機能内容や利用制限、料金変更については出典URLで確認する。"
+    },
+    {
+      "url": "https://michaellivs.com/blog/system-reminders-steering-agents/",
+      "normalized_url": "https://michaellivs.com/blog/system-reminders-steering-agents",
+      "title": "System reminders – how Claude Code steers itself",
+      "title_ja": "Claude Codeの自己操舵：システムリマインダーの仕組み",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "プロンプト工学",
+        "コード生成"
+      ],
+      "summary": "Claude Codeが、内部のシステムメッセージを使ってコード生成時の動作を制御する仕組みについて技術的に解説した記事。",
+      "impact": "Claude Codeをコード生成に使う場合、モデルの内部動作を理解することで、出力の傾向や制限を予測し、プロンプト設計で工夫できる点が増える。",
+      "notes": "技術ブログであり、公式なClaudeの仕様説明ではない。自社で使う前に、実際の出力傾向を自分たちで確認する必要がある。"
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/use-chatgpt",
+      "normalized_url": "https://learn.chatgpt.com/docs/use-chatgpt",
+      "title": "Share a read-only snapshot of a Codex thread",
+      "title_ja": "ChatGPT Codex スレッドの読み取り専用スナップショット共有機能",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Codex",
+        "共有機能",
+        "アクセス制御"
+      ],
+      "summary": "ChatGPTで、Codexスレッドを読み取り専用のスナップショットとして共有できる機能が追加された。",
+      "impact": "チーム内でコード生成の過程を共有・確認する際、編集を制限して履歴を保護できるようになる。",
+      "notes": "公式ドキュメントを確認し、自社のコード共有ルールや権限管理に反映する必要がある。"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/output-styles",
+      "normalized_url": "https://code.claude.com/docs/en/output-styles",
+      "title": "Claude has a \"Concise\" output style",
+      "title_ja": "Claudeに「簡潔」な出力スタイルが追加",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "出力設定",
+        "プロンプト設計",
+        "業務効率"
+      ],
+      "summary": "Claudeが新しい出力スタイルの「Concise（簡潔）」モードを提供開始。ユーザーが必要な情報量に合わせて回答の長さを選べるようになった。",
+      "impact": "Claudeを業務で使う際、冗長な説明を削って必要な情報だけを得やすくなり、チャット時間が短縮できる可能性がある。",
+      "notes": "詳細な仕様（他の出力スタイルとの違い、API指定方法）は公式ドキュメントで確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "normalized_url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "title_ja": "DeepMindがゲーム企業と協業、15年のAI研究を応用した新しいゲームプレイ開発へ",
+      "published": "2026/08/21",
+      "source": "Google DeepMind Blog",
+      "importance": "C",
+      "tags": [
+        "DeepMind",
+        "ゲーム開発",
+        "AI研究",
+        "パートナーシップ"
+      ],
+      "summary": "Google DeepMindが、ゲーム企業と組み、複雑なゲーム環境でのAI技術を新作ゲーム開発に活用する取り組みを発表した。",
+      "impact": "ゲーム関連の業務に携わる部署は、AI技術の活用範囲の拡大と外部パートナーシップの動きを認識する必要がある。",
+      "notes": "詳細な技術仕様や自社適用可否は、本文で確認したうえで判断する。"
+    },
+    {
+      "url": "https://ozbrain.com",
+      "normalized_url": "https://ozbrain.com/",
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "title_ja": "OzBrain：複数エージェント間で知識を共有する仕組み",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "マルチエージェント",
+        "知識管理",
+        "チームコラボレーション"
+      ],
+      "summary": "複数のAIエージェントとチーム間で知識を共有・蓄積する仕組みOzBrainが公開された。",
+      "impact": "社内でClaude等のAIを複数使う場合、エージェント間の情報連携の方法を検討する材料になる可能性がある。",
+      "notes": "Hacker Newsでの初期反応（ポイント8、コメント1）のため、機能や安定性の詳細は未確認。自社で利用する前にサービス内容と対応ルール（データ保存先、アクセス権限、バックアップ方針）を確認する。"
+    },
+    {
+      "url": "https://github.com/gtapps/claude-code-hermit/",
+      "normalized_url": "https://github.com/gtapps/claude-code-hermit",
+      "title": "Turn Claude Code into a 24/7 Agent",
+      "title_ja": "ClaudeのコードをAIエージェント化する手法が公開",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "自動化",
+        "GitHub",
+        "コード実行"
+      ],
+      "summary": "GitHubでClaudeを使ったコードを24時間動かすエージェント化の仕組みが共有された。自動実行や継続運用の考え方が示されている。",
+      "impact": "自社でClaudeを業務の自動化・監視・バッチ処理に使う場合、実装方法の参考になる可能性がある。",
+      "notes": "実装内容やセキュリティ・API利用料金については公式資料ではなくコミュニティ共有なため、自社で使う前に内容確認と動作検証が必要。"
+    }
+  ]
+}
