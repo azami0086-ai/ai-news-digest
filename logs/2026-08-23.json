@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-08-23T08:33:14.923014+09:00",
+  "finished_at": "2026-08-23T08:34:24.443349+09:00",
+  "fetched_per_source": {
+    "official": 17,
+    "hn": 78,
+    "arxiv": 30
+  },
+  "fetched_total": 125,
+  "after_dedupe": 125,
+  "recorded_duplicate_excluded_count": 11,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 3,
+  "count_c": 7,
+  "count_excluded": 4,
+  "errors": [
+    "official fetch failed: Microsoft AI Blog: RSS parse failed: https://blogs.microsoft.com/ai/feed/"
+  ],
+  "html_path": "docs/2026/08/23.html",
+  "markdown_path": "output/2026-08-23_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33714,
+  "output_tokens": 4579,
+  "estimated_cost_usd": 0.056609,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://digg.com/tech/fktxxvtg",
+      "normalized_url": "https://digg.com/tech/fktxxvtg",
+      "title": "Claude Code Adds Concise Output Style Option",
+      "title_ja": "Claude Codeに出力形式の簡潔オプションが追加",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "UI更新"
+      ],
+      "summary": "Claudeのコード生成機能に、簡潔な出力形式を選べるオプションが追加された。",
+      "impact": "コード作成時に冗長な説明を減らせるため、出力確認の時間短縮になる可能性がある。",
+      "notes": "詳細な仕様や利用方法は未確認。実際の動作を自社環境で試してから業務適用を判断するとよい。"
+    },
+    {
+      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "normalized_url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "title": "Claude Watermarks AI-Generated Text",
+      "title_ja": "ClaudeがAI生成テキストに透かしを埋め込み",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI生成テキスト識別",
+        "透かし技術",
+        "利用ルール"
+      ],
+      "summary": "ClaudeがAI生成テキストに識別用の透かしを埋め込む仕組みを導入した。人間が書いたテキストとの区別がつきやすくなる。",
+      "impact": "会社でClaudeを使う際、生成テキストの出どころが明確になる。ただし透かしの有無が判断基準になるかは確認する。",
+      "notes": "透かしの検出方法や信頼性の詳細は未確認。自社のテキスト検査プロセスに組み込む前に仕様を確認する。"
+    },
+    {
+      "url": "https://medium.com/@rviragh/chatgpt-sol-5-6-pro-still-exhibits-model-confusion-given-recursive-role-and-rulesets-70124a36951f",
+      "normalized_url": "https://medium.com/@rviragh/chatgpt-sol-5-6-pro-still-exhibits-model-confusion-given-recursive-role-and-rulesets-70124a36951f",
+      "title": "Model confusion in recursive instruction contexts",
+      "title_ja": "ChatGPT、複雑な指示を繰り返し与えると設定を混同する",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "プロンプト設計",
+        "信頼性",
+        "利用ガイドライン"
+      ],
+      "summary": "ChatGPTが、役割やルールを何度も重ねて与える指示に対し、設定を誤認識して応答する問題を指摘した記事。",
+      "impact": "ChatGPTを社内で使う際、複数の条件や役割を重ねた指示をすると予期しない応答が出る可能性がある。利用前に確認する。",
+      "notes": "検証内容や確認方法の詳細は記事を読んで確認する。社内で同じ問題が起きるか試してみる価値がある。"
+    },
+    {
+      "url": "https://structo.redbeardlab.com/",
+      "normalized_url": "https://structo.redbeardlab.com/",
+      "title": "Show HN: Structo – Claude Code for short form writing",
+      "title_ja": "Structo – Claudeで短編執筆を支援するコード",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "文章生成",
+        "執筆補助ツール",
+        "Hacker News"
+      ],
+      "summary": "Hacker Newsで紹介されたツール。Claudeを使い短い文章や記事の執筆を支援する仕組み。",
+      "impact": "社内で短編文案・ブログ・メール作成などをAIで補助する可能性がある。導入前に社内ルール確認が必要。",
+      "notes": "詳細は公開ページで確認する。利用するなら、生成文の責任者と確認フロー、保存先のルールを決める。"
+    },
+    {
+      "url": "https://github.com/HarjjotSinghh/locum",
+      "normalized_url": "https://github.com/HarjjotSinghh/locum",
+      "title": "Show HN: Locum – Grok Bot delegates tasks to Claude/Codex CLI on your machine",
+      "title_ja": "Grok BotがClaudeやCodexに処理を委譲するLocumツール、GitHubで公開",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "ローカル環境",
+        "オープンソース",
+        "タスク委譲"
+      ],
+      "summary": "ローカル環境でClaudeやCodexを実行し、Grok BotがタスクをCLIで委譲できるツールLocumが開発者により公開された。",
+      "impact": "自社でオンプレミス運用するAI環境での処理委譲を検討する場合、オープンソースの選択肢として参考になる可能性がある。",
+      "notes": "公開から日が浅くスター数が少なく、本番環境での安定性は未確認。導入検討時は事前テストと動作確認が必要。"
+    },
+    {
+      "url": "https://github.com/arturlimaaa/terminito",
+      "normalized_url": "https://github.com/arturlimaaa/terminito",
+      "title": "Claude Code status line for worktree, branch, context and quota",
+      "title_ja": "Claude用のステータス表示ツール、worktree・ブランチ・コンテキスト・利用枠を表示",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発ツール",
+        "ターミナル",
+        "利用枠管理"
+      ],
+      "summary": "開発者が作成したClaude向けのツールで、ターミナルに作業状況や利用枠の情報をリアルタイム表示する。",
+      "impact": "社内でClaudeを使って開発する場合、利用状況を管理しやすくなる可能性がある。",
+      "notes": "GitHubの個人プロジェクトで、公式ツールではない。社内利用を検討する場合はセキュリティと依存性を確認する。"
+    },
+    {
+      "url": "https://twitter.com/argofowl/status/2091150597374537729",
+      "normalized_url": "https://twitter.com/argofowl/status/2091150597374537729",
+      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+      "title_ja": "Claudeのコード生成機能で出力レベル調整テスト中か",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "テスト中",
+        "出力品質",
+        "未確認情報"
+      ],
+      "summary": "AnthropicがClaudeのコード生成機能で、異なる出力レベルを試験的に運用している可能性が報告されている。",
+      "impact": "社内でClaudeを使う場合、同じプロンプトでも生成品質が変動することがある。テスト期間中は信頼度を確認して使う。",
+      "notes": "Twitter情報で確認状況が不明確。Anthropicからの公式発表ではない。実際の影響範囲や期間は未確認。"
+    },
+    {
+      "url": "https://skillworks.kynth.studio",
+      "normalized_url": "https://skillworks.kynth.studio/",
+      "title": "Show HN: SkillWorks – every Claude Code skill, scored on whether it loads",
+      "title_ja": "SkillWorks - Claude Codeのスキル動作を一覧化・採点",
+      "published": "2026/08/22",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "スキル",
+        "動作確認"
+      ],
+      "summary": "Claude Codeが持つスキルの動作状況を検証し、読み込み可否で採点するツール。",
+      "impact": "Claude Codeを業務で使う際に、利用可能なスキル機能を事前確認できる。",
+      "notes": "ツール提供者による動作検証のため、自社での動作確認も別途する。"
+    },
+    {
+      "url": "https://viewfromthewing.com/google-buys-spirit-airlines-emails-files-and-flight-records-for-10-million-so-gemini-can-learn-from-bankruptcy/",
+      "normalized_url": "https://viewfromthewing.com/google-buys-spirit-airlines-emails-files-and-flight-records-for-10-million-so-gemini-can-learn-from-bankruptcy",
+      "title": "Google Buys Spirit Airlines' Emails, Files and Flight Records for $10M",
+      "title_ja": "GoogleがSpirit Airlinesのメール・ファイル・運航記録を1000万ドルで取得",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "データ買収",
+        "AI学習",
+        "企業データ",
+        "情報管理"
+      ],
+      "summary": "GoogleがSpirit Airlines破綻時の企業データを買収し、Geminiの学習データとして利用する計画。",
+      "impact": "AI学習に企業の破綻データを使用する先例になり、自社の機密情報がAI企業に買収されるリスクが考えられる。",
+      "notes": "ソースはHN（複数検証なし）で、公式発表の有無が未確認。報道の信ぴょう性を確認してから対応を判断する。"
+    },
+    {
+      "url": "https://wondering.app/canvas",
+      "normalized_url": "https://wondering.app/canvas",
+      "title": "Show HN: Visual way to understand things in parallel",
+      "title_ja": "Geminiを使った並列理解ツール、Wondering Canvas公開",
+      "published": "2026/08/21",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "学習ツール",
+        "可視化",
+        "未確認"
+      ],
+      "summary": "複数の概念や情報を視覚的に並べて比較・理解するツール。Geminiを裏側で動かして説明を生成している。",
+      "impact": "社内のAI学習ツール選定時に選択肢になり得る。ただし利用規約や会社データの扱いを確認してから検討する。",
+      "notes": "Hacker News発表で初期段階のツール。自社で使う前に、Gemini API利用条件と個人情報・機密情報の送信範囲を確認する必要がある。"
+    }
+  ]
+}
