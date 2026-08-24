@@ -1,0 +1,152 @@
+{
+  "started_at": "2026-08-25T08:33:32.297321+09:00",
+  "finished_at": "2026-08-25T08:34:46.404033+09:00",
+  "fetched_per_source": {
+    "official": 8,
+    "hn": 70,
+    "arxiv": 30
+  },
+  "fetched_total": 108,
+  "after_dedupe": 108,
+  "recorded_duplicate_excluded_count": 14,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 4,
+  "errors": [],
+  "html_path": "docs/2026/08/25.html",
+  "markdown_path": "output/2026-08-25_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33963,
+  "output_tokens": 4662,
+  "estimated_cost_usd": 0.057273,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://status.claude.com/uptime",
+      "normalized_url": "https://status.claude.com/uptime",
+      "title": "Anthropic Claude and API service outages",
+      "title_ja": "ClaudeおよびAPI サービス障害情報",
+      "published": "2026/08/24",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "API",
+        "障害",
+        "サービス停止",
+        "重要度確認推奨"
+      ],
+      "summary": "ClaudeとそのAPI機能に障害が発生。ステータスページで詳細が公開されている。",
+      "impact": "Claude利用中の業務が一時的に停止する可能性がある。使用中のシステムやワークフローの稼働状況を確認する。",
+      "notes": "詳細な原因や復旧予定は根拠URLから確認不可。公式ステータスページで最新情報を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/generate-interactive-simulations-and-models-in-the-Gemini-app.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/generate-interactive-simulations-and-models-in-the-Gemini-app.html",
+      "title": "Generate interactive simulations and models in the Gemini app",
+      "title_ja": "Geminiアプリで対話的なシミュレーション・モデルを生成可能に",
+      "published": "2026/08/24",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Workspace",
+        "生成AI",
+        "新機能",
+        "可視化",
+        "シミュレーション"
+      ],
+      "summary": "Geminiが質問を対話的な図や動作するシミュレーションに変換して表示するようになった。テキストと静止図から、分子の回転や物理現象のシミュレーション操作が可能になる。",
+      "impact": "Gemini回答の見かたが変わる。複雑な概念や現象の理解に使える機能が増えるため、社員の学習・検討に活用できるか試す価値がある。",
+      "notes": "公式機能の説明のため公式資料として読める。実際の動作・対応トピック・自社での利用ルールは別途確認する。"
+    },
+    {
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "normalized_url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "title_ja": "OpenAI、GPT‑5.6をKiroで提供開始、開発者向け価格性能を改善",
+      "published": "2026/08/24",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "GPT‑5.6",
+        "開発者向け",
+        "API",
+        "価格・性能"
+      ],
+      "summary": "OpenAIがGPT‑5.6をKiroプラットフォームで利用可能にした。開発者がソフトウェア開発時の価格と性能のバランスが向上する。",
+      "impact": "社内開発チームがGPT‑5.6を使う場合、導入前に利用料金体系と既存ツールとの使い分けを確認する必要がある。",
+      "notes": "Kiroでの具体的な機能や料金は公式資料で確認する。会社での利用を検討する際は、アクセス権限と費用承認フローを決める。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "normalized_url": "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
+      "title": "Responsible Scaling Policy",
+      "title_ja": "Anthropicが責任ある拡大方針を更新",
+      "published": "",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "安全性",
+        "ルール更新"
+      ],
+      "summary": "Anthropicが、AIモデルを大きくする際に安全性をどう確保するかのルールを新しくした。",
+      "impact": "Claude利用時に、安全性チェックの基準や工程が変わる可能性がある。自社での利用許可基準を見直す材料になる。",
+      "notes": "詳細内容が不明確なため、公式ページで具体的な変更点と自社適用範囲を確認する。"
+    },
+    {
+      "url": "https://github.com/l3a0/claude-plugins",
+      "normalized_url": "https://github.com/l3a0/claude-plugins",
+      "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
+      "title_ja": "Claudeを使ってKindleのハイライト出力制限を回避するツール",
+      "published": "2026/08/24",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "スキル・機能",
+        "データ抽出",
+        "コード実行",
+        "ツール"
+      ],
+      "summary": "Claudeのコード実行機能を使い、Kindleで出力をブロックされているハイライトを復元するツールが公開された。",
+      "impact": "Claudeの新しい使い方として、テキスト抽出やデータ回復の応用例が増える可能性がある。社内でClaudeを活用する際の用途検討に参考になる。",
+      "notes": "利用規約への抵触の有無を確認する。Kindle出力制限の回避手段なので、著作権や利用許諾との関係を事前に確認することが必要。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.21208v1",
+      "normalized_url": "https://arxiv.org/abs/2608.21208v1",
+      "title": "Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration",
+      "title_ja": "LLMエージェント間の仕様互換性：データベース移行での実験",
+      "published": "2026/08/21",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "GitHub Copilot",
+        "生成AI",
+        "コード生成",
+        "データベース移行",
+        "技術検証",
+        "論文"
+      ],
+      "summary": "複数のAIがOracle データベースをPostgreSQLに移行する際、同じ仕様書をどこまで再利用できるかを検証した論文。",
+      "impact": "AI利用でコード生成・移行作業を任せる場合、特定のAIに依存すると別のAIで作り直す必要が出る可能性がある。",
+      "notes": "arXiv論文のため未査読。実務への適用には自社の移行規模・対象データベース・利用予定のAIとの相性を確認する必要がある。"
+    }
+  ]
+}
