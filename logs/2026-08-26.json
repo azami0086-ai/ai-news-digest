@@ -1,0 +1,203 @@
+{
+  "started_at": "2026-08-26T08:35:45.385252+09:00",
+  "finished_at": "2026-08-26T08:36:54.526055+09:00",
+  "fetched_per_source": {
+    "official": 20,
+    "hn": 67,
+    "arxiv": 30
+  },
+  "fetched_total": 117,
+  "after_dedupe": 112,
+  "recorded_duplicate_excluded_count": 5,
+  "candidate_count": 20,
+  "published": 9,
+  "count_a": 1,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 1,
+  "errors": [],
+  "html_path": "docs/2026/08/26.html",
+  "markdown_path": "output/2026-08-26_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34089,
+  "output_tokens": 4578,
+  "estimated_cost_usd": 0.056979,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "normalized_url": "https://openai.com/index/introducing-admin-plugin",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "title_ja": "ChatGPT WorkとCodexの管理機能プラグイン登場",
+      "published": "2026/08/25",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "ChatGPT Work",
+        "Codex",
+        "管理機能",
+        "ワークスペース"
+      ],
+      "summary": "OpenAIが、ChatGPT WorkとCodexの利用状況を把握し、メンバーや権限を管理できるプラグインを提供開始した。",
+      "impact": "会社のChatGPT Work導入時に、利用者の管理と利用制限を一元的に操作できるようになる。管理業務の手間が減る可能性がある。",
+      "notes": "自社で導入する場合は、誰が管理権を持つか、何を監視するか事前に決める。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/control-take-notes-for-me-directly-from-Google-Meet-hardware-touch-controllers.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/control-take-notes-for-me-directly-from-Google-Meet-hardware-touch-controllers.html",
+      "title": "Control “Take notes for me” directly from Google Meet hardware touch controllers",
+      "title_ja": "Google Meet ハードウェアコントローラから直接「メモを取って」機能を操作可能に",
+      "published": "2026/08/25",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Google Meet",
+        "Gemini",
+        "音声書き起こし"
+      ],
+      "summary": "Google Meetのハードウェアコントローラから「Take notes for me」機能を直接操作できるようになる。会議室の参加者がノートパソコンなしで利用できる。",
+      "impact": "会議室のタッチパネルからメモ自動作成機能を操作でき、Companion モードの必要がなくなる。会議効率化につながる可能性がある。",
+      "notes": "8月31日から展開開始。利用可能な会議かどうか確認し、運用上必要に応じて利用ガイドを準備する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/introducing-data-import-for-microsoft-OneDrive-An-easier-faster-and-higher-fidelity-migration-to-Google-Workspace.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/introducing-data-import-for-microsoft-OneDrive-An-easier-faster-and-higher-fidelity-migration-to-Google-Workspace.html",
+      "title": "Introducing data import for Microsoft OneDrive: An easier, faster, and higher-fidelity migration to Google Workspace",
+      "title_ja": "Google Workspace、OneDriveからの大量ファイル移行機能を提供開始",
+      "published": "2026/08/25",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "データ移行",
+        "OneDrive",
+        "Microsoft 365"
+      ],
+      "summary": "GoogleがMicrosoft OneDriveからGoogle Workspaceへのファイル一括移行ツールを無料で提供開始した。権限設定も含めて移行できる。",
+      "impact": "Microsoft 365からGoogle Workspaceへの乗り換えを検討している場合、IT部門の移行作業が簡素化される。移行コストと期間を見直す対象になる。",
+      "notes": "移行ツールの詳細仕様（対応ファイル形式・容量制限・実行時間など）は公式ドキュメントで確認する。移行前後のデータ検証・ユーザー通知のルール作りが必要。"
+    },
+    {
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "normalized_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "title": "The full stack behind abundant intelligence",
+      "title_ja": "OpenAI、チップから製品まで一体で進化 低コスト化の戦略を説明",
+      "published": "2026/08/25",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "コスト削減",
+        "AI戦略",
+        "計算基盤"
+      ],
+      "summary": "OpenAI CFOが、チップ・計算基盤・モデル・製品の進化が組み合わさることで、より使いやすく安価なAIが実現する仕組みを説明した。",
+      "impact": "ChatGPT導入やAI予算の見積もりで、今後のコスト推移の見方が変わる可能性がある。",
+      "notes": "公式資料として読めるが、実際のOpenAIの価格戦略・技術ロードマップの詳細は記事内容を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "normalized_url": "https://openai.com/index/jalapeno-first-results",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "title_ja": "OpenAI、推論専用チップ「Jalapeño」の性能を発表",
+      "published": "2026/08/25",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "推論チップ",
+        "インフラ"
+      ],
+      "summary": "OpenAIが自社開発の推論チップJalapeñoの性能結果を公開した。処理速度と消費電力効率で業界トップクラスの性能を示している。",
+      "impact": "ChatGPT利用時の応答速度向上やサービス原価削減につながる可能性がある。自社でAI導入を検討する際の技術参考になる。",
+      "notes": "詳細な技術仕様や導入時期は公開資料で確認する。"
+    },
+    {
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "normalized_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "title_ja": "OpenAI、ロシア発のAI偽情報キャンペーンを遮断",
+      "published": "2026/08/25",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "偽情報",
+        "AI悪用",
+        "情報リテラシー"
+      ],
+      "summary": "OpenAIが、ロシア系アカウントによるAI利用の偽情報活動を検出し、アカウント停止措置を実施した。",
+      "impact": "社内でAI生成コンテンツの真正性を疑う必要があり、特に思想的立場に偏ったリサーチ資料や指標の出所確認が重要になる。",
+      "notes": "公開資料だが、社内での情報リテラシー教育に組み込むとよい。ChatGPTなど公開AIの出力を参考にする際は、情報源と制作者の確認を習慣づける。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "normalized_url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
+      "title_ja": "Anthropic、AI導入による生活への影響を測る研究資金を提供",
+      "published": "2026/08/25",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "研究助成",
+        "効果測定",
+        "AI導入",
+        "Anthropic"
+      ],
+      "summary": "Anthropicが、企業や地域でAI利用がもたらす実際の効果を調べる研究に資金を出す。",
+      "impact": "AI導入前後の成果を測る方法が整備されることで、自社の効果測定をどう進めるかを見直す参考になる可能性がある。",
+      "notes": "公式資料として読めるが、研究助成の対象・申請方法・自社との関連性は別途確認する。"
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal",
+      "normalized_url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal",
+      "title": "Now Introducing Gemini Enterprise for Legal",
+      "title_ja": "Gemini Enterprise for Legal提供開始",
+      "published": "2026/08/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Enterprise",
+        "法務",
+        "AI"
+      ],
+      "summary": "Googleが法務部門向けの専用Gemini機能を発表した。契約書や判例の分析に特化した企業向けプランの提供を始める。",
+      "impact": "法務チームがAIで書類作業を効率化できるようになる。契約審査や判例調査の手順と権限を改めて確認する必要がある。",
+      "notes": "法務部門で使う場合、データの保存先・閲覧範囲・機密情報の扱いを事前に確認する。公式資料で詳細を読む。"
+    },
+    {
+      "url": "https://github.com/labscommunity/yeschef",
+      "normalized_url": "https://github.com/labscommunity/yeschef",
+      "title": "Yeschef: Claude Code dispatches work to Ollama on my LAN (627 tok/s on 3 NUCs)",
+      "title_ja": "Claude Codeがオンプレミス環境の処理を担当、Ollamaで実行",
+      "published": "2026/08/25",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "オンプレミス",
+        "ローカル実行",
+        "開発ツール",
+        "セキュリティ"
+      ],
+      "summary": "開発者がClaudeを使う際、複数の小型PCでローカル処理を分散実行する仕組みを公開。ローカルネットワーク内で完結する。",
+      "impact": "Claude Codeの出力やタスク処理をオンプレミス環境で自動実行するオプションが検討できるようになる。セキュリティが必要な業務での使用可能性が広がる。",
+      "notes": "GitHubの個人プロジェクトで、本番利用の前に自社の環境・セキュリティ要件・管理方法を確認する。"
+    }
+  ]
+}
