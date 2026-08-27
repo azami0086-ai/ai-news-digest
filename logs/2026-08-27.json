@@ -1,0 +1,186 @@
+{
+  "started_at": "2026-08-27T13:30:29.084884+09:00",
+  "finished_at": "2026-08-27T13:31:41.575178+09:00",
+  "fetched_per_source": {
+    "official": 27,
+    "hn": 78,
+    "arxiv": 30
+  },
+  "fetched_total": 135,
+  "after_dedupe": 130,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 1,
+  "count_b": 6,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/08/27.html",
+  "markdown_path": "output/2026-08-27_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33897,
+  "output_tokens": 4757,
+  "estimated_cost_usd": 0.057682,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "normalized_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "title": "The Hugging Face incident and the road ahead",
+      "title_ja": "Hugging Faceのセキュリティ事件とOpenAIの対応",
+      "published": "2026/08/26",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "OpenAI",
+        "セキュリティ",
+        "ChatGPT",
+        "AIモデル安全性",
+        "監視"
+      ],
+      "summary": "OpenAIがHugging Faceのセキュリティ事件の調査結果と、AIモデルのセキュリティ強化に向けた対応内容を説明した。",
+      "impact": "AI利用時のセキュリティリスク認識と、社内のAI導入ルール・監視体制の見直し検討が必要になる可能性がある。",
+      "notes": "詳細は公式ブログで確認する。自社がHugging Faceやその関連サービスを使っている場合は優先して内容を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/loveholidays",
+      "normalized_url": "https://openai.com/index/loveholidays",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "title_ja": "旅行会社がCodexで全社員をプログラマーに",
+      "published": "2026/08/26",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "Codex",
+        "ノーコード開発",
+        "業務自動化",
+        "導入事例",
+        "生産性"
+      ],
+      "summary": "旅行予約サイトがCodexを導入し、プログラマー以外の従業員も簡単にコードを書けるようにした。",
+      "impact": "ノーコード・ローコードツールの実例として、自社でも非技術部門がAIで業務自動化できる可能性を検討する材料になる。",
+      "notes": "実際の導入方法や効果については公式事例として参照できるが、自社適用時は対象業務と権限範囲を確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/google-classroom-now-supports-context-Aware-Access-controls.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/google-classroom-now-supports-context-Aware-Access-controls.html",
+      "title": "Google Classroom now supports Context-Aware Access controls",
+      "title_ja": "Google Classroom、アクセス制御の条件付き設定に対応",
+      "published": "2026/08/26",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Google Classroom",
+        "セキュリティ",
+        "アクセス制御",
+        "管理者向け"
+      ],
+      "summary": "Google Classroomでアクセス制御ルールを設定できるようになった。管理者がアクセス地域や接続条件を制限できる。",
+      "impact": "学校や企業でClassroom利用時の接続場所を制限する運用ができる。セキュリティ設定の幅が広がるため、利用ルールの見直しが必要。",
+      "notes": "Admin consoleから設定可能。自社のClassroom運用ポリシーと照合して、制限が必要な部署や対象者を確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "normalized_url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "title_ja": "Gemini 3.5 Transcribeで音声のテキスト化が高度に",
+      "published": "2026/08/26",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "音声処理",
+        "文字起こし",
+        "生産性向上"
+      ],
+      "summary": "Gemini 3.5 Transcribeという音声をテキストに変換する新機能が登場した。",
+      "impact": "音声ファイルの処理精度や理解度が向上。文字起こしの手作業や後修正を減らせる可能性がある。",
+      "notes": "未確認：実装予定日時・料金・利用可能なファイル形式・日本語対応。自社での利用を検討する場合は事前に機能を試す。"
+    },
+    {
+      "url": "https://openai.com/index/learning-never-stops",
+      "normalized_url": "https://openai.com/index/learning-never-stops",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "title_ja": "ChatGPTが学習を継続させる、教室外での支援も対象に",
+      "published": "2026/08/26",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "教育",
+        "学習支援",
+        "人材育成",
+        "OpenAI公式"
+      ],
+      "summary": "OpenAIが、学生と教育者がChatGPTを使って学習を続ける実態を調査した報告書を公開した。",
+      "impact": "教育現場でのChatGPT利用が広がる中、会社の研修やスキル習得でも同様の活用方法が参考になる可能性がある。",
+      "notes": "報告書の詳細内容は公式資料で確認する。社内研修にChatGPTを導入する場合は、利用ルールと学習成果の測定方法を決めておく。"
+    },
+    {
+      "url": "https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code/",
+      "normalized_url": "https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code",
+      "title": "I miss the old Claude Code",
+      "title_ja": "Claude Codeの変更で開発効率が低下、旧版の方が使いやすかったとの声",
+      "published": "2026/08/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "開発ツール",
+        "UI/UX",
+        "ユーザー意見"
+      ],
+      "summary": "開発者がClaude Codeの新版より旧版の方が使いやすかったと指摘。焦点を絞った機能が失われたことが理由とされている。",
+      "impact": "自社でClaude Codeを開発業務に使う場合、最新版の使い勝手を事前に検証する必要がある。",
+      "notes": "詳細は記事で確認が必要。Anthropicからの公式説明は未確認。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "normalized_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe",
+      "title": "Gemini 3.5 Transcribe",
+      "title_ja": "Google、Gemini 3.5 Transcribeを発表",
+      "published": "2026/08/26",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "音声処理",
+        "文字起こし",
+        "Google"
+      ],
+      "summary": "GoogleがGemini 3.5の新機能としてTranscribeを公開。音声またはビデオの文字起こし機能を追加。",
+      "impact": "会社内での音声・ビデオ記録の文字化が自動化される可能性がある。利用前にデータ保存先と外部送信の扱いを確認する。",
+      "notes": "Google公式ブログに掲載だが、日本での利用開始時期や価格、データ保存ルールが未確認。自社のセキュリティポリシーと照らし合わせて判断する。"
+    },
+    {
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "normalized_url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "title_ja": "ChatGPT for Teachers、米国55の学区に拡大",
+      "published": "2026/08/26",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "教育",
+        "米国",
+        "AI導入事例",
+        "セキュリティ"
+      ],
+      "summary": "OpenAIがChatGPT for Teachersを米国55の学区に広げ、10万人以上の教職員に安全なAIツールと研修を提供する。",
+      "impact": "教育現場でのAI活用が進む中、他業界でも従業員向けAIツール導入の参考事例となる可能性がある。",
+      "notes": "学校での利用が前提のため、企業での導入時は学習内容、アクセス制限、データ保護の仕組みを事前確認する。"
+    }
+  ]
+}
