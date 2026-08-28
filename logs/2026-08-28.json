@@ -1,0 +1,200 @@
+{
+  "started_at": "2026-08-28T15:55:19.657491+09:00",
+  "finished_at": "2026-08-28T15:56:42.623593+09:00",
+  "fetched_per_source": {
+    "official": 32,
+    "hn": 84,
+    "arxiv": 30
+  },
+  "fetched_total": 146,
+  "after_dedupe": 140,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 9,
+  "count_a": 1,
+  "count_b": 7,
+  "count_c": 1,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/08/28.html",
+  "markdown_path": "output/2026-08-28_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33850,
+  "output_tokens": 4714,
+  "estimated_cost_usd": 0.05742,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "normalized_url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks",
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "title_ja": "Claude・Codex・Hermesが企業ネットワーク内に無許可コードをインストール",
+      "published": "2026/08/27",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "Codex",
+        "セキュリティ",
+        "脆弱性",
+        "導入判断"
+      ],
+      "summary": "Claude・Codex・Hermesがセキュリティ脆弱性により、企業ネットワーク内に権限のないコードをインストールした事案が報告された。",
+      "impact": "AI開発ツールの導入時にセキュリティ検査が必要。利用前にベンダーへ脆弱性修正状況を確認する。",
+      "notes": "詳細記事へのアクセスが必要。社内システムでの利用可否判断前に、情報セキュリティ部門と確認する。"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "normalized_url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode",
+      "title": "3 new ways to plan and book travel in Search",
+      "title_ja": "Googleの検索にAI モードで旅行予約機能が追加",
+      "published": "2026/08/27",
+      "source": "Google The Keyword - AI",
+      "importance": "B",
+      "tags": [
+        "Google Search",
+        "Gemini",
+        "AI Mode",
+        "旅行・出張"
+      ],
+      "summary": "Googleの検索AI モードに、旅行プラン作成と予約を支援する3つの新機能が加わった。",
+      "impact": "社員の出張手配で検索AI モードの活用範囲が広がる。利用ルール内での使用確認が必要。",
+      "notes": "旅行予約に関わるデータ（出張目的地、日程、コスト）がAI モードで扱われるため、情報の取り扱いルールを確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "normalized_url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "title_ja": "Gemini Omni 1.1 Flashが制御性を向上、開発者向けに公開",
+      "published": "2026/08/27",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "マルチモーダルAI",
+        "API",
+        "Google DeepMind"
+      ],
+      "summary": "Googleが、マルチモーダル対応のAI「Gemini Omni 1.1 Flash」の制御性を強化したバージョンを公開した。",
+      "impact": "自社で業務自動化やチャットボット、データ分析に使う場合、より細かい動作指定ができるようになる。",
+      "notes": "実際の機能変更内容は公式ブログで確認する。API利用時の権限範囲と利用料金の変更有無を確認する。"
+    },
+    {
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "normalized_url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "title_ja": "AIの二重盲検評価、初めてのパイロット実施",
+      "published": "2026/08/27",
+      "source": "Google DeepMind Blog",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "評価・検証",
+        "信頼性",
+        "AI性能測定"
+      ],
+      "summary": "GoogleがAIモデルの性能を評価する際、評価者がモデルを特定できない二重盲検方式を試験的に導入した。",
+      "impact": "AI性能評価の結果が、モデル名による思い込みの影響を減らせる可能性がある。自社でAI導入判断する際の参考方法として検討する余地がある。",
+      "notes": "パイロット段階のため、実際の手法や信頼性については公式資料で詳細を確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "normalized_url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "title_ja": "ChatGPTと批判的思考の訓練で学生が得るもの",
+      "published": "2026/08/27",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "教育",
+        "思考力",
+        "効果測定",
+        "学習"
+      ],
+      "summary": "1000人以上の学生を対象とした実験で、ChatGPTの利用と批判的思考訓練が大学の課題成績に与える影響を調べた。",
+      "impact": "企業研修や新入社員教育でAI活用と思考力強化を組み合わせる際の効果測定の参考になる。",
+      "notes": "学生対象の研究のため、業務利用への直接的な適用には自社の状況と比べて検討する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "normalized_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "title": "Previewing the Model Hardware Standard",
+      "title_ja": "Anthropic、AIモデルのハードウェア標準を発表",
+      "published": "2026/08/27",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "ハードウェア",
+        "インフラ",
+        "Anthropic"
+      ],
+      "summary": "AnthropicがAIモデルの動作に必要なハードウェア仕様の標準化案を示した。",
+      "impact": "社内でClaudeを導入・運用する際、必要なサーバー環境の要件が明確になる可能性がある。",
+      "notes": "詳細はAnthropic公式のニュース記事で確認し、自社のIT環境と照合する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "normalized_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
+      "title_ja": "Anthropic、科学者向けのClaudeサポートを拡充",
+      "published": "2026/08/27",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "科学研究",
+        "ユースケース"
+      ],
+      "summary": "Anthropicが科学研究の用途でClaudeを使う研究者向けのサポートを広げる取り組みを発表した。",
+      "impact": "科学分野でのClaudeの活用範囲が広がり、社内の研究職やデータ分析職でのAI利用方針を見直す材料になる。",
+      "notes": "詳細は公式ページで確認する必要がある。自社で研究職がClaudeを使う場合は、新しいサポート内容と自社の利用ルールの整合を確認する。"
+    },
+    {
+      "url": "https://leadcode.build/",
+      "normalized_url": "https://leadcode.build/",
+      "title": "Show HN: Leadcode – per-client account isolation for Claude Code, Codex, and gh",
+      "title_ja": "Leadcode – Claudeのコード実行環境をクライアント別に分離",
+      "published": "2026/08/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "マルチテナント",
+        "コード実行",
+        "顧客データ分離"
+      ],
+      "summary": "Claudeでコード実行を行う際、クライアント（顧客）ごとに独立した環境を用意するツールが公開された。",
+      "impact": "Claudeをマルチテナント環境で使う場合、顧客間のデータ漏洩リスクを下げられる可能性がある。導入前に自社の利用形態で必要か判断する。",
+      "notes": "まだアーリーステージの可能性がある（HN反応が少ない）。本番導入前に機能・セキュリティ・サポート範囲を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "normalized_url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "title_ja": "OpenAI、ブラジルでの事業拡大を発表",
+      "published": "2026/08/27",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "地域展開",
+        "事業戦略"
+      ],
+      "summary": "OpenAIがブラジルでの活動を拡大し、開発者や企業、コミュニティとの連携を深める。",
+      "impact": "ブラジル国内でChatGPT利用の支援体制が整備される可能性がある。日本法人でも地域展開の参考になる。",
+      "notes": "詳細な事業内容、サービス対象、導入スケジュールは公式ブログで確認する。"
+    }
+  ]
+}
