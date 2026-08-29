@@ -1,0 +1,149 @@
+{
+  "started_at": "2026-08-29T13:08:40.165406+09:00",
+  "finished_at": "2026-08-29T13:09:56.278087+09:00",
+  "fetched_per_source": {
+    "official": 25,
+    "hn": 74,
+    "arxiv": 30
+  },
+  "fetched_total": 129,
+  "after_dedupe": 124,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 6,
+  "count_a": 3,
+  "count_b": 2,
+  "count_c": 1,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/08/29.html",
+  "markdown_path": "output/2026-08-29_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33976,
+  "output_tokens": 4549,
+  "estimated_cost_usd": 0.056721,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "normalized_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "title_ja": "OpenAI、SpaceX買収後のCursorとの契約終了を発表",
+      "published": "2026/08/28",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "契約・提携",
+        "開発ツール",
+        "企業判断"
+      ],
+      "summary": "OpenAIがSpaceXに買収されたコード編集ツールCursorへのモデル提供を終了することを決定した。",
+      "impact": "Cursorを開発環境で使っている場合、OpenAIモデルが利用できなくなるため、代替ツールの検討が必要になる可能性がある。",
+      "notes": "契約終了の時期・詳細条件は公式資料で確認する。現在Cursorを業務利用している場合は早急に方針を確認する。"
+    },
+    {
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "normalized_url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "title_ja": "Claude Code Opus 5のAuto Modeに脆弱性",
+      "published": "2026/08/28",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "脆弱性",
+        "Code Interpreter"
+      ],
+      "summary": "Claude Code Opus 5のAuto Modeに脆弱性が報告された。詳細は未確認。",
+      "impact": "Claude Code利用時の出力信頼性と安全性を確認する必要がある。自社での利用制限を検討する。",
+      "notes": "根拠URLの実際の内容を確認し、対象バージョンと影響範囲を把握してから判断する。"
+    },
+    {
+      "url": "https://status.claude.com/incidents/hkcw95k7r0f4",
+      "normalized_url": "https://status.claude.com/incidents/hkcw95k7r0f4",
+      "title": "Claude Status – Degraded Performance for Claude Opus 5 and Claude Haiku 4.5",
+      "title_ja": "Claude Opus 5とHaiku 4.5で性能低下",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "障害",
+        "モデルサービス",
+        "Anthropic"
+      ],
+      "summary": "AnthropicのClaudeの複数モデルで性能低下が発生。Opus 5とHaiku 4.5の応答速度や精度に問題が生じている。",
+      "impact": "社内でClaudeを使う業務で遅延や精度低下の可能性。代替モデルの検討か公式の復旧待ちを判断する必要がある。",
+      "notes": "公式ステータスページで復旧状況を確認する。継続的に影響があれば対応方針を決める。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/weekly-recap-08-28-2026.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/weekly-recap-08-28-2026.html",
+      "title": "Google Workspace Weekly Recap",
+      "title_ja": "Google Meet のタッチコントローラーをリニューアル、Gemini でシミュレーション機能を追加",
+      "published": "2026/08/28",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Google Meet",
+        "Gemini",
+        "UI改善"
+      ],
+      "summary": "Google Workspace が Google Meet のハードウェア操作画面を刷新し、Gemini にシミュレーション生成機能を加えた。",
+      "impact": "会議室の操作が簡単になり、Gemini で試行錯誤の図解が作れるようになる。社内の会議利用と教育・企画業務で試す価値がある。",
+      "notes": "Neat および Poly デバイスでの対応時期、Gemini のシミュレーション機能の詳細は未確認。会社で使う前に動作確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/08/gemini-based-data-classification-in-Google-Drive-is-now-available-in-open-beta.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/08/gemini-based-data-classification-in-Google-Drive-is-now-available-in-open-beta.html",
+      "title": "Gemini-based data classification in Google Drive is now available in open beta",
+      "title_ja": "Google DriveのGemini活用データ分類がベータ版で利用開始",
+      "published": "2026/08/28",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Gemini",
+        "Google Drive",
+        "DLP（データ損失防止）",
+        "ファイル分類",
+        "セキュリティ",
+        "情報管理"
+      ],
+      "summary": "Google DriveでGeminiがファイルを自動判定・ラベル付けする機能がベータ版で始まった。",
+      "impact": "ファイルの分類ルールを自動化でき、情報流出防止ルールや保存期限の設定が大規模に展開できる。",
+      "notes": "ベータ版のため使用時に動作確認と問題報告の協力が必要。AI判定の精度を事前に検証してから本格運用する。"
+    },
+    {
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "normalized_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "title_ja": "OpenAI、タイの次世代AIスタートアップ支援プログラムを開始",
+      "published": "2026/08/28",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "アジア展開",
+        "スタートアップ支援",
+        "教育",
+        "健康"
+      ],
+      "summary": "OpenAIがタイ高等教育省と共同で、健康・保健・教育分野の10社を対象とした8週間のアクセラレータプログラムを開始する。",
+      "impact": "タイのAIスタートアップ支援強化により、アジア地域でのChatGPT活用事例が増える可能性がある。自社がアジア展開を検討する場合の市場情報として留意する。",
+      "notes": "プログラムはタイ国内が対象。自社が該当分野でタイに展開予定であれば、市場動向や競合状況を確認する。"
+    }
+  ]
+}
