@@ -1,0 +1,216 @@
+{
+  "started_at": "2026-08-30T10:14:11.817405+09:00",
+  "finished_at": "2026-08-30T10:15:24.151117+09:00",
+  "fetched_per_source": {
+    "official": 18,
+    "hn": 79,
+    "arxiv": 30
+  },
+  "fetched_total": 127,
+  "after_dedupe": 126,
+  "recorded_duplicate_excluded_count": 14,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 2,
+  "count_b": 8,
+  "count_c": 0,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/08/30.html",
+  "markdown_path": "output/2026-08-30_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33800,
+  "output_tokens": 4579,
+  "estimated_cost_usd": 0.056695,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://twitter.com/ClaudeDevs/status/2093742321473065266",
+      "normalized_url": "https://twitter.com/ClaudeDevs/status/2093742321473065266",
+      "title": "Claude Code is going reduce limits by 25% from September 14",
+      "title_ja": "Claude Code、9月14日から利用上限を25%削減",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "利用制限",
+        "運用変更"
+      ],
+      "summary": "AnthropicがClaudeのコード実行機能の利用上限を9月14日から25%削減する。",
+      "impact": "Claude Codeを業務で使う場合、上限削減後の利用頻度や運用方法を事前に確認する必要がある。",
+      "notes": "削減の理由、新しい上限値の具体数字、詳細な適用範囲は確認する。"
+    },
+    {
+      "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+      "normalized_url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+      "title": "Claude Code can be tricked simply by asking it to summarize a website",
+      "title_ja": "Claude Codeはウェブサイト要約で簡単に騙される",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "セキュリティ",
+        "脆弱性"
+      ],
+      "summary": "Claude Codeが、ウェブサイト要約のリクエストで悪質なコード実行に誘導される脆弱性が報告された。",
+      "impact": "Claude Codeを業務で使う場合、ユーザーからのリクエスト内容によって意図しない動作が発生するリスクを念頭に置く必要がある。",
+      "notes": "詳細な攻撃手法や影響範囲は記事の全文確認が必要。公式の対応状況は未確認。"
+    },
+    {
+      "url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware/",
+      "normalized_url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware",
+      "title": "Researcher Tricked Claude, Codex and Hermes into Running Malware",
+      "title_ja": "研究者がClaude、Codexなど複数のAIモデルにマルウェア実行させた",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "セキュリティ",
+        "コード生成",
+        "マルウェア"
+      ],
+      "summary": "セキュリティ研究者が、Claude、Codexなどのコード生成AIに特定の指示を与えてマルウェアを実行させることに成功した。",
+      "impact": "AI開発企業向けセキュリティ。社内でAIを使うチームは、出力コードの検証と実行権限の制限が必要という認識を持つ。",
+      "notes": "詳細が未確認のため、公式発表や技術記事で自社のAI利用ルールに影響するか判断する。"
+    },
+    {
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "normalized_url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "title": "Warp builds self-improving agents on Claude",
+      "title_ja": "WarpがClaudeで自己改善型エージェントを構築",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "AI導入事例"
+      ],
+      "summary": "WarpがClaudeを使い、自分で学習・改善する仕組みを持つAIエージェントを開発した事例を説明している。",
+      "impact": "社内でAIエージェントの導入を検討する際、実装の考え方や課題解決方法の参考になる可能性がある。",
+      "notes": "公式ブログ記事のため詳細な実装例は公式資料で確認し、自社で応用する前に権限・用途範囲・出力チェック体制を決める。"
+    },
+    {
+      "url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/",
+      "normalized_url": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry",
+      "title": "From single call to agents: five new Claude capabilities available in MS Foundry",
+      "title_ja": "Claudeの新機能5つ、Microsoft Foundryで利用可能に",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Microsoft Foundry",
+        "エージェント機能",
+        "API機能拡張"
+      ],
+      "summary": "AnthropicのClaudeがMicrosoft Foundryで新しい機能5つを提供開始。単一呼び出しからエージェント機能まで拡張。",
+      "impact": "Microsoft Foundryを使うClaudeユーザーは、より複雑な処理を自動化できる仕組みが増える。利用ルールの見直しが必要な場合がある。",
+      "notes": "Microsoft Foundry経由でのClaudeの新機能なので、自社が使う環境で実装状況を確認する。詳細は公式ブログで確認する。"
+    },
+    {
+      "url": "https://github.com/duqaXxX/seedeep",
+      "normalized_url": "https://github.com/duqaXxX/seedeep",
+      "title": "Show HN: Seedeep – I couldn't see what Claude Code was doing, so I drew it",
+      "title_ja": "Claude Codeの動作を可視化するツール「Seedeep」が登場",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "可視化",
+        "開発者向けツール"
+      ],
+      "summary": "開発者がClaudeの自動コード生成時の処理内容を見えやすくするツールをGitHubで公開した。",
+      "impact": "Claude利用時に何を実行しているかを画面で確認できるようになり、生成コードの信頼性判断が容易になる可能性がある。",
+      "notes": "まだHN投稿段階で普及状況不明。自社でClaudeを使う場合、実際に試して信頼できるか判断する。"
+    },
+    {
+      "url": "https://github.com/zeroFhacker/vibeguard",
+      "normalized_url": "https://github.com/zeroFhacker/vibeguard",
+      "title": "Show HN: VibeGuard – security linter for AI-generated code",
+      "title_ja": "AI生成コードのセキュリティ検査ツール「VibeGuard」が公開",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "セキュリティ",
+        "生成AI",
+        "コード検査",
+        "開発ツール",
+        "ChatGPT"
+      ],
+      "summary": "ChatGPTなどが生成したコードの脆弱性を自動検査するツール。ソースコード公開。",
+      "impact": "生成AIコードの検収時間を短縮できるが、本格導入前に自社開発環境との適合性を確認する。",
+      "notes": "初期段階の公開で検査精度や対応範囲は未確認。会社のコード生成フローに組み込む場合は評価期間を設ける。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/",
+      "normalized_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources",
+      "title": "Gemini Notebook now lets you incorporate insights from books you own",
+      "title_ja": "Gemini Notebookが個人の書籍から情報を取り込める機能を追加",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "ノートブック作成",
+        "情報活用",
+        "知識管理"
+      ],
+      "summary": "Gemini Notebookが、ユーザーが所有する書籍の内容をノートブック作成に組み込める機能を追加した。",
+      "impact": "社員が資料作成時に自社の書籍や資料をAIに読ませて参考情報として活用できるようになる。",
+      "notes": "書籍の著作権や機密情報の取り扱いルールを確認してから利用する。"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/google-personal-intelligence-dreambeans-gemini-review-81f12a16",
+      "normalized_url": "https://www.wsj.com/tech/ai/google-personal-intelligence-dreambeans-gemini-review-81f12a16",
+      "title": "I Let Google's Personal Intelligence Access My Life–and It's a Help",
+      "title_ja": "GoogleのAIに生活データへのアクセスを許可してみた",
+      "published": "2026/08/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "個人情報",
+        "プライバシー設定",
+        "Googleアカウント"
+      ],
+      "summary": "Google のAIが個人の生活情報にアクセスして支援する機能について、実際の使用レポート。",
+      "impact": "Googleアカウントに紐付く予定・メール・ファイルなどをAIが参照する運用が、会社支給端末で起きる可能性がある。",
+      "notes": "個人向け機能だが、業務用Googleアカウントで同様の機能が有効になった場合、仕事の情報が学習対象になるかを確認する。"
+    },
+    {
+      "url": "https://thenewstack.io/claude-built-in-browser-cowork/",
+      "normalized_url": "https://thenewstack.io/claude-built-in-browser-cowork",
+      "title": "Anthropic's Claude for Mac desktop app now has built-in browser",
+      "title_ja": "ClaudeのMacアプリにブラウザ機能が統合",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Mac",
+        "デスクトップアプリ",
+        "ブラウザ機能"
+      ],
+      "summary": "AnthropicのClaudeデスクトップアプリにウェブ閲覧機能が追加され、アプリを離れずに検索や情報取得ができるようになった。",
+      "impact": "Claudeを使う際の操作が効率化され、チャットとブラウザの切り替えが減少。社内でClaudeを使う人は新しい機能の確認が必要。",
+      "notes": "詳細な動作仕様（キャッシュ保存先や情報送信先）は原文未確認。業務利用を想定する場合は情報セキュリティ担当に確認する。"
+    }
+  ]
+}
