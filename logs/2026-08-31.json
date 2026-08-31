@@ -1,0 +1,217 @@
+{
+  "started_at": "2026-08-31T10:21:56.741806+09:00",
+  "finished_at": "2026-08-31T10:23:13.765900+09:00",
+  "fetched_per_source": {
+    "official": 9,
+    "hn": 75,
+    "arxiv": 30
+  },
+  "fetched_total": 114,
+  "after_dedupe": 114,
+  "recorded_duplicate_excluded_count": 11,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 9,
+  "count_c": 1,
+  "count_excluded": 3,
+  "errors": [],
+  "html_path": "docs/2026/08/31.html",
+  "markdown_path": "output/2026-08-31_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33803,
+  "output_tokens": 4664,
+  "estimated_cost_usd": 0.057123,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://github.com/yevhens-hue/claude-skills-starter-kit",
+      "normalized_url": "https://github.com/yevhens-hue/claude-skills-starter-kit",
+      "title": "Show HN: Claude Skills Starter Kit – 198 modular skills for AI agents",
+      "title_ja": "Claude向けスキルスターターキット、198個のモジュール型スキル公開",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "AI エージェント",
+        "モジュール型スキル",
+        "GitHub",
+        "自動化"
+      ],
+      "summary": "Claudeで使えるモジュール型スキル198個をまとめたキットがGitHubで公開された。AI エージェントの機能拡張に利用できる。",
+      "impact": "Claudeを使う場合、業務自動化や定型作業の実装方法の選択肢が広がる。導入前に自社の用途に合うスキルがあるか確認するとよい。",
+      "notes": "Hacker News時点でコメントなし。実装の安定性や企業利用の想定は未確認。自社で使う場合は権限・出力チェック・責任範囲を明確にする。"
+    },
+    {
+      "url": "https://github.com/modiqo/spewer",
+      "normalized_url": "https://github.com/modiqo/spewer",
+      "title": "Show HN: Spewer – Delegate Codex/Claude tasks to cheaper models",
+      "title_ja": "Codex・Claude向けタスクを低コストモデルに振り分けるツール",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Codex",
+        "コスト削減",
+        "モデル選択",
+        "AI運用"
+      ],
+      "summary": "高性能だが高コストなCodexやClaudeの処理を、より安価なモデルに自動で割り振るツール「Spewer」がGitHubで公開された。",
+      "impact": "AI導入時の運用コストを削減できる可能性がある。自社でClaudeやCodexを使う場合、コスト最適化の選択肢として検討する価値がある。",
+      "notes": "GitHub上の個別プロジェクトで、正式な製品サポートは未確認。社内で使う前に機能・セキュリティ・運用上の責任範囲を確認する必要がある。"
+    },
+    {
+      "url": "https://igupta.in/blog/why-i-am-no-longer-letting-claude-code-add-itself-as-coauthor/",
+      "normalized_url": "https://igupta.in/blog/why-i-am-no-longer-letting-claude-code-add-itself-as-coauthor",
+      "title": "I am no longer letting Claude Code add itself as Co-author in my commits",
+      "title_ja": "Claude Codeのコミット自動共著者追加を無効にする開発者",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude Code",
+        "コミット管理",
+        "開発ルール"
+      ],
+      "summary": "Claude Codeが自動的にコミットの共著者として追加される機能を、開発者が無効にしている。",
+      "impact": "AI支援コード生成の利用時、コミット履歴の扱いや貢献度の記録ルールを確認する必要が生じる。",
+      "notes": "チーム内でClaude Codeを使う場合、コミット共著者の扱いを事前に決めておくとよい。"
+    },
+    {
+      "url": "https://github.com/solodynamo/Ration",
+      "normalized_url": "https://github.com/solodynamo/Ration",
+      "title": "Show HN: Ration – see your Claude usage across terminals and brag usage",
+      "title_ja": "Ration – Claude利用状況をターミナルで確認・共有できるツール",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "利用管理",
+        "開発ツール"
+      ],
+      "summary": "Claudeの利用量をターミナル上で可視化・共有するオープンソースツールがGitHubで公開された。",
+      "impact": "開発チームでClaude利用状況を一元管理できるが、導入前に費用管理ルールや出力内容の確認が必要。",
+      "notes": "社内で共有する場合、API利用情報の扱い範囲とアクセス権限を確認する。"
+    },
+    {
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5876436/chatbots-search-propaganda",
+      "normalized_url": "https://www.npr.org/2026/08/30/nx-s1-5876436/chatbots-search-propaganda",
+      "title": "We tested how AI chatbots would handle foreign propaganda",
+      "title_ja": "AIチャットボットが外国プロパガンダにどう対応するかをテスト",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "プロパガンダ",
+        "出力チェック",
+        "信頼性"
+      ],
+      "summary": "NPRがChatGPTなどのAIチャットボットが外国発のプロパガンダにどう反応するかを検証した調査結果。",
+      "impact": "チャットボット出力に誘導や偏り情報が含まれる可能性があるため、生成内容の見直しが必要。",
+      "notes": "テスト内容と具体的な検証方法は記事で確認する。自社でChatGPT使用時に参考になる。"
+    },
+    {
+      "url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
+      "normalized_url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health",
+      "title": "From Diagnoses to Treatments, Why Americans Use AI Chatbots for Health",
+      "title_ja": "米国民がAIチャットボットで健康情報を検索する理由",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "健康情報",
+        "従業員教育",
+        "ガイドライン",
+        "米国調査"
+      ],
+      "summary": "米調査で、米国人がAIチャットボットを診断から治療まで様々な健康情報の取得に使っていることが明らかになった。",
+      "impact": "従業員の健康相談がAIで対応される傾向が広がり、会社の健康管理制度や相談体制の見直しを検討する必要が出てくる可能性がある。",
+      "notes": "個人の医療判断が不正確なAIに頼られるリスクがあるため、従業員向けの情報リテラシー研修やAI利用ガイドラインの検討が必要。"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/66504",
+      "normalized_url": "https://github.com/anthropics/claude-code/issues/66504",
+      "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+      "title_ja": "Claude、コミットメッセージとPRにセッションURLを自動付与",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "GitHub連携",
+        "セキュリティ",
+        "コード管理"
+      ],
+      "summary": "AnthropicのClaudeが、コード作業時に自動でセッションURLをコミットメッセージとプルリクエスト説明に付与するようになった。",
+      "impact": "セッションURLが自動記録されるため、コード変更の経緯を追跡しやすくなる一方、URLが外部に露出しないよう保存先やアクセス権を確認する必要がある。",
+      "notes": "企業リポジトリ利用時は、セッションURLの機密性と保存ルール、アクセス権限を事前に決める。"
+    },
+    {
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "normalized_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "title": "Show HN: Watermarks Remover: Clean LLM watermarks from text and files",
+      "title_ja": "LLMの透かしを除去するツール、GitHub上で公開",
+      "published": "2026/08/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "透かし・識別情報",
+        "出力管理",
+        "セキュリティ",
+        "利用ルール確認"
+      ],
+      "summary": "Geminiなど大規模言語モデルが付与する透かしを、テキストやファイルから除去するツールがGitHubで公開された。",
+      "impact": "生成AIの出力から識別情報が削除される可能性があるため、社内利用時の検証・監視ルールの確認が必要になる。",
+      "notes": "現在の利用実績や動作確実性は未確認。透かし除去ツールの存在を把握した上で、社内AIガイドで生成物の扱い方を再確認するとよい。"
+    },
+    {
+      "url": "https://thenewstack.io/google-double-blind-evaluation/",
+      "normalized_url": "https://thenewstack.io/google-double-blind-evaluation",
+      "title": "Google found a way to test Gemini without seeing the questions",
+      "title_ja": "Googleが質問を見ずにGeminiをテストする方法を開発",
+      "published": "2026/08/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "評価方法",
+        "性能測定"
+      ],
+      "summary": "Googleが、評価者が質問内容を知らないまま生成AIを測定する二重盲検法を導入し、客観的な性能評価を実現した。",
+      "impact": "AI導入時の性能比較判定が、より客観的な根拠に基づいて実施される可能性がある。自社でAI選定する際の参考資料が増える。",
+      "notes": "公式資料の詳細を確認してから、自社の評価基準に組み込むか判断する必要がある。"
+    },
+    {
+      "url": "https://murmell.com/",
+      "normalized_url": "https://murmell.com/",
+      "title": "Show HN: Murmell – Collaborative cloud canvas for coding agents",
+      "title_ja": "Murmell：コーディングエージェント向けクラウドキャンバス",
+      "published": "2026/08/30",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude Code",
+        "コーディングエージェント",
+        "クラウドツール",
+        "開発効率化"
+      ],
+      "summary": "複数のコーディングエージェント（Claude Codeなど）が共同で作業できるクラウドベースのキャンバスツール。",
+      "impact": "社内でAIコーディングツールを複数運用する場合、エージェント間の連携や出力管理の新しい選択肢になる可能性がある。",
+      "notes": "注目度はまだ低い（HN閲覧数8）。自社で導入検討する場合は、既存のコード管理・レビュープロセスとの互換性を確認する。"
+    }
+  ]
+}
