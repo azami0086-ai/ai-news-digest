@@ -1,0 +1,222 @@
+{
+  "started_at": "2026-09-08T10:10:51.782692+09:00",
+  "finished_at": "2026-09-08T10:12:26.647176+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 79,
+    "arxiv": 0
+  },
+  "fetched_total": 84,
+  "after_dedupe": 84,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 4,
+  "count_excluded": 4,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/09/08.html",
+  "markdown_path": "output/2026-09-08_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33885,
+  "output_tokens": 4798,
+  "estimated_cost_usd": 0.057875,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://lance.black",
+      "normalized_url": "https://lance.black/",
+      "title": "Claude Code fable 5.1 is seriously flawed",
+      "title_ja": "Claude Codeに重大な欠陥、報告される",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "品質問題",
+        "未確認情報"
+      ],
+      "summary": "Hacker Newsで、Claude Codeに深刻な問題があると指摘。詳細は未確認。",
+      "impact": "Claude Code利用時の信頼度を判断するため、公式からの説明を確認する必要がある。",
+      "notes": "根拠URLが不明確（lance.black）で詳細未確認。会社で使う場合はAnthropicの公式発表を待つ。"
+    },
+    {
+      "url": "https://github.com/sorantis/portal-ai-plugins/tree/add-shunt-claude/plugins/shunt",
+      "normalized_url": "https://github.com/sorantis/portal-ai-plugins/tree/add-shunt-claude/plugins/shunt",
+      "title": "Claude Code plugin that shunts work saving 82-94% of tokens",
+      "title_ja": "Claude用プラグイン、コード処理でトークン消費を82～94%削減",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "API",
+        "コスト削減",
+        "プラグイン"
+      ],
+      "summary": "GitHubで公開されたClaudeのプラグインが、コード処理時のトークン消費を大幅に減らす仕組みを導入した。",
+      "impact": "Claudeを使う業務で処理コストが下がる可能性がある。実装前に自社の使用状況で効果を確認する。",
+      "notes": "技術詳細がHacker Newsの記事のため、採用検討時はGitHubリポジトリで実装内容を確認する。"
+    },
+    {
+      "url": "https://www.latimes.com/california/story/2026-09-03/hikers-following-google-gemini-ai-route-become-stranded-on-mt-shasta",
+      "normalized_url": "https://www.latimes.com/california/story/2026-09-03/hikers-following-google-gemini-ai-route-become-stranded-on-mt-shasta",
+      "title": "Hikers stranded on Mount Shasta after following a plan by Gemini AI",
+      "title_ja": "Geminiが提案した登山ルートで遭難、Googleの指示信頼性に課題",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "生成AI信頼性",
+        "出力検証",
+        "リスク管理"
+      ],
+      "summary": "Geminiが提示した登山ルートに従ったハイカーがマウント・シャスタで遭難。AI生成情報の正確性が問題視される事例。",
+      "impact": "社内でGeminiなど生成AIの出力を判断材料にする際、実地確認が不可欠という認識が改めて必要。",
+      "notes": "AI出力は便利だが安全や実務に関わる場面では人間による検証を省かない。根拠が不確実な内容を指示としてそのまま使わない。"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "normalized_url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
+      "title": "Google's Gemini Spark can now manage your Google Photos library",
+      "title_ja": "Google Gemini Sparkが写真ライブラリを管理できるように",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Photos",
+        "自動化",
+        "データ管理"
+      ],
+      "summary": "GoogleのAI・Gemini Sparkが、Google Photos内の写真整理・検索・削除などを自動で行える機能を追加した。",
+      "impact": "Google Photosを使う場合、AIが写真の整理作業を肩代わりすることで、手作業が減る可能性がある。",
+      "notes": "会社で写真データ保存・管理ルールがあれば、AIによる自動削除や移動機能について事前に確認する必要がある。"
+    },
+    {
+      "url": "https://www.ersnet.org/news-and-features/news/in-a-third-of-cases-ai-chatbots-wrongly-reassure-sleep-apnoea-patients-their-symptoms-arent-serious/",
+      "normalized_url": "https://www.ersnet.org/news-and-features/news/in-a-third-of-cases-ai-chatbots-wrongly-reassure-sleep-apnoea-patients-their-symptoms-arent-serious",
+      "title": "AI chatbots wrongly reassure sleep apnoea patients their symptoms aren't serious",
+      "title_ja": "AI チャットボット、睡眠時無呼吸の患者に症状の軽さを誤って保証",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "医療情報",
+        "AI信頼性",
+        "リスク管理",
+        "誤情報"
+      ],
+      "summary": "ChatGPT など AI チャットボットが、睡眠時無呼吸の症状を3分の1の事例で危険性を過小評価して回答している。",
+      "impact": "医療相談に AI を使う従業員が誤った判断をする可能性がある。医療助言に AI 出力を直接使わないルールが必要。",
+      "notes": "医療診断は医師に委ねること。AI は医学的判断の代替にならない旨を従業員に周知する。"
+    },
+    {
+      "url": "https://torrentfreak.com/openais-chatgpt-was-built-on-concealed-mass-piracy-authors-tell-court/",
+      "normalized_url": "https://torrentfreak.com/openais-chatgpt-was-built-on-concealed-mass-piracy-authors-tell-court",
+      "title": "ChatGPT Was Built on Concealed 'Mass Piracy', Authors Tell Court",
+      "title_ja": "ChatGPTの学習に著作権侵害の可能性、訴訟で主張",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "著作権",
+        "法務リスク",
+        "訴訟",
+        "学習データ"
+      ],
+      "summary": "著作者がOpenAIを相手に、ChatGPT開示されていない著作物を大量利用して学習したと主張。",
+      "impact": "OpenAIが訴訟で敗訴した場合、生成AI学習データの説明ルールや補償ルールが会社のAI導入方針に影響する可能性がある。",
+      "notes": "未確認情報。公式な判断ではなく訴訟での主張段階のため、裁判の進展を監視する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "normalized_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "title": "Supporting independent journalism in Ukraine",
+      "title_ja": "OpenAI、ウクライナの独立系メディア支援でAIプログラム開始",
+      "published": "2026/09/07",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "社会貢献",
+        "ウクライナ",
+        "メディア支援",
+        "OpenAI公式"
+      ],
+      "summary": "OpenAIがウクライナのニュース機関向けにAIプログラムを立ち上げ、報道機関の技術強化と独立性を支援する。",
+      "impact": "自社でのメディア・ジャーナリズム関連業務がある場合、ChatGPTの社会的な用途拡大を把握する参考になる。",
+      "notes": "プログラムの詳細内容は公式ブログで確認する。自社での導入予定がなければ知識として備えておけばよい。"
+    },
+    {
+      "url": "https://capocasa.dev/10-task-glm-5-3-harness-bench-claude-opencode-pi-zcode-hermes-and-3code",
+      "normalized_url": "https://capocasa.dev/10-task-glm-5-3-harness-bench-claude-opencode-pi-zcode-hermes-and-3code",
+      "title": "10-task GLM 5.3 harness bench: Claude, OpenCode, pi, zcode, Hermes and 3code",
+      "title_ja": "複数のコード生成AIを10タスク測定、Claude含む性能比較",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "ベンチマーク",
+        "性能測定",
+        "非公式情報"
+      ],
+      "summary": "コード生成AIの性能を10タスクで測定した非公式ベンチマーク。Claude、OpenCode、pi、zcode、Hermes、3codeを比較した。",
+      "impact": "各AIモデルのコード生成精度がどう異なるかを把握できるが、測定方法が不明確なため自社導入判断には向かない。",
+      "notes": "Hacker Newsの投稿で、公式な測定ではない。自社で使う前に、測定条件・タスク内容・評価基準を確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/gadievron/raptor",
+      "normalized_url": "https://github.com/gadievron/raptor",
+      "title": "Raptor turns Claude Code into a general-purpose AI",
+      "title_ja": "RaptorがClaudeのコード機能を汎用AI化",
+      "published": "2026/09/07",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "ツール",
+        "GitHub"
+      ],
+      "summary": "GitHubで公開されたRaptorというツールが、ClaudeのCode機能をより広い用途に使えるようにする仕組みを提供している。",
+      "impact": "現在Claudeで使えるコード生成機能の活用範囲が広がる可能性がある。自社でコード生成を使う場合は、このツールの機能を確認すると業務効率が改善するかもしれない。",
+      "notes": "HackerNewsでの認知度がまだ低い（ポイント2件、コメント1件）。実装詳細や安定性は未確認なため、本格導入前に動作確認とセキュリティレビューが必要。"
+    },
+    {
+      "url": "https://github.com/alexvinola/stemma-cli",
+      "normalized_url": "https://github.com/alexvinola/stemma-cli",
+      "title": "Stemma – one source of truth for Claude.md, AGENTS.md and Copilot",
+      "title_ja": "Stemma：Claude、AGENTS、Copilotのドキュメント一元管理ツール",
+      "published": "2026/09/06",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ツール",
+        "ドキュメント管理",
+        "オープンソース"
+      ],
+      "summary": "複数のAIツール向けドキュメントを一箇所から管理・同期するオープンソースツールが公開された。",
+      "impact": "Claudeと他のAIツールを併用する場合、ドキュメント更新の手間が削減できる可能性がある。",
+      "notes": "GitHubのリポジトリ段階で、実務導入前に自社システムとの互換性を確認する。"
+    }
+  ]
+}
