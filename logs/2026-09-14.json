@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-09-14T10:01:45.646992+09:00",
+  "finished_at": "2026-09-14T10:03:17.635426+09:00",
+  "fetched_per_source": {
+    "official": 8,
+    "hn": 62,
+    "arxiv": 0
+  },
+  "fetched_total": 70,
+  "after_dedupe": 68,
+  "recorded_duplicate_excluded_count": 12,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 3,
+  "count_b": 2,
+  "count_c": 5,
+  "count_excluded": 6,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/09/14.html",
+  "markdown_path": "output/2026-09-14_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33897,
+  "output_tokens": 4715,
+  "estimated_cost_usd": 0.057472,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "normalized_url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "title": "Houthis used Claude Code to develop missile guidance software: Anthropic",
+      "title_ja": "Claudeが武器開発に利用された可能性、Anthropicが報告",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "利用規約・ポリシー",
+        "社外利用・外部公開",
+        "不正利用"
+      ],
+      "summary": "Anthropicが、イエメンの武装勢力フーシ派がClaudeを使ってミサイル誘導システムの開発を試みたと報告した。",
+      "impact": "Claude使用時に武器開発や違法利用の検出・防止方法を確認する必要がある。利用ポリシーと監視体制の整備が急務。",
+      "notes": "根拠URL先の記事内容を確認する。Anthropic公式発表か報道かで対応判断が変わるため確認する。"
+    },
+    {
+      "url": "https://www.reuters.com/legal/government/chatgpt-invented-fake-police-testimony-murder-appeal-new-mexico-high-court-says-2026-09-11/",
+      "normalized_url": "https://www.reuters.com/legal/government/chatgpt-invented-fake-police-testimony-murder-appeal-new-mexico-high-court-says-2026-09-11",
+      "title": "Lawyer cites fake witnesses in murder case and blames ChatGPT",
+      "title_ja": "弁護士がChatGPTで作った架空の証人を法廷に提出",
+      "published": "2026/09/14",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "法務リスク",
+        "生成AI",
+        "事実検証",
+        "利用制限"
+      ],
+      "summary": "米国の弁護士がChatGPTで生成した架空の警察証言を殺人事件の控訴書に記載。裁判所が指摘し問題化した。",
+      "impact": "AI生成テキストを法的文書に使う危険性が顕在化。社内で法務利用する場合、生成内容の事実確認が必須となる。",
+      "notes": "ChatGPTは存在しない情報を信じさせる出力をする性質がある。法務・契約・訴状など法的拘束力がある文書での利用は厳しく制限する必要がある。"
+    },
+    {
+      "url": "https://chaosguru.substack.com/p/anthropics-google-docs-killer-is",
+      "normalized_url": "https://chaosguru.substack.com/p/anthropics-google-docs-killer-is",
+      "title": "Claude artifacts can now save themselves and share a realtime database",
+      "title_ja": "Claude artifactsが自動保存とリアルタイム共有機能を搭載",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "artifacts",
+        "共有機能",
+        "リアルタイム編集",
+        "業務効率化"
+      ],
+      "summary": "Anthropicが、Claude内で作成した成果物（artifacts）を自動保存し複数人でリアルタイム共有できる機能を追加した。",
+      "impact": "会社でClaudeを使って資料やコードを作成する際、Google Docsのように複数人での同時編集・共有が可能になる。共有ルールと責任者を決める必要がある。",
+      "notes": "リアルタイム共有時の情報漏洩防止、アクセス権限設定、社内データの取り扱いルールを確認する。"
+    },
+    {
+      "url": "https://github.com/jjoseph18/ai-recommendation-consistency",
+      "normalized_url": "https://github.com/jjoseph18/ai-recommendation-consistency",
+      "title": "Ask ChatGPT or Gemini the same \"best X\" twice, ~1/3 of the answer changes",
+      "title_ja": "ChatGPTとGeminiに同じ質問を2回すると約3分の1の回答が変わる",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "Gemini",
+        "出力安定性",
+        "利用ルール"
+      ],
+      "summary": "ChatGPTやGeminiに「最高のX」といった質問を同じ内容で2度聞くと、回答の約3分の1が異なる結果が報告された。",
+      "impact": "AIに推奨情報を聞く際、同じ質問でも出力がぶれることを認識した上で、社内での利用ルール（複数回確認・記録・判断責任者の明確化）を検討する必要がある。",
+      "notes": "未確認情報だが、企業での意思決定やコンテンツ作成にAIを使う場合は、単一回答に依存しない運用を定める。"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
+      "normalized_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
+      "title": "Chinese military researchers caught using Claude for air-defense and weapons",
+      "title_ja": "中国軍事研究者がClaudeを防空・兵器開発に利用",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "利用規約",
+        "軍事利用"
+      ],
+      "summary": "中国の軍事研究者がAnthropicのClaudeを防空システムや兵器開発に利用していたと報道された。",
+      "impact": "Claudeなど生成AIの利用規約・アクセス制限の実効性が問われ、今後の契約条件や監視強化につながる可能性がある。",
+      "notes": "この報道は未確認情報。Anthropicやメディア発表を確認し、社内のAI利用ルールに該当するか検討する。"
+    },
+    {
+      "url": "https://github.com/beneadie/deep_dog_2",
+      "normalized_url": "https://github.com/beneadie/deep_dog_2",
+      "title": "DeepDog 2: Outperforms Gemini and OpenAI deep research at a fraction of the cost",
+      "title_ja": "DeepDog 2、GeminiとOpenAIの深掘り調査を低コストで上回る",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "オープンソース",
+        "コスト削減",
+        "深掘り調査",
+        "代替ツール"
+      ],
+      "summary": "オープンソースツールのDeepDog 2が、GeminiやOpenAIの深掘り調査機能に匹敵する性能を低コストで実現したと報告されている。",
+      "impact": "社内で高度な調査や分析が必要な場合、OpenAI等の商用サービス以外の選択肢が出現。コスト削減につながる可能性がある。",
+      "notes": "GitHubのリポジトリのみで情報が限定的。実際の動作や信頼性を社内で検証してから導入判断する。"
+    },
+    {
+      "url": "https://synapse.akshayr.xyz/",
+      "normalized_url": "https://synapse.akshayr.xyz/",
+      "title": "Show HN: AI-Powered Word Guessing Game",
+      "title_ja": "AI活用の単語当てゲーム、開発者が公開",
+      "published": "2026/09/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "ゲーム",
+        "生成AI活用事例"
+      ],
+      "summary": "開発者がGeminiを使った単語当てゲームをHackerNewsで紹介。プレイヤーがAIのヒントから答えを推測する仕組み。",
+      "impact": "社内での会話題材としての認識程度。AIの生成能力を応用したゲーム事例として参考になる可能性あり。",
+      "notes": "反応数が少ない（ポイント1）ため、公開直後の初期段階。本格導入や業務利用の対象外。"
+    },
+    {
+      "url": "https://github.com/swobuforge/swobu",
+      "normalized_url": "https://github.com/swobuforge/swobu",
+      "title": "Show HN: Swobu – Local LLM Switchboard You Can Share over HTTPS",
+      "title_ja": "Swobu - ローカルLLMを複数切り替えてHTTPS経由で共有できるツール",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ローカルLLM",
+        "ツール",
+        "共有",
+        "HTTPS"
+      ],
+      "summary": "複数のローカルLLMを一つのインターフェースで切り替えて使い、HTTPS経由で他者と共有できるツール。",
+      "impact": "社内でローカル運用中のLLMを複数利用している場合、統一管理が可能になる可能性がある。",
+      "notes": "Hacker Newsでの関心が低い段階のため、本格導入前に自社環境での動作確認が必要。"
+    },
+    {
+      "url": "https://osintsights.com/ai-deciphers-370-year-old-cipher-in-minutes",
+      "normalized_url": "https://osintsights.com/ai-deciphers-370-year-old-cipher-in-minutes",
+      "title": "Claude Fable 5.1 cracked a cipher that has survived for 370 years in 40 min.",
+      "title_ja": "Claude Fable 5.1が370年前の暗号を40分で解読",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "暗号解読",
+        "AI能力"
+      ],
+      "summary": "Claudeが長年解読されなかった370年前の暗号を40分で破った。暗号解読の能力を示す事例。",
+      "impact": "AIが複雑な暗号解析に使える可能性を示した。会社で機密データの暗号化レベルを見直す材料になる可能性がある。",
+      "notes": "記事は一般向けニュースサイトで、詳細な技術情報が不明。自社の暗号化運用への実務影響は未確認。"
+    },
+    {
+      "url": "https://github.com/SorBalda/vibeworld",
+      "normalized_url": "https://github.com/SorBalda/vibeworld",
+      "title": "Show HN: VibeWorld – a shared terminal world for developers and scientists",
+      "title_ja": "VibeWorld – 開発者と研究者の共有ターミナル環境",
+      "published": "2026/09/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "ツール",
+        "開発環境",
+        "オープンソース",
+        "ターミナル",
+        "共有"
+      ],
+      "summary": "開発者と研究者が共有できるターミナル環境VibeWorldがGitHubで公開された。複数人での同時利用が可能な設計。",
+      "impact": "社内でターミナル共有が必要な場合の選択肢として検討する価値がある。自社での利用時は権限管理と監査ログの確認が必要。",
+      "notes": "Hack Newsでの関心度は低め（ポイント4、コメント1件）。本格利用前に機能と安全性を確認する。"
+    }
+  ]
+}
