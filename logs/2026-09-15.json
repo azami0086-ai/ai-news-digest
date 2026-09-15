@@ -1,0 +1,131 @@
+{
+  "started_at": "2026-09-15T10:26:03.265396+09:00",
+  "finished_at": "2026-09-15T10:27:24.207781+09:00",
+  "fetched_per_source": {
+    "official": 6,
+    "hn": 69,
+    "arxiv": 0
+  },
+  "fetched_total": 75,
+  "after_dedupe": 75,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 5,
+  "count_a": 0,
+  "count_b": 3,
+  "count_c": 2,
+  "count_excluded": 2,
+  "errors": [
+    "arxiv fetch failed: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22LLM%22+OR+all%3A%22large+language+model%22+OR+all%3A%22agent%22+OR+all%3A%22AI+agent%22+OR+all%3A%22reasoning%22+OR+all%3A%22RAG%22+OR+all%3A%22multimodal%22+OR+all%3A%22code+generation%22+OR+all%3A%22tool+use%22+OR+all%3A%22AI+safety%22+OR+all%3A%22evaluation%22+OR+all%3A%22benchmark%22+OR+all%3A%22enterprise+AI%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.CL+OR+cat%3Acs.LG%29&sortBy=submittedDate&sortOrder=descending&max_results=30"
+  ],
+  "html_path": "docs/2026/09/15.html",
+  "markdown_path": "output/2026-09-15_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33927,
+  "output_tokens": 4691,
+  "estimated_cost_usd": 0.057382,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/fyxer",
+      "normalized_url": "https://openai.com/index/fyxer",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "title_ja": "Fyxerが実現したAI秘書機能、ユーザーの信頼を得た設計",
+      "published": "2026/09/14",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "ファインチューニング",
+        "メール自動化",
+        "ユーザーフィードバック",
+        "メモリ機能",
+        "音声スタイル学習"
+      ],
+      "summary": "Fyxerは、OpenAIのモデルとファインチューニングを使い、ユーザーの文体を学んでメール作成や受信箱整理を行うAI秘書を開発した。",
+      "impact": "ChatGPTやAPIを使ったメール業務支援機能の設計方針が参考になる。自社のメール自動化導入時に、学習方法と信頼構築の考え方を確認できる。",
+      "notes": "具体的な実装方法や信頼構築のポイントは、公開記事で詳しく説明されている可能性。自社で類似機能を検討する場合は、ファインチューニングと個人データ保護ルールを確認する。"
+    },
+    {
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+      "normalized_url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+      "title": "Agentic Coding Strains CI: Scaling Test Impact Analysis at Anthropic",
+      "title_ja": "Claude利用で開発テストが増加、Anthropicの対応方法",
+      "published": "2026/09/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "開発効率",
+        "CI/CD",
+        "テスト管理"
+      ],
+      "summary": "Anthropicが、AI開発支援ツールの導入で開発テストが増えた課題と、その対応方法を説明した。",
+      "impact": "AI開発支援ツール導入時、テスト実行時間や開発環境の負荷が増える可能性がある。導入前に自社の開発環境の対応力を確認する参考になる。",
+      "notes": "Anthropic独自の事例であり、自社環境での参考度は開発規模や現在のツール構成による。実際の導入は開発部門と協議する。"
+    },
+    {
+      "url": "https://www.costclaw.io/",
+      "normalized_url": "https://www.costclaw.io/",
+      "title": "Show HN: CostClaw, a local audit of your Claude Code logs",
+      "title_ja": "CostClaw、Claude Code利用ログの手元監査ツール公開",
+      "published": "2026/09/14",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "コスト管理",
+        "ツール",
+        "監査",
+        "Code Interpreter"
+      ],
+      "summary": "ClaudeのCode Interpreter利用時のコスト・ログを手元で確認・分析するツール。APIキーから自動取得し、利用状況を可視化する。",
+      "impact": "Claude Code導入時、実際の利用額や実行内容を社内で把握でき、予算管理・利用ルール見直しの材料になる。",
+      "notes": "ツールの信頼性・セキュリティは未確認。本番導入前に開発元・機能・APIキー取扱いを確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "title_ja": "宇宙飛行士とGoogleが宇宙・技術・発見について対談",
+      "published": "2026/09/14",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Google",
+        "Gemini",
+        "企業広報",
+        "知識・教養"
+      ],
+      "summary": "GoogleのVP研究責任者とNASA宇宙飛行士が、宇宙開発と技術革新のテーマで対談した動画コンテンツ。",
+      "impact": "AI技術の実世界応用や将来性についての企業見解を知る参考資料だが、社内業務利用への直接的な影響は薄い。",
+      "notes": "内容詳細が未確認のため、必要に応じて動画を確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
+      "title": "DevFest is back",
+      "title_ja": "Google DevFest 2026開催へ",
+      "published": "2026/09/14",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "Google",
+        "開発者向けツール",
+        "イベント"
+      ],
+      "summary": "Googleが開発者向けイベント「DevFest 2026」の開催を発表した。詳細は未定。",
+      "impact": "Geminiなど新しい開発者向けツール情報が公開される可能性がある。自社で利用しているGoogle技術の動向を確認する機会になる。",
+      "notes": "抜粋から詳細内容が確認できない。公開日時や参加方法は別途確認が必要。"
+    }
+  ]
+}
