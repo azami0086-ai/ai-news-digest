@@ -1,0 +1,184 @@
+{
+  "started_at": "2026-09-18T10:16:15.030331+09:00",
+  "finished_at": "2026-09-18T10:17:22.844834+09:00",
+  "fetched_per_source": {
+    "official": 24,
+    "hn": 81,
+    "arxiv": 30
+  },
+  "fetched_total": 135,
+  "after_dedupe": 130,
+  "recorded_duplicate_excluded_count": 13,
+  "candidate_count": 20,
+  "published": 8,
+  "count_a": 0,
+  "count_b": 5,
+  "count_c": 3,
+  "count_excluded": 1,
+  "errors": [
+    "analyze failed for 'See more': no JSON found in response"
+  ],
+  "html_path": "docs/2026/09/18.html",
+  "markdown_path": "output/2026-09-18_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 19,
+  "input_tokens": 32147,
+  "output_tokens": 4332,
+  "estimated_cost_usd": 0.053807,
+  "fallback_used": true,
+  "api_error": true,
+  "api_error_type": "unknown_api_error",
+  "api_error_message_sanitized": "no JSON found in response",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/cooley-gopublic",
+      "normalized_url": "https://openai.com/index/cooley-gopublic",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "title_ja": "法律事務所Cooleyが、ChatGPTで上場準備業務を効率化",
+      "published": "2026/09/17",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "業務効率化",
+        "AI活用事例",
+        "文書分析"
+      ],
+      "summary": "法律事務所Cooleyが、ChatGPTを使った上場支援ツール「GO Public」を開発した。弁護士が問題を早期に把握し、判断に集中できるようにした。",
+      "impact": "上場準備に関わる業務で、AIによる文書分析や課題抽出の事例が出た。自社の業務でAIを活用する際の参考になる。",
+      "notes": "実装の詳細は公式資料で確認する。ChatGPT導入時は、機密情報の取扱い、アクセス権限、出力チェックの体制を決める。"
+    },
+    {
+      "url": "https://openai.com/index/astra-for-law",
+      "normalized_url": "https://openai.com/index/astra-for-law",
+      "title": "Introducing Astra for Law",
+      "title_ja": "OpenAI、法律業務向けAI「Astra for Law」を発表",
+      "published": "2026/09/17",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "法律",
+        "機密データ",
+        "セキュリティ"
+      ],
+      "summary": "OpenAIが法律事務所向けにAIツール「Astra for Law」を発表した。顧客データの機密性を保つ仕組みを備えている。",
+      "impact": "法律業務でChatGPTを使う場合、専用版の利用を検討する必要が出た。顧客情報の取り扱いルールを見直す材料になる。",
+      "notes": "依頼人情報など機密データの利用・保存・責任者を確認してから導入する。公式資料で詳細を確認する。"
+    },
+    {
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "normalized_url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+      "title_ja": "Claudeの生命科学検証プログラムを開始",
+      "published": "2026/09/17",
+      "source": "Anthropic News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "生命科学",
+        "利用制限",
+        "検証プログラム",
+        "Anthropic"
+      ],
+      "summary": "Anthropicが、Claude利用時に研究機関や企業の身元を確認する生命科学検証プログラムを導入した。",
+      "impact": "生命科学分野でClaudeを使う場合、事前の身元確認と承認申請が必要になる可能性がある。",
+      "notes": "詳細なプログラム内容と申請方法は公式ページで確認する。自社が対象かどうか確認する。"
+    },
+    {
+      "url": "https://github.com/gemanor/jev-code-review-benchmark/tree/main",
+      "normalized_url": "https://github.com/gemanor/jev-code-review-benchmark/tree/main",
+      "title": "Benchmark Jev vs. Gemini Flash and Claude Fable on Code Review",
+      "title_ja": "コード審査ツール3種類の性能比較、GitHubで公開",
+      "published": "2026/09/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "コード審査",
+        "ベンチマーク",
+        "開発効率"
+      ],
+      "summary": "開発者がClaudeやGemini Flashなど複数のコード審査ツールの性能を比較するベンチマークをGitHubで公開した。",
+      "impact": "社内でコード審査にAIを使う場合、各ツールの性能差を確認する参考資料として活用できる。",
+      "notes": "未確認情報。実際のベンチマーク内容や検証環境の詳細は、GitHub上のドキュメント確認が必要。"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=To5nrYqvR44",
+      "normalized_url": "https://www.youtube.com/watch?v=To5nrYqvR44",
+      "title": "Claude Slides, Claude Design and Claude Docs",
+      "title_ja": "Claudeがスライド・デザイン・ドキュメント作成機能を追加",
+      "published": "2026/09/17",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "機能拡張",
+        "資料作成",
+        "プレゼン",
+        "デザイン",
+        "ドキュメント"
+      ],
+      "summary": "AnthropicのClaudeが、プレゼン資料やデザイン、ドキュメント作成に対応する新機能を発表した。",
+      "impact": "社内のスライド・資料作成業務をClaudeで一部自動化できる可能性がある。利用範囲と出力チェック方法を確認する。",
+      "notes": "正式な機能説明はYouTube動画のみ。詳細な仕様・アクセス方法・利用料金は動画から確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform",
+      "title": "Making global data easier to explore",
+      "title_ja": "Gemini、国連データプラットフォームで世界データ検索を支援",
+      "published": "2026/09/17",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "データ検索",
+        "国連",
+        "グローバル"
+      ],
+      "summary": "GoogleがGeminiを使い、国連のデータプラットフォームを誰でも検索しやすくした。世界の統計情報に簡単にアクセスできるようになった。",
+      "impact": "自社の国際展開・CSR報告・市場調査で、公開データ検索の時間が減る。Gemini経由での利用ルール確認が必要。",
+      "notes": "国連データは公開情報だが、社内利用時は出力内容と元データの整合をチェックする。"
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "normalized_url": "https://www.anthropic.com/news",
+      "title": "See more",
+      "title_ja": "See more",
+      "published": "2026/09/17",
+      "source": "Anthropic News",
+      "importance": "C",
+      "tags": [
+        "Claude"
+      ],
+      "summary": "See more",
+      "impact": "未分析。会社での使い方は手動で確認する。",
+      "notes": "AI解析未実施"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20124v1",
+      "normalized_url": "https://arxiv.org/abs/2609.20124v1",
+      "title": "Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis",
+      "title_ja": "ライブ配信用音声合成の表現力評価、小型モデルで低コスト化",
+      "published": "2026/09/17",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "音声合成",
+        "TTS",
+        "評価手法",
+        "研究論文",
+        "LLM"
+      ],
+      "summary": "ライブ配信向け音声合成の感情や抑揚などの表現力を、小型言語モデルで低コストに評価する手法を開発。",
+      "impact": "音声合成の品質チェック工程で、高額なAPI利用を削減できる可能性がある。社内で音声合成を使う場合、出力チェック方法の見直し検討材料になる。",
+      "notes": "論文段階で実装状況が未確認。実務導入には技術検証と自社システムとの適合確認が必要。"
+    }
+  ]
+}
