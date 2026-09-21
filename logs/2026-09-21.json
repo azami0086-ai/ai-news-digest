@@ -1,0 +1,224 @@
+{
+  "started_at": "2026-09-21T10:02:52.491696+09:00",
+  "finished_at": "2026-09-21T10:04:15.254104+09:00",
+  "fetched_per_source": {
+    "official": 9,
+    "hn": 73,
+    "arxiv": 0
+  },
+  "fetched_total": 82,
+  "after_dedupe": 79,
+  "recorded_duplicate_excluded_count": 16,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 6,
+  "count_c": 4,
+  "count_excluded": 5,
+  "errors": [
+    "arxiv fetch failed: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
+  ],
+  "html_path": "docs/2026/09/21.html",
+  "markdown_path": "output/2026-09-21_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33844,
+  "output_tokens": 4452,
+  "estimated_cost_usd": 0.056104,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+      "normalized_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent",
+      "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+      "title_ja": "Anthropicが「Claude Code」の週間利用制限を17%引き下げ",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "利用制限",
+        "API制限"
+      ],
+      "summary": "AnthropicがClaude Codeの週間利用上限を引き下げた。これまでより少ない回数しか使えなくなる。",
+      "impact": "自社でClaude Codeを利用している場合、同じ業務量で達しやすくなり、利用計画の見直しが必要になる可能性がある。",
+      "notes": "制限の詳細（具体的な上限値の変更、実施日時、対象ユーザー層など）を公式発表で確認する。"
+    },
+    {
+      "url": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
+      "normalized_url": "https://thenextweb.com/news/irregular-four-labs-one-issue-disclosure-timeline-gemini",
+      "title": "Four AI lab breaches were caused by a single underlying issue, Irregular says",
+      "title_ja": "複数のAI研究所の情報流出は同じ脆弱性が原因、Irregularが報告",
+      "published": "2026/09/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "セキュリティ",
+        "Gemini",
+        "情報流出",
+        "脆弱性"
+      ],
+      "summary": "複数のAI研究所への不正アクセスが、1つの共通した脆弱性から発生していたことが明らかになった。",
+      "impact": "自社でAI研究所やサプライヤーのセキュリティ対策状況を改めて確認し、ベンダー側の脆弱性対応を追跡する必要が生じる可能性がある。",
+      "notes": "詳細は出所URLで確認する。複数施設への同時的な影響のため、自社が利用するAIサービス・モデルのベンダー側の対応状況を把握しておくとよい。"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/google-s-gemini-ai-system-hacked-three-systems-in-safety-tests",
+      "normalized_url": "https://www.bloomberg.com/news/articles/2026-09-18/google-s-gemini-ai-system-hacked-three-systems-in-safety-tests",
+      "title": "Google Joins OpenAI, Anthropic, Meta in Disclosing AI Hacks",
+      "title_ja": "Google、OpenAI、Anthropic、Metaが相次いでAIセキュリティ侵害を公表",
+      "published": "2026/09/19",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "セキュリティ",
+        "AI安全性",
+        "脆弱性",
+        "OpenAI",
+        "Anthropic",
+        "Meta"
+      ],
+      "summary": "複数のAI企業がセキュリティテストで発見したAIシステムへの侵害事例を公開した。",
+      "impact": "Geminiを含む自社利用のAIツールの安全性確認と、導入時の事前チェック体制の見直しが必要になる可能性がある。",
+      "notes": "詳細はBloombergの記事確認が必要。公開される具体的な脆弱性や対策方法によって、運用ルール変更の要否を判断する。"
+    },
+    {
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "normalized_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+      "title": "ChatGPT now knows what you do on other websites via ad collector",
+      "title_ja": "ChatGPTが広告追跡経由で他サイトの行動を知る可能性",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "プライバシー",
+        "データ追跡",
+        "業務利用ルール"
+      ],
+      "summary": "ChatGPTが広告配信業者の情報から、利用者が他のウェブサイトで何をしているかを把握できる仕組みについて報告されている。",
+      "impact": "会社でChatGPTに入力する情報が、他社の閲覧行動と連紐付けられる可能性があるため、機密情報や個人情報の入力時は注意が必要。",
+      "notes": "記事は第三者ブログで、OpenAI公式発表ではない。詳細と根拠の確認が必要。"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
+      "title_ja": "OpenAIとMicrosoftが「悪循環」を認識していた",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "Microsoft",
+        "ChatGPT",
+        "データ利用",
+        "法務確認"
+      ],
+      "summary": "OpenAIとMicrosoftが、AI学習データの枯渇による「悪循環」の問題を認識していたことが明かされた。",
+      "impact": "自社がAIサービスから学習データを取得または共有する場合、データの出所と利用ルールの確認が必要になる可能性がある。",
+      "notes": "記事詳細は確認できず、判断に必要な根拠が不明確。正式情報として扱う前に原記事を確認する。"
+    },
+    {
+      "url": "https://github.com/apache/casbin-gateway",
+      "normalized_url": "https://github.com/apache/casbin-gateway",
+      "title": "Casbin Gateway: a security gateway for the AI coding agents on your machine",
+      "title_ja": "Casbin Gateway：マシン上のAIコーディングエージェント向けセキュリティゲートウェイ",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "セキュリティ",
+        "AIエージェント",
+        "コード生成",
+        "アクセス制御",
+        "ローカル実行環境"
+      ],
+      "summary": "Apache Casbinが、コード生成AIエージェントの動作を制御・制限するセキュリティゲートウェイを公開した。",
+      "impact": "AIに生成させたコードの実行範囲を制限でき、誤作動や悪意ある操作を防ぐ仕組みとして社内導入時の検討対象になる。",
+      "notes": "GitHub上のプロジェクトであり、本番利用前に自社環境での動作確認と権限設定の検証が必要。"
+    },
+    {
+      "url": "https://samplexbro.github.io/agentsmesh/guides/claude-md-vs-agents-md/",
+      "normalized_url": "https://samplexbro.github.io/agentsmesh/guides/claude-md-vs-agents-md",
+      "title": "What Claude Code's AGENTS.md fallback does not cover",
+      "title_ja": "Claude Code の AGENTS.md で対応していない項目",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード実行",
+        "ドキュメント"
+      ],
+      "summary": "Claudeのコード実行機能における AGENTS.md ファイルの制限事項をまとめた技術ガイド。",
+      "impact": "Claude で自動実行スクリプトを使う場合、ドキュメント外の制限を事前に把握する必要がある。",
+      "notes": "未確認：HN での反応が少ないため、実用性や信頼度の確認が必要。"
+    },
+    {
+      "url": "https://github.com/chen-985211/cleancode",
+      "normalized_url": "https://github.com/chen-985211/cleancode",
+      "title": "Show HN: I got Claude Code and Codex to argue about my code",
+      "title_ja": "Claude と Codex が自分のコードについて議論する実験",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "コーディングツール",
+        "AI検証",
+        "開発支援"
+      ],
+      "summary": "開発者が Claude と Codex という2つのAIコーディングツールに同じコードを評価させ、両者の意見を比較する実験をGitHubで公開した。",
+      "impact": "AIコーディングアシスタントの評価や助言が一貫しないことを示す実例として、導入前の検討材料になる可能性がある。",
+      "notes": "詳細な実験結果や自社での活用方法については、GitHub上の資料で確認する必要がある。"
+    },
+    {
+      "url": "https://moneypennyagent.com/",
+      "normalized_url": "https://moneypennyagent.com/",
+      "title": "Moneypenny: Build Grok bot like bots in Claude or codex",
+      "title_ja": "Claude上でGrok風のボットを構築するMoneypennyツール",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "エージェント",
+        "開発ツール",
+        "ボット構築"
+      ],
+      "summary": "Claude環境上でGrok相当のボット機能を作成できるツールMoneypennyが登場した。",
+      "impact": "会社のClaude利用時に、より複雑なエージェント機能を自前で組み込める選択肢が増える。",
+      "notes": "未検証ツール。本格採用前に、セキュリティ・データ保存先・利用規約をClaudeの利用契約と照合する。"
+    },
+    {
+      "url": "https://github.com/marciob/openmsg",
+      "normalized_url": "https://github.com/marciob/openmsg",
+      "title": "Show HN: Openmsg, agent-to-agent talk while they run, Claude<>Codex<>OpenCode",
+      "title_ja": "複数のAIエージェント間で会話できるツール「Openmsg」が公開",
+      "published": "2026/09/20",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI連携",
+        "エージェント",
+        "オープンソース",
+        "Codex"
+      ],
+      "summary": "実行中のAIエージェント同士が相互に通信できるオープンソースツール。Claude、Codexなど異なるAIモデル間での連携に対応。",
+      "impact": "複数のAIを組み合わせた業務自動化を検討する場合、エージェント間の通信方法の選択肢が増える。",
+      "notes": "アクセス数が少ない段階の公開。実務利用前に動作確認と権限設定の検討が必要。"
+    }
+  ]
+}
