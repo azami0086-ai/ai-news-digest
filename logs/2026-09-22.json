@@ -1,0 +1,206 @@
+{
+  "started_at": "2026-09-22T10:35:38.330488+09:00",
+  "finished_at": "2026-09-22T10:36:47.321547+09:00",
+  "fetched_per_source": {
+    "official": 11,
+    "hn": 85,
+    "arxiv": 30
+  },
+  "fetched_total": 126,
+  "after_dedupe": 124,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 9,
+  "count_a": 2,
+  "count_b": 6,
+  "count_c": 1,
+  "count_excluded": 0,
+  "errors": [],
+  "html_path": "docs/2026/09/22.html",
+  "markdown_path": "output/2026-09-22_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 34054,
+  "output_tokens": 4672,
+  "estimated_cost_usd": 0.057414,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/v7",
+      "normalized_url": "https://openai.com/index/v7",
+      "title": "How V7 gives AI agents institutional memory",
+      "title_ja": "OpenAI、AIエージェント向けに企業ファイルを活用できる機能を追加",
+      "published": "2026/09/21",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "AIエージェント",
+        "企業向け",
+        "ファイル活用",
+        "情報セキュリティ"
+      ],
+      "summary": "OpenAIがGPT-5.6を使い、散在する企業ファイルをAIエージェントが参照できる仕組みを提供する。",
+      "impact": "社内の文書や資料をAIに読ませて、出典を明記した業務遂行が可能になる。導入前に利用ルール・アクセス範囲・責任者を決める必要がある。",
+      "notes": "社内ファイルへのAIアクセスは情報漏洩リスクを伴う。公式資料で詳細を確認した上、情報セキュリティ部門と協議する。"
+    },
+    {
+      "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "normalized_url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "title": "Claude Status – Elevated errors for multiple models",
+      "title_ja": "Claudeで複数モデルのエラー率が上昇",
+      "published": "2026/09/22",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Claude",
+        "サービス障害",
+        "エラー率"
+      ],
+      "summary": "Claudeの複数モデルでエラー率が高まっている状況が報告された。",
+      "impact": "Claudeを業務利用している場合、出力の失敗や遅延が増える可能性があり、実行結果の確認が必要になる。",
+      "notes": "詳細な影響範囲と復旧時刻は公式ステータスページで確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/09/use-ai-to-supercharge-your-financial-analysis-with-Workday-for-Google-Sheets.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/09/use-ai-to-supercharge-your-financial-analysis-with-Workday-for-Google-Sheets.html",
+      "title": "Use AI to supercharge your financial analysis with Workday for Google Sheets",
+      "title_ja": "WorkdayがGoogle Sheetsに統合、AI質問機能で財務分析が効率化",
+      "published": "2026/09/21",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Google Sheets",
+        "Workday",
+        "AI機能",
+        "財務分析",
+        "業務効率化"
+      ],
+      "summary": "WorkdayのAdaptive Planningという経営企画ツールがGoogle Sheetsと連携し、AI機能で財務データの分析・レポート作成がシート内で完結するようになった。",
+      "impact": "経理・財務部門がCSVダウンロード作業を削減でき、Google Sheetsだけで財務レポートと分析ができる。他システムとの連携状況を確認する必要がある。",
+      "notes": "自社がWorkday Adaptive Planningを契約・利用している場合のみ対象。追加費用やセキュリティ設定の要件を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "normalized_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "title_ja": "OpenAIが数学とAIの助言グループを設置",
+      "published": "2026/09/21",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "ガバナンス",
+        "透明性",
+        "第三者評価"
+      ],
+      "summary": "OpenAIが独立した助言グループを設け、AI研究の成果をレビューし発表する際の指導を受ける体制を整えた。",
+      "impact": "AI成果の発表や利用方針に外部専門家の評価が加わり、信頼性や透明性が高まる可能性がある。",
+      "notes": "詳細な運営ルール・審査基準・会議内容などは公開資料で確認する。"
+    },
+    {
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "normalized_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "title_ja": "Higgsfield AIが動画広告作成機能をGPT-6 Astraで1日で実装",
+      "published": "2026/09/21",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-6",
+        "Astra",
+        "動画生成",
+        "開発効率",
+        "事例"
+      ],
+      "summary": "Higgsfield AIがGPT-6 Astraを使い、小規模事業向けの動画広告作成機能を迅速に開発・提供した事例。",
+      "impact": "ChatGPTやGPT-6を使った開発スピードの実例として、社内でAIを使う際の期待値やコスト・期間の見積もりに参考になる。",
+      "notes": "公式ブログ事例なので公式資料として扱える。ただし自社の開発環境・データ・用途が異なる点は確認する。"
+    },
+    {
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "normalized_url": "https://openai.com/index/building-standards-next-phase-ai",
+      "title": "Building standards for the next phase of AI",
+      "title_ja": "OpenAI、AI安全基準の国際標準化を提案",
+      "published": "2026/09/21",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "AI規制",
+        "ガバナンス",
+        "業界標準",
+        "コンプライアンス"
+      ],
+      "summary": "OpenAIが、AIの安全性を高めるため各国が評価・報告・ルール作りを統一する必要があると説明した。",
+      "impact": "AI利用企業は今後、各国の統一基準に合わせた利用ルール・監査・報告対応を求められる可能性がある。",
+      "notes": "公式資料として読めるが、日本での規制化時期や具体的な基準は未確認。自社のAI利用ルールの見直し対象として確認する。"
+    },
+    {
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "normalized_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "title_ja": "OpenAI Academy、新しい学習プログラムを追加",
+      "published": "2026/09/21",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "研修",
+        "スキル育成",
+        "学習プログラム"
+      ],
+      "summary": "OpenAI Academyが、従業員や開発者、管理職、教育者、学生向けの新しい学習プログラムを開始した。",
+      "impact": "社内でChatGPTやOpenAI製品の使い方を学ぶ環境が整った。研修や自学習の候補になる。",
+      "notes": "プログラムの詳細（対象者の条件、コース期間、修了後の活用方法）は公式資料で確認する。"
+    },
+    {
+      "url": "https://developers.google.com/workspace/guides/universal-search-mcp",
+      "normalized_url": "https://developers.google.com/workspace/guides/universal-search-mcp",
+      "title": "Let AI agents search across workspace with the Universal Search MCP Server",
+      "title_ja": "Google Workspace上のAIエージェントが全データを検索できるツール",
+      "published": "2026/09/21",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "AI Agent",
+        "MCP",
+        "検索機能"
+      ],
+      "summary": "GoogleがWorkspace内のファイルやメールを一括検索できる仕組みをAIエージェント向けに提供開始。",
+      "impact": "AIツールがメール・ドキュメント・スプレッドシートを横断検索できるようになり、情報探索の自動化が進む。",
+      "notes": "自社のWorkspace設定と権限範囲を確認してから利用する。検索対象データの保存先・閲覧権限の整理が必要。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.23215v1",
+      "normalized_url": "https://arxiv.org/abs/2609.23215v1",
+      "title": "Triggers and Diagnostics for LLM-Based Interpretability Failures in Active Inference Agents",
+      "title_ja": "AI説明機能の信頼性問題、自律エージェントの監視で検出",
+      "published": "2026/09/19",
+      "source": "arXiv",
+      "importance": "C",
+      "tags": [
+        "LLM監視・説明機能",
+        "AI信頼性",
+        "論文",
+        "自律エージェント",
+        "出力検証"
+      ],
+      "summary": "自律的に判断するAIエージェントに説明機能を付けた場合、その説明が誤った状況を調査した論文。入力データを改ざんしてもAIの説明は異常を報告しなかった。",
+      "impact": "AI出力を人間が読んで判断する運用では、説明に頼った監視が不十分な可能性がある。実装前に出力チェック方法を別途用意する必要がある。",
+      "notes": "未確認だが、論文の抜粋が途中で切れているため全体の結論は確認できない。完全な内容を確認して判断する。"
+    }
+  ]
+}
