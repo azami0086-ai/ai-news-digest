@@ -1,0 +1,166 @@
+{
+  "started_at": "2026-09-23T10:29:18.765034+09:00",
+  "finished_at": "2026-09-23T10:30:29.593858+09:00",
+  "fetched_per_source": {
+    "official": 23,
+    "hn": 75,
+    "arxiv": 30
+  },
+  "fetched_total": 128,
+  "after_dedupe": 122,
+  "recorded_duplicate_excluded_count": 10,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 2,
+  "count_b": 5,
+  "count_c": 0,
+  "count_excluded": 0,
+  "errors": [],
+  "html_path": "docs/2026/09/23.html",
+  "markdown_path": "output/2026-09-23_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33931,
+  "output_tokens": 4759,
+  "estimated_cost_usd": 0.057726,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "normalized_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "title_ja": "OpenAIが「GPT-6 Sol」と「GPT-6 Luna」を発表",
+      "published": "2026/09/22",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "GPT-6",
+        "AI新モデル",
+        "OpenAI"
+      ],
+      "summary": "OpenAIが新しいAIモデル2種を公開。能力とコストのバランスが異なり、日常業務向けに使える。",
+      "impact": "GPT-4やChatGPTの後継モデルが使えるようになる。自社の業務で必要な性能とコストを改めて確認する材料になる。",
+      "notes": "正式な利用開始時期、日本での利用可否、料金、API提供の有無などは公式資料で確認する。"
+    },
+    {
+      "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+      "normalized_url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026",
+      "title": "Google confirms Gemini models hacked three companies in May 2026",
+      "title_ja": "Googleが確認、Geminiモデルが5月に3社への不正アクセス",
+      "published": "2026/09/22",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "Gemini",
+        "セキュリティ",
+        "不正アクセス",
+        "Google Cloud"
+      ],
+      "summary": "GoogleのGeminiモデルが5月に3社のシステムに不正アクセスされた事実をGoogleが公表した。",
+      "impact": "自社がGemini APIやクラウドサービスを使う場合、セキュリティ侵害の可能性と対応状況を確認する必要がある。",
+      "notes": "記事の詳細が未確認。不正アクセスの時期、対象企業、被害範囲、対応状況を公式資料で確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/09/study-notebooks-in-gemini-are-now-available-for-Google-Workspace-accounts.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/09/study-notebooks-in-gemini-are-now-available-for-Google-Workspace-accounts.html",
+      "title": "Study notebooks in Gemini are now available for Google Workspace accounts",
+      "title_ja": "Google Workspace アカウントで Gemini の学習ノートが利用可能に",
+      "published": "2026/09/22",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "Google Workspace",
+        "管理者向け",
+        "機能追加",
+        "アプリ管理"
+      ],
+      "summary": "Google Workspace ユーザーが、Gemini の学習ノート機能を使えるようになった。管理者が有効化した場合、仕事用アカウントでも個人学習に活用できる。",
+      "impact": "従業員が業務用アカウントで学習機能を使う可能性が生じる。管理者はアプリ有効化の判断と利用ルール（個人学習か業務学習か）を決める必要がある。",
+      "notes": "Gemini Notebook の有効化は管理者の判断。利用ポリシー、データ保存先、業務時間での利用範囲を確認してから有効化するとよい。"
+    },
+    {
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "normalized_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "title_ja": "GPT-6 Astraで調査時間とコストが半減、Parallelの事例",
+      "published": "2026/09/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "GPT-6 Astra",
+        "コスト削減",
+        "業務効率化",
+        "ChatGPT"
+      ],
+      "summary": "OpenAIの新モデルGPT-6 Astraを使い、Parallelが労働市場データ調査の時間とコストを従来比で半減できた。",
+      "impact": "生産性向上の実績が示され、類似の調査・分析業務では費用削減の判断材料になる。導入検討時の参考値になる。",
+      "notes": "実際の削減効果は業務内容や利用方法に左右される。自社での試行で効果を確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "normalized_url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "title": "Better prompt caching for GPT-6",
+      "title_ja": "GPT-6のプロンプトキャッシュ機能が改善、キャッシュ命中率向上で遅延と費用削減",
+      "published": "2026/09/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "GPT-6",
+        "API利用",
+        "コスト削減",
+        "キャッシング"
+      ],
+      "summary": "OpenAIがGPT-6で、同じ指示や長いドキュメントを入力する際の処理を高速化・低コスト化する仕組みを改善した。",
+      "impact": "反復的な業務やドキュメント分析でAPIコストと応答時間が削減される可能性がある。導入前に自社の利用パターンがキャッシュに適しているか確認する。",
+      "notes": "キャッシュの対象範囲・保持期間・明細は利用規約と料金ページで確認する。社内の利用基準と権限を整備しておく。"
+    },
+    {
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "normalized_url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "title": "Priorities and principles for effective third party assessments",
+      "title_ja": "OpenAIが第三者によるAI安全評価の方針を説明",
+      "published": "2026/09/22",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "AI安全性",
+        "第三者評価",
+        "ガバナンス",
+        "リスク管理"
+      ],
+      "summary": "OpenAIが、最先端AIモデルの安全性を外部が厳密に評価するときの優先事項と考え方を示した。",
+      "impact": "会社がOpenAIモデルを導入・利用する際、安全性評価の基準や確認方法が明確になる。",
+      "notes": "自社でAI導入を進める前に、評価項目や権限範囲をこの公式資料と照らし合わせて見直すとよい。"
+    },
+    {
+      "url": "https://jade.email/",
+      "normalized_url": "https://jade.email/",
+      "title": "Show HN: Jade Email. Unlimited emails for your domain plus AI Agent support",
+      "title_ja": "Jade Email：ドメイン向けメールサービス、Claude連携のAIエージェント機能搭載",
+      "published": "2026/09/22",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "メール自動化",
+        "AIエージェント",
+        "ドメイン管理"
+      ],
+      "summary": "ドメイン別のメールサービスにClaudeを使ったAIエージェント機能を組み込んだサービス。メール管理と自動対応が可能になる。",
+      "impact": "メール対応の一部を自動化できる可能性がある。会社のドメインを使ったメール運用で、AIがメール処理や返信を支援する形になるかを検討する必要がある。",
+      "notes": "公式サイト立ち上げ間もなく、詳細な利用ルール・データ保存先・責任範囲が不明確。メールは重要情報を扱うため、Claudeへのデータ送信やプライバシー確認を優先する。"
+    }
+  ]
+}
