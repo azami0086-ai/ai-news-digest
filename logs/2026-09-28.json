@@ -1,0 +1,221 @@
+{
+  "started_at": "2026-09-28T10:38:03.875602+09:00",
+  "finished_at": "2026-09-28T10:39:14.789504+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 78,
+    "arxiv": 30
+  },
+  "fetched_total": 113,
+  "after_dedupe": 112,
+  "recorded_duplicate_excluded_count": 8,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 0,
+  "count_b": 2,
+  "count_c": 8,
+  "count_excluded": 8,
+  "errors": [],
+  "html_path": "docs/2026/09/28.html",
+  "markdown_path": "output/2026-09-28_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33842,
+  "output_tokens": 4561,
+  "estimated_cost_usd": 0.056647,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://orglet.codepawl.com/",
+      "normalized_url": "https://orglet.codepawl.com/",
+      "title": "Show HN: Orglet, an open source desktop app for your own team of cute AI workers",
+      "title_ja": "Orgletはオープンソースのデスクトップアプリ、複数のAIエージェントを自社で動かせる",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "デスクトップアプリ",
+        "AI導入",
+        "自社運用"
+      ],
+      "summary": "複数のAIエージェントを同時に動かせるデスクトップアプリOrgletがオープンソース化。自社内で独立したAI環境を構築できる。",
+      "impact": "AI機能を外部サービスに頼らず社内で運用する選択肢が増える。ただし導入前に動作確認と権限・責任範囲を整理する必要がある。",
+      "notes": "公式資料ではなくHackerNews投稿のため、実装状況や動作環境、サポート体制を自社で確認する。本番利用の判断は情報セキュリティ部門と相談する。"
+    },
+    {
+      "url": "https://www.politico.com/news/magazine/2026/09/25/midterms-partisan-ai-chatbots-01092138",
+      "normalized_url": "https://www.politico.com/news/magazine/2026/09/25/midterms-partisan-ai-chatbots-01092138",
+      "title": "'Pink Slime' Is Infecting AI Chatbots Ahead of the Midterms",
+      "title_ja": "米中間選挙前、AIチャットボットが低品質な政治情報で汚染",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "信頼性",
+        "情報検証",
+        "政治情報",
+        "出力品質"
+      ],
+      "summary": "AIチャットボットが、選挙時期に信頼性の低い政治情報を生成する問題が指摘されている。",
+      "impact": "社内でAIチャットボットを政治・選挙関連の情報判断に使う場合、出力内容の検証が必須になる。",
+      "notes": "Politico記事だが、抜粋のみで詳細未確認。ChatGPT等の具体的な対応状況は別途確認する。"
+    },
+    {
+      "url": "https://github.com/jatoran/swe-mux",
+      "normalized_url": "https://github.com/jatoran/swe-mux",
+      "title": "Show HN: swe-mux – A terminal multiplexer for coding agents optimized for mobile",
+      "title_ja": "コーディングAIに特化した端末マルチプレクサ「swe-mux」公開",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "コーディングエージェント",
+        "Claude Code",
+        "開発環境",
+        "ツール・ユーティリティ"
+      ],
+      "summary": "AIコーディングエージェント用の端末マルチプレクサツール。モバイル環境での操作を最適化し、複数プロセスを効率的に管理できる。",
+      "impact": "AIコーディングツール（Claude Code等）を導入する場合、開発環境での操作性が向上する可能性がある。ただし現時点では未成熟か。",
+      "notes": "Hacker News投稿で認知度低い（HNポイント3）。実際の動作確認や社内評価は別途必要。本格導入前に自社環境での動作確認をする。"
+    },
+    {
+      "url": "https://github.com/marciob/agenttab",
+      "normalized_url": "https://github.com/marciob/agenttab",
+      "title": "Show HN: Agenttab – Status Icons for Claude Code, Codex and OpenCode Tabs",
+      "title_ja": "Claude Code用のステータスアイコン拡張ツール Agenttab",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Codex",
+        "開発支援ツール",
+        "UI拡張"
+      ],
+      "summary": "開発者がClaudeやCodexのコード実行状況をタブで視覚的に把握するための拡張ツール。",
+      "impact": "AI統合開発環境での作業時に、実行状態をアイコンで素早く確認できるようになる可能性がある。",
+      "notes": "初期段階のツール（HN points=1、コメント0）。自社で試す場合は事前に安全性と互換性を確認する必要がある。"
+    },
+    {
+      "url": "https://note.parkourlabs.io/",
+      "normalized_url": "https://note.parkourlabs.io/",
+      "title": "Show HN: ParkourNote – A research workspace, built solo in a month with Claude",
+      "title_ja": "Claude使用で開発、研究向けワークスペース「ParkourNote」",
+      "published": "2026/09/28",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "開発事例",
+        "AI活用"
+      ],
+      "summary": "研究者向けの作業環境ParkourNoteが、Claudeを使って1ヶ月で開発された。",
+      "impact": "Claudeの開発支援能力を示す事例。自社でAIを使った業務ツール開発を検討する際の参考になる。",
+      "notes": "サービス詳細は未確認。利用を検討する場合は、セキュリティと料金形態を確認する。"
+    },
+    {
+      "url": "https://github.com/Colton-z/AstraBox",
+      "normalized_url": "https://github.com/Colton-z/AstraBox",
+      "title": "Show HN: AstraBox – an open-source alternative to Claude Managed Agents",
+      "title_ja": "AstraBox：Claude Managed Agentsのオープンソース代替案",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "エージェント",
+        "代替案",
+        "GitHub"
+      ],
+      "summary": "GitHubで公開されたAstraBoxは、Claudeの管理型エージェント機能に相当するオープンソースソフトウェア。",
+      "impact": "自社環境でAIエージェント機能を無償で構築・カスタマイズできる選択肢が増える。",
+      "notes": "Hacker Newsでの注目度は現時点で低い（ポイント3、コメント0）。導入前に機能・性能・保守状況を確認する。"
+    },
+    {
+      "url": "https://boonful.io",
+      "normalized_url": "https://boonful.io/",
+      "title": "Show HN: Boonful – Claude Code can publish and sell what it builds",
+      "title_ja": "Claude Code が作ったアプリを販売できるプラットフォーム「Boonful」",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "AI生成コード",
+        "商用利用",
+        "著作権",
+        "プラットフォーム"
+      ],
+      "summary": "Claude が生成したコードで作ったアプリを、プラットフォーム経由で販売・配布できるサービスが登場した。",
+      "impact": "AI生成コードの商用利用モデルが出現。会社でAIツール導入時に著作権・責任範囲を確認する参考になる。",
+      "notes": "HN投稿は初期段階（ポイント2、コメント1件）で詳細不明。自社で使う場合は利用規約・手数料・出力物の権利を確認する。"
+    },
+    {
+      "url": "https://kiln.tech/blog/we_made_our_launch_video_in_claude_code",
+      "normalized_url": "https://kiln.tech/blog/we_made_our_launch_video_in_claude_code",
+      "title": "We made our launch video with Claude Code (and open-sourced the tool)",
+      "title_ja": "Claude Codeで動画制作、開発ツールをオープンソース化",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "Claude Code",
+        "動画制作",
+        "開発ツール",
+        "オープンソース",
+        "事例"
+      ],
+      "summary": "企業がClaude Codeを使って公開動画を制作し、その過程で開発したツールをオープンソース化した。",
+      "impact": "Claude Codeが実際の制作業務で動作することが示されたが、社内導入時の参考度は限定的。",
+      "notes": "公式ではなく企業の事例報告のため、自社での活用可能性は導入目的と比べて確認する。"
+    },
+    {
+      "url": "https://github.com/saikiran-rs/merge-sessions-across-accounts",
+      "normalized_url": "https://github.com/saikiran-rs/merge-sessions-across-accounts",
+      "title": "Merge Claude Code desktop sessions across accounts (macOS)",
+      "title_ja": "Claude Code、デスクトップセッションの複数アカウント統合（macOS）",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "デスクトップアプリ",
+        "セッション管理",
+        "macOS",
+        "複数アカウント"
+      ],
+      "summary": "macOS上でClaudeのデスクトップ版を使う際、複数のアカウント間でセッション情報を統合するツールがGitHub上で公開された。",
+      "impact": "複数のClaudeアカウントを使う場合、セッション管理が簡潔になる可能性がある。自社のClaudeデスクトップ利用時に活用できるか確認する価値がある。",
+      "notes": "非公式ツールのため、セキュリティ・認証・データ保護について確認してから導入する。Claudeの利用規約で複数アカウント運用が許可されているか確認する。"
+    },
+    {
+      "url": "https://github.com/emir/claude-s40",
+      "normalized_url": "https://github.com/emir/claude-s40",
+      "title": "Show HN: Claude on a 2007 Nokia 6300 (Java ME app, TLS 1.0, private CA)",
+      "title_ja": "2007年のNokia携帯でClaudeを動かす実験",
+      "published": "2026/09/27",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "技術検証",
+        "レガシーシステム"
+      ],
+      "summary": "古い携帯電話でClaudeを使うJavaアプリを開発者が公開。実用性より技術的な試みの報告。",
+      "impact": "自社のAI導入には直接影響なし。レガシーシステムでのAI連携の可能性を知識として把握できる。",
+      "notes": "古い通信規格（TLS 1.0）での動作報告のため、セキュリティリスクの考慮が必要な場合は参考にならない。"
+    }
+  ]
+}
