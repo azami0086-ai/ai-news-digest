@@ -1,0 +1,166 @@
+{
+  "started_at": "2026-09-29T11:33:58.343013+09:00",
+  "finished_at": "2026-09-29T11:35:14.305489+09:00",
+  "fetched_per_source": {
+    "official": 8,
+    "hn": 87,
+    "arxiv": 30
+  },
+  "fetched_total": 125,
+  "after_dedupe": 124,
+  "recorded_duplicate_excluded_count": 2,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 0,
+  "count_b": 3,
+  "count_c": 4,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/09/29.html",
+  "markdown_path": "output/2026-09-29_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33818,
+  "output_tokens": 4532,
+  "estimated_cost_usd": 0.056478,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "normalized_url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "title_ja": "GPT-6 Astraが税務ワークブック作成を2倍速化、Basisが検証",
+      "published": "2026/09/28",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "GPT-6",
+        "ChatGPT",
+        "処理速度",
+        "業務効率",
+        "税務",
+        "文書作成"
+      ],
+      "summary": "OpenAIの新モデルGPT-6 Astraが、税務書類作成を従来モデルの2倍のスピードで完了。ユーザー意図の理解精度も向上した。",
+      "impact": "社内で税務や複雑な書類作成にAIを使う場合、処理速度と精度が向上するため、導入前に社内テストで確認する価値がある。",
+      "notes": "実際の運用開始前に、税務処理での出力精度を社内で検証し、誤りチェック体制を整える。"
+    },
+    {
+      "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
+      "normalized_url": "https://artificialanalysis.ai/models/claude-sonnet-5-5",
+      "title": "Claude Sonnet 5.5 (Max Effort) Intelligence, Performance and Price Analysis",
+      "title_ja": "Claude Sonnet 5.5の性能と価格を分析",
+      "published": "2026/09/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "料金",
+        "性能",
+        "比較分析"
+      ],
+      "summary": "Claude Sonnet 5.5の知能、処理速度、料金を比較分析したレポートが公開された。",
+      "impact": "同社でClaudeを利用する場合、最新版の性能と費用を把握し、導入判断の参考にできる。",
+      "notes": "レポート詳細の確認、自社の利用規模での実際の費用試算が必要。"
+    },
+    {
+      "url": "https://9to5google.com/2026/09/27/gemini-gems-skills/",
+      "normalized_url": "https://9to5google.com/2026/09/27/gemini-gems-skills",
+      "title": "Gemini app replacing Gems with skills in November",
+      "title_ja": "Geminiアプリ、11月に「Gems」を「Skills」に置き換え",
+      "published": "2026/09/28",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Gemini",
+        "機能変更",
+        "スケジュール"
+      ],
+      "summary": "GoogleがGeminiアプリで、ユーザーが作成した「Gems」機能を新しい「Skills」に変更する予定。",
+      "impact": "Geminiでカスタマイズした機能の仕様が変わる。業務で自作のGemsを使っている場合、移行タイミングを確認する必要がある。",
+      "notes": "提供されたURLは9to5Googleだが、詳細な移行内容や既存Gemsの取り扱いは未確認。正式なGoogleアナウンスで仕様を確認する。"
+    },
+    {
+      "url": "https://openai.com/form/codex-originals",
+      "normalized_url": "https://openai.com/form/codex-originals",
+      "title": "Are you a Codex Original?",
+      "title_ja": "OpenAI、Codex利用者の事例募集を開始",
+      "published": "2026/09/28",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "事例募集",
+        "ユーザープログラム"
+      ],
+      "summary": "OpenAIが、Codexを使った開発者やクリエイターの実例を集める「Codex Originals」プログラムへの応募を受け付けている。",
+      "impact": "自社でCodexを導入・運用している場合、成功事例として公開する機会が生まれる可能性がある。",
+      "notes": "応募は任意。公開される場合のルール・データ利用・帰属方法を事前に確認する。"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "normalized_url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "title_ja": "Geminiが支援したXPRIZE動画作品が受賞",
+      "published": "2026/09/28",
+      "source": "Google The Keyword - AI",
+      "importance": "C",
+      "tags": [
+        "Gemini",
+        "動画制作",
+        "クリエイティブ",
+        "XPRIZE",
+        "AI活用事例"
+      ],
+      "summary": "GoogleのXPRIZEコンテストで、AI技術を活用した動画作品『The Gifted』が優勝。Geminiを使った制作事例として紹介されている。",
+      "impact": "AI活用による動画制作・クリエイティブ業務の可能性を示す事例。社内で映像やコンテンツ制作にAIを応用する際の参考になる。",
+      "notes": "詳細な制作過程やGeminiの具体的な使用方法は公式ブログで確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "normalized_url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "title": "How we will do better for Australia",
+      "title_ja": "OpenAI、豪州向けの対策強化を発表",
+      "published": "2026/09/29",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "豪州",
+        "政府機関",
+        "サイバー防御"
+      ],
+      "summary": "OpenAIが豪州政府ウェブサイト関連の問題を謝罪し、サイバー防御強化に向けた支援体制を説明した。",
+      "impact": "豪州内の公的機関がChatGPT利用する際のセキュリティ要件や制限が変わる可能性がある。",
+      "notes": "豪州拠点の社員や現地向けシステムがある場合は、OpenAIの公式発表内容を確認する必要がある。"
+    },
+    {
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "normalized_url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "title_ja": "OpenAIがLenfest研究所のAIプログラムを拡大、資金と技術支援を増額",
+      "published": "2026/09/28",
+      "source": "OpenAI Blog",
+      "importance": "C",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "資金提供",
+        "ジャーナリズム",
+        "AI協働"
+      ],
+      "summary": "OpenAIがLenfest研究所のAI協働プログラムに1000万ドル規模の資金と技術支援を追加投資する。",
+      "impact": "自社がメディア・ジャーナリズム関連の事業を持つ場合、OpenAIの協働プログラムへの参加や連携の可能性が広がる可能性がある。",
+      "notes": "プログラムの詳細な参加条件や対象組織は公式資料で確認する必要がある。"
+    }
+  ]
+}
