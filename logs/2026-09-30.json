@@ -1,0 +1,172 @@
+{
+  "started_at": "2026-09-30T11:05:32.536525+09:00",
+  "finished_at": "2026-09-30T11:06:47.589810+09:00",
+  "fetched_per_source": {
+    "official": 15,
+    "hn": 83,
+    "arxiv": 30
+  },
+  "fetched_total": 128,
+  "after_dedupe": 127,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 7,
+  "count_a": 2,
+  "count_b": 4,
+  "count_c": 1,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/09/30.html",
+  "markdown_path": "output/2026-09-30_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33971,
+  "output_tokens": 4901,
+  "estimated_cost_usd": 0.058476,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://openai.com/index/devday-2026-recap",
+      "normalized_url": "https://openai.com/index/devday-2026-recap",
+      "title": "DevDay 2026 Recap",
+      "title_ja": "OpenAI DevDay 2026の発表内容",
+      "published": "2026/09/29",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "GPT-6",
+        "Codex",
+        "API",
+        "セキュリティ",
+        "DevDay",
+        "新機能"
+      ],
+      "summary": "OpenAI DevDay 2026で20を超える新機能や改善が発表された。GPT-6 Astra、ChatGPT、Codex、APIなど複数の製品に関する内容を含む。",
+      "impact": "ChatGPT、API、Codexなど自社で使用中の製品の更新内容を確認し、業務利用での変更点や新機能の検討が必要になる可能性がある。",
+      "notes": "詳細は公式ブログで確認する。自社で導入・利用している製品の更新内容を特に確認し、セキュリティやAPI仕様の変更があれば対応を検討する。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-dots",
+      "normalized_url": "https://openai.com/index/introducing-dots",
+      "title": "Introducing dots",
+      "title_ja": "OpenAI、プロジェクト管理に対応したAIアシスタント「dots」を発表",
+      "published": "2026/09/29",
+      "source": "OpenAI Blog",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "プロジェクト管理",
+        "自動化",
+        "利用ルール",
+        "監視・承認"
+      ],
+      "summary": "OpenAIが複数のタスクを継続的に進められるAIアシスタント「dots」を提案。ユーザーが指示した内容を自動で進める仕組み。",
+      "impact": "ChatGPT利用ユーザーが複雑なプロジェクト管理を自動化できるようになる。会社でAI活用時の監視・承認ルール整備が課題になる可能性がある。",
+      "notes": "自動実行型AIの運用には、権限管理・進捗報告・エラー時の対応ルールが必要。正式日本語サービス提供時期と機能詳細を確認する。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "normalized_url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "title": "Introducing GPT-6.1 Sol",
+      "title_ja": "OpenAIが「GPT-6.1 Sol」を発表、コーディングと業務作業向けの新モデル",
+      "published": "2026/09/29",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "新モデル",
+        "API",
+        "利用コスト",
+        "コーディング",
+        "業務ツール"
+      ],
+      "summary": "OpenAIが新モデル「GPT-6.1 Sol」を公開。高い性能を低価格で利用できるモデルで、コーディングや業務作業に対応する。",
+      "impact": "ChatGPT APIを使う場合、利用コストが大幅に下がる可能性がある。自社の利用シーンと現在の利用料を確認し、モデル切り替えの検討が必要。",
+      "notes": "実装内容と利用条件は公式ブログで確認する。既存のAPI契約内容と新モデルの対応状況を確認してから導入判断する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/09/create-more-natural-expressive-ai-voiceovers-in-Google-Vids-with-upgraded-Gemini-3.8-Flash-Lite-TTS.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/09/create-more-natural-expressive-ai-voiceovers-in-Google-Vids-with-upgraded-Gemini-3.8-Flash-Lite-TTS.html",
+      "title": "Create more natural, expressive AI voiceovers in Google Vids with upgraded Gemini 3.8 Flash Lite TTS",
+      "title_ja": "Google Vidsの音声機能、Gemini 3.8 Flash Lite対応で自然な語調に",
+      "published": "2026/09/29",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "Google Vids",
+        "音声合成",
+        "Gemini",
+        "動画制作"
+      ],
+      "summary": "Google Vidsの音声合成エンジンがGemini 3.8 Flash Lite TTSに更新され、より自然で表現力豊かな語調の動画ナレーションが作れるようになった。",
+      "impact": "Google Vidsでナレーションや字幕読み上げを使う場合、自然な音声と高速生成で動画制作の効率が上がる。",
+      "notes": "現在の利用状況や対応時期は記事から確認できず。自社での動画作成時に試しながら効果を判断する。"
+    },
+    {
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "normalized_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "title": "Towards safety cases for frontier AI training",
+      "title_ja": "OpenAIが最先端AI開発の安全基準ガイドを公開",
+      "published": "2026/09/28",
+      "source": "OpenAI Blog",
+      "importance": "B",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "安全性",
+        "ガイドライン",
+        "AI開発",
+        "リスク管理"
+      ],
+      "summary": "OpenAIが、大規模AI開発時の安全確保について技術面と運用面の初期ガイドラインを示した。",
+      "impact": "自社がAI開発やAIサービス導入を進める場合、安全管理の考え方と実装方法を社内ルール作りの参考にできる。",
+      "notes": "公式資料として読めるが、自社で採用する際は対応可能範囲と責任者を確認する。"
+    },
+    {
+      "url": "https://future-seems-so-good.com/blog/the-log-is-the-truth",
+      "normalized_url": "https://future-seems-so-good.com/blog/the-log-is-the-truth",
+      "title": "Claude Code saves transcript.jsonl. The log is the truth",
+      "title_ja": "Claude Codeがトランスクリプトを保存、ログが真実",
+      "published": "2026/09/29",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "データ保存",
+        "ログ管理",
+        "確認必要"
+      ],
+      "summary": "Claude Codeが対話記録をtranscript.jsonl形式で保存する機能について、ハッカーニュースで言及された。",
+      "impact": "Claude使用時に対話ログが自動保存される可能性があり、保存先と閲覧権限の確認が必要になる。",
+      "notes": "未確認情報。公式なClaude Codeの仕様として扱う前に、Anthropic公式ドキュメントで保存内容・保存先・アクセス権限を確認する。"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ciaooo-claude-code-codex/id6793695487",
+      "normalized_url": "https://apps.apple.com/us/app/ciaooo-claude-code-codex/id6793695487",
+      "title": "Ciao, Control coding agents from your phone",
+      "title_ja": "iPhoneからClaudeのコード生成エージェントを操作できるアプリ",
+      "published": "2026/09/29",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "コード生成",
+        "モバイルアプリ",
+        "開発効率"
+      ],
+      "summary": "ClaudeのコードAI機能をiPhoneアプリから遠隔操作できるツール。外出先でコード実行やデバッグ作業の指示が可能。",
+      "impact": "開発業務がスマートフォンで一部対応できるようになるが、セキュリティと権限管理の確認が必要。",
+      "notes": "コード実行権限やデータ送信範囲を確認してから会社での利用を判断する。"
+    }
+  ]
+}
