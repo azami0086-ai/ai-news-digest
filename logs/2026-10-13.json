@@ -1,0 +1,217 @@
+{
+  "started_at": "2026-10-13T12:31:18.629710+09:00",
+  "finished_at": "2026-10-13T12:32:41.798043+09:00",
+  "fetched_per_source": {
+    "official": 5,
+    "hn": 79,
+    "arxiv": 30
+  },
+  "fetched_total": 114,
+  "after_dedupe": 114,
+  "recorded_duplicate_excluded_count": 7,
+  "candidate_count": 20,
+  "published": 10,
+  "count_a": 1,
+  "count_b": 4,
+  "count_c": 5,
+  "count_excluded": 2,
+  "errors": [],
+  "html_path": "docs/2026/10/13.html",
+  "markdown_path": "output/2026-10-13_AIニュース.md",
+  "mail_result": "ok",
+  "ai_model": "claude-haiku-4-5-20251001",
+  "ai_calls": 20,
+  "input_tokens": 33966,
+  "output_tokens": 4782,
+  "estimated_cost_usd": 0.057876,
+  "fallback_used": false,
+  "api_error": false,
+  "api_error_type": "",
+  "api_error_message_sanitized": "",
+  "suspected_credit_issue": false,
+  "billing_check_required": false,
+  "abort_reason": "",
+  "published_items_meta": [
+    {
+      "url": "https://proton.me/blog/ai-chatbot-survey",
+      "normalized_url": "https://proton.me/blog/ai-chatbot-survey",
+      "title": "Survey: People don't trust AI, but they tell it everything",
+      "title_ja": "調査：AIを信頼していない人が、個人情報を入力している",
+      "published": "2026/10/12",
+      "source": "Hacker News",
+      "importance": "A",
+      "tags": [
+        "ChatGPT",
+        "セキュリティ",
+        "社内ルール",
+        "個人情報",
+        "利用制限"
+      ],
+      "summary": "人々はAIの信頼性に不安を感じながらも、チャットボットに個人情報や機密データを入力している調査結果が報告された。",
+      "impact": "社内でAI利用を広げる場合、利用者が何を入力するか監督する仕組みと、許可範囲を明確にしておく必要がある。",
+      "notes": "詳細は公式資料で確認する。個人情報・営業秘密の入力禁止ルール、チェック体制を整備しておくとよい。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/10/find-your-routine-next-steps-on-post-meeting-screen-in-Google-Meet.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/10/find-your-routine-next-steps-on-post-meeting-screen-in-Google-Meet.html",
+      "title": "Find your routine next steps on the post-meeting screen in Google Meet",
+      "title_ja": "Google Meetの会議後画面に「次のステップ」機能を追加",
+      "published": "2026/10/12",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Meet",
+        "Google Workspace",
+        "Gemini",
+        "自動化",
+        "会議後業務"
+      ],
+      "summary": "Google MeetにGeminiを活用した「次のステップ」機能を追加。会議後の定型作業を自動化し、メール草稿やタスク登録を簡単にする。",
+      "impact": "Google Workspaceの利用者は、会議後の手作業（メール作成・タスク登録など）が減り、Meetから直接Gmailやタスクへ連携できるようになる。",
+      "notes": "Geminiとのデータ連携が発生するため、自社の情報保護ルールと照合する必要がある。詳細な利用制限や管理者設定については公式資料で確認する。"
+    },
+    {
+      "url": "http://workspaceupdates.googleblog.com/2026/10/configure-access-management-and-access-Approvals-policies-using-classification-labels-with-rules-in-Assured-Controls.html",
+      "normalized_url": "http://workspaceupdates.googleblog.com/2026/10/configure-access-management-and-access-Approvals-policies-using-classification-labels-with-rules-in-Assured-Controls.html",
+      "title": "Configure Access Management and Access Approvals policies using classification labels with rules in Assured Controls",
+      "title_ja": "Google Workspace、ファイル分類タグでアクセス承認ルールを設定可能に",
+      "published": "2026/10/12",
+      "source": "Google Workspace Updates",
+      "importance": "B",
+      "tags": [
+        "Google Workspace",
+        "アクセス管理",
+        "ファイル分類",
+        "セキュリティ",
+        "ポリシー設定"
+      ],
+      "summary": "Google Workspaceで、Driveファイルの分類タグを使ってアクセス承認ポリシーを細かく設定できるようになった。従来はユーザー単位の設定のみだった。",
+      "impact": "情報管理部門は、ファイルの機密レベル別にアクセス承認の必要性を変更でき、機密文書の不正アクセスをより厳密に制御できる。",
+      "notes": "現在の設定状況を確認し、必要に応じて分類ルールと承認フローを見直す。管理者権限の確認も併せて行う。"
+    },
+    {
+      "url": "https://github.com/pigyon/tanuki",
+      "normalized_url": "https://github.com/pigyon/tanuki",
+      "title": "Tanuki – Local proxy/wrapper bypassing Claude guardrails for security research",
+      "title_ja": "Claude の安全機構を迂回するローカルツール「Tanuki」が公開",
+      "published": "2026/10/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "セキュリティ",
+        "アクセス制限",
+        "リスク管理"
+      ],
+      "summary": "Claudeの制限機能を回避するローカルプロキシツールがGitHubで公開された。セキュリティ研究向けとの名目。",
+      "impact": "会社でClaudeを使う場合、従業員が制限回避ツールを導入するリスクがある。利用環境とルールの確認が必要。",
+      "notes": "公開先の信頼性や実装詳細が不明確。自社でのClaudeの利用ルール・端末管理・許可範囲を改めて整理する。"
+    },
+    {
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "normalized_url": "https://github.com/SaarthurR/atticus-mac",
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "title_ja": "macOS向けClaudeベースの音声アシスタント「Atticus」が公開",
+      "published": "2026/10/12",
+      "source": "Hacker News",
+      "importance": "B",
+      "tags": [
+        "Claude",
+        "macOS",
+        "音声アシスタント",
+        "オープンソース"
+      ],
+      "summary": "macOSで動作するClaudeを使った音声アシスタントがGitHubで公開された。ホールド操作で話しかけて応答を得る仕組み。",
+      "impact": "社内でMacを使う場合、Claudeを活用した音声入力の選択肢が増える。自社のAI導入や業務効率化の参考になる可能性がある。",
+      "notes": "公開版のため、本番利用前に自社の情報セキュリティルールとClaudeの利用契約を確認する必要がある。"
+    },
+    {
+      "url": "https://github.com/onlyilkr/claude-migrate",
+      "normalized_url": "https://github.com/onlyilkr/claude-migrate",
+      "title": "Show HN: Recover Claude Code Desktop sessions after switching accounts",
+      "title_ja": "Claude Code Desktopのセッション引き継ぎツール、GitHubで公開",
+      "published": "2026/10/13",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "デスクトップアプリ",
+        "セッション管理"
+      ],
+      "summary": "アカウント切り替え後にClaudeのデスクトップアプリで失われたセッションを復旧するツールがGitHubで公開された。",
+      "impact": "アカウント切り替え时にセッション情報が消えてしまう場合、この方法で復旧する選択肢が増える。",
+      "notes": "公式ツールではなく第三者製。セッション引き継ぎが必要な場合は、先にAnthropic公式サポートへ確認するとよい。"
+    },
+    {
+      "url": "https://askbaab.com/blog/same-prompt-test-chatgpt-claude-baab-ai",
+      "normalized_url": "https://askbaab.com/blog/same-prompt-test-chatgpt-claude-baab-ai",
+      "title": "Show HN: I ran the same founder dilemma through ChatGPT, Claude, and BAAB AI",
+      "title_ja": "起業家の悩みを3つのAIに聞いて比較した結果",
+      "published": "2026/10/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ChatGPT",
+        "AI比較",
+        "意思決定支援"
+      ],
+      "summary": "起業家が直面する判断に関する同じ質問をChatGPT、Claude、BAAB AIに投げて回答を比べた実験。",
+      "impact": "AIモデルごとに回答内容が異なる可能性がある。自社で使うAIを選ぶ際、複数の出力を試して判断する価値がある。",
+      "notes": "HN での関心度が低い（ポイント1、コメント0）ため、実務への影響は限定的。著者の主観的な評価になっていないか確認する。"
+    },
+    {
+      "url": "https://github.com/YairDaniel11/claude-notify",
+      "normalized_url": "https://github.com/YairDaniel11/claude-notify",
+      "title": "Claude Notify – Desktop Notifications for Claude Code on Windows",
+      "title_ja": "Claude Notify：Windows上でClaudeのコード実行を通知",
+      "published": "2026/10/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "ツール",
+        "Windows"
+      ],
+      "summary": "Claudeがコード実行を完了した際、Windowsのデスクトップに通知を表示するツール。",
+      "impact": "長時間のコード処理を待つ際、完了通知で作業の中断を減らせる。ただし実務導入前に権限や保存先を確認する必要がある。",
+      "notes": "GitHubのコミュニティ提供ツールのため、セキュリティや機密情報の取扱いを事前に確認する。"
+    },
+    {
+      "url": "https://startupfortune.com/linus-torvalds-used-claude-code-to-rewrite-how-linux-reads-cached-files/",
+      "normalized_url": "https://startupfortune.com/linus-torvalds-used-claude-code-to-rewrite-how-linux-reads-cached-files",
+      "title": "Linus Torvalds used Claude Code to rewrite how Linux reads cached files",
+      "title_ja": "Linus Torvalds氏がClaudeを使ってLinuxのファイル読み込み処理を改書",
+      "published": "2026/10/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "オープンソース",
+        "コード生成",
+        "Linux"
+      ],
+      "summary": "Linuxの開発者がClaudeのコード生成機能を使い、OSのキャッシュファイル読み込み部分を書き直した。",
+      "impact": "大規模オープンソース開発でAIツールが実際に使われていることが示された。自社での利用検討時の参考になる。",
+      "notes": "公式発表ではなくHackerNewsの投稿。詳細な信頼度や技術的な背景は記事リンク確認が必要。"
+    },
+    {
+      "url": "https://tellcut.app/studio",
+      "normalized_url": "https://tellcut.app/studio",
+      "title": "Show HN: Tellcut – motion videos written as code by Claude, edited by chat",
+      "title_ja": "Claudeがコード生成、チャットで編集するモーション動画ツール",
+      "published": "2026/10/12",
+      "source": "Hacker News",
+      "importance": "C",
+      "tags": [
+        "Claude",
+        "動画制作",
+        "開発ツール",
+        "コード生成"
+      ],
+      "summary": "Claudeを使い、コードで動画を作成し、チャット操作で編集できるツール。開発者向けの新しい動画制作方法。",
+      "impact": "動画制作の工程をテキストベースで進められるようになり、クリエイティブ業務の自動化が広がる可能性。",
+      "notes": "現在の段階では機能や制限の詳細が未確認。自社での試用前に、出力品質と許可範囲を確認する。"
+    }
+  ]
+}
